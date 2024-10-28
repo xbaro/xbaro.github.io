@@ -12,7 +12,7 @@ title                    : "Xavier Baró"
 title_separator          : "-"
 name                     : &name "Xavier Baró"
 description              : &description "personal description"
-url                      : https://xbaro.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://xbaro.eu # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xbaro/xbaro.github.io"
 
