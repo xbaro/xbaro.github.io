@@ -59,4 +59,4 @@ We may update this Cookie Policy from time to time. Any changes will be posted o
 
 ## 9. Contact Us
 
-If you have any questions about our use of cookies or this Cookie Policy, please contact us at xbaro@ub.edu.
+If you have any questions about our use of cookies or this Cookie Policy, please contact us at [xbaro@ub.edu](mailto:xbaro@ub.edu).
