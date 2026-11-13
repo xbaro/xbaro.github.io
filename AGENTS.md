@@ -37,12 +37,15 @@ Hi ha altres contenidors d'altres projectes en marxa a la mateixa màquina: no t
 Qualsevol script Python (generador de contingut, scripts de recopilació) usa un entorn gestionat amb **`uv`** (`uv venv`, `uv pip install`, `uv run`). Mai `pip` global ni `python3 -m venv` manual.
 
 ## Contingut i memòria dels agents
-Estat inicial: les col·leccions `_publications`, `_talks`, `_teaching`, `_posts` contenen encara **exemples de la plantilla**; només `_pages/about.md`, `_pages/cv.md` i l'autor a `_config.yml` són reals.
+Estat inicial: les col·leccions `_publications`, `_talks`, `_teaching`, `_posts` contenen encara **exemples de la plantilla**; només `_pages/about.md` i l'autor a `_config.yml` són reals. **`_pages/cv.md` també és plantilla** («GitHub University»); el CV real encara no és al repo.
 **Memòria estructurada: `_memory/`** (dins el repo, però **no es publica**: Jekyll ignora les carpetes que comencen per `_`; verificat, `/_memory/...` dona 404). El repo és públic: només informació ja pública.
 - `_memory/references.json` (font de veritat, generat), `_memory/overrides.json` (correccions manuals que sobreviuen a cada sync), `_memory/sources/` (cache ORCID/OpenAlex), `_memory/index.sqlite` (cerca FTS5, derivat, fora de git), `_memory/tools/memory.py` (CLI amb `uv`). Detalls a `_memory/README.md`.
-- Estats: `confirmed` (a l'ORCID de l'usuari), `candidate` (només a OpenAlex, per revisar), `rejected` (homònims; no es tornen a proposar).
+- **CV de l'usuari** (format AQU, desembre 2024): font de confiança. `uv run _memory/tools/memory.py import-cv <CV.docx>` n'extreu només publicacions i xerrades (`sources/cv_*.json`). **Mai copiar al repo (públic) ni el .docx ni dades personals** (DNI, adreça, naixement...).
+- Estats: `confirmed` (a l'ORCID o al CV de l'usuari), `candidate` (només a OpenAlex, per revisar), `rejected` (homònims; no es tornen a proposar).
 - Actualitzar: `uv run _memory/tools/memory.py sync` · cercar: `... search "<text>"` · resum: `... stats`.
 - Fonts: ORCID `0000-0001-5338-3007` + OpenAlex (APIs públiques, sense clau; paginar amb `page=`, el `cursor=` exigeix clau).
+- **Criteri per acceptar/rebutjar candidates** (decisió de l'usuari): el seu perfil de Google Scholar (`user=N-rA1NMAAAAJ`) és la referència. Si una obra no surt a Scholar, probablement no és seva → `rejected`. Per a obres **anteriors al 2009-2010** es pot ser més laxe (poden faltar a Scholar). Scholar bloqueja l'accés automatitzat (429/CAPTCHA, no s'ha d'evitar): cal que l'usuari n'exporti el perfil (Select all → Export → BibTeX/CSV) i el deixi al repo.
+- Font pendent: **Portal de la Recerca de Catalunya** (https://portalrecerca.csuc.cat, DSpace-CRIS del CSUC; `prc.cat` no existeix). Es farà servir per a les **referències antigues** (pre-ORCID/OpenAlex), **guiant-se sobretot pel CV de l'usuari** per decidir què és seu. Encara no integrada: no hi ha API coneguda, la cerca i el perfil s'han d'explorar.
 
 Pla:
 1. Recopilar la informació real (publicacions fet; falten bio, CV, docència, xerrades, projectes).
