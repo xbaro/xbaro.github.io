@@ -10,6 +10,10 @@ en:
     book-chapter: Book chapters
     report: Reports and preprints
     other: Other
+  pub_search: "Search title, authors, venue…"
+  pub_all_types: "All types"
+  pub_all_years: "All years"
+  pub_none: "No publications match the filters."
   pub_tags:
     editorial: Editorial
     preprint: Preprint
@@ -37,6 +41,10 @@ ca:
     book-chapter: Capítols de llibre
     report: Informes i preprints
     other: Altres
+  pub_search: "Cerca per títol, autors, publicació…"
+  pub_all_types: "Tots els tipus"
+  pub_all_years: "Tots els anys"
+  pub_none: "Cap publicació coincideix amb els filtres."
   pub_tags:
     editorial: Editorial
     preprint: Preprint
@@ -64,6 +72,10 @@ es:
     book-chapter: Capítulos de libro
     report: Informes y preprints
     other: Otros
+  pub_search: "Buscar por título, autores, publicación…"
+  pub_all_types: "Todos los tipos"
+  pub_all_years: "Todos los años"
+  pub_none: "Ninguna publicación coincide con los filtros."
   pub_tags:
     editorial: Editorial
     preprint: Preprint
