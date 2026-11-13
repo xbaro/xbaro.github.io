@@ -302,6 +302,64 @@ def scan_repos():
     print("repos:", dict(Counter((r["repo"], r["level"], r["role"]) for r in out)))
 
 
+ACTIVITIES = ROOT / "activities.json"
+WP_SITE = "xbaro.wordpress.com"
+MERIT_CATS = (("Premis", "awards"), ("Organització d", "event_organization"), ("Revisor en revistes", "reviewing"),
+              ("Editor revistes", "editorial_boards"), ("Acreditacions docents", "teaching_accreditation"),
+              ("Innovació docent", "teaching_innovation"), ("Participació en jurats", "juries"))
+
+
+def parse_merits(paras):
+    """CV sections J (other merits) and F (research stays > 1 month)."""
+    out = {k: [] for _, k in MERIT_CATS} | {"research_stays": []}
+    cat, stay = None, {}
+
+    def idx(prefix):
+        return next((i for i, p in enumerate(paras) if p.startswith(prefix)), None)
+
+    j0, j1, f0, f1 = idx("J. Altres"), idx("K. Feu"), idx("F. Estades"), idx("G. Direcció")
+    for p in paras[(f0 or 0) + 1:(f1 or 0)]:
+        k, _, v = p.partition(":")
+        key = {"Centre": "institution", "Localitat": "city", "País": "country", "Any": "year", "Durada (mesos)": "months",
+               "Tema": "topic", "Clau": "role"}.get(k.strip())
+        if key and v.strip():
+            stay[key] = v.strip()
+    if stay.get("institution"):
+        out["research_stays"].append(stay)
+    for p in paras[(j0 or 0) + 1:(j1 or 0)]:
+        c = next((key for pre, key in MERIT_CATS if p.startswith(pre) and len(p) < 70), None)
+        if c:
+            cat = c
+        elif cat and not p.startswith("("):
+            out[cat].append(p)
+    return out
+
+
+def fetch_wordpress():
+    """Archive of the old personal blog (xbaro.wordpress.com, 2009-2011): public WordPress.com API."""
+    import html
+    d = json.loads(urllib.request.urlopen(urllib.request.Request(
+        f"https://public-api.wordpress.com/rest/v1.1/sites/{WP_SITE}/posts?number=100&type=any&fields=ID,type,title,date,URL,categories,content",
+        headers={"User-Agent": "personal-site-memory"}), timeout=60).read())
+    posts = []
+    for x in sorted(d.get("posts", []), key=lambda x: x["date"]):
+        c = re.sub(r"<a [^>]*href=\"([^\"]+)\"[^>]*>(.*?)</a>", r"\2 <\1>", html.unescape(x.get("content", "")), flags=re.S)
+        posts.append({"date": x["date"][:10], "title": html.unescape(x["title"]), "category": next(iter(x.get("categories") or {}), None),
+                      "text": re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", c)).strip(), "url": x["URL"]})
+    (SRC / "wordpress_xbaro.json").write_text(json.dumps(posts, indent=1, ensure_ascii=False) + "\n")
+    print(f"wordpress: {len(posts)} posts -> sources/wordpress_xbaro.json")
+
+
+def build_activities():
+    """activities.json = CV sections J/F (merits) + archive of the old blog, with notes on discrepancies."""
+    mp, wp = SRC / "cv_merits.json", SRC / "wordpress_xbaro.json"
+    out = json.loads(mp.read_text()) if mp.exists() else {}
+    out["old_blog_news"] = json.loads(wp.read_text()) if wp.exists() else []
+    out["_notes"] = ["The old blog announced ICCV 2011 for 25 Sep-2 Oct 2011 (written in 2010); the CV gives 6-13 Nov 2011 (the real dates). Trust the CV.",
+                     "Blog posts about attending ICME 2009 and WORLDCOMP'09 (IPCV09) and the CDCovers benchmark are not in the CV; roles are unspecified."]
+    ACTIVITIES.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
+
+
 def build_theses():
     """theses.json = CV section G.1 (authoritative) enriched with Portal de la Recerca records (repository link) + the owner's own thesis."""
     cvp, prp = SRC / "cv_theses.json", SRC / "portal_prc.json"
@@ -495,6 +553,9 @@ def import_cv(path):
     quality = parse_quality(lines)
     (SRC / "cv_quality.json").write_text(json.dumps(quality, indent=1, ensure_ascii=False) + "\n")
     if str(path).endswith(".docx"):
+        mer = parse_merits(docx_paragraphs(path))
+        (SRC / "cv_merits.json").write_text(json.dumps(mer, indent=1, ensure_ascii=False) + "\n")
+        print("cv merits:", {k: len(v) for k, v in mer.items()})
         th = parse_theses(docx_paragraphs(path))
         (SRC / "cv_theses.json").write_text(json.dumps(th, indent=1, ensure_ascii=False) + "\n")
         print(f"cv: {len(th)} directed theses (G.1) -> sources/cv_theses.json")
@@ -786,6 +847,7 @@ def merge():
         if key in refs:
             refs[key].update({k: v for k, v in ov.items()})
     build_theses()
+    build_activities()
     items = sorted(refs.values(), key=lambda r: (-(r.get("year") or 0), r["title"].lower()))
     REFS.write_text(json.dumps(items, indent=1, ensure_ascii=False) + "\n")
     c = sum(1 for r in items if r["status"] == "confirmed")
@@ -1028,7 +1090,7 @@ def stats():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi", "portal", "repos"])
+    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi", "portal", "repos", "blog"])
     ap.add_argument("query", nargs="?")
     ap.add_argument("--offline", action="store_true")
     ap.add_argument("--refresh", action="store_true", help="metrics: refetch even cached Crossref values")
@@ -1041,6 +1103,9 @@ if __name__ == "__main__":
         write_bib()
     elif a.cmd == "index":
         build_index()
+    elif a.cmd == "blog":
+        fetch_wordpress()
+        merge()
     elif a.cmd == "repos":
         scan_repos()
         merge()
