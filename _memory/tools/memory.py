@@ -553,6 +553,19 @@ def build_site_data():
     out.write_text(json.dumps(rows, indent=1, ensure_ascii=False) + "\n")
     print(f"{out.relative_to(ROOT.parent)}: {len(rows)} subject rows")
 
+    pubs = []
+    for r in json.loads(REFS.read_text()):
+        if r["status"] != "confirmed":
+            continue
+        ix = r.get("indexing") or {}
+        pubs.append({"title": r["title"], "authors": r.get("authors", []), "venue": r.get("venue") or "", "year": r.get("year"),
+                     "type": {"preprint": "report"}.get(r.get("type"), r.get("type") or "other"), "doi": r.get("doi"), "url": None if r.get("doi") else r.get("url"),
+                     "quartile": ix.get("jcr_quartile") if r.get("type") == "journal-article" else None})
+    pubs.sort(key=lambda x: (-(x["year"] or 0), x["title"].lower()))
+    out = ROOT.parent / "_data" / "publications.json"
+    out.write_text(json.dumps(pubs, indent=1, ensure_ascii=False) + "\n")
+    print(f"{out.relative_to(ROOT.parent)}: {len(pubs)} publications")
+
 
 def parse_postgrad_teaching(paras):
     """CV section G.2: postgraduate courses taught."""

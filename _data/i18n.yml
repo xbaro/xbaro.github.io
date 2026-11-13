@@ -1,6 +1,16 @@
 # Site strings that Academic Pages' ui-text.yml does not cover. One block per language code (page.lang).
 # Add a language: add a block here, a `_pages/<lang>/` folder and the code to `site.languages` in _config.yml.
 en:
+  publications: Publications
+  publications_intro: "Peer-reviewed and other scientific outputs, most recent first. Also on"
+  pub_types:
+    journal-article: Journal articles
+    conference-paper: Conference papers
+    book: Books
+    book-chapter: Book chapters
+    report: Reports and preprints
+    other: Other
+  no_year: "n.d."
   name: English
   teaching: Teaching
   teaching_intro: Subjects I have taught, by institution and academic years. Repeated editions are merged into periods.
@@ -15,6 +25,16 @@ en:
     "Université Paris-Saclay": Université Paris-Saclay
   language_switch: Language
 ca:
+  publications: Publicacions
+  publications_intro: "Producció científica, de la més recent a la més antiga. També a"
+  pub_types:
+    journal-article: Articles de revista
+    conference-paper: Comunicacions a congressos
+    book: Llibres
+    book-chapter: Capítols de llibre
+    report: Informes i preprints
+    other: Altres
+  no_year: "s.d."
   name: Català
   teaching: Docència
   teaching_intro: Assignatures impartides, per institució i cursos acadèmics. Les edicions repetides s'agrupen en períodes.
@@ -29,6 +49,16 @@ ca:
     "Université Paris-Saclay": Université Paris-Saclay
   language_switch: Idioma
 es:
+  publications: Publicaciones
+  publications_intro: "Producción científica, de la más reciente a la más antigua. También en"
+  pub_types:
+    journal-article: Artículos de revista
+    conference-paper: Comunicaciones en congresos
+    book: Libros
+    book-chapter: Capítulos de libro
+    report: Informes y preprints
+    other: Otros
+  no_year: "s.f."
   name: Español
   teaching: Docencia
   teaching_intro: Asignaturas impartidas, por institución y cursos académicos. Las ediciones repetidas se agrupan en periodos.
