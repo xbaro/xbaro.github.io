@@ -217,6 +217,69 @@ def import_cv(path):
     print(f"cv: {len(pubs)} publications, {len(talks)} talks -> sources/cv_*.json")
 
 
+_ACC = {"'": "\u0301", "`": "\u0300", '"': "\u0308", "^": "\u0302", "~": "\u0303", "=": "\u0304",
+        ".": "\u0307", "c": "\u0327", "v": "\u030c", "u": "\u0306", "H": "\u030b"}
+
+
+def tex_decode(s):
+    s = re.sub(r"\\([\'`\"^~=.cvuH])\s*\{?\s*(\\i|\\j|[A-Za-z])\s*\}?",
+               lambda m: ("i" if m.group(2) == "\\i" else "j" if m.group(2) == "\\j" else m.group(2)) + _ACC[m.group(1)], s)
+    s = s.replace("\\ss", "ß").replace("\\&", "&").replace("\\o", "ø").replace("\\O", "Ø").replace("\\l", "ł")
+    s = re.sub(r"[{}]", "", s)
+    return unicodedata.normalize("NFC", re.sub(r"\s+", " ", s)).strip()
+
+
+def parse_bibtex(text):
+    out, i = [], 0
+    for m in re.finditer(r"@(\w+)\s*\{\s*([^,\s]+)\s*,", text):
+        if m.start() < i:
+            continue
+        depth, j = 1, m.end()
+        while j < len(text) and depth:
+            depth += {"{": 1, "}": -1}.get(text[j], 0)
+            j += 1
+        body, i = text[m.end():j - 1], j
+        fields = {}
+        for fm in re.finditer(r"(\w+)\s*=\s*", body):
+            k, p = fm.group(1).lower(), fm.end()
+            if p < len(body) and body[p] == "{":
+                d, q = 1, p + 1
+                while q < len(body) and d:
+                    d += {"{": 1, "}": -1}.get(body[q], 0)
+                    q += 1
+                fields[k] = body[p + 1:q - 1]
+            else:
+                fields[k] = re.match(r"[^,}\s]*", body[p:]).group()
+        out.append((m.group(1).lower(), m.group(2), fields))
+    return out
+
+
+def load_scholar():
+    p = SRC / "scholar.bib"
+    if not p.exists():
+        return []
+    kinds = {"article": "journal-article", "inproceedings": "conference-paper", "incollection": "book-chapter",
+             "book": "book", "phdthesis": "thesis", "mastersthesis": "thesis", "misc": "other"}
+    out = []
+    for kind, key, f in parse_bibtex(p.read_text()):
+        title = tex_decode(f.get("title", ""))
+        if not title:
+            continue
+        authors = []
+        for a in re.split(r"\s+and\s+", tex_decode(f.get("author", ""))):
+            a = a.strip()
+            if "," in a:
+                last, first = a.split(",", 1)
+                a = f"{first.strip()} {last.strip()}"
+            if a and a != "others":
+                authors.append(a)
+        out.append({"title": title, "type": kinds.get(kind, "other"), "authors": authors,
+                    "year": int(f["year"]) if f.get("year", "").isdigit() else None,
+                    "venue": tex_decode(f.get("journal") or f.get("booktitle") or f.get("publisher") or "") or None,
+                    "scholar_key": key})
+    return out
+
+
 def load_cv():
     p = SRC / "cv_publications.json"
     return json.loads(p.read_text()) if p.exists() else []
@@ -263,6 +326,8 @@ def merge():
     for rec in load_openalex():
         if rec["title"]:
             add(rec, "openalex")
+    for rec in load_scholar():         # the owner's Google Scholar profile (manual BibTeX export)
+        add(rec, "scholar")["status"] = "confirmed"
     for rec in load_cv():              # the owner's own CV: authoritative, like ORCID
         r = add({k: v for k, v in rec.items() if k not in ("authors_cv", "cv_section", "scholar_cited_by")}, "cv")
         r["status"] = "confirmed"

@@ -14,5 +14,31 @@
  "t:tratamiento-guirurgico-de-las-pleuresias-reddivantes-de-orig-1974": {
   "status": "rejected",
   "note": "Different person with the same name (homonym); not authored by Xavier Baró (UB)."
+ },
+ "doi:10.1016/b978-0-12-803637-2.09988-7": {
+  "status": "rejected",
+  "note": "Front matter of an edited volume, not a publication; not on Scholar/CV."
+ },
+ "t:multi-modal-human-gesture-recognition-combining-dynamic-prog-2012": {
+  "status": "rejected",
+  "tags": [
+   "supervised-thesis"
+  ],
+  "note": "Student thesis supervised by X. Baró, not his own publication; not on Scholar/CV. Reuse in a future supervision section."
+ },
+ "t:reconeixement-facial-en-obres-d-art-avaluacio-del-rendiment--2012": {
+  "status": "rejected",
+  "tags": [
+   "supervised-thesis"
+  ],
+  "note": "Student thesis supervised by X. Baró, not his own publication; not on Scholar/CV. Reuse in a future supervision section."
+ },
+ "doi:10.1007/978-1-4471-2245-6_6": {
+  "status": "rejected",
+  "note": "Section of the book 'Traffic-Sign Recognition Systems' (already listed as the book); not on Scholar/CV."
+ },
+ "t:asociacionismo-y-ciudadania-en-los-jovenes-mediterraneos-2009": {
+  "status": "rejected",
+  "note": "Sociology paper by a homonym; not on Scholar/CV."
  }
 }
