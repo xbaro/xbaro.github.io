@@ -84,7 +84,7 @@ Es treballa **via screenshots**: l'agent aixeca la web a Podman, captura pantall
 
 ## Multidioma (ca / en / es)
 
-- Sense connectors: carpetes per idioma. Idioma per defecte `en` a l'arrel (`/teaching/`), els altres sota `/<lang>/` (`/ca/teaching/`, `/es/teaching/`). Idiomes a `languages` i `default_lang` de `_config.yml`.
+- Sense connectors: carpetes per idioma. Idioma per defecte `ca` a l'arrel (`/teaching/`), els altres sota `/<lang>/` (`/en/teaching/`, `/es/teaching/`). Idiomes a `languages` i `default_lang` de `_config.yml`.
 - Cada pàgina porta `lang` i `translation_key` (mateixa clau = traducció l'una de l'altra); `_includes/lang-switch.html` genera el selector a la capçalera.
 - Textos del lloc a `_data/i18n.yml` (un bloc per idioma). Afegir un idioma = bloc a `i18n.yml` + carpeta `_pages/<lang>/` + codi a `languages`.
 - Contingut derivat de la memòria: `uv run _memory/tools/memory.py site` escriu `_data/teaching.json` (dades públiques, noms ja resolts per idioma). Les traduccions de noms d'assignatures/programes són a `_memory/i18n_teaching.json` (la clau és el nom en català; si falta una traducció es mostra el català).

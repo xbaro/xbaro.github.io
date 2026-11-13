@@ -1,9 +1,9 @@
 ---
-title: "Docència"
+title: "Teaching"
 layout: single
-lang: ca
+lang: en
 translation_key: teaching
-permalink: /ca/teaching/
+permalink: /en/teaching/
 author_profile: true
 ---
 

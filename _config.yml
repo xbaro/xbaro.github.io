@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-default_lang             : en          # root URLs; other languages live under /<lang>/ (see _data/i18n.yml, AGENTS.md)
-languages                : [en, ca, es]
+default_lang             : ca          # root URLs; other languages live under /<lang>/ (see _data/i18n.yml, AGENTS.md)
+languages                : [ca, en, es]
 title                    : "Xavier Baró"
 title_separator          : "-"
 name                     : &name "Xavier Baró"

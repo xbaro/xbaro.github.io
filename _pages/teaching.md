@@ -1,7 +1,7 @@
 ---
-title: "Teaching"
+title: "Docència"
 layout: single
-lang: en
+lang: ca
 translation_key: teaching
 permalink: /teaching/
 author_profile: true
