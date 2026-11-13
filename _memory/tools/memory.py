@@ -127,6 +127,7 @@ def load_openalex():
             "cited_by": w.get("cited_by_count"),
             "abstract": abstract_text(w.get("abstract_inverted_index")),
             "openalex_id": w.get("id"),
+            "issn_l": (loc.get("source") or {}).get("issn_l"),
         })
     return out
 
@@ -336,6 +337,10 @@ def merge():
         if not r.get("authors") and rec.get("authors_cv"):
             r["authors"] = [a.strip() for a in re.split(r";|,\s(?=[A-ZÁÉÍÓÚ])", rec["authors_cv"]) if a.strip()]
 
+    if METRICS.exists():               # attach last computed metrics (see `metrics` command)
+        for k, m in json.loads(METRICS.read_text()).items():
+            if k in refs:
+                refs[k]["metrics"] = m
     overrides = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
     for key, ov in overrides.items():
         if key in refs:
@@ -344,6 +349,107 @@ def merge():
     REFS.write_text(json.dumps(items, indent=1, ensure_ascii=False) + "\n")
     c = sum(1 for r in items if r["status"] == "confirmed")
     print(f"references.json: {len(items)} total, {c} confirmed, {len(items) - c} candidates")
+
+
+BIB = ROOT / "references.bib"
+METRICS = ROOT / "metrics.json"
+BIB_TYPES = {"journal-article": "article", "conference-paper": "inproceedings", "book-chapter": "incollection",
+             "book": "book", "thesis": "phdthesis", "report": "techreport", "preprint": "misc", "other": "misc"}
+
+
+def _bib_esc(s):
+    return re.sub(r"([&%#_$])", r"\\\1", s or "")
+
+
+def write_bib():
+    """Canonical BibTeX (UTF-8) of all confirmed references, for easy export/reuse."""
+    items = [r for r in json.loads(REFS.read_text()) if r["status"] == "confirmed"]
+    used, out = set(), []
+    for r in items:
+        first = (r.get("authors") or ["anon"])[0].split()[-1]
+        base = re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", first).encode("ascii", "ignore").decode().lower())
+        word = next((w for w in norm_title(r["title"]).split() if len(w) > 3), "x")
+        key = f"{base}{r.get('year') or 'nd'}{word}"
+        while key in used:
+            key += "b"
+        used.add(key)
+        kind = BIB_TYPES.get(r.get("type"), "misc")
+        venue_field = {"article": "journal", "inproceedings": "booktitle", "incollection": "booktitle"}.get(kind, "howpublished")
+        f = [("title", "{" + _bib_esc(r["title"]) + "}"), ("author", _bib_esc(" and ".join(r.get("authors", [])))),
+             ("year", str(r["year"]) if r.get("year") else None), (venue_field, _bib_esc(r.get("venue"))),
+             ("doi", r.get("doi")), ("url", None if r.get("doi") else r.get("url"))]
+        body = ",\n".join(f"  {k} = {{{v}}}" for k, v in f if v)
+        out.append(f"@{kind}{{{key},\n{body}\n}}")
+    BIB.write_text("\n\n".join(out) + "\n")
+    print(f"references.bib: {len(out)} confirmed entries")
+
+
+def _norm_issn(s):
+    return re.sub(r"[^0-9X]", "", (s or "").upper())
+
+
+def update_metrics(refresh=False):
+    """Citations (Crossref, OpenAlex) + journal indicators (OpenAlex 2yr mean citedness, optional SCImago quartile)."""
+    import csv
+    import datetime
+    import time
+    refs = [r for r in json.loads(REFS.read_text()) if r["status"] == "confirmed"]
+    cache_p = SRC / "crossref.json"
+    cache = json.loads(cache_p.read_text()) if cache_p.exists() else {}
+    for r in refs:
+        d = r.get("doi")
+        if d and (refresh or d not in cache):
+            try:
+                msg = http_json(f"https://api.crossref.org/works/{urllib.parse.quote(d)}")["message"]
+                cache[d] = {"cited_by": msg.get("is-referenced-by-count"), "issn": msg.get("ISSN", [])}
+            except SystemExit:
+                cache[d] = {"cited_by": None, "issn": []}
+            time.sleep(0.15)
+    cache_p.write_text(json.dumps(cache, indent=1))
+    # ISSNs per journal ref: OpenAlex issn_l / Crossref ISSN list
+    issns = {}
+    for r in refs:
+        if r.get("type") == "journal-article":
+            s = {_norm_issn(x) for x in ([r.get("issn_l")] + cache.get(r.get("doi"), {}).get("issn", [])) if x}
+            if s:
+                issns[r["id"]] = s
+    allissn = sorted({i for s in issns.values() for i in s})
+    jstats = {}
+    for n in range(0, len(allissn), 40):
+        batch = allissn[n:n + 40]
+        q = urllib.parse.urlencode({"filter": "issn:" + "|".join(f"{i[:4]}-{i[4:]}" for i in batch),
+                                    "per-page": 100, "select": "display_name,issn,issn_l,summary_stats"})
+        for s in http_json(f"https://api.openalex.org/sources?{q}")["results"]:
+            st = s.get("summary_stats") or {}
+            for i in {_norm_issn(x) for x in (s.get("issn") or [])}:
+                jstats[i] = {"journal": s["display_name"], "oa_2yr_mean_citedness": st.get("2yr_mean_citedness"),
+                             "oa_h_index": st.get("h_index")}
+    sjr = {}   # optional manual file(s): sources/scimago_<year>.csv (SCImago 'Download data', ';'-separated)
+    for p in sorted(SRC.glob("scimago_*.csv")):
+        year = re.search(r"(\d{4})", p.name).group(1)
+        with open(p, newline="", encoding="utf-8-sig") as fh:
+            for row in csv.DictReader(fh, delimiter=";"):
+                for i in re.split(r",\s*", row.get("Issn", "")):
+                    sjr[_norm_issn(i)] = {"year": year, "sjr": row.get("SJR"), "quartile": row.get("SJR Best Quartile")}
+    out = {}
+    for r in refs:
+        m = {"as_of": datetime.date.today().isoformat()}
+        if r.get("cited_by") is not None:
+            m["cited_by_openalex"] = r["cited_by"]
+        if cache.get(r.get("doi"), {}).get("cited_by") is not None:
+            m["cited_by_crossref"] = cache[r["doi"]]["cited_by"]
+        if r.get("scholar_cited_by") is not None:
+            m["cited_by_scholar_cv_2024"] = r["scholar_cited_by"]
+        for i in issns.get(r["id"], ()):
+            if i in jstats and "journal" not in m:
+                m.update(jstats[i])
+            if i in sjr and "sjr_quartile" not in m:
+                m.update({"sjr": sjr[i]["sjr"], "sjr_quartile": sjr[i]["quartile"], "sjr_year": sjr[i]["year"]})
+        out[r["id"]] = m
+    METRICS.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
+    got = lambda k: sum(1 for m in out.values() if k in m)
+    print(f"metrics.json: {len(out)} refs | crossref cites {got('cited_by_crossref')} | openalex cites {got('cited_by_openalex')} | "
+          f"journal indicators {got('journal')} | SJR quartile {got('sjr_quartile')} ({len(sjr)} ISSNs from scimago files)")
 
 
 def build_index():
@@ -385,17 +491,23 @@ def stats():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv"])
+    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics"])
     ap.add_argument("query", nargs="?")
     ap.add_argument("--offline", action="store_true")
+    ap.add_argument("--refresh", action="store_true", help="metrics: refetch even cached Crossref values")
     a = ap.parse_args()
     if a.cmd == "sync":
         if not a.offline:
             fetch()
         merge()
         build_index()
+        write_bib()
     elif a.cmd == "index":
         build_index()
+    elif a.cmd == "bib":
+        write_bib()
+    elif a.cmd == "metrics":
+        update_metrics(refresh=a.refresh)
     elif a.cmd == "import-cv":
         import_cv(a.query or sys.exit("path to CV (.docx) required"))
     elif a.cmd == "search":
