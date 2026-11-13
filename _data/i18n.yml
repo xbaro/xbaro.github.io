@@ -10,6 +10,9 @@ en:
     book-chapter: Book chapters
     report: Reports and preprints
     other: Other
+  pub_tags:
+    editorial: Editorial
+    preprint: Preprint
   no_year: "n.d."
   name: English
   teaching: Teaching
@@ -34,6 +37,9 @@ ca:
     book-chapter: Capítols de llibre
     report: Informes i preprints
     other: Altres
+  pub_tags:
+    editorial: Editorial
+    preprint: Preprint
   no_year: "s.d."
   name: Català
   teaching: Docència
@@ -58,6 +64,9 @@ es:
     book-chapter: Capítulos de libro
     report: Informes y preprints
     other: Otros
+  pub_tags:
+    editorial: Editorial
+    preprint: Preprint
   no_year: "s.f."
   name: Español
   teaching: Docencia
