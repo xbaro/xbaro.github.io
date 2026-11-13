@@ -1,0 +1,384 @@
+[
+ {
+  "title": "Inteligencia Artificial responsable para el bienestar humano: Percepción contextualizada centrada en la persona (SENTIENT)",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia, Innovación y Universidades",
+  "reference": "PID2022-138721NB-I00",
+  "country": null,
+  "start": 2023,
+  "end": 2025,
+  "amount_total_eur": 114125.0,
+  "amount_share_eur": null,
+  "amount_raw": "114.125",
+  "principal_investigators": [
+   "Àgata Lapedriza",
+   "Xavier Baró"
+  ],
+  "role": "co-PI",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Modelado 3D corporal y de ropa basado en imagen para probadores virtuales",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia e Innovación",
+  "reference": "TED2021-131317B-I00",
+  "country": null,
+  "start": 2022,
+  "end": 2024,
+  "amount_total_eur": 398130.0,
+  "amount_share_eur": null,
+  "amount_raw": "398.130",
+  "principal_investigators": [
+   "Sergio Escalera"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Never Home Alone (NHoA)",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia, Innovación y Universidades",
+  "reference": "PLEC2021-007868",
+  "country": null,
+  "start": 2021,
+  "end": 2024,
+  "amount_total_eur": 150036.0,
+  "amount_share_eur": null,
+  "amount_raw": "150.036",
+  "principal_investigators": [
+   "Sergio Escalera"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Scence Understanding and Artificial Intelligence lab (SUNAI)",
+  "kind": "research-group recognition (SGR)",
+  "funder": "Generalitat de Catalunya",
+  "reference": "2017 SGR 1160",
+  "country": null,
+  "start": 2017,
+  "end": 2019,
+  "amount_total_eur": 0.0,
+  "amount_share_eur": null,
+  "amount_raw": "0",
+  "principal_investigators": [
+   "David Masip Rodo"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "BEyond model aCcurAcy: Uncertainty, Explainability and domain adaptation. (BECAUsE)",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia, Innovación y Universidades",
+  "reference": "RTI2018-095232-B-C22",
+  "country": null,
+  "start": 2019,
+  "end": 2021,
+  "amount_total_eur": 93000.0,
+  "amount_share_eur": null,
+  "amount_raw": "93.000",
+  "principal_investigators": [
+   "David Masip",
+   "Àgata Lapedriza"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "An Adaptive Trust-based e-assesment System for Learning (TeSLA)",
+  "kind": "competitive",
+  "funder": "European Comunity. H2020-ICT2015",
+  "reference": "688520",
+  "country": null,
+  "start": 2016,
+  "end": 2019,
+  "amount_total_eur": 5916028.5,
+  "amount_share_eur": 869867.5,
+  "amount_raw": "5.916.028,50€ (UOC 869.867,50€)",
+  "principal_investigators": [
+   "Ana Elena Guerrero"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Scence Understanding and Artificial Intelligence lab (SUNAI)",
+  "kind": "research-group recognition (SGR)",
+  "funder": "Generalitat de Catalunya",
+  "reference": "2014 SGR 564",
+  "country": null,
+  "start": 2014,
+  "end": 2016,
+  "amount_total_eur": 0.0,
+  "amount_share_eur": null,
+  "amount_raw": "0",
+  "principal_investigators": [
+   "David Masip Rodo"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Revisiting representation models for visual recognition: Social and Cultural Perception",
+  "kind": "competitive",
+  "funder": "Ministerio de economia y competividad",
+  "reference": "TIN2012-38187-C03-02",
+  "country": null,
+  "start": 2013,
+  "end": 2015,
+  "amount_total_eur": 18980.0,
+  "amount_share_eur": null,
+  "amount_raw": "18.980",
+  "principal_investigators": [
+   "David Masip Rodo"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Técnicas de aprendizaje automático para sistemas de visión de gran escala: Aplicaciones al análisis de imagen médica",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia e Innovación",
+  "reference": "TIN2009-14404-C02-02",
+  "country": null,
+  "start": 2010,
+  "end": 2012,
+  "amount_total_eur": 203000.0,
+  "amount_share_eur": null,
+  "amount_raw": "203.000",
+  "principal_investigators": [
+   "Jordi Vitrià Marca"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Multimodal Intraction in Pattern Recognition and Computer Vision (MIPRCV)",
+  "kind": "competitive",
+  "funder": "Ministerio de Educación y Ciencia (Programa Consolider-Ingenio 2010)",
+  "reference": "CSD2007-00018",
+  "country": null,
+  "start": 2007,
+  "end": 2012,
+  "amount_total_eur": 4500000.0,
+  "amount_share_eur": 397700.0,
+  "amount_raw": "4.500.000 (397.700 per al subprojecte CVC-PR (IP: Jordi Vitrià i Marca))",
+  "principal_investigators": [
+   "Enrique Vidal Ruiz"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Modelos de aprendizaje multitarea para la visión por computador",
+  "kind": "competitive",
+  "funder": "Ministerio de Educación y Ciencia",
+  "reference": "TIN2006-15308-C02-01",
+  "country": null,
+  "start": 2007,
+  "end": 2009,
+  "amount_total_eur": 106000.0,
+  "amount_share_eur": null,
+  "amount_raw": "106.000",
+  "principal_investigators": [
+   "Jordi Vitrià Marca"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Sistema para la detección y localización automática de señales de tráfico e hitos quilométricos",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia e Innovación",
+  "reference": "PETRI PTR 1995-0983-OP",
+  "country": null,
+  "start": 2006,
+  "end": 2007,
+  "amount_total_eur": 74000.0,
+  "amount_share_eur": null,
+  "amount_raw": "74.000",
+  "principal_investigators": [
+   "Petia Radeva"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Interfaces de Visión para Entornos Médicos",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia y Tecnología",
+  "reference": "TIC2003-00654",
+  "country": null,
+  "start": 2004,
+  "end": 2007,
+  "amount_total_eur": 126400.0,
+  "amount_share_eur": null,
+  "amount_raw": "126.400",
+  "principal_investigators": [
+   "Jordi Vitrià Marca"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Grup de Reconeixement de Formes i Anàlisi d'Imatges",
+  "kind": "research-group recognition (SGR)",
+  "funder": "Universitat de Barcelona",
+  "reference": "2009SGR696",
+  "country": null,
+  "start": 2009,
+  "end": 2013,
+  "amount_total_eur": 0.0,
+  "amount_share_eur": null,
+  "amount_raw": "0",
+  "principal_investigators": [
+   "Petia Radeva"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Grup de Reconeixement de Formes i Anàlisi d'Imatges",
+  "kind": "research-group recognition (SGR)",
+  "funder": "Universitat Autònoma de Barcelona",
+  "reference": "2005SGR00450",
+  "country": null,
+  "start": 2005,
+  "end": 2009,
+  "amount_total_eur": 0.0,
+  "amount_share_eur": null,
+  "amount_raw": "0",
+  "principal_investigators": [
+   "Jordi Vitrià Marca"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Explotació de les imatges generades pel projecte Geomòbil",
+  "kind": "non-competitive",
+  "funder": "Institut Cartogràfic de Catalunya",
+  "reference": null,
+  "country": null,
+  "start": 2004,
+  "end": 2009,
+  "amount_total_eur": 42000.0,
+  "amount_share_eur": null,
+  "amount_raw": "42.000",
+  "principal_investigators": [
+   "Jordi Vitrià Marca"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "EduTECH Emprèn: Una oportunitat per emprendre",
+  "kind": "contract",
+  "funder": "Departament de Justícia de la Generalitat de Catalunya",
+  "reference": null,
+  "country": "Espanya",
+  "start": 2022,
+  "end": 2022,
+  "amount_total_eur": 60000.0,
+  "amount_share_eur": null,
+  "amount_raw": "60.000",
+  "principal_investigators": [
+   "Jordi Castells Canela"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "e-EQE competences framework study",
+  "kind": "contract",
+  "funder": "European Patent Office (EPO)",
+  "reference": null,
+  "country": "Alemanya",
+  "start": 2021,
+  "end": 2021,
+  "amount_total_eur": 15000.0,
+  "amount_share_eur": null,
+  "amount_raw": "15.000",
+  "principal_investigators": [
+   "Ana Elena Guerrero",
+   "Xavier Baró",
+   "Josep Prieto"
+  ],
+  "role": "co-PI",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Advice on the deployment of TeSLA system modules and support in terms of educational methodology for its implementation",
+  "kind": "contract",
+  "funder": "University of Jyväskylä",
+  "reference": null,
+  "country": "Finlandia",
+  "start": 2020,
+  "end": 2022,
+  "amount_total_eur": 15000.0,
+  "amount_share_eur": null,
+  "amount_raw": "15.000",
+  "principal_investigators": [
+   "Ana Elena Guerrero",
+   "Xavier Baró",
+   "Josep Prieto"
+  ],
+  "role": "co-PI",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "e-EQE, conceptualization of a new European",
+  "kind": "contract",
+  "funder": "European Patent Office (EPO)",
+  "reference": null,
+  "country": "Alemanya",
+  "start": 2020,
+  "end": 2020,
+  "amount_total_eur": 8000.0,
+  "amount_share_eur": null,
+  "amount_raw": "8.000",
+  "principal_investigators": [
+   "Ana Elena Guerrero",
+   "Xavier Baró",
+   "Josep Prieto"
+  ],
+  "role": "co-PI",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Conveni de col.laboració entre la Universitat Oberta de Catalunya i l'Institut Municipal d'Educació de Barcelona de l'Ajuntament de Barcelona",
+  "kind": "contract",
+  "funder": "Ajuntament de Barcelona",
+  "reference": null,
+  "country": "Espanya",
+  "start": 2014,
+  "end": 2014,
+  "amount_total_eur": 2800.0,
+  "amount_share_eur": null,
+  "amount_raw": "2.800",
+  "principal_investigators": [
+   "David Bañeres Besora"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ },
+ {
+  "title": "Formació de voluntaris tecnològics per interaccionar amb gent jove utilitzant ICT",
+  "kind": "contract",
+  "funder": "Caixa d'Enginyers",
+  "reference": null,
+  "country": "Espanya",
+  "start": 2015,
+  "end": 2015,
+  "amount_total_eur": 6000.0,
+  "amount_share_eur": null,
+  "amount_raw": "6.000",
+  "principal_investigators": [
+   "David Bañeres Besora"
+  ],
+  "role": "participant",
+  "source": "CV (AQU) section A, 2024-12-31"
+ }
+]

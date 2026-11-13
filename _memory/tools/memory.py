@@ -360,6 +360,53 @@ def build_activities():
     ACTIVITIES.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
 
 
+PROJECTS = ROOT / "projects.json"
+
+
+def parse_projects(paras):
+    """CV section A: A.1 competitive projects, A.2 non-competitive projects, A.3 contracts / technology transfer."""
+    a = next((i for i, p in enumerate(paras) if p.startswith("A. Projectes")), None)
+    b = next((i for i, p in enumerate(paras) if p.startswith("B. Publicacions")), None)
+    if a is None or b is None:
+        return []
+    kinds = {"A.1": "competitive", "A.2": "non-competitive", "A.3": "contract"}
+    out, sec, rec = [], None, {}
+    keymap = {"Títol del projecte": "title", "Títol del contracte": "title", "Entitat finançadora": "funder",
+              "Empresa/administració finançadora": "funder", "Referència de la concessió": "reference", "Import concedit": "amount_raw",
+              "Durada": "duration", "Investigador/a principal": "pi", "Investigador responsable": "pi", "País": "country"}
+
+    def flush():
+        nonlocal rec
+        if rec.get("title"):
+            ym = re.findall(r"\b((?:19|20)\d{2})\b", rec.get("duration", ""))
+            amt = re.search(r"[\d.]+(?:,\d+)?", rec.get("amount_raw", "") or "")
+            pi = [re.sub(r"^(Dr|Dra)\.\s*", "", x.strip()) for x in re.split(r"\s+i\s+|,", rec.get("pi", "")) if x.strip()]
+            me = any("Baró" in x for x in pi)
+            ref = rec.get("reference", "")
+            out.append({"title": rec["title"].strip(), "kind": "research-group recognition (SGR)" if "SGR" in ref else kinds[sec],
+                        "funder": rec.get("funder", "").strip(" ."), "reference": ref or None, "country": rec.get("country"),
+                        "start": int(ym[0]) if ym else None, "end": int(ym[-1]) if ym else None,
+                        "amount_total_eur": float(amt.group().replace(".", "").replace(",", ".")) if amt else None,
+                        "amount_share_eur": (lambda s: float(s.group(1).replace(".", "").replace(",", ".")) if s else None)(
+                            re.search(r"\(\D*([\d.]+(?:,\d+)?)", rec.get("amount_raw", "") or "")),
+                        "amount_raw": rec.get("amount_raw"), "principal_investigators": pi,
+                        "role": ("co-PI" if len(pi) > 1 else "PI") if me else "participant", "source": "CV (AQU) section A, 2024-12-31"})
+        rec = {}
+
+    for p in paras[a + 1:b]:
+        m = re.match(r"^(A\.[1-3])\s", p)
+        if m:
+            flush(); sec = m.group(1); continue
+        k, _, v = p.partition(":")
+        key = keymap.get(k.strip())
+        if key == "title":
+            flush()
+        if key and sec:
+            rec[key] = v.strip()
+    flush()
+    return out
+
+
 def build_theses():
     """theses.json = CV section G.1 (authoritative) enriched with Portal de la Recerca records (repository link) + the owner's own thesis."""
     cvp, prp = SRC / "cv_theses.json", SRC / "portal_prc.json"
@@ -553,6 +600,9 @@ def import_cv(path):
     quality = parse_quality(lines)
     (SRC / "cv_quality.json").write_text(json.dumps(quality, indent=1, ensure_ascii=False) + "\n")
     if str(path).endswith(".docx"):
+        pr = parse_projects(docx_paragraphs(path))
+        PROJECTS.write_text(json.dumps(pr, indent=1, ensure_ascii=False) + "\n")
+        print(f"cv projects: {len(pr)} -> projects.json")
         mer = parse_merits(docx_paragraphs(path))
         (SRC / "cv_merits.json").write_text(json.dumps(mer, indent=1, ensure_ascii=False) + "\n")
         print("cv merits:", {k: len(v) for k, v in mer.items()})
