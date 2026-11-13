@@ -56,6 +56,17 @@ Pla:
 2. Guardar-la a `_memory/` (font de veritat del contingut).
 3. Generar les pàgines Jekyll (`_publications/`, etc.) a partir de la memòria. Es manté Academic Pages/Jekyll de moment (decisió de l'usuari); el motor es revisarà més endavant.
 
+## Agents i models per a la revisió bibliogràfica
+Definits a `.claude/agents/` (no es publiquen: Jekyll ignora els directoris amb punt) i flux a la skill `.claude/skills/bibliography-review/`.
+
+| Agent | Model | Quan |
+|---|---|---|
+| `bib-sync` | sonnet | Refresc mecànic (`sync`/`doi`/`metrics`/`bib`), invariants i informe de diferències |
+| `bib-curator` | **opus** | Casos ambigus (duplicats, versions, homònims, DOIs dubtosos, anys): decideix i escriu només `_memory/overrides.json` amb evidència |
+| `bib-auditor` | **opus** | Auditoria independent i només-lectura abans de generar pàgines públiques |
+
+Ordre: `bib-sync` → `bib-curator` (si queden ítems oberts) → `bib-sync` → `bib-auditor` → generar pàgines. Opus només on equivocar-se es publica; la resta, Sonnet. Per descobrir obres que falten: `research-superpowers:literature-scout` (només a petició; resultats = candidates). Per verificar afirmacions de la bio: skill `citation-needed`.
+
 ## Workflow de disseny
 Es treballa **via screenshots**: l'agent aixeca la web a Podman, captura pantalles i les ensenya a l'usuari per validar la direcció abans d'avançar. Iterar sobre el feedback; no desplegar res fins que l'usuari ho demani.
 
