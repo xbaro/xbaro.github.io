@@ -1,15 +1,30 @@
-<style>.pub-tag{font-size:.7em;text-transform:uppercase;letter-spacing:.04em;border:1px solid currentColor;border-radius:3px;padding:0 .35em;margin-left:.4em;opacity:.75;vertical-align:middle}</style>
+{% assign L = page.lang | default: site.default_lang %}
+<style>.pub-tag{font-size:.7em;text-transform:uppercase;letter-spacing:.04em;border:1px solid currentColor;border-radius:3px;padding:0 .35em;margin-left:.4em;opacity:.75;vertical-align:middle}.pub-filters{display:flex;flex-wrap:wrap;gap:.5em;align-items:center;margin:1em 0}.pub-filters input,.pub-filters select{padding:.4em .6em;font-size:.9em;max-width:100%}.pub-filters input{flex:1 1 14em}.pub-count{font-size:.85em;opacity:.7}.pub-list li[hidden],.pub-section[hidden]{display:none}</style>
 {% assign L = page.lang | default: site.default_lang %}
 {% assign T = site.data.i18n[L] %}
-<p>{{ T.publications_intro }} <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+<p>{{ T.publications_intro }} <a href="{{ site.author.googlescholar }}">Google Scholar</a> · <a href="{{ '/files/publications.bib' | relative_url }}" download>BibTeX</a>.</p>
+{% assign all_years = site.data.publications | map: "year" | uniq | sort | reverse %}
+<div class="pub-filters">
+  <input type="search" id="pub-q" placeholder="{{ T.pub_search }}" aria-label="{{ T.pub_search }}">
+  <select id="pub-type" aria-label="{{ T.pub_all_types }}">
+    <option value="">{{ T.pub_all_types }}</option>
+    {% assign types_f = "journal-article,conference-paper,book,book-chapter,report,other" | split: "," %}
+    {% for ty in types_f %}{% assign n = site.data.publications | where: "type", ty %}{% if n.size > 0 %}<option value="{{ ty }}">{{ T.pub_types[ty] }} ({{ n.size }})</option>{% endif %}{% endfor %}
+  </select>
+  <select id="pub-year" aria-label="{{ T.pub_all_years }}">
+    <option value="">{{ T.pub_all_years }}</option>
+    {% for y in all_years %}{% if y %}<option value="{{ y }}">{{ y }}</option>{% endif %}{% endfor %}
+  </select>
+  <span id="pub-count" class="pub-count" aria-live="polite"></span>
+</div>
 {% assign types = "journal-article,conference-paper,book,book-chapter,report,other" | split: "," %}
 {% for ty in types %}
   {% assign items = site.data.publications | where: "type", ty %}
   {% if items.size > 0 %}
-    <h2>{{ T.pub_types[ty] }} <small>({{ items.size }})</small></h2>
+    <section class="pub-section"><h2>{{ T.pub_types[ty] }} <small>({{ items.size }})</small></h2>
     <ul class="pub-list">
     {% for p in items %}
-      <li>
+      <li data-type="{{ ty }}" data-year="{{ p.year }}" data-text="{{ p.title | append: ' ' | append: p.venue | append: ' ' | append: p.authors | join: ' ' | downcase | escape }}">
         <strong>{{ p.title }}</strong>{% if p.label %} <span class="pub-tag">{{ T.pub_tags[p.label] }}</span>{% endif %}<br>
         <span>{% for a in p.authors %}{% if a contains "Baró" %}<u>{{ a }}</u>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span><br>
         <em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% else %}, {{ T.no_year }}{% endif %}
@@ -19,5 +34,23 @@
       </li>
     {% endfor %}
     </ul>
+    </section>
   {% endif %}
 {% endfor %}
+<p id="pub-none" hidden>{{ T.pub_none }}</p>
+<script>
+(function(){
+  var q=document.getElementById('pub-q'),ty=document.getElementById('pub-type'),yr=document.getElementById('pub-year'),cnt=document.getElementById('pub-count'),none=document.getElementById('pub-none');
+  var items=[].slice.call(document.querySelectorAll('.pub-list li')),secs=[].slice.call(document.querySelectorAll('.pub-section'));
+  function apply(){
+    var t=q.value.trim().toLowerCase().split(/\s+/).filter(Boolean),n=0;
+    items.forEach(function(li){
+      var ok=(!ty.value||li.dataset.type===ty.value)&&(!yr.value||li.dataset.year===yr.value)&&t.every(function(w){return li.dataset.text.indexOf(w)>-1});
+      li.hidden=!ok; if(ok)n++;
+    });
+    secs.forEach(function(s){var vis=s.querySelectorAll('li:not([hidden])').length;s.hidden=!vis;var sm=s.querySelector('h2 small');if(sm)sm.textContent='('+vis+')';});
+    cnt.textContent=n+' / '+items.length; none.hidden=n>0;
+  }
+  [q,ty,yr].forEach(function(e){e.addEventListener('input',apply)}); apply();
+})();
+</script>

@@ -564,6 +564,8 @@ def build_site_data():
     out = ROOT.parent / "_data" / "publications.json"
     out.write_text(json.dumps(pubs, indent=1, ensure_ascii=False) + "\n")
     print(f"{out.relative_to(ROOT.parent)}: {len(pubs)} publications")
+    (ROOT.parent / "files").mkdir(exist_ok=True)
+    (ROOT.parent / "files" / "publications.bib").write_text(BIB.read_text())   # downloadable BibTeX of the verified publications
 
 
 def parse_postgrad_teaching(paras):
