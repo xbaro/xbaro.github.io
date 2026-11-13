@@ -1,0 +1,35 @@
+{
+  "_note": "Translations of subject / programme names for the site. Key = Catalan source name (as in teaching.json). Missing language -> falls back to the Catalan name.",
+  "names": {
+    "Introducció a les bases de dades": {"en": "Introduction to Databases", "es": "Introducción a las bases de datos"},
+    "Ampliació de bases de dades": {"en": "Advanced Databases", "es": "Ampliación de bases de datos"},
+    "Programació per a la xarxa": {"en": "Network Programming", "es": "Programación para la red"},
+    "Sistemes operatius": {"en": "Operating Systems", "es": "Sistemas operativos"},
+    "Programació I": {"en": "Programming I", "es": "Programación I"},
+    "Programació II": {"en": "Programming II", "es": "Programación II"},
+    "Processament d'imatges": {"en": "Image Processing", "es": "Procesamiento de imágenes"},
+    "Visió artificial": {"en": "Computer Vision", "es": "Visión artificial"},
+    "Estructura de dades": {"en": "Data Structures", "es": "Estructuras de datos"},
+    "Gràfics i visualització de dades": {"en": "Graphics and Data Visualization", "es": "Gráficos y visualización de datos"},
+    "Software distribuït": {"en": "Distributed Software", "es": "Software distribuido"},
+    "Algorísmica": {"en": "Algorithmics", "es": "Algorítmica"},
+    "Algorísmica avançada": {"en": "Advanced Algorithmics", "es": "Algorítmica avanzada"},
+    "Computació orientada al web": {"en": "Web-Oriented Computing", "es": "Computación orientada a la web"},
+    "Disseny de software": {"en": "Software Design", "es": "Diseño de software"},
+    "Projecte integrat de software": {"en": "Integrated Software Project", "es": "Proyecto integrado de software"},
+    "Seminaris en intel·ligència artificial (UB)": {"en": "Seminars in Artificial Intelligence", "es": "Seminarios de inteligencia artificial"},
+    "Reconeixement de persones i objectes": {"en": "People and Object Recognition", "es": "Reconocimiento de personas y objetos"},
+    "Aprenentatge, percepció i reconeixement": {"en": "Learning, Perception and Recognition", "es": "Aprendizaje, percepción y reconocimiento"},
+    "Desenvolupament back-end PHP": {"en": "PHP Back-End Development", "es": "Desarrollo back-end PHP"},
+    "Genòmica Computacional": {"en": "Computational Genomics", "es": "Genómica computacional"},
+    "Computer Vision": {"ca": "Visió per computador", "es": "Visión por computador"}
+  },
+  "programmes": {
+    "Enginyeria Informàtica": {"en": "Computer Engineering", "es": "Ingeniería Informática"},
+    "Enginyeria tècnica en informàtica de sistemes": {"en": "Technical Engineering in Computer Systems", "es": "Ingeniería Técnica en Informática de Sistemas"},
+    "Intel·ligència Artificial": {"en": "Artificial Intelligence (MSc)", "es": "Inteligencia Artificial (máster)"},
+    "Màster Universitari en Desenvolupament de llocs i aplicacions web": {"en": "MSc in Web Sites and Applications Development", "es": "Máster en Desarrollo de sitios y aplicaciones web"},
+    "Màster Interuniversitari en Bioinformàtica i bioestadística UB-UOC": {"en": "Interuniversity MSc in Bioinformatics and Biostatistics (UB-UOC)", "es": "Máster Interuniversitario en Bioinformática y bioestadística (UB-UOC)"},
+    "Master in Artificial Intelligence": {"ca": "Màster en Intel·ligència Artificial", "es": "Máster en Inteligencia Artificial"}
+  }
+}

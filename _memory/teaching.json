@@ -917,5 +917,473 @@
  "_notes": [
   "UB data = 'Encàrrecs i dedicació docent' PDFs; the university marks them as informational and subject to validation. 2026-2027 is a plan.",
   "UB gap 2016-2023 (owner was at UOC) and UOC/UAB undergraduate teaching are not in these documents."
+ ],
+ "summary": [
+  {
+   "institution": "Universitat Oberta de Catalunya",
+   "level": "master",
+   "name": {
+    "ca": "Desenvolupament back-end PHP"
+   },
+   "programmes": [
+    "Màster Universitari en Desenvolupament de llocs i aplicacions web"
+   ],
+   "languages": [],
+   "periods": [
+    [
+     2018,
+     2021
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat Oberta de Catalunya",
+   "level": "master",
+   "name": {
+    "ca": "Genòmica Computacional"
+   },
+   "programmes": [
+    "Màster Interuniversitari en Bioinformàtica i bioestadística UB-UOC"
+   ],
+   "languages": [],
+   "periods": [
+    [
+     2018,
+     2021
+    ],
+    [
+     2022,
+     2023
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "master",
+   "name": {
+    "ca": "Seminaris en intel·ligència artificial (UB)"
+   },
+   "programmes": [
+    "Intel·ligència Artificial",
+    "Màster"
+   ],
+   "languages": [
+    "Anglès"
+   ],
+   "periods": [
+    [
+     2009,
+     2010
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "master",
+   "name": {
+    "ca": "Reconeixement de persones i objectes"
+   },
+   "programmes": [
+    "Intel·ligència Artificial",
+    "Màster",
+    "Màster Interuniversitari en Intel·ligència Artificial"
+   ],
+   "languages": [
+    "Anglès"
+   ],
+   "periods": [
+    [
+     2010,
+     2015
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "master",
+   "name": {
+    "ca": "Aprenentatge, percepció i reconeixement"
+   },
+   "programmes": [
+    "Intel·ligència Artificial"
+   ],
+   "languages": [
+    "Anglès",
+    "Català"
+   ],
+   "periods": [
+    [
+     2012,
+     2016
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Ampliació de bases de dades"
+   },
+   "programmes": [
+    "Enginyeria tècnica en informàtica de sistemes"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2008,
+     2009
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Introducció a les bases de dades"
+   },
+   "programmes": [
+    "Enginyeria tècnica en informàtica de sistemes"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2008,
+     2009
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Programació per a la xarxa"
+   },
+   "programmes": [
+    "Enginyeria tècnica en informàtica de sistemes"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2008,
+     2009
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Sistemes operatius"
+   },
+   "programmes": [
+    "Enginyeria tècnica en informàtica de sistemes"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2008,
+     2009
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Programació I"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2009,
+     2010
+    ],
+    [
+     2024,
+     2025
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Programació II"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2009,
+     2014
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Processament d'imatges"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2010,
+     2011
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Visió artificial"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Castellà",
+    "Català"
+   ],
+   "periods": [
+    [
+     2014,
+     2016
+    ],
+    [
+     2024,
+     2026
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Estructura de dades"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2023,
+     2025
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Gràfics i visualització de dades"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2023,
+     2026
+    ]
+   ],
+   "planned": [
+    [
+     2026,
+     2027
+    ]
+   ]
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Software distribuït"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2023,
+     2026
+    ]
+   ],
+   "planned": [
+    [
+     2026,
+     2027
+    ]
+   ]
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Algorísmica"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2024,
+     2025
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Algorísmica avançada"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2024,
+     2025
+    ]
+   ],
+   "planned": []
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Computació orientada al web"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [
+    [
+     2025,
+     2026
+    ]
+   ],
+   "planned": [
+    [
+     2026,
+     2027
+    ]
+   ]
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Disseny de software"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [],
+   "planned": [
+    [
+     2026,
+     2027
+    ]
+   ]
+  },
+  {
+   "institution": "Universitat de Barcelona",
+   "level": "undergraduate",
+   "name": {
+    "ca": "Projecte integrat de software"
+   },
+   "programmes": [
+    "Enginyeria Informàtica"
+   ],
+   "languages": [
+    "Català"
+   ],
+   "periods": [],
+   "planned": [
+    [
+     2026,
+     2027
+    ]
+   ]
+  },
+  {
+   "institution": "Université Paris-Saclay",
+   "level": "master",
+   "name": {
+    "ca": "Computer Vision"
+   },
+   "programmes": [
+    "Master in Artificial Intelligence"
+   ],
+   "languages": [],
+   "periods": [
+    [
+     2021,
+     2023
+    ]
+   ],
+   "planned": []
+  }
  ]
 }

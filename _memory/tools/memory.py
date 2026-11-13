@@ -470,7 +470,84 @@ def build_teaching():
     out = {"ub": json.loads(ub.read_text()) if ub.exists() else [], "postgraduate": json.loads(pg.read_text()) if pg.exists() else [],
            "_notes": ["UB data = 'Encàrrecs i dedicació docent' PDFs; the university marks them as informational and subject to validation. 2026-2027 is a plan.",
                       "UB gap 2016-2023 (owner was at UOC) and UOC/UAB undergraduate teaching are not in these documents."]}
+    out["summary"] = teaching_summary(out)
     TEACHING.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
+
+
+def _year_periods(years):
+    """['2012-2013','2013-2014','2024-2025'] -> [[2012, 2014], [2024, 2025]] (start year, end year; consecutive courses merged)."""
+    ys = sorted({int(re.match(r"(\d{4})", y).group(1)) for y in years})
+    periods = []
+    for y in ys:
+        if periods and y == periods[-1][1]:
+            periods[-1][1] = y + 1
+        else:
+            periods.append([y, y + 1])
+    return periods
+
+
+def teaching_summary(t):
+    """One row per (institution, subject): the periods it was taught, instead of one row per course.
+    Names are keyed by language so the site can add translations (ca is the source language)."""
+    groups = {}
+    for r in t["ub"]:
+        if r.get("kind") != "course":
+            continue                                     # TFG/TFC/Tesi are supervision (see theses.json)
+        g = groups.setdefault(("Universitat de Barcelona", r["subject"].lower()), {
+            "institution": "Universitat de Barcelona", "level": "master" if "Intel" in r["degree"] else "undergraduate",
+            "name": {"ca": r["subject"]}, "programmes": set(), "languages": set(), "years": [], "planned_years": []})
+        g["programmes"].add(r["degree"])
+        g["languages"].update(r.get("languages") or [])
+        (g["planned_years"] if r.get("status") == "planned" else g["years"]).append(r["academic_year"])
+    insts = (("Oberta", "Universitat Oberta de Catalunya"), ("Barcelona", "Universitat de Barcelona"), ("Paris-Saclay", "Université Paris-Saclay"))
+    alias = {"object recognition": "Reconeixement de persones i objectes", "seminaris en intel·ligència artificial ub": "Seminaris en intel·ligència artificial (UB)"}   # same MSc course, English title in the CV
+    for r in t["postgraduate"]:
+        m = re.match(r"(.+?)\s*\((.+)\)\s*$", r["course"])
+        name, prog = (m.group(1), m.group(2)) if m else (r["course"], None)
+        if name.lower().startswith("projecte final"):
+            continue                                     # master thesis supervision, not a course
+        inst = next((v for k, v in insts if k in r["institution"]), r["institution"])
+        key = alias.get(name.lower(), name)
+        g = groups.setdefault((inst, key.lower()), {"institution": inst, "level": "master", "name": {"ca": key},
+                                            "programmes": set(), "languages": set(), "years": [], "planned_years": []})
+        if prog:
+            g["programmes"].add(prog)
+        g["years"] += r["academic_years"]
+    rows = []
+    for g in groups.values():
+        rows.append({"institution": g["institution"], "level": g["level"], "name": g["name"],
+                     "programmes": sorted(g["programmes"]), "languages": sorted(g["languages"]),
+                     "periods": _year_periods(g["years"]) if g["years"] else [],
+                     "planned": _year_periods(g["planned_years"]) if g["planned_years"] else []})
+    rows.sort(key=lambda x: (x["institution"], x["level"], (x["periods"] or x["planned"])[0][0], x["name"]["ca"]))
+    return rows
+
+
+def build_site_data():
+    """Derive the PUBLIC data files read by Jekyll (_data/*.json) from the memory. Names are resolved per language."""
+    t = json.loads(TEACHING.read_text())
+    tr = json.loads((ROOT / "i18n_teaching.json").read_text())
+    langs = ["ca", "en", "es"]
+
+    def loc(table, ca):
+        e = table.get(ca, {})
+        return {l: (ca if l == "ca" and "ca" not in e else e.get(l, ca)) for l in langs}
+
+    def course(y):                       # 2012 -> "2012/13"
+        return f"{y}/{(y + 1) % 100:02d}"
+
+    def label(periods):                  # [[2012, 2016]] -> "2012/13–2015/16"; one course -> "2024/25"
+        return [course(a) if b - a == 1 else f"{course(a)}–{course(b - 1)}" for a, b in periods]
+
+    rows = []
+    for r in t["summary"]:
+        ca = r["name"]["ca"]
+        rows.append({"periods_label": label(r["periods"]), "planned_label": label(r["planned"]), **{"institution": r["institution"], "level": r["level"], "name": loc(tr["names"], ca),
+                     "programmes": [loc(tr["programmes"], p) for p in r["programmes"]],
+                     "periods": r["periods"], "planned": r["planned"], "languages": r["languages"]}})
+    out = ROOT.parent / "_data" / "teaching.json"
+    out.write_text(json.dumps(rows, indent=1, ensure_ascii=False) + "\n")
+    print(f"{out.relative_to(ROOT.parent)}: {len(rows)} subject rows")
 
 
 def parse_postgrad_teaching(paras):
@@ -1232,7 +1309,7 @@ def stats():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi", "portal", "repos", "blog", "import-teaching"])
+    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi", "portal", "repos", "blog", "import-teaching", "site"])
     ap.add_argument("query", nargs="?")
     ap.add_argument("paths", nargs="*", help="import-teaching: the UB 'Encàrrecs i dedicació docent' PDFs")
     ap.add_argument("--offline", action="store_true")
@@ -1249,6 +1326,8 @@ if __name__ == "__main__":
     elif a.cmd == "import-teaching":
         import_teaching(([a.query] if a.query else []) + a.paths)
         merge()
+    elif a.cmd == "site":
+        build_site_data()
     elif a.cmd == "blog":
         fetch_wordpress()
         merge()
