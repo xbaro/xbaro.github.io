@@ -12,7 +12,8 @@
   "year": 2026,
   "institution": "Universitat Oberta de Catalunya",
   "source": "CV (AQU) G.1, 2024-12-31",
-  "role": "co-director"
+  "role": "co-director",
+  "review": "confirmed"
  },
  {
   "title": "Efficient Modeling of High-order Functions in Computer Vision",
@@ -28,7 +29,8 @@
   "institution": "Universitat Oberta de Catalunya",
   "source": "CV (AQU) G.1, 2024-12-31 + Portal de la Recerca de Catalunya",
   "role": "co-director",
-  "repository_url": "https://hdl.handle.net/123456789/126348018"
+  "repository_url": "https://hdl.handle.net/123456789/126348018",
+  "review": "confirmed"
  },
  {
   "title": "Human body parts segmentation via stacked and multi-task learning",
@@ -44,7 +46,8 @@
   "institution": "Universitat Oberta de Catalunya",
   "source": "CV (AQU) G.1, 2024-12-31 + Portal de la Recerca de Catalunya",
   "role": "co-director",
-  "repository_url": "https://hdl.handle.net/123456789/125791573"
+  "repository_url": "https://hdl.handle.net/123456789/125791573",
+  "review": "confirmed"
  },
  {
   "title": "Human segmentation, pose estimation, and applications",
@@ -61,7 +64,8 @@
   "institution": "Departament de Ciències de la Computació, Universitat Autònoma de Barcelona",
   "source": "CV (AQU) G.1, 2024-12-31 + Portal de la Recerca de Catalunya",
   "role": "co-director",
-  "repository_url": "https://hdl.handle.net/123456789/125811061"
+  "repository_url": "https://hdl.handle.net/123456789/125811061",
+  "review": "confirmed"
  },
  {
   "title": "Evolutionary bags of space-time features for human analysis",
@@ -78,7 +82,8 @@
   "institution": "Facultat de Matemàtiques. Universitat de Barcelona",
   "source": "CV (AQU) G.1, 2024-12-31 + Portal de la Recerca de Catalunya",
   "role": "co-director",
-  "repository_url": "https://hdl.handle.net/123456789/126261309"
+  "repository_url": "https://hdl.handle.net/123456789/126261309",
+  "review": "confirmed"
  },
  {
   "title": "Probabilistic Darwin Machines: A new approach to develop Evolutionary Object Detection Systems",
@@ -93,7 +98,8 @@
   "institution": "Universitat Autònoma de Barcelona",
   "role": "author",
   "source": "CV (AQU) section 7, 2024-12-31 + Portal de la Recerca de Catalunya",
-  "repository_url": "https://hdl.handle.net/123456789/126061340"
+  "repository_url": "https://hdl.handle.net/123456789/126061340",
+  "review": "confirmed"
  },
  {
   "title": "Anàlisi de robustesa basada en la identificació de patrons de teclat",
@@ -108,7 +114,8 @@
   "institution": "Universitat Oberta de Catalunya",
   "source": "CV (AQU) G.1, 2024-12-31",
   "role": "director",
-  "repository_url": "https://hdl.handle.net/10609/118507"
+  "repository_url": "https://hdl.handle.net/10609/118507",
+  "review": "confirmed"
  },
  {
   "title": "Estudio de las técnicas de reconocimiento facial en obras de arte a través de la visión por computador",
@@ -123,7 +130,8 @@
   "institution": "Universitat Oberta de Catalunya",
   "source": "CV (AQU) G.1, 2024-12-31",
   "role": "director",
-  "repository_url": "https://hdl.handle.net/10609/40381"
+  "repository_url": "https://hdl.handle.net/10609/40381",
+  "review": "confirmed"
  },
  {
   "title": "Automatic Performance Analysis in Trampoline from RGB-Depth Data",
@@ -139,7 +147,8 @@
   "year": 2014,
   "institution": "Universitat Autònoma de Barcelona",
   "source": "CV (AQU) G.1, 2024-12-31",
-  "role": "co-director"
+  "role": "co-director",
+  "review": "confirmed"
  },
  {
   "title": "Identification of paintings from camera-phone images",
@@ -154,7 +163,8 @@
   "institution": "Universitat Oberta de Catalunya",
   "source": "CV (AQU) G.1, 2024-12-31",
   "role": "director",
-  "repository_url": "https://hdl.handle.net/10609/40061"
+  "repository_url": "https://hdl.handle.net/10609/40061",
+  "review": "confirmed"
  },
  {
   "title": "Multi-modal Human Gesture Recognition Combining Dynamic Programming and Probabilistic Methods",
@@ -169,7 +179,8 @@
   "year": 2012,
   "institution": "Universitat de Barcelona",
   "source": "CV (AQU) G.1, 2024-12-31",
-  "role": "co-director"
+  "role": "co-director",
+  "review": "confirmed"
  },
  {
   "title": "Reconeixement facial en obres d'art : avaluació del rendiment dels mètodes de l'estat de l'art actual",
@@ -185,7 +196,8 @@
   "institution": "Universitat Oberta de Catalunya",
   "source": "CV (AQU) G.1, 2024-12-31",
   "role": "co-director",
-  "repository_url": "https://hdl.handle.net/10609/15101"
+  "repository_url": "https://hdl.handle.net/10609/15101",
+  "review": "confirmed"
  },
  {
   "title": "Sublinear Evolutionary Design of Error-Correcting Output Codes",
@@ -200,7 +212,8 @@
   "year": 2010,
   "institution": "Universitat de Barcelona",
   "source": "CV (AQU) G.1, 2024-12-31",
-  "role": "co-director"
+  "role": "co-director",
+  "review": "confirmed"
  },
  {
   "title": "Protecció de la privacitat en entorns urbans i no urbans",
@@ -215,7 +228,8 @@
   "institution": "Universitat Autònoma de Barcelona",
   "role": "director",
   "repository_url": "https://ddd.uab.cat/record/69748",
-  "source": "UAB institutional repository (role in metadata: 700 dir.)"
+  "source": "UAB institutional repository (role in metadata: 700 dir.)",
+  "review": "confirmed"
  },
  {
   "title": "Reconocimiento de objetos multi-clase basado en descriptores de forma",
@@ -230,7 +244,8 @@
   "institution": "Universitat Autònoma de Barcelona",
   "role": "director",
   "repository_url": "https://ddd.uab.cat/record/45716",
-  "source": "UAB institutional repository (role in metadata: 700 dir.)"
+  "source": "UAB institutional repository (role in metadata: 700 dir.)",
+  "review": "confirmed"
  },
  {
   "title": "Regiones salientes complejas para aplicaciones de seguimiento facial",
@@ -245,7 +260,8 @@
   "institution": "Universitat Autònoma de Barcelona",
   "role": "director",
   "repository_url": "https://ddd.uab.cat/record/45714",
-  "source": "UAB institutional repository (role in metadata: 700 dir.)"
+  "source": "UAB institutional repository (role in metadata: 700 dir.)",
+  "review": "confirmed"
  },
  {
   "title": "FITPROX: Desarrollo de una App de Gestión de Entrenamientos y Planes Nutricionales",
@@ -260,7 +276,8 @@
   "institution": "Universitat de Barcelona",
   "role": "director",
   "repository_url": "https://hdl.handle.net/2445/221356",
-  "source": "UB institutional repository (role in metadata: advisor)"
+  "source": "UB institutional repository (role in metadata: advisor)",
+  "review": "confirmed"
  },
  {
   "title": "Desenvolupament d’una pàgina web sobre reserva dolça",
@@ -275,7 +292,8 @@
   "institution": "Universitat de Barcelona",
   "role": "director",
   "repository_url": "https://hdl.handle.net/2445/221279",
-  "source": "UB institutional repository (role in metadata: advisor)"
+  "source": "UB institutional repository (role in metadata: advisor)",
+  "review": "confirmed"
  },
  {
   "title": "Aplicación para la gestión de presupuestos en el sector de la remodelación y análisis del impacto de la inteligencia artificial en el desarrollo web",
@@ -290,7 +308,8 @@
   "institution": "Universitat de Barcelona",
   "role": "director",
   "repository_url": "https://hdl.handle.net/2445/228104",
-  "source": "UB institutional repository (role in metadata: advisor)"
+  "source": "UB institutional repository (role in metadata: advisor)",
+  "review": "confirmed"
  },
  {
   "title": "Implementation of a full-stack blog content management system with a specialized rich text editor",
@@ -305,7 +324,8 @@
   "institution": "Universitat de Barcelona",
   "role": "director",
   "repository_url": "https://hdl.handle.net/2445/223907",
-  "source": "UB institutional repository (role in metadata: advisor)"
+  "source": "UB institutional repository (role in metadata: advisor)",
+  "review": "confirmed"
  },
  {
   "title": "AdoptAble: Creació d’una plataforma d’adopció",
@@ -320,7 +340,8 @@
   "institution": "Universitat de Barcelona",
   "role": "director",
   "repository_url": "https://hdl.handle.net/2445/223905",
-  "source": "UB institutional repository (role in metadata: advisor)"
+  "source": "UB institutional repository (role in metadata: advisor)",
+  "review": "confirmed"
  },
  {
   "title": "Ribera en Ruta: Desenvolupament d’una aplicació web per a l’exploració de rutes a la natura",
@@ -335,7 +356,8 @@
   "institution": "Universitat de Barcelona",
   "role": "director",
   "repository_url": "https://hdl.handle.net/2445/227981",
-  "source": "UB institutional repository (role in metadata: advisor)"
+  "source": "UB institutional repository (role in metadata: advisor)",
+  "review": "confirmed"
  },
  {
   "title": "Sistema web para la gestión de tribunales de TFM",
@@ -350,7 +372,8 @@
   "institution": "Universitat de Barcelona",
   "role": "director",
   "repository_url": "https://hdl.handle.net/2445/228137",
-  "source": "UB institutional repository (role in metadata: advisor)"
+  "source": "UB institutional repository (role in metadata: advisor)",
+  "review": "confirmed"
  },
  {
   "title": "Desarrollo de una página web centrada en la moda",
@@ -365,7 +388,8 @@
   "institution": "Universitat de Barcelona",
   "role": "director",
   "repository_url": "https://hdl.handle.net/2445/228091",
-  "source": "UB institutional repository (role in metadata: advisor)"
+  "source": "UB institutional repository (role in metadata: advisor)",
+  "review": "confirmed"
  },
  {
   "title": "Creació d’una plataforma web de cursos online d’estudiants per a estudiants universitaris",
@@ -380,7 +404,8 @@
   "institution": "Universitat de Barcelona",
   "role": "director",
   "repository_url": "https://hdl.handle.net/2445/215479",
-  "source": "UB institutional repository (role in metadata: advisor)"
+  "source": "UB institutional repository (role in metadata: advisor)",
+  "review": "confirmed"
  },
  {
   "title": "JacKBot - El Chatbot compañero",
@@ -395,7 +420,8 @@
   "institution": "Universitat Oberta de Catalunya",
   "role": "director",
   "repository_url": "https://hdl.handle.net/10609/147346",
-  "source": "UOC institutional repository (role in metadata: tutor)"
+  "source": "UOC institutional repository (role in metadata: tutor)",
+  "review": "confirmed"
  },
  {
   "title": "Game of Hard Life",
@@ -410,7 +436,8 @@
   "institution": "Universitat Oberta de Catalunya",
   "role": "director",
   "repository_url": "https://hdl.handle.net/10609/148203",
-  "source": "UOC institutional repository (role in metadata: tutor)"
+  "source": "UOC institutional repository (role in metadata: tutor)",
+  "review": "confirmed"
  },
  {
   "title": "Desenvolupament d’una plataforma web de gestió de tallers i reptes cientı́fics",
@@ -425,6 +452,7 @@
   "institution": "Universitat de Barcelona",
   "role": "director",
   "repository_url": "https://hdl.handle.net/2445/106483",
-  "source": "UB institutional repository (role in metadata: advisor)"
+  "source": "UB institutional repository (role in metadata: advisor)",
+  "review": "confirmed"
  }
 ]

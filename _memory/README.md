@@ -70,3 +70,6 @@ uv run _memory/tools/memory.py repos     # scan UOC (O2), UB (Dipòsit Digital),
 - Role rules. UOC: metadata `tutor` = advisor -> counted (`director` in theses.json); `director`/`other` next to a different `tutor` = **course coordinator** (professor responsable), kept only in `repos_scan.json` (role `coordinator`), not counted. Doctoral `director` = thesis director. UB: `advisor`. UAB: 700 with `dir.`.
 - `theses.json` gets works found here that are not in the CV (levels: `bachelor`, `research`), and repository links for the CV ones. Bachelor/research students appear only as **initials** (the repository URL identifies them; public repo, so no full names for undergraduates).
 - Known flakiness: the UOC server omits its intermediate certificate (handled with `truststore`, OS trust store; verification stays on). If a repository returns nothing the script keeps the previous results for it.
+
+### Theses review state
+`theses_overrides.json` stores the owner's decisions (2026-11-13): the 28 theses in `theses.json` are **confirmed** as listed; the 18 UOC TFG where the owner was only course coordinator are **excluded** (`excluded_uris`). Each thesis has `review: confirmed|pending`; anything newly found by `repos`/`sync` is `pending` until added to `confirmed`.

@@ -94,6 +94,7 @@ def fetch():
 PRC_RP = "rp20011"                       # owner's single researcher profile in the Portal de la Recerca de Catalunya
 PRC_BASE = "https://portalrecerca.csuc.cat"
 THESES = ROOT / "theses.json"
+THESES_OV = ROOT / "theses_overrides.json"
 
 
 def fetch_portal():
@@ -339,6 +340,10 @@ def build_theses():
                     "directors": ["Xavier Baró"], "year": int(yr) if yr else None, "date": r["date"] or None,
                     "institution": {"UOC": "Universitat Oberta de Catalunya", "UB": "Universitat de Barcelona", "UAB": "Universitat Autònoma de Barcelona"}[r["repo"]],
                     "role": "director", "repository_url": r["uri"], "source": f"{r['repo']} institutional repository (role in metadata: {', '.join(r['metadata_roles'])})"})
+    tov = json.loads(THESES_OV.read_text()) if THESES_OV.exists() else {}
+    done = {norm_title(c) for c in tov.get("confirmed", [])}
+    for x in out:                           # owner's review state; anything new from a scan stays pending until reviewed
+        x["review"] = "confirmed" if norm_title(x["title"]) in done else "pending"
     order = {"phd": 0, "master": 1, "research": 2, "bachelor": 3}
     out.sort(key=lambda x: (order.get(x["level"], 9), x["status"] != "ongoing", -(x.get("year") or 0)))
     THESES.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
