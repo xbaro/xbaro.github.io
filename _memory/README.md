@@ -17,6 +17,7 @@ The repository itself is **public**: store only information that is already publ
 ## Status
 - `confirmed` — listed in the owner's ORCID record, CV or Google Scholar profile.
 - `candidate` — found in OpenAlex only; needs review (accept → set `"status": "confirmed"`, or `"rejected"` in `overrides.json`).
+- `duplicate` — preprint/earlier version of another reference (`duplicate_of` gives the canonical id); kept for traceability, not shown.
 - `rejected` — not authored by the owner; kept so sync never re-proposes it.
 
 ## Update flow
@@ -43,3 +44,12 @@ uv run _memory/tools/memory.py sync --offline     # attach them to references.js
 - Quartiles: SCImago SJR. SCImago blocks automated downloads, so download the CSV manually (scimagojr.com → Journal Rankings → year → Download data) as `sources/scimago_<year>.csv`; `metrics` picks it up by ISSN.
 - **Official indexing from the CV** (section K, the 10 most relevant contributions: JCR IF + quartile + categories, SJR, WoS/Scopus/Scholar citations, GGS conference rating, SPI for the book): extracted by `import-cv` into `sources/cv_quality.json` and attached to matching references as `indexing`. These are values **as reported in the CV (Dec 2024)**; the JCR year is not stated, so present them as such. Only covers 8 works.
 - Official JCR Impact Factor/quartile for the rest is proprietary: enter it by hand in `overrides.json` if wanted (`"jcr_if"`, `"jcr_quartile"`).
+
+## DOI as uniqueness and truthfulness key
+```bash
+uv run _memory/tools/memory.py doi              # verify every DOI against Crossref/DataCite, look up missing DOIs
+uv run _memory/tools/memory.py sync --offline   # attach results, assign resolved DOIs, merge refs sharing a DOI
+```
+- Each reference gets `doi_check`: `verified` (registry title ≥0.9 similar, year ±1, X. Baró among the authors), `partial` (title matches but year/author differ: usually online-first vs issue year, or registry without authors), `mismatch`, `unresolved` (DOI not registered), `resolved` (DOI found by bibliographic search with high confidence; saved as `doi`, `doi_source: crossref-search`), `candidate` (possible DOI, needs review → `doi_candidate`), `none_found`.
+- References that end up with the same DOI are merged (`merged_ids`). Preprint↔published pairs without a shared DOI are marked manually as `duplicate` in `overrides.json`.
+- Results are cached in `sources/doi_check.json`; use `--refresh` to recheck everything.

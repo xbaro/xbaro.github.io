@@ -48,5 +48,25 @@
  "doi:10.1007/s12283-026-00579-y": {
   "status": "confirmed",
   "note": "Confirmed by the owner (not yet on Google Scholar, 2026)."
+ },
+ "t:first-impressions-a-survey-on-computer-vision-based-apparent-2018": {
+  "status": "duplicate",
+  "duplicate_of": "doi:10.1109/taffc.2019.2930058",
+  "note": "Preprint/earlier version of the published work (same title/authors); kept for traceability, not shown."
+ },
+ "t:end-to-end-global-to-local-cnn-learning-for-hand-pose-recove-2017": {
+  "status": "duplicate",
+  "duplicate_of": "doi:10.1049/cvi2.12064",
+  "note": "Preprint/earlier version of the published work (same title/authors); kept for traceability, not shown."
+ },
+ "t:chalearn-looking-at-people-events-and-resources-2017": {
+  "status": "duplicate",
+  "duplicate_of": "doi:10.1109/ijcnn.2017.7966041",
+  "note": "Preprint/earlier version of the published work (same title/authors); kept for traceability, not shown."
+ },
+ "t:explaining-first-impressions-modeling-recognizing-and-explai-2018": {
+  "status": "duplicate",
+  "duplicate_of": "doi:10.1109/taffc.2020.2973984",
+  "note": "Preprint/earlier version of the published work (same title/authors); kept for traceability, not shown."
  }
 }

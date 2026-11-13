@@ -21,6 +21,17 @@
   "abstract": "Motor learning traditionally advocates for the superiority of an external attentional focus; however, its universality remains questioned across variations in other influential factors. This study examined the effects of internal vs. external attentional focus across two distinct motor tasks during short-term skill acquisition, long-term retention, and motor learning in primary school beginners aged 8–12 years ( n = 187, 98 males, 89 females; n = 100, 51 males, 49 females). The participants completed an 8-h golf course within their physical education curriculum during two consecutive academic years, separated by a long-term retention period (10–11 months). They were assigned to either an internal or external attentional focus group and performed two distinct tasks. Performance was tracked through pre- and post-tests for each of the two interventions and for each swing type (short-game and long-game swing). During short-term skill acquisition, a statistically significant Time × Focus interaction emerged for the short-game, F(1, 185) = 5.45, p = .021, η p 2 = .029, driven by greater performance improvements in the external focus group compared to the internal focus group. For the long-game, no statistically significant Time × Focus interaction was detected, F(1, 185) = 1.97, p = .163, η p 2 = .011. These findings indicate that attentional focus advantages were confined to short-term post-intervention skill acquisition for the short-game swing. The study did not detect a statistically significant difference in focus efficacy between swing types. Furthermore, initial gains tended to decay over extended non-practice intervals regardless of the attentional cue used.",
   "openalex_id": "https://openalex.org/W7225420887",
   "issn_l": "1747-9541",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1177/17479541261503436",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Effects of attentional focus (internal vs. external) and swing type (short vs. long) on skill acquisition, long-term retention, and motor learning in child golf beginners",
+   "registry_year": 2026,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
@@ -52,6 +63,17 @@
   "cited_by": 0,
   "openalex_id": "https://openalex.org/W7224320581",
   "issn_l": "1369-7072",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/s12283-026-00579-y",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Quantifying delivery plane clubhead trajectory curvature across golfer skill level",
+   "registry_year": 2026,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
@@ -93,6 +115,17 @@
   "openalex_id": "https://openalex.org/W4394868113",
   "issn_l": "2331-8422",
   "scholar_key": "egele2024ai",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.48550/arxiv.2404.09703",
+   "registry": "doi.org",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "AI Competitions and Benchmarks: Dataset Development",
+   "registry_year": 2024,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 3
@@ -120,6 +153,10 @@
   ],
   "year": 2024,
   "scholar_key": "egele2024dataset",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -154,6 +191,17 @@
   "abstract": "The possibility of recognizing diverse aspects of human behavior and environmental context from passively captured data motivates its use for mental health assessment. In this paper, we analyze the contribution of different passively collected sensor data types (WiFi, GPS, Social interaction, Phone Log, Physical Activity, Audio, and Academic features) to predict daily self-report stress and PHQ-9 depression score. First, we compute 125 mid-level features from the original raw data. These 125 features include groups of features from the different sensor data types. Then, we evaluate the contribution of each feature type by comparing the performance of Neural Network models trained with all features against Neural Network models trained with specific feature groups. Our results show that WiFi features (which encode mobility patterns) and Phone Log features (which encode information correlated with sleep patterns), provide significative information for stress and depression prediction.",
   "openalex_id": "https://openalex.org/W4390905967",
   "scholar_key": "bonafonte2023analyzing",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/aciiw59127.2023.10388089",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Analyzing the contribution of different passively collected data to predict Stress and Depression",
+   "registry_year": 2023,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 5,
@@ -184,6 +232,17 @@
   "openalex_id": "https://openalex.org/W4389199022",
   "issn_l": "2340-1095",
   "scholar_key": "camacho2023golf",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.21125/iceri.2023.1013",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "GOLF SPORTS INITIATION WITHIN A PHYSICAL EDUCATION COURSE IN PRIMARY SCHOOLS THROUGH BLENDED LEARNING",
+   "registry_year": 2023,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 2,
@@ -216,6 +275,17 @@
   "openalex_id": "https://openalex.org/W4389579200",
   "issn_l": "0094-243X",
   "scholar_key": "baneres2023improving",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1063/5.0179420",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Improving the online assessment in higher education with a trustworthy system based on authorship and authentication",
+   "registry_year": 2023,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 1,
@@ -251,6 +321,10 @@
   "abstract": "CodaLab Competitions is an open source web platform designed to help data scientists and research teams to crowd-source the resolution of machine learning problems through the organization of competitions, also called challenges or contests. CodaLab Competitions provides useful features such as multiple phases, results and code submissions, multi-score leaderboards, and jobs running inside Docker containers. The platform is very flexible and can handle large scale experiments, by allowing organizers to upload large datasets and provide their own CPU or GPU compute workers.",
   "openalex_id": "https://openalex.org/W4295682935",
   "scholar_key": "pavao2023codalab",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -307,6 +381,17 @@
   "issn_l": "1949-3045",
   "scholar_key": "junior2019first",
   "scholar_cited_by": 113,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/taffc.2019.2930058",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "First Impressions: A Survey on Vision-Based Apparent Personality Trait Analysis",
+   "registry_year": 2022,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -358,6 +443,17 @@
   "openalex_id": "https://openalex.org/W4285207611",
   "issn_l": "0302-9743",
   "scholar_key": "oliu2022multi",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-031-06430-2_27",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Multi-varied Cumulative Alignment for Domain Adaptation",
+   "registry_year": 2022,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
@@ -397,6 +493,17 @@
   "issn_l": "1949-3045",
   "scholar_key": "kulkarni2018automatic",
   "scholar_cited_by": 69,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/taffc.2018.2874996",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Automatic Recognition of Facial Displays of Unfelt Emotions",
+   "registry_year": 2021,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -453,6 +560,17 @@
   "openalex_id": "https://openalex.org/W2980626109",
   "issn_l": "2520-131X",
   "scholar_key": "escalera2019chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-030-25614-2_2",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": false,
+   "registry_title": "ChaLearn Looking at People: Inpainting and Denoising Challenges",
+   "registry_year": 2019,
+   "status": "partial"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 4,
@@ -486,6 +604,17 @@
   "issn_l": "1751-9632",
   "scholar_key": "madadi2022end",
   "scholar_cited_by": 9,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1049/cvi2.12064",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "End‐to‐end global to local convolutional neural network learning for hand pose recovery in depth data",
+   "registry_year": 2021,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -515,10 +644,10 @@
   "id": "doi:10.1007/978-3-030-29326-0_3",
   "status": "confirmed",
   "sources": [
-   "orcid",
+   "cv",
    "openalex",
-   "scholar",
-   "cv"
+   "orcid",
+   "scholar"
   ],
   "title": "Biometric tools for learner identity in e-assessment",
   "venue": "Lecture Notes on Data Engineering and Communications Technologies",
@@ -538,6 +667,21 @@
   "openalex_id": "https://openalex.org/W2980891098",
   "issn_l": "2367-4520",
   "scholar_key": "baro2019biometric",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-030-29326-0_3",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Biometric Tools for Learner Identity in e-Assessment",
+   "registry_year": 2019,
+   "status": "verified"
+  },
+  "doi_source": "crossref-search",
+  "merged_ids": [
+   "t:biometric-tools-for-learner-identity-2019"
+  ],
   "indexing": {
    "quality_text": "Cites:  WoS 5, Scopus 3, Google 8",
    "cites_wos": 5,
@@ -577,6 +721,17 @@
   "openalex_id": "https://openalex.org/W2980448104",
   "issn_l": "2367-4520",
   "scholar_key": "guitart2019design",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-030-29326-0_6",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Design and Implementation of Dashboards to Support Teachers Decision-Making Process in e-Assessment Systems",
+   "registry_year": 2019,
+   "status": "verified"
+  },
   "indexing": {
    "quality_text": "Cites:  WoS 4, Scopus 6, Google 10",
    "cites_wos": 4,
@@ -617,6 +772,17 @@
   "openalex_id": "https://openalex.org/W2981221185",
   "issn_l": "2367-4520",
   "scholar_key": "lopez2019forensic",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-030-29326-0_1",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Forensic Analysis Recognition",
+   "registry_year": 2019,
+   "status": "verified"
+  },
   "indexing": {
    "quality_text": "Cites:  WoS 39, Scopus 0, Google 3",
    "cites_wos": 39,
@@ -664,6 +830,17 @@
   "issn_l": "0162-8828",
   "scholar_key": "escalera2020guest",
   "scholar_cited_by": 1,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/tpami.2020.2971291",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Guest Editorial: Image and Video Inpainting and Denoising",
+   "registry_year": 2020,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -731,6 +908,17 @@
   "issn_l": "1949-3045",
   "scholar_key": "escalante2020modeling",
   "scholar_cited_by": 146,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/taffc.2020.2973984",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": false,
+   "registry_title": "Modeling, Recognizing, and Explaining Apparent Personality From Videos",
+   "registry_year": 2022,
+   "status": "partial"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -784,30 +972,21 @@
   "abstract": "This work revisits the ChaLearn First Impressions database, annotated for personality perception using pairwise comparisons via crowdsourcing. We analyse for the first time the original pairwise annotations, and reveal existing person perception biases associated to perceived attributes like gender, ethnicity, age and face attractiveness. We show how person perception bias can influence data labelling of a subjective task, which has received little attention from the computer vision and machine learning communities by now. We further show that the mechanism used to convert pairwise annotations to continuous values may magnify the biases if no special treatment is considered. The findings of this study are relevant for the computer vision community that is still creating new datasets on subjective tasks, and using them for practical applications, ignoring these perceptual biases.",
   "openalex_id": "https://openalex.org/W3159564482",
   "scholar_key": "junior2021person",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/wacvw52041.2021.00006",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Person Perception Biases Exposed: Revisiting the First Impressions Dataset",
+   "registry_year": 2021,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 14,
    "cited_by_crossref": 8
-  }
- },
- {
-  "id": "t:biometric-tools-for-learner-identity-2019",
-  "status": "confirmed",
-  "sources": [
-   "scholar"
-  ],
-  "title": "Biometric Tools for Learner Identity",
-  "type": "journal-article",
-  "authors": [
-   "Xavier Baró",
-   "Roger Muñoz Bernaus",
-   "David Baneres"
-  ],
-  "year": 2019,
-  "venue": "Engineering Data-Driven Adaptive Trust-based e-Assessment Systems: Challenges and Infrastructure Solutions",
-  "scholar_key": "baro2019biometric",
-  "metrics": {
-   "as_of": "2026-11-13"
   }
  },
  {
@@ -841,6 +1020,17 @@
   "issn_l": "0932-8092",
   "scholar_key": "anbarjafari2019guest",
   "scholar_cited_by": 9,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/s00138-019-01031-x",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Guest editorial: special issue on human abnormal behavioural analysis",
+   "registry_year": 2019,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -892,6 +1082,17 @@
   "openalex_id": "https://openalex.org/W3002773039",
   "issn_l": "2520-131X",
   "scholar_key": "escalera2019inpainting",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-030-25614-2",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": null,
+   "year_ok": true,
+   "registry_title": "Inpainting and Denoising Challenges",
+   "registry_year": 2019,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 13,
@@ -927,6 +1128,17 @@
   "openalex_id": "https://openalex.org/W2945327620",
   "issn_l": "1541-5058",
   "scholar_key": "sanchez2019multi",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/fg.2019.8756572",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Multi-task human analysis in still images: 2D/3D pose, depth map, and multi-part segmentation",
+   "registry_year": 2019,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 7,
@@ -963,6 +1175,17 @@
   "openalex_id": "https://openalex.org/W2962712577",
   "issn_l": "1541-5058",
   "scholar_key": "junior2019effect",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/fg.2019.8756595",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "On the effect of age perception biases for real age regression",
+   "registry_year": 2019,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 9,
@@ -991,6 +1214,10 @@
   "year": 2019,
   "venue": "Universitat Oberta de Catalunya (UOC)",
   "scholar_key": "marti2019scratch",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -1028,6 +1255,17 @@
   "issn_l": "1751-9632",
   "scholar_key": "ren2018back",
   "scholar_cited_by": 5,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1049/iet-cvi.2016.0309",
+   "registry": "crossref",
+   "title_sim": 0.99,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Back‐dropout transfer learning for action recognition",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -1090,6 +1328,17 @@
   "openalex_id": "https://openalex.org/W2790019119",
   "issn_l": "1541-5058",
   "scholar_key": "haamer2018changes",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/fg.2018.00098",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Changes in Facial Expression as Biometric: A Database and Benchmarks of Identification",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 29,
@@ -1134,6 +1383,17 @@
   "issn_l": "2169-3536",
   "scholar_key": "guo2018dominant",
   "scholar_cited_by": 114,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/access.2018.2831927",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Dominant and Complementary Emotion Recognition From Still Images of Faces",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -1187,6 +1447,17 @@
   "openalex_id": "https://openalex.org/W4206210655",
   "issn_l": "2520-131X",
   "scholar_key": "escalante2018explainable",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-319-98131-4",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": null,
+   "year_ok": true,
+   "registry_title": "Explainable and Interpretable Models in Computer Vision and Machine Learning",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "indexing": {
    "quality_text": "Springer: 60K accessos i 375 cites",
    "cites_publisher": 375,
@@ -1200,7 +1471,7 @@
  },
  {
   "id": "t:explaining-first-impressions-modeling-recognizing-and-explai-2018",
-  "status": "confirmed",
+  "status": "duplicate",
   "sources": [
    "orcid",
    "openalex",
@@ -1238,10 +1509,23 @@
   "openalex_id": "https://openalex.org/W2786879748",
   "issn_l": "2331-8422",
   "scholar_key": "escalante2018explaining",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.48550/arxiv.1802.00745",
+   "registry": "doi.org",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Explaining First Impressions: Modeling, Recognizing, and Explaining Apparent Personality from Videos",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 44
-  }
+  },
+  "duplicate_of": "doi:10.1109/taffc.2020.2973984",
+  "note": "Preprint/earlier version of the published work (same title/authors); kept for traceability, not shown."
  },
  {
   "id": "doi:10.1016/j.imavis.2018.08.001",
@@ -1271,6 +1555,17 @@
   "abstract": "Person re-identification has received special attentionby the human analysis community in the last few years.To address the challenges in this field, many researchers haveproposed different strategies, which basically exploit eithercross-view invariant features or cross-view robust metrics. Inthis work we propose to combine different feature representationsthrough ranking aggregation. Spatial information, whichpotentially benefits the person matching, is represented usinga 2D body model, from which color and texture informationare extracted and combined. We also consider contextualinformation (background and foreground data), automaticallyextracted via Deep Decompositional Network, and the usage ofConvolutional Neural Network (CNN) features. To describe thematching between images we use the polynomial feature map,also taking into account local and global information. Finally,the Stuart ranking aggregation method is employed to combinecomplementary ranking lists obtained from different featurerepresentations. Experimental results demonstrated that weimprove the state-of-the-art on VIPeR and PRID450s datasets,achieving 58.77% and 71.56% on top-1 rank recognitionrate, respectively, as well as obtaining competitive results onCUHK01 dataset.",
   "scholar_key": "juniorexploiting",
   "scholar_cited_by": 7,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1016/j.imavis.2018.08.001",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Exploiting feature representations through similarity learning, post-ranking and ranking aggregation for person re-identification",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -1295,7 +1590,7 @@
  },
  {
   "id": "t:first-impressions-a-survey-on-computer-vision-based-apparent-2018",
-  "status": "confirmed",
+  "status": "duplicate",
   "sources": [
    "openalex",
    "scholar"
@@ -1323,10 +1618,16 @@
   "openalex_id": "https://openalex.org/W2799183216",
   "scholar_key": "jacques2019first",
   "venue": "arXiv preprint arXiv:1804.08046",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 27
-  }
+  },
+  "duplicate_of": "doi:10.1109/taffc.2019.2930058",
+  "note": "Preprint/earlier version of the published work (same title/authors); kept for traceability, not shown."
  },
  {
   "id": "doi:10.1007/s11042-019-7739-5",
@@ -1359,6 +1660,17 @@
   "issn_l": "1380-7501",
   "scholar_key": "madadi20182d",
   "scholar_cited_by": 4,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/s11042-019-7739-5",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "From 2D to 3D geodesic-based garment matching",
+   "registry_year": 2019,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -1410,6 +1722,17 @@
   "issn_l": "1949-3045",
   "scholar_key": "escalera2018guest",
   "scholar_cited_by": 13,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/taffc.2018.2864230",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Guest Editorial: Apparent Personality Analysis",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -1474,6 +1797,17 @@
   "issn_l": "0162-8828",
   "scholar_key": "escalera2018guest",
   "scholar_cited_by": 9,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/tpami.2018.2869610",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Guest Editorial: The Computational Face",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -1529,6 +1863,17 @@
   "openalex_id": "https://openalex.org/W2805180167",
   "issn_l": "2476-1508",
   "scholar_key": "baro2018integration",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1002/itl2.56",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Integration of an adaptive trust‐based e‐assessment system into virtual learning environments—The TeSLA project experience",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 13,
@@ -1567,6 +1912,17 @@
   "issn_l": "0920-5691",
   "scholar_key": "escalera2018looking",
   "scholar_cited_by": 3,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/s11263-017-1058-y",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Looking at People Special Issue",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -1625,6 +1981,17 @@
   "issn_l": "1949-3045",
   "scholar_key": "guccluturk2017multimodal",
   "scholar_cited_by": 75,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/taffc.2017.2751469",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Multimodal First Impression Analysis with Deep Residual Networks",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -1680,6 +2047,17 @@
   "issn_l": "0262-8856",
   "scholar_key": "madadi2018top",
   "scholar_cited_by": 12,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1016/j.imavis.2018.09.006",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Top-down model fitting for hand pose recovery in sequences of depth images",
+   "registry_year": 2018,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -1728,6 +2106,10 @@
   "year": 2017,
   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
   "scholar_key": "ackermann20172016",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -1765,6 +2147,17 @@
   "openalex_id": "https://openalex.org/W2728972335",
   "issn_l": "1541-5058",
   "scholar_key": "asadi2017survey",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/fg.2017.150",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "A Survey on Deep Learning Based Approaches for Action and Gesture Recognition in Image Sequences",
+   "registry_year": 2017,
+   "status": "verified"
+  },
   "indexing": {
    "cites_wos": 135,
    "cites_scopus": 165,
@@ -1808,6 +2201,17 @@
   "openalex_id": "https://openalex.org/W2725329413",
   "issn_l": "1541-5058",
   "scholar_key": "agustsson2017apparent",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/fg.2017.20",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Apparent and Real Age Estimation in Still Images with Deep Residual Regressors on Appa-Real Database",
+   "registry_year": 2017,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 109,
@@ -1842,6 +2246,10 @@
   "openalex_id": "https://openalex.org/W2735357749",
   "issn_l": "2331-8422",
   "scholar_key": "ofodile2017automatic",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 26
@@ -1849,7 +2257,7 @@
  },
  {
   "id": "t:chalearn-looking-at-people-events-and-resources-2017",
-  "status": "confirmed",
+  "status": "duplicate",
   "sources": [
    "openalex",
    "scholar"
@@ -1870,10 +2278,16 @@
   "openalex_id": "https://openalex.org/W2577304286",
   "issn_l": "2331-8422",
   "scholar_key": "escalera2017chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 3
-  }
+  },
+  "duplicate_of": "doi:10.1109/ijcnn.2017.7966041",
+  "note": "Preprint/earlier version of the published work (same title/authors); kept for traceability, not shown."
  },
  {
   "id": "doi:10.1109/ijcnn.2017.7966041",
@@ -1901,6 +2315,17 @@
   "openalex_id": "https://openalex.org/W2618390276",
   "issn_l": "2161-4407",
   "scholar_key": "escalera2017chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/ijcnn.2017.7966041",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "ChaLearn looking at people: A review of events and resources",
+   "registry_year": 2017,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 38,
@@ -1937,6 +2362,17 @@
   "openalex_id": "https://openalex.org/W2737327755",
   "issn_l": "2520-131X",
   "scholar_key": "asadi2017deep",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-319-57021-1_19",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Deep Learning for Action and Gesture Recognition in Image Sequences: A Survey",
+   "registry_year": 2017,
+   "status": "verified"
+  },
   "indexing": {
    "quality_text": "Springer: 3278 accessos i 33 cites.",
    "cites_publisher": 33,
@@ -1975,6 +2411,10 @@
   "cited_by": 0,
   "openalex_id": "https://openalex.org/W2912020989",
   "scholar_key": "popescu2017design",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0
@@ -2016,6 +2456,17 @@
   "openalex_id": "https://openalex.org/W2735866559",
   "issn_l": "2161-4407",
   "scholar_key": "escalante2017design",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/ijcnn.2017.7966320",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Design of an explainable machine learning challenge for video interviews",
+   "registry_year": 2017,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 70,
@@ -2055,6 +2506,17 @@
   "openalex_id": "https://openalex.org/W2729544402",
   "issn_l": "1541-5058",
   "scholar_key": "loob2017dominant",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/fg.2017.106",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Dominant and Complementary Multi-Emotional Facial Expression Recognition Using C-Support Vector Classification",
+   "registry_year": 2017,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 18,
@@ -2063,7 +2525,7 @@
  },
  {
   "id": "t:end-to-end-global-to-local-cnn-learning-for-hand-pose-recove-2017",
-  "status": "confirmed",
+  "status": "duplicate",
   "sources": [
    "scholar"
   ],
@@ -2078,9 +2540,23 @@
   "year": 2017,
   "venue": "arXiv preprint arXiv:1705.09606",
   "scholar_key": "madadi2017end",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "candidate"
+  },
+  "doi_candidate": {
+   "doi": "10.1049/cvi2.12064",
+   "title_sim": 0.846,
+   "author_ok": true,
+   "year_ok": false,
+   "registry_title": "End‐to‐end global to local convolutional neural network learning for hand pose recovery in depth data",
+   "registry_year": 2021
+  },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "duplicate_of": "doi:10.1049/cvi2.12064",
+  "note": "Preprint/earlier version of the published work (same title/authors); kept for traceability, not shown."
  },
  {
   "id": "doi:10.48550/arxiv.1703.03305",
@@ -2111,6 +2587,17 @@
   "openalex_id": "https://openalex.org/W2596700998",
   "issn_l": "2331-8422",
   "scholar_key": "gucclu2017end",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.48550/arxiv.1703.03305",
+   "registry": "doi.org",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "End-to-end semantic face segmentation with conditional random fields as convolutional, recurrent and adversarial networks",
+   "registry_year": 2017,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 21
@@ -2146,6 +2633,17 @@
   "issn_l": "0941-0643",
   "scholar_key": "escalante2017evolving",
   "scholar_cited_by": 18,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/s00521-016-2223-x",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Evolving weighting schemes for the Bag of Visual Words",
+   "registry_year": 2016,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -2204,6 +2702,17 @@
   "openalex_id": "https://openalex.org/W2727455004",
   "issn_l": "1541-5058",
   "scholar_key": "lusi2017joint",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/fg.2017.102",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation: Databases",
+   "registry_year": 2017,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 45,
@@ -2230,6 +2739,10 @@
   "year": 2017,
   "venue": "Proceedings of the IEEE International Conference on Computer Vision Workshops",
   "scholar_key": "miao2017multimodal",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -2264,6 +2777,17 @@
   "openalex_id": "https://openalex.org/W2724168988",
   "issn_l": "1541-5058",
   "scholar_key": "madadi2017occlusion",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/fg.2017.37",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Occlusion Aware Hand Pose Recovery from Sequences of Depth Images",
+   "registry_year": 2017,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 17,
@@ -2305,6 +2829,17 @@
   "openalex_id": "https://openalex.org/W2771248633",
   "issn_l": "2473-9936",
   "scholar_key": "wan2017results",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/iccvw.2017.377",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Results and Analysis of ChaLearn LAP Multi-modal Isolated and Continuous Gesture Recognition, and Real Versus Fake Expressed Emotions Challenges",
+   "registry_year": 2017,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 79,
@@ -2347,6 +2882,17 @@
   "openalex_id": "https://openalex.org/W2769012417",
   "issn_l": "2473-9936",
   "scholar_key": "gucluturk2017visualizing",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/iccvw.2017.367",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Visualizing Apparent Personality Analysis with Deep Residual Networks",
+   "registry_year": 2017,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 25,
@@ -2382,6 +2928,17 @@
   "issn_l": "1863-0383",
   "scholar_key": "baneres2016adaptive",
   "scholar_cited_by": 29,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.3991/ijet.v11i07.5888",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Adaptive e-Assessment System: A General Approach",
+   "registry_year": 2016,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": false,
    "scopus_indexed": true,
@@ -2432,6 +2989,17 @@
   "issn_l": "1568-4156",
   "scholar_key": "alonso2016care",
   "scholar_cited_by": 1,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.5334/ijic.2680",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Care respite: taking care of the caregivers",
+   "registry_year": 2016,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -2492,6 +3060,17 @@
   "openalex_id": "https://openalex.org/W2609984075",
   "issn_l": "1041-3278",
   "scholar_key": "escalante2016chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/icpr.2016.7899609",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "ChaLearn Joint Contest on Multimedia Challenges Beyond Visual Analysis: An overview",
+   "registry_year": 2016,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 86,
@@ -2529,6 +3108,17 @@
   "openalex_id": "https://openalex.org/W2573933330",
   "issn_l": "0302-9743",
   "scholar_key": "ponce2016chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-319-49409-8_32",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "ChaLearn LAP 2016: First Round Challenge on First Impressions - Dataset and Results",
+   "registry_year": 2016,
+   "status": "verified"
+  },
   "indexing": {
    "cites_wos": 110,
    "cites_scopus": 141,
@@ -2575,6 +3165,17 @@
   "abstract": "We present the 2016 ChaLearn Looking at People and Faces of the World Challenge and Workshop, which ran three competitions on the common theme of face analysis from still images. The first one, Looking at People, addressed age estimation, while the second and third competitions, Faces of the World, addressed accessory classification and smile and gender classification, respectively. We present two crowd-sourcing methodologies used to collect manual annotations. A custom-build application was used to collect and label data about the apparent age of people (as opposed to the real age). For the Faces of the World data, the citizen-science Zooniverse platform was used. This paper summarizes the three challenges and the data used, as well as the results achieved by the participants of the competitions. Details of the ChaLearn LAP FotW competitions can be found at http://gesture.chalearn.org.",
   "openalex_id": "https://openalex.org/W2472456744",
   "scholar_key": "escalera2016chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/cvprw.2016.93",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "ChaLearn Looking at People and Faces of the World: Face AnalysisWorkshop and Challenge 2016",
+   "registry_year": 2016,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 107,
@@ -2606,6 +3207,10 @@
   "cited_by": 0,
   "openalex_id": "https://openalex.org/W2611811286",
   "scholar_key": "popescu2016geospatial",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0
@@ -2640,6 +3245,17 @@
   "issn_l": "0162-8828",
   "scholar_key": "escalera2016guest",
   "scholar_cited_by": 9,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/tpami.2016.2557878",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Guest Editors’ Introduction to the Special Issue on Multimodal Human Pose Recovery and Behavior Analysis",
+   "registry_year": 2016,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -2752,6 +3368,10 @@
   "openalex_id": "https://openalex.org/W3163224445",
   "issn_l": "2707-2819",
   "scholar_key": "guerrero2016assessment",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0
@@ -2783,6 +3403,17 @@
   "cited_by": 16,
   "openalex_id": "https://openalex.org/W2488725857",
   "scholar_key": "baneres2016towards",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1016/b978-0-12-803637-2.00002-6",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Towards an Adaptive e-Assessment System Based on Trustworthiness",
+   "registry_year": 2016,
+   "status": "verified"
+  },
   "indexing": {
    "quality_text": "Science Direct: 8 cites",
    "cites_publisher": 8,
@@ -2824,6 +3455,17 @@
   "abstract": "Following previous series on Looking at People (LAP) challenges [6, 5, 4], ChaLearn ran two competitions to be presented at CVPR 2015: action/interaction spotting and cultural event recognition in RGB data. We ran a second round on human activity recognition on RGB data sequences. In terms of cultural event recognition, tens of categories have to be recognized. This involves scene understanding and human analysis. This paper summarizes the two challenges and the obtained results. Details of the ChaLearn LAP competitions can be found at http://gesture.chalearn.org/.",
   "openalex_id": "https://openalex.org/W1946408210",
   "scholar_key": "baro2015chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/cvprw.2015.7301329",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "ChaLearn Looking at People 2015 challenges: Action spotting and cultural event recognition",
+   "registry_year": 2015,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 41,
@@ -2863,6 +3505,17 @@
   "openalex_id": "https://openalex.org/W1654487363",
   "issn_l": "2161-4407",
   "scholar_key": "escalera2015chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/ijcnn.2015.7280614",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "ChaLearn looking at people 2015 new competitions: Age estimation and cultural event recognition",
+   "registry_year": 2015,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 15,
@@ -2902,6 +3555,17 @@
   "openalex_id": "https://openalex.org/W2239890062",
   "issn_l": "2473-9936",
   "scholar_key": "escalera2015chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/iccvw.2015.40",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "ChaLearn Looking at People 2015: Apparent Age and Cultural Event Recognition Datasets and Results",
+   "registry_year": 2015,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 153,
@@ -2929,6 +3593,10 @@
   "year": 2015,
   "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR):(GGS Rating A++, Class 1)",
   "scholar_key": "baro2015chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -2966,6 +3634,17 @@
   "openalex_id": "https://openalex.org/W619311409",
   "issn_l": "0302-9743",
   "scholar_key": "escalera2014chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-319-16178-5_32",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "ChaLearn Looking at People Challenge 2014: Dataset and Results",
+   "registry_year": 2015,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 215,
@@ -3001,6 +3680,17 @@
   "abstract": "Action recognition systems mostly work with videos of proper quality and resolution. Even most challenging benchmark databases for action recognition, hardly include videos of low-resolution from, e.g., surveillance cameras. In videos recorded by such cameras, due to the distance between people and cameras, people are pictured very small and hence challenge action recognition algorithms. Simple upsampling methods, like bicubic interpolation, cannot retrieve all the detailed information that can help the recognition. To deal with this problem, in this paper we combine results of bicubic interpolation with results of a state-of-the-art deep learning-based super-resolution algorithm, through an alpha-blending approach. The experimental results obtained on down-sampled version of a large subset of Hoolywood2 benchmark database show the importance of the proposed system in increasing the recognition rate of a state-of-the-art action recognition system for handling low-resolution videos.",
   "openalex_id": "https://openalex.org/W2196256193",
   "scholar_key": "nasrollahi2015deep",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/ipta.2015.7367098",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Deep learning based super-resolution for improved action recognition",
+   "registry_year": 2015,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 30,
@@ -3031,6 +3721,10 @@
   "abstract": "Actualmente existe un problema creciente en nuestras universidades debido a la coyuntura económica del país: hay estudiantes que emigran a otros países. Algunos de estos estudiantes están interesados en continuar los estudios desde el extranjero siempre y cuando la universidad les ofrezca esta oportunidad. Nuestras universidades no siempre están preparadas para estos nuevos retos ya que algunos sistemas de evaluación actuales son demasiado restrictivos. En este artículo se presenta la experiencia de nuestra universidad frente a este problema y qué sistemas se han utilizado en la evaluación de estudiantes residentes en el extranjero.",
   "openalex_id": "https://openalex.org/W1936942770",
   "scholar_key": "baneresexperiencias",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0
@@ -3060,6 +3754,17 @@
   "abstract": "This paper introduces a framework for gesture and action recognition based on the \\nevolution of temporal gesture primitives, or subgestures. Our work is inspired on the \\nprinciple of producing genetic variations within a population of gesture subsequences, \\nwith the goal of obtaining a set of gesture units that enhance the generalization capability of standard gesture recognition approaches. In our context, gesture primitives are evolved over time using dynamic programming and generative models in order to recognize complex actions. In few generations, the proposed subgesture-based representation \\nof actions and gestures outperforms the state of the art results on the MSRDaily3D and \\nMSRAction3D datasets.",
   "openalex_id": "https://openalex.org/W2323460794",
   "scholar_key": "ponce2015gesture",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.5244/c.29.129",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Gesture and Action Recognition by Evolved Dynamic Subgestures",
+   "registry_year": 2015,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 10,
@@ -3095,6 +3800,17 @@
   "openalex_id": "https://openalex.org/W1610662540",
   "issn_l": "2161-4407",
   "scholar_key": "escalante2015improving",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/ijcnn.2015.7280799",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Improving bag of visual words representations with genetic programming",
+   "registry_year": 2015,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 3,
@@ -3130,6 +3846,17 @@
   "issn_l": "0167-8655",
   "scholar_key": "ponce2015non",
   "scholar_cited_by": 20,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1016/j.patrec.2015.07.040",
+   "registry": "crossref",
+   "title_sim": 0.992,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Non-verbal communication analysis in Victim–Offender Mediations",
+   "registry_year": 2015,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -3181,6 +3908,17 @@
   "abstract": "Assessment is an important part of the learning process. The instructor should be able to evaluate whether a learner has acquired the knowledge and competences provided in the course. Moreover, assessment activities also help a learner to check his level of expertise. Typically, the assessment model and assessment activities of subjects in official programmes are the same for all the learners, since they should be evaluated having the same opportunities and conditions. However, when the learner is evaluated by means of a continuous assessment model, he is proving on each activity his knowledge and proficiency level and, at the same time, his reputation could be also built based on the actions he is performing within the course. Therefore, the assessment model can be adapted based on this information. In this paper, we present a general system to adapt the assessment based on different evidences gathered from the learning process of the learner.",
   "openalex_id": "https://openalex.org/W1941607744",
   "scholar_key": "baneres2015towards",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/incos.2015.53",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Towards a General Adaptive e-Assessment System",
+   "registry_year": 2015,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 3,
@@ -3215,6 +3953,17 @@
   "issn_l": "0031-3203",
   "scholar_key": "bautista2014design",
   "scholar_cited_by": 32,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1016/j.patcog.2013.06.019",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "On the design of an ECOC-Compliant Genetic Algorithm",
+   "registry_year": 2014,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -3272,6 +4021,17 @@
   "issn_l": "0167-8655",
   "scholar_key": "hernandez2014probability",
   "scholar_cited_by": 78,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1016/j.patrec.2013.09.009",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Probability-based Dynamic Time Warping and Bag-of-Visual-and-Depth-Words for Human Gesture Recognition in RGB-D",
+   "registry_year": 2014,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -3332,6 +4092,17 @@
   "abstract": "Even though online education is a very important pillar of lifelong education, institutions are still reluctant to wager for a fully online educational model. At the end, they keep relying on on-site assessment systems, mainly because fully virtual alternatives do not have the deserved social recognition or credibility. Thus, the design of virtual assessment systems that are able to provide effective proof of student authenticity and authorship and the integrity of the activities in a scalable and cost efficient manner would be very helpful. This paper presents ValID, a virtual assessment approach based on a continuous trust level evaluation between students and the institution. The current trust level serves as the main mechanism to dynamically decide which kind of controls a given student should be subjected to, across different courses in a degree. The main goal is providing a fair trade-off between security, scalability and cost, while maintaining the perceived quality of the educational model.",
   "openalex_id": "https://openalex.org/W2058664679",
   "scholar_key": "arnedo2014valid",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/incos.2014.69",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "ValID: A Trust-Based Virtual Assessment System",
+   "registry_year": 2014,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 4,
@@ -3372,6 +4143,17 @@
   "abstract": "We organized a Grand Challenge and Workshop on Multi-Modal Gesture Recognition.",
   "openalex_id": "https://openalex.org/W2075973450",
   "scholar_key": "escalera2013chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1145/2522848.2532597",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "ChaLearn multi-modal gesture recognition 2013",
+   "registry_year": 2013,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 53,
@@ -3405,6 +4187,17 @@
   "openalex_id": "https://openalex.org/W201294811",
   "issn_l": "0302-9743",
   "scholar_key": "sanchez2013emotion",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-642-41550-0_10",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Emotion Detection Using Hybrid Structural and Appearance Descriptors",
+   "registry_year": 2013,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
@@ -3442,6 +4235,17 @@
   "abstract": "The recognition of continuous natural gestures is a complex and challenging problem due to the multi-modal nature of involved visual cues (e.g. fingers and lips movements, subtle facial expressions, body pose, etc.), as well as technical limitations such as spatial and temporal resolution and unreliable depth cues. In order to promote the research advance on this field, we organized a challenge on multi-modal gesture recognition. We made available a large video database of 13,858 gestures from a lexicon of 20 Italian gesture categories recorded with a Kinect™ camera, providing the audio, skeletal model, user mask, RGB and depth images. The focus of the challenge was on user independent multiple gesture learning. There are no resting positions and the gestures are performed in continuous sequences lasting 1-2 minutes, containing between 8 and 20 gesture instances in each sequence. As a result, the dataset contains around 1.720.800 frames. In addition to the 20 main gesture categories, \"distracter\" gestures are included, meaning that additional audio and gestures out of the vocabulary are included. The final evaluation of the challenge was defined in terms of the Levenshtein edit distance, where the goal was to indicate the real order of gestures within the sequence. 54 international teams participated in the challenge, and outstanding results were obtained by the first ranked participants.",
   "openalex_id": "https://openalex.org/W2108036388",
   "scholar_key": "escalera2013multi",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1145/2522848.2532595",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Multi-modal gesture recognition challenge 2013",
+   "registry_year": 2013,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 185,
@@ -3474,6 +4278,17 @@
   "abstract": "In this paper we present a non-invasive ambient intelligence framework for the analysis of non-verbal communication applied to conversational settings. In particular, we apply feature extraction techniques to multi-modal audio-RGB-depth data. We compute a set of behavioral indicators that define communicative cues coming from the fields of psychology and observational methodology. We test our methodology over data captured in victim-offender mediation scenarios. Using different state-of-the-art classification approaches, our system achieve upon 75% of recognition predicting agreement among the parts involved in the conversations, using as ground truth the experts opinions.",
   "openalex_id": "https://openalex.org/W2025275271",
   "scholar_key": "ponce2013multi",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1145/2522848.2532594",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Multi-modal social signal analysis for predicting agreement in conversation settings",
+   "registry_year": 2013,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 17,
@@ -3503,6 +4318,10 @@
   "abstract": "En este artículo se presenta una plataforma para el aprendizaje en línea de lenguajes de programación. Su principal objetivo es ofrecer una retroalimentación inmediata a los estudiantes en sus ejercicios de programación. Además, la plataforma contiene un conjunto de servicios web que permiten la compilación y verificación de código en línea. La plataforma no sólo facilita a los docentes la gestión y corrección de las actividades de los estudiantes y les da un retorno inmediato, sino que abre la puerta a la realización de aplicaciones web que permitan la resolución en línea de ejercicios de programación sin la necesidad de instalar ningún entorno de desarrollo ni depender de ninguna plataforma concreta. Actualmente se está implantando en asignaturas de los Grados en Ingeniería Informática y Tecnologías de la Telecomunicación.",
   "openalex_id": "https://openalex.org/W853837701",
   "scholar_key": "baro2013pelp",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0
@@ -3539,6 +4358,17 @@
   "openalex_id": "https://openalex.org/W72718568",
   "issn_l": "0302-9743",
   "scholar_key": "bautista2012probability",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-642-40303-3_14",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Probability-Based Dynamic Time Warping for Gesture Recognition on RGB-D Data",
+   "registry_year": 2013,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 38,
@@ -3572,6 +4402,17 @@
   "openalex_id": "https://openalex.org/W121545057",
   "issn_l": "0302-9743",
   "scholar_key": "bautista2012genetic",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-642-34166-3_82",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "A Genetic Inspired Optimization for ECOC",
+   "registry_year": 2012,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
@@ -3608,6 +4449,10 @@
   "abstract": "We present a Bag-of-Visual-and-Depth-Words (BoVDW) model for gesture recognition, an extension of the Bag-of-Visual-Words (BoVW) model, that benefits from the multimodal fusion of visual and depth features. State-of-the-art RGB and depth features, including a new proposed depth descriptor, are analysed and combined in a late fusion fashion. The method is integrated in a continuous gesture recognition pipeline, where Dynamic Time Warping (DTW) algorithm is used to perform prior segmentation of gestures. Results of the method in public data sets, within our gesture recognition pipeline, show better performance in comparison to a standard BoVW model.",
   "openalex_id": "https://openalex.org/W2087592855",
   "scholar_key": "hernandezbovdw",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 32
@@ -3643,6 +4488,17 @@
   "issn_l": "0167-8655",
   "scholar_key": "bautista2012minimal",
   "scholar_cited_by": 61,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1016/j.patrec.2011.09.023",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Minimal design of error-correcting output codes",
+   "registry_year": 2012,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -3752,6 +4608,17 @@
   "issn_l": "1424-8220",
   "scholar_key": "escalera2012social",
   "scholar_cited_by": 20,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.3390/s120201702",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Social Network Extraction and Analysis Based on Multimodal Dyadic Interaction",
+   "registry_year": 2012,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -3793,6 +4660,10 @@
   "year": 2012,
   "venue": "Advances in Theory and Applications of Computer Vision, CVCR&D",
   "scholar_key": "ponce2012social",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -3820,6 +4691,10 @@
   "abstract": "Nowadays the evolution of mobile devices and their cost reduction are favoring a new scenario for educational technologies. Students and teachers of Technical degrees, regardless the lack of investment in crisis time, have enough knowledge and skills to carry out innovative projects to take advantage of this fact. The UOC API Site project deals with this matter proposing a framework with the aim of giving support to the campus existing services for the BCS/MCS final projects and later, for the integration of new tools to the UOC Campus in favor of all its community members. Furthermore, this solution is scalable to other educational institutions using interoperability standards.",
   "openalex_id": "https://openalex.org/W47864309",
   "scholar_key": "rius2012uoc",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 1
@@ -3851,6 +4726,10 @@
   "openalex_id": "https://openalex.org/W1856797494",
   "issn_l": "0275-6935",
   "scholar_key": "ponce2011analisis",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 1,
@@ -3884,6 +4763,17 @@
   "openalex_id": "https://openalex.org/W193131875",
   "issn_l": "2191-5768",
   "scholar_key": "escalera2011background",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-1-4471-2245-6_2",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Background on Traffic Sign Detection and Recognition",
+   "registry_year": 2011,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 15,
@@ -3942,6 +4832,11 @@
   "abstract": "Human Behavior Analysis in Uncontrolled Environments can be categorized in two main challenges: 1) Feature extraction and 2) Behavior analysis from a set of corporal language vocabulary. In this work, we present our achievements characterizing some simple behaviors from visual data on \\ndifferent real applications and discuss our plan for \\nfuture work: low level vocabulary definition from \\nbag-of-gesture units and high level modelling and \\ninference of human behaviors.",
   "openalex_id": "https://openalex.org/W2264199406",
   "scholar_key": "ponce2011human",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.5591/978-1-57735-516-8/ijcai11-490",
+   "status": "unresolved"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 7
@@ -3974,6 +4869,17 @@
   "openalex_id": "https://openalex.org/W2228647239",
   "issn_l": "0302-9743",
   "scholar_key": "bautista2011introducing",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-642-21557-5_25",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Introducing the Separability Matrix for Error Correcting Output Codes Coding",
+   "registry_year": 2011,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 2,
@@ -4007,6 +4913,17 @@
   "openalex_id": "https://openalex.org/W4233999389",
   "issn_l": "2191-5768",
   "scholar_key": "escalera2011introduction",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-1-4471-2245-6_1",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Introduction",
+   "registry_year": 2011,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
@@ -4041,6 +4958,17 @@
   "openalex_id": "https://openalex.org/W147697501",
   "issn_l": "1860-949X",
   "scholar_key": "bautista2011design",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-642-22910-7_2",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "On the Design of Low Redundancy Error-Correcting Output Codes",
+   "registry_year": 2011,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 1,
@@ -4074,6 +5002,17 @@
   "openalex_id": "https://openalex.org/W97113812",
   "issn_l": "2191-5768",
   "scholar_key": "escalera2011traffic",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-1-4471-2245-6_4",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Traffic Sign Categorization",
+   "registry_year": 2011,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
@@ -4107,6 +5046,17 @@
   "openalex_id": "https://openalex.org/W2241703800",
   "issn_l": "2191-5768",
   "scholar_key": "escalera2011traffic",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-1-4471-2245-6_3",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Traffic Sign Detection",
+   "registry_year": 2011,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 3,
@@ -4140,6 +5090,17 @@
   "openalex_id": "https://openalex.org/W37141559",
   "issn_l": "2191-5768",
   "scholar_key": "escalera2011traffic",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-1-4471-2245-6_5",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Traffic Sign Detection and Recognition System",
+   "registry_year": 2011,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 8,
@@ -4172,6 +5133,17 @@
   "openalex_id": "https://openalex.org/W639861996",
   "issn_l": "2191-5768",
   "scholar_key": "escalera2011traffic",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-1-4471-2245-6",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Traffic-Sign Recognition Systems",
+   "registry_year": 2011,
+   "status": "verified"
+  },
   "indexing": {
    "quality_text": "Springer: 6401 accessos i 23 cites",
    "cites_publisher": 23,
@@ -4208,6 +5180,10 @@
   "openalex_id": "https://openalex.org/W2738240830",
   "venue": "Proceedings of the 5th CVCRD'10, Achievements and New Opportunities in Computer Vision.",
   "scholar_key": "ponce2010automatic",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 2
@@ -4229,6 +5205,10 @@
   "year": 2010,
   "venue": "11th European Conference on Computer Vision, The Pascal Visual Object Classes Challenge Workshop 2010, 2010, p. 1",
   "scholar_key": "baro2010combining",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4252,6 +5232,10 @@
   "year": 2010,
   "venue": "Proc. 5th CVCRD",
   "scholar_key": "bautista2010compact",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4276,6 +5260,18 @@
   "year": 2010,
   "venue": "Proceedings of the Supervised and Unsupervised Methods and their Applications (SUEMA), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
   "scholar_key": "bautista2010compact",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "candidate"
+  },
+  "doi_candidate": {
+   "doi": "10.1016/j.patrec.2011.09.023",
+   "title_sim": 0.827,
+   "author_ok": true,
+   "year_ok": false,
+   "registry_title": "Minimal design of error-correcting output codes",
+   "registry_year": 2012
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4308,6 +5304,17 @@
   "abstract": "Social network analysis became a common technique used to model and quantify the properties of social interactions. In this paper, we propose an integrated framework to explore the characteristics of a social network extracted from multimodal dyadic interactions. First, speech detection is performed through an audio/visual fusion scheme based on stacked sequential learning. In the audio domain, speech is detected through clusterization of audio features. Clusters are modelled by means of an One-state Hidden Markov Model containing a diagonal covariance Gaussian Mixture Model. In the visual domain, speech detection is performed through differential-based feature extraction from the segmented mouth region, and a dynamic programming matching procedure. Second, in order to model the dyadic interactions, we employed the Influence Model whose states encode the previous integrated audio/visual data. Third, the social network is extracted based on the estimated influences. For our study, we used a set of videos belonging to New York Times' Blogging Heads opinion blog. The results are reported both in terms of accuracy of the audio/visual data fusion and centrality measures used to characterize the social network.",
   "openalex_id": "https://openalex.org/W2135268757",
   "scholar_key": "escalera2010modelling",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1145/1891903.1891967",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Modelling and analyzing multimodal dyadic interactions using social networks",
+   "registry_year": 2010,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 3,
@@ -4337,6 +5344,10 @@
   "abstract": "La comunicación y expresión oral es una competencia de especial relevancia en el EEES. No obstante, en muchas enseñanzas superiores la puesta en práctica de esta competencia ha sido relegada principalmente a la presentación de proyectos fin de carrera. Dentro de un proyecto de innovación docente, se ha desarrollado una herramienta informática para la extracción de información objetiva para el análisis de la expresión oral y gestual de los alumnos. El objetivo es dar un “feedback” a los estudiantes que les permita mejorar la calidad de sus presentaciones.El prototipo inicial que se presenta en este trabajo permite extraer de forma automática información audio-visual y analizarla mediante técnicas de aprendizaje. El sistema ha sido aplicado a 15 proyectos fin de carrera y 15 exposiciones dentro de una asignatura de cuarto curso. Los resultados obtenidos muestran la viabilidad del sistema para sugerir factores que ayuden tanto en el éxito de la comunicación así como en los criterios de evaluación.",
   "openalex_id": "https://openalex.org/W1593285307",
   "scholar_key": "escalera2010metodos",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0
@@ -4357,6 +5368,10 @@
    "Sergio Escalera",
    "Miquel Ferrer"
   ],
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "indexing": {
    "source": "CV (AQU) B.3, 2024-12-31"
   },
@@ -4412,6 +5427,17 @@
   "openalex_id": "https://openalex.org/W1556331792",
   "issn_l": "0922-6389",
   "scholar_key": "baro2009generic",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.3233/978-1-60750-061-2-27",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": false,
+   "year_ok": true,
+   "registry_title": "Generic Object Recognition in Urban Image Databases",
+   "registry_year": 2009,
+   "status": "partial"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 4,
@@ -4442,6 +5468,10 @@
   "abstract": "Since the apparition of the first object detection systems in the late 1960s, the complexity of faced scenarios has been continuously growing. From a small set of simple objects in a homogeneous background, where simple alignment strategies or the use of geometric primitives were enough to recognize them, to nowadays, where we are dealing with sets of thousands of complex objects in cluttered scenes,\r\nwhere more sophisticated methods to describe and recognize\r\nobjects are necessary. In this paper, we present an approach\r\nto the object detection problem based on Probabilistic Darwin Machines (PDM), where one of the most used object\r\ndetection systems has been redefined in order to allow the\r\nuse large feature sets, which are able to better describe the objects. Two different PDM are used in combination with\r\na large set of visual features in order to learn an object\r\ndetection system for five different real world visual object\r\nclasses.",
   "openalex_id": "https://openalex.org/W1576123337",
   "scholar_key": "baro2009probabilistic",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 2
@@ -4462,6 +5492,10 @@
   "year": 2009,
   "scholar_key": "baro2009probabilistic",
   "venue": "Universitat Autònoma de Barcelona,",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "indexing": {
    "source": "CV (AQU) B.3, 2024-12-31"
   },
@@ -4497,6 +5531,17 @@
   "openalex_id": "https://openalex.org/W1598272383",
   "issn_l": "0922-6389",
   "scholar_key": "escalera2009text",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.3233/978-1-60750-061-2-35",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": false,
+   "year_ok": true,
+   "registry_title": "Text Detection in Urban Scenes",
+   "registry_year": 2009,
+   "status": "partial"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 10,
@@ -4533,6 +5578,17 @@
   "issn_l": "1524-9050",
   "scholar_key": "baro2009traffic",
   "scholar_cited_by": 280,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/tits.2008.2011702",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Traffic Sign Recognition Using Evolutionary Adaboost Detection and Forest-ECOC Classification",
+   "registry_year": 2009,
+   "status": "verified"
+  },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
@@ -4591,6 +5647,17 @@
   "abstract": "Rich online map interaction represents a useful tool to get multimedia information related to physical places. With this type of systems, users can automatically compute the optimal route for a trip or to look for entertainment places or hotels near their actual position. Standard maps are defined as a fusion of layers, where each one contains specific data such height, streets, or a particular business location. In this paper we propose the construction of a visual content layer which describes the visual appearance of geographic locations in a city. We captured, by means of a mobile mapping system, a huge set of georeferenced images (> 500 K) which cover the whole city of Barcelona. For each image, hundreds of region descriptions are computed off-line and described as a hash code. This allows an efficient and scalable way of accessing maps by visual content.",
   "openalex_id": "https://openalex.org/W2125741264",
   "scholar_key": "baro2009visual",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/icme.2009.5202828",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Visual content layer for scalable object recognition in urban image databases",
+   "registry_year": 2009,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 4,
@@ -4609,6 +5676,10 @@
   "authors": [
    "Xavier Baró"
   ],
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4638,6 +5709,17 @@
   "openalex_id": "https://openalex.org/W1608608624",
   "issn_l": "0302-9743",
   "scholar_key": "baro2008evolutionary",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-540-78761-7_24",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Evolutionary Object Detection by Means of Naïve Bayes Models Estimation",
+   "registry_year": 2008,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 2,
@@ -4656,6 +5738,10 @@
   "authors": [
    "Xavier Baró"
   ],
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4684,6 +5770,17 @@
   "cited_by": 2,
   "openalex_id": "https://openalex.org/W1535807159",
   "scholar_key": "baro2008weighted",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-540-79547-6_27",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": null,
+   "registry_title": "Weighted Dissociated Dipoles: An Extended Visual Feature Set",
+   "registry_year": null,
+   "status": "verified"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 2,
@@ -4709,6 +5806,10 @@
   "year": 2007,
   "venue": "GVIP Journal",
   "scholar_key": "ponce2007two",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4728,6 +5829,10 @@
   "year": 2007,
   "venue": "Computer Vision: Process of research and development",
   "scholar_key": "baro2007visual",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4756,6 +5861,10 @@
   "abstract": "The complexity of any learning task depends as in the learning method as on finding a good representation of the data. In the concrete case of object recognition in computer vision, the representation of the images is one of the most important decisions in the design step. As a starting point, in this work we use the representation based on Haar-like filters, a biological inspired feature based on local intensity differences. From this commonly used representation, we jump to the dissociated dipoles, another biological plausible representation which also includes non-local comparisons. After analyzing the benefits of both representations, we present a more general representation which brings together all the good properties of Haar-like and dissociated dipoles representations. All these feature sets are tested with an evolutionary learning algorithm over different object recognition problems. Besides, an extended statistically study of these results is performed in order to verify the relevance of these huge feature spaces applied to different object recognition problems.",
   "openalex_id": "https://openalex.org/W1546754677",
   "scholar_key": "baro2007weighted",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0
@@ -4776,6 +5885,10 @@
   "year": 2006,
   "venue": "Computer Vision; Process of Research and development",
   "scholar_key": "baro2006evolutionary",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4798,6 +5911,10 @@
    "Jordi Vitrià"
   ],
   "scholar_key": "baro2006real",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4820,6 +5937,10 @@
    "Jordi Vitrià"
   ],
   "scholar_key": "baro2005feature",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4839,6 +5960,18 @@
   "year": 2004,
   "venue": "Recent Advances in Artificial Intelligence Research and Development",
   "scholar_key": "baro2004fast",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "candidate"
+  },
+  "doi_candidate": {
+   "doi": "10.1007/978-1-4471-2245-6_3",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": false,
+   "registry_title": "Traffic Sign Detection",
+   "registry_year": 2011
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4942,6 +6075,10 @@
    "Oriol Pujol"
   ],
   "scholar_key": "bautistaanalyzing",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4967,6 +6104,10 @@
    "Marcel AJ van Gerven"
   ],
   "scholar_key": "guccluturkapparent",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4992,6 +6133,10 @@
    "Xavier Baro"
   ],
   "scholar_key": "haamerchanges",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -5013,6 +6158,10 @@
    "Sergio Escalera"
   ],
   "scholar_key": "bautistacompact",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -5030,6 +6179,10 @@
    "Xavier Baró"
   ],
   "scholar_key": "igualexperiencia",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -5048,6 +6201,18 @@
    "Sergio Escalera"
   ],
   "scholar_key": "poncemulti",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "candidate"
+  },
+  "doi_candidate": {
+   "doi": "10.1016/j.patrec.2015.07.040",
+   "title_sim": 0.855,
+   "author_ok": true,
+   "year_ok": false,
+   "registry_title": "Non-verbal communication analysis in Victim–Offender Mediations",
+   "registry_year": 2015
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }

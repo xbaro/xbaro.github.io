@@ -42,7 +42,8 @@ Estat inicial: les col·leccions `_publications`, `_talks`, `_teaching`, `_posts
 - `_memory/references.json` (font de veritat, generat), `_memory/overrides.json` (correccions manuals que sobreviuen a cada sync), `_memory/sources/` (cache ORCID/OpenAlex), `_memory/index.sqlite` (cerca FTS5, derivat, fora de git), `_memory/tools/memory.py` (CLI amb `uv`). Detalls a `_memory/README.md`.
 - **CV de l'usuari** (format AQU, desembre 2024): font de confiança. `uv run _memory/tools/memory.py import-cv <CV.docx>` n'extreu només publicacions i xerrades (`sources/cv_*.json`). **Mai copiar al repo (públic) ni el .docx ni dades personals** (DNI, adreça, naixement...).
 - **Google Scholar** de l'usuari: export BibTeX manual a `_memory/sources/scholar.bib` (Select all → Export → BibTeX); es fusiona com a font de confiança en `sync --offline`.
-- Estats: `confirmed` (a l'ORCID, al CV o a Scholar de l'usuari), `candidate` (només a OpenAlex, per revisar), `rejected` (homònims; no es tornen a proposar).
+- **DOI = clau d'unicitat i veracitat**: `uv run _memory/tools/memory.py doi` (verifica contra Crossref/DataCite i cerca DOIs que falten), després `sync --offline`. Detalls a `_memory/README.md`.
+- Estats: `confirmed` (a l'ORCID, al CV o a Scholar de l'usuari), `candidate` (només a OpenAlex, per revisar), `duplicate` (versió preprint d'una altra; `duplicate_of`), `rejected` (homònims; no es tornen a proposar).
 - `_memory/references.bib`: BibTeX canònic de les confirmades, es manté al repo per facilitar l'exportació (regenerat per `sync`/`bib`).
 - Mètriques (cites Crossref/OpenAlex, indicadors de revista OpenAlex, quartils SCImago amb CSV manual): `uv run _memory/tools/memory.py metrics` i després `sync --offline`. IF oficial (JCR) és de pagament: només a mà a `overrides.json`. Detalls a `_memory/README.md`.
 - Actualitzar: `uv run _memory/tools/memory.py sync` · cercar: `... search "<text>"` · resum: `... stats`.

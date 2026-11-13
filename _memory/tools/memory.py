@@ -47,6 +47,8 @@ def http_json(url, headers=None):
             return json.load(r)
     except urllib.error.HTTPError as e:
         sys.exit(f"HTTP {e.code} for {url.split('?')[0]}: {e.read()[:300].decode(errors='replace')}")
+    except (urllib.error.URLError, ValueError, OSError) as e:   # network error, non-JSON/undecodable body, timeout
+        sys.exit(f"request failed for {url.split('?')[0]}: {type(e).__name__}")
 
 
 def norm_doi(d):
@@ -440,6 +442,34 @@ def merge():
         if not r.get("authors") and rec.get("authors_cv"):
             r["authors"] = [a.strip() for a in re.split(r";|,\s(?=[A-ZÁÉÍÓÚ])", rec["authors_cv"]) if a.strip()]
 
+    if DOI_CACHE.exists():             # DOI verification/lookup results -> attach, assign resolved DOIs, de-duplicate by DOI
+        for k, res in json.loads(DOI_CACHE.read_text()).items():
+            if k not in refs:
+                continue
+            refs[k]["doi_check"] = {a: b for a, b in res.items() if a != "candidate"}
+            if res.get("candidate"):
+                refs[k]["doi_candidate"] = res["candidate"]
+            if res.get("resolved_doi") and not refs[k].get("doi"):
+                refs[k]["doi"], refs[k]["doi_source"] = res["resolved_doi"], "crossref-search"
+        seen = {}
+        for k in list(refs):
+            d = refs[k].get("doi")
+            if not d:
+                continue
+            if d in seen:
+                keep = refs[seen[d]]
+                for a, b in refs[k].items():
+                    if a == "sources":
+                        keep["sources"] = sorted(set(keep["sources"]) | set(b))
+                    elif a == "status":
+                        keep["status"] = "confirmed" if "confirmed" in (keep["status"], b) else keep["status"]
+                    elif a not in keep or keep[a] in (None, "", []):
+                        keep[a] = b
+                keep.setdefault("merged_ids", []).append(k)
+                del refs[k]
+                print(f"  [doi] merged duplicate by DOI {d}: {keep['title'][:60]}")
+            else:
+                seen[d] = k
     ip = SRC / "cv_indexing.json"      # per-item indexing from CV sections B.1 (articles) and B.3
     for rec in (json.loads(ip.read_text()) if ip.exists() else []):
         nt, k = norm_title(rec["title"]), by_title.get(norm_title(rec["title"]))
@@ -578,6 +608,102 @@ def update_metrics(refresh=False):
           f"journal indicators {got('journal')} | SJR quartile {got('sjr_quartile')} ({len(sjr)} ISSNs from scimago files)")
 
 
+DOI_CACHE = SRC / "doi_check.json"
+
+
+def _tsim(a, b):
+    a, b = norm_title(a), norm_title(b)
+    if not a or not b:
+        return 0.0
+    if min(len(a), len(b)) >= 20 and (a in b or b in a):
+        return 1.0
+    return difflib.SequenceMatcher(None, a, b).ratio()
+
+
+def _registry_view(msg):
+    """Normalise a Crossref work (or DataCite/CSL record) into comparable fields."""
+    title = msg.get("title")
+    title = title[0] if isinstance(title, list) and title else (title or "")
+    parts = (msg.get("issued") or {}).get("date-parts") or [[None]]
+    fam = [norm_title(a.get("family") or a.get("name") or "") for a in msg.get("author", [])]
+    ct = msg.get("container-title")
+    return {"title": title, "year": parts[0][0], "authors_norm": fam, "type": msg.get("type"),
+            "container": (ct[0] if isinstance(ct, list) and ct else ct) or None, "relation": msg.get("relation") or {}}
+
+
+def _doi_lookup(doi):
+    q = urllib.parse.quote(doi)
+    try:
+        return _registry_view(http_json(f"https://api.crossref.org/works/{q}")["message"]), "crossref"
+    except SystemExit:
+        pass
+    try:  # DataCite / others (e.g. arXiv 10.48550): resolve through doi.org content negotiation
+        return _registry_view(http_json(f"https://doi.org/{q}", {"Accept": "application/vnd.citationstyles.csl+json"})), "doi.org"
+    except SystemExit:
+        return None, None
+
+
+def check_dois(refresh=False):
+    """Verify each DOI against its registry and look up missing ones. Results -> sources/doi_check.json."""
+    import datetime
+    import time
+    refs = [r for r in json.loads(REFS.read_text()) if r["status"] == "confirmed"]
+    cache = json.loads(DOI_CACHE.read_text()) if DOI_CACHE.exists() else {}
+    today = datetime.date.today().isoformat()
+    for n, r in enumerate(refs, 1):
+        old = cache.get(r["id"])
+        if old and not refresh and (old.get("doi") == r.get("doi") or old.get("resolved_doi")):
+            continue
+        res = {"checked": today}
+        if r.get("doi"):
+            v, via = _doi_lookup(r["doi"])
+            res["doi"] = r["doi"]
+            if v is None:
+                res["status"] = "unresolved"      # DOI not found in Crossref/DataCite: wrong or not registered
+            else:
+                sim = _tsim(r["title"], v["title"])
+                author_ok = any(a.startswith("baro") for a in v["authors_norm"]) if v["authors_norm"] else None
+                year_ok = abs((v["year"] or 0) - (r.get("year") or 0)) <= 1 if v["year"] and r.get("year") else None
+                res.update({"registry": via, "title_sim": round(sim, 3), "author_ok": author_ok, "year_ok": year_ok,
+                            "registry_title": v["title"], "registry_year": v["year"]})
+                rel = {k: [x.get("id") for x in vv] for k, vv in v["relation"].items()
+                       if k in ("is-preprint-of", "has-preprint", "is-version-of", "has-version") for vv in [vv]}
+                if rel:
+                    res["relation"] = rel
+                res["status"] = ("verified" if sim >= 0.9 and author_ok is not False and year_ok is not False
+                                 else "mismatch" if sim < 0.6 else "partial")
+        else:                                      # no DOI: bibliographic search, accept only high-confidence matches
+            q = urllib.parse.urlencode({"query.bibliographic": r["title"], "query.author": "Baró", "rows": 5,
+                                        "select": "DOI,title,issued,author,container-title,type,score"})
+            try:
+                items = http_json(f"https://api.crossref.org/works?{q}")["message"]["items"]
+            except SystemExit:
+                items = []
+            best = None
+            for it in items:
+                v = _registry_view(it)
+                sim = _tsim(r["title"], v["title"])
+                author_ok = any(a.startswith("baro") for a in v["authors_norm"])
+                year_ok = abs((v["year"] or 0) - (r.get("year") or 0)) <= 1 if v["year"] and r.get("year") else False
+                cand = {"doi": norm_doi(it["DOI"]), "title_sim": round(sim, 3), "author_ok": author_ok, "year_ok": year_ok,
+                        "registry_title": v["title"], "registry_year": v["year"]}
+                if best is None or cand["title_sim"] > best["title_sim"]:
+                    best = cand
+            if best and best["title_sim"] >= 0.95 and best["author_ok"] and best["year_ok"]:
+                res.update({"status": "resolved", "resolved_doi": best["doi"], **{k: best[k] for k in ("title_sim", "registry_title", "registry_year")}})
+            elif best and best["title_sim"] >= 0.8:
+                res.update({"status": "candidate", "candidate": best})
+            else:
+                res["status"] = "none_found"
+        cache[r["id"]] = res
+        time.sleep(0.12)
+        if n % 25 == 0:
+            DOI_CACHE.write_text(json.dumps(cache, indent=1, ensure_ascii=False))
+    DOI_CACHE.write_text(json.dumps(cache, indent=1, ensure_ascii=False) + "\n")
+    from collections import Counter
+    print("doi_check:", dict(Counter(v["status"] for v in cache.values())))
+
+
 def build_index():
     items = json.loads(REFS.read_text())
     if INDEX.exists():
@@ -617,7 +743,7 @@ def stats():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics"])
+    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi"])
     ap.add_argument("query", nargs="?")
     ap.add_argument("--offline", action="store_true")
     ap.add_argument("--refresh", action="store_true", help="metrics: refetch even cached Crossref values")
@@ -630,6 +756,8 @@ if __name__ == "__main__":
         write_bib()
     elif a.cmd == "index":
         build_index()
+    elif a.cmd == "doi":
+        check_dois(refresh=a.refresh)
     elif a.cmd == "bib":
         write_bib()
     elif a.cmd == "metrics":
