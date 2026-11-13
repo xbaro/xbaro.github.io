@@ -49,7 +49,7 @@ Estat inicial: les col·leccions `_publications`, `_talks`, `_teaching`, `_posts
 - Actualitzar: `uv run _memory/tools/memory.py sync` · cercar: `... search "<text>"` · resum: `... stats`.
 - Fonts: ORCID `0000-0001-5338-3007` + OpenAlex (APIs públiques, sense clau; paginar amb `page=`, el `cursor=` exigeix clau).
 - **Criteri per acceptar/rebutjar candidates** (decisió de l'usuari): el seu perfil de Google Scholar (`user=N-rA1NMAAAAJ`) és la referència. Si una obra no surt a Scholar, probablement no és seva → `rejected`. Per a obres **anteriors al 2009-2010** es pot ser més laxe (poden faltar a Scholar). Scholar bloqueja l'accés automatitzat (429/CAPTCHA, no s'ha d'evitar): cal que l'usuari n'exporti el perfil (Select all → Export → BibTeX/CSV) i el deixi al repo.
-- Font pendent: **Portal de la Recerca de Catalunya** (https://portalrecerca.csuc.cat, DSpace-CRIS del CSUC; `prc.cat` no existeix). Es farà servir per a les **referències antigues** (pre-ORCID/OpenAlex), **guiant-se sobretot pel CV de l'usuari** per decidir què és seu. Encara no integrada: no hi ha API coneguda, la cerca i el perfil s'han d'explorar.
+- **Portal de la Recerca de Catalunya** (https://portalrecerca.csuc.cat/orcid/0000-0001-5338-3007, perfil únic `rp20011`; `prc.cat` no existeix): integrat a `sync`/`portal` via OpenSearch Atom; aporta `repository_url` a cada obra i les tesis a `_memory/theses.json` (4 co-dirigides + la pròpia del 2009; el CV no té secció de direcció de tesis). **Compte amb l'homònim Xavier Baró Queralt** (historiador, ~130 ítems al portal): importar només per `author_authority:rp20011`.
 
 Pla:
 1. Recopilar la informació real (publicacions fet; falten bio, CV, docència, xerrades, projectes).
