@@ -82,6 +82,68 @@ def fetch():
         n += 1
     (SRC / "openalex.json").write_text(json.dumps(works, indent=1, ensure_ascii=False))
     print(f"fetched: orcid={len(orcid.get('group', []))} openalex={len(works)}")
+    fetch_portal()
+
+
+PRC_RP = "rp20011"                       # owner's single researcher profile in the Portal de la Recerca de Catalunya
+PRC_BASE = "https://portalrecerca.csuc.cat"
+THESES = ROOT / "theses.json"
+
+
+def fetch_portal():
+    """Portal de la Recerca de Catalunya (CSUC DSpace-CRIS): publications via OpenSearch Atom + theses tab."""
+    import html
+    def get(url):
+        req = urllib.request.Request(url, headers={"User-Agent": "personal-site-memory"})
+        with urllib.request.urlopen(req, timeout=90) as r:
+            return r.read().decode("utf-8", "replace")
+    atom = get(f"{PRC_BASE}/open-search?query=author_authority:{PRC_RP}&format=atom&rpp=200")
+    pubs = []
+    for e in re.findall(r"<entry>.*?</entry>", atom, flags=re.S):
+        g = lambda tag: html.unescape(re.sub(r"\s+", " ", (re.search(rf"<{tag}[^>]*>(.*?)</{tag}>", e, re.S) or [0, ""])[1])).strip()
+        y = re.search(r"<published>(\d{4})", e)
+        pubs.append({"title": g("title"), "year": int(y.group(1)) if y else None, "handle": g("id").replace("http://", "https://"),
+                     "authors": [html.unescape(a) for a in re.findall(r"<author><name>(.*?)</name>", e)]})
+    import time
+    for attempt in range(5):   # the portal sometimes returns this tab empty: retry until the table header shows up
+        tab = get(f"{PRC_BASE}/orcid/{ORCID}/theses.html?onlytab=true")
+        if "Director" in tab:
+            break
+        time.sleep(2 * (attempt + 1))
+    text = [t.strip() for t in re.sub(r"<[^>]+>", "\n", re.sub(r"<(script|style).*?</\1>", "", tab, flags=re.S)).split("\n") if t.strip()]
+    theses, i = [], 0
+    while i < len(text) - 2:
+        if re.fullmatch(r"\d{4}", text[i]) and not re.fullmatch(r"\d{4}", text[i + 1]):
+            theses.append({"year": int(text[i]), "title": html.unescape(text[i + 1]), "directors": html.unescape(text[i + 2])})
+            i += 3
+        else:
+            i += 1
+    if not theses and (SRC / "portal_prc.json").exists():   # never replace known theses by an empty (failed) fetch
+        theses = json.loads((SRC / "portal_prc.json").read_text()).get("theses", [])
+        print("  [portal] theses tab came back empty; keeping previous theses")
+    (SRC / "portal_prc.json").write_text(json.dumps({"publications": pubs, "theses": theses}, indent=1, ensure_ascii=False) + "\n")
+    # theses are not publications: keep them as a separate collection (future supervision section)
+    th_titles = {norm_title(t["title"]) for t in theses}
+    handle = {norm_title(p["title"]): p["handle"] for p in pubs}
+    out = []
+    for t in theses:
+        authors = [a for p in pubs if norm_title(p["title"]) == norm_title(t["title"]) for a in p["authors"]]
+        own = "Bar" in t["directors"] and "Baró Solé" not in t["directors"]
+        out.append({"title": t["title"], "year": t["year"], "directors": [d.strip() for d in t["directors"].split(";")],
+                    "student": None if own else (authors[0] if authors else None),
+                    "role": "author" if (own or not authors or authors[0].startswith("Baró")) else "co-director",
+                    "repository_url": handle.get(norm_title(t["title"])), "source": "Portal de la Recerca de Catalunya"})
+    THESES.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
+    print(f"portal: {len(pubs)} items ({len(theses)} theses) -> sources/portal_prc.json, theses.json")
+
+
+def load_portal():
+    p = SRC / "portal_prc.json"
+    if not p.exists():
+        return []
+    d = json.loads(p.read_text())
+    th = {norm_title(t["title"]) for t in d["theses"]}
+    return [x for x in d["publications"] if norm_title(x["title"]) not in th]
 
 
 def abstract_text(inv):
@@ -409,7 +471,8 @@ def merge():
             nt = norm_title(rec["title"])
             for t, k in by_title.items():
                 ry = refs[k].get("year")
-                if (not ry or not rec.get("year") or abs(ry - rec["year"]) <= 1) and difflib.SequenceMatcher(None, nt, t).ratio() >= 0.92:
+                near = difflib.SequenceMatcher(None, nt, t).ratio() >= 0.92 or (min(len(nt), len(t)) >= 30 and (nt in t or t in nt))
+                if (not ry or not rec.get("year") or abs(ry - rec["year"]) <= 1) and near:
                     key = k
                     break
         if key is None:
@@ -432,6 +495,10 @@ def merge():
     for rec in load_openalex():
         if rec["title"]:
             add(rec, "openalex")
+    for rec in load_portal():          # institutional repository record linked to the owner's PRC profile
+        r = add({"title": rec["title"], "year": rec["year"], "authors": rec["authors"]}, "prc")
+        r["status"] = "confirmed"
+        r["repository_url"] = rec["handle"]
     for rec in load_scholar():         # the owner's Google Scholar profile (manual BibTeX export)
         add(rec, "scholar")["status"] = "confirmed"
     for rec in load_cv():              # the owner's own CV: authoritative, like ORCID
@@ -743,7 +810,7 @@ def stats():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi"])
+    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi", "portal"])
     ap.add_argument("query", nargs="?")
     ap.add_argument("--offline", action="store_true")
     ap.add_argument("--refresh", action="store_true", help="metrics: refetch even cached Crossref values")
@@ -756,6 +823,11 @@ if __name__ == "__main__":
         write_bib()
     elif a.cmd == "index":
         build_index()
+    elif a.cmd == "portal":
+        fetch_portal()
+        merge()
+        build_index()
+        write_bib()
     elif a.cmd == "doi":
         check_dois(refresh=a.refresh)
     elif a.cmd == "bib":

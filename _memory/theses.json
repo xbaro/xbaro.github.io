@@ -1,0 +1,61 @@
+[
+ {
+  "title": "Efficient Modeling of High Order Functions in Computer Vision",
+  "year": 2022,
+  "directors": [
+   "Escalera, Sergio",
+   "Baró Solé, Xavier"
+  ],
+  "student": "Marc Oliu Simon",
+  "role": "co-director",
+  "repository_url": "https://hdl.handle.net/123456789/126348018",
+  "source": "Portal de la Recerca de Catalunya"
+ },
+ {
+  "title": "Human Body Parts Segmentation via Stacked and Multi-Task Learning",
+  "year": 2019,
+  "directors": [
+   "Escalera, Sergio",
+   "Baró Solé, Xavier"
+  ],
+  "student": "Daniel Sanchez Abril",
+  "role": "co-director",
+  "repository_url": "https://hdl.handle.net/123456789/125791573",
+  "source": "Portal de la Recerca de Catalunya"
+ },
+ {
+  "title": "Human segmentation, pose estimation, and applications",
+  "year": 2017,
+  "directors": [
+   "Escalera, Sergio",
+   "Baró Solé, Xavier"
+  ],
+  "student": "Meysam Madadi",
+  "role": "co-director",
+  "repository_url": "https://hdl.handle.net/123456789/125811061",
+  "source": "Portal de la Recerca de Catalunya"
+ },
+ {
+  "title": "Evolutionary bags of space-time features for human analysis.",
+  "year": 2016,
+  "directors": [
+   "Escalera, Sergio",
+   "Baró Solé, Xavier"
+  ],
+  "student": "Víctor Ponce López",
+  "role": "co-director",
+  "repository_url": "https://hdl.handle.net/123456789/126261309",
+  "source": "Portal de la Recerca de Catalunya"
+ },
+ {
+  "title": "Probabilistic Darwin Machines: A new approach to develop Evolutionary Object Detection Systems.",
+  "year": 2009,
+  "directors": [
+   "Vitria Marca, Jordi"
+  ],
+  "student": "Baró Solé, Xavier",
+  "role": "author",
+  "repository_url": "https://hdl.handle.net/123456789/126061340",
+  "source": "Portal de la Recerca de Catalunya"
+ }
+]
