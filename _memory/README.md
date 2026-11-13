@@ -59,3 +59,13 @@ uv run _memory/tools/memory.py sync --offline   # attach results, assign resolve
 https://portalrecerca.csuc.cat/orcid/0000-0001-5338-3007 (researcher `rp20011`, a single profile; no earlier profiles exist there).
 `sync` / `portal` read the OpenSearch Atom feed (`open-search?query=author_authority:rp20011&format=atom`) and the theses tab. Each linked reference gets `repository_url` (institutional repository handle) and source `prc`; theses are not references: they are built into `theses.json` together with the CV (section G.1) data.
 Beware: the portal also holds ~130 items by a homonym, **Xavier Baró Queralt** (historian). Never import by name, only by `author_authority:rp20011`. The theses tab sometimes returns empty: the script retries and keeps the previous theses on failure.
+
+## Directed works in institutional repositories (`repos`)
+```bash
+uv run _memory/tools/memory.py repos     # scan UOC (O2), UB (Dipòsit Digital), UAB (DDD); rebuilds theses.json
+```
+- Sources: DSpace REST (`openaccess.uoc.edu`, `diposit.ub.edu`) and DDD MARCXML (`ddd.uab.cat`, collection TRERECPRO, field 700 `dir.`). Raw result: `sources/repos_scan.json`.
+- Name match is strict (`is_me`): "Baró, X…", "Baró Solé, X…", "Baró i Solé, X…"; homonyms (Baró Queralt, Romero Baró, Baró Llambias...) are excluded.
+- Role rules. UOC: metadata `tutor` = advisor -> counted (`director` in theses.json); `director`/`other` next to a different `tutor` = **course coordinator** (professor responsable), kept only in `repos_scan.json` (role `coordinator`), not counted. Doctoral `director` = thesis director. UB: `advisor`. UAB: 700 with `dir.`.
+- `theses.json` gets works found here that are not in the CV (levels: `bachelor`, `research`), and repository links for the CV ones. Bachelor/research students appear only as **initials** (the repository URL identifies them; public repo, so no full names for undergraduates).
+- Known flakiness: the UOC server omits its intermediate certificate (handled with `truststore`, OS trust store; verification stays on). If a repository returns nothing the script keeps the previous results for it.

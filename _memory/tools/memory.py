@@ -1,7 +1,7 @@
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["python-docx"]
+# dependencies = ["python-docx", "truststore"]
 # ///
 """Structured, indexed memory of the site's reference content.
 
@@ -24,6 +24,12 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+
+try:   # use the OS trust store: some institutional servers (e.g. openaccess.uoc.edu) omit the intermediate certificate
+    import truststore
+    truststore.inject_into_ssl()
+except ImportError:
+    pass
 
 ORCID = "0000-0001-5338-3007"
 ROOT = Path(__file__).resolve().parent.parent
@@ -203,6 +209,98 @@ def parse_theses(paras):
     return out
 
 
+REPOS_SCAN = SRC / "repos_scan.json"
+_ME = re.compile(r"^Bar[oó](,|\s+i\s+Sol[eé],|\s+Sol[eé],)\s*X(avier|\.)?(\s|$)", re.I)
+
+
+def is_me(name):
+    """Strict match for the owner's name variants; excludes homonyms (Baró Queralt, Romero Baró, ...)."""
+    return bool(_ME.match((name or "").strip())) and "Queralt" not in name
+
+
+def initials(name):
+    n = flip_name(name or "")
+    return "".join(w[0] + "." for w in re.split(r"[\s-]+", n) if w and w[0].isalpha()) or None
+
+
+def scan_repos():
+    """Find final-degree/master/doctoral works in UOC (O2), UB (Dipòsit Digital) and UAB (DDD) where the owner is tutor/advisor/director."""
+    import html
+    import time
+
+    def get(u):
+        for _ in range(3):
+            try:
+                return urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "personal-site-memory", "Accept": "application/json"}),
+                                              timeout=90).read().decode("utf8", "replace")
+            except Exception:
+                time.sleep(2)
+        return ""
+
+    out = []
+    for repo, base in (("UOC", "https://openaccess.uoc.edu"), ("UB", "https://diposit.ub.edu")):
+        items = {}
+        for q in ("Baró Solé, Xavier", "Baró, Xavier", "Baró Solé"):
+            page = 0
+            while True:
+                d = json.loads(get(f"{base}/server/api/discover/search/objects?" + urllib.parse.urlencode(
+                    {"query": q, "size": 100, "page": page, "dsoType": "ITEM"})) or "{}")
+                if not d:
+                    break
+                sr = d["_embedded"]["searchResult"]
+                for o in sr["_embedded"]["objects"]:
+                    it = o["_embedded"]["indexableObject"]
+                    items[it["uuid"]] = it
+                page += 1
+                if page >= sr["page"]["totalPages"]:
+                    break
+                time.sleep(0.3)
+        for it in items.values():
+            md = it["metadata"]
+            v = lambda k: [x["value"] for x in md.get(k, [])]
+            typ = next((t.split("/")[-1] for t in v("dc.type") if "Thesis" in t), None)
+            if not typ:
+                continue
+            roles = {k.replace("dc.contributor.", ""): ns for k in md if k.startswith("dc.contributor")
+                     for ns in [v(k)] if any(is_me(n) for n in ns)}
+            students = [n for n in v("dc.contributor.author") if not is_me(n)]
+            if not roles or not (students or "author" not in roles):
+                continue
+            if "author" in roles and not students:      # his own works
+                continue
+            role = ("tutor" if "tutor" in roles or "advisor" in roles or ("director" in roles and typ == "doctoralThesis") else
+                    "advisor-listed-as-author" if "author" in roles else "coordinator")
+            out.append({"repo": repo, "level": {"bachelorThesis": "bachelor", "masterThesis": "master", "doctoralThesis": "phd"}[typ],
+                        "title": (v("dc.title") or [it["name"]])[0].strip(), "date": (v("dc.date.issued") or [""])[0],
+                        "student_initials": initials(students[0]) if students else None, "role": role,
+                        "metadata_roles": sorted(roles), "uri": (v("dc.identifier.uri") or [""])[0]})
+    seen = {}
+    for q in ('"Baró Solé, Xavier"', '"Baró, Xavier"'):
+        s = get("https://ddd.uab.cat/search?" + urllib.parse.urlencode({"p": q, "of": "xm", "rg": 100}))
+        for r in re.findall(r"<record>.*?</record>", s, flags=re.S):
+            rid = re.search(r'<controlfield tag="001">(\d+)', r).group(1)
+            sf = lambda tag: [{c: html.unescape(x).strip() for c, x in re.findall(r'<subfield code="(\w)">(.*?)</subfield>', b, flags=re.S)}
+                              for b in re.findall(rf'<datafield tag="{tag}"[^>]*>(.*?)</datafield>', r, flags=re.S)]
+            coll = [x.get("a") for x in sf("980")]
+            if rid in seen or "TRERECPRO" not in coll:
+                continue
+            if not any(is_me(x.get("a")) and "dir" in (x.get("e") or "") for x in sf("700")):
+                continue
+            seen[rid] = {"repo": "UAB", "level": "research", "title": (sf("245") or [{}])[0].get("a", ""),
+                         "date": ((sf("260") or [{}])[0].get("c", "")), "student_initials": initials((sf("100") or [{}])[0].get("a")),
+                         "role": "tutor", "metadata_roles": ["700 dir."], "uri": f"https://ddd.uab.cat/record/{rid}"}
+    out += list(seen.values())
+    prev = json.loads(REPOS_SCAN.read_text()) if REPOS_SCAN.exists() else []
+    for repo in ("UOC", "UB", "UAB"):          # a repository that suddenly returns nothing is an API hiccup, not a fact
+        if not any(r["repo"] == repo for r in out) and any(r["repo"] == repo for r in prev):
+            print(f"  [repos] {repo} returned nothing; keeping previous results")
+            out += [r for r in prev if r["repo"] == repo]
+    out.sort(key=lambda x: (x["repo"], x["date"]))
+    REPOS_SCAN.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
+    from collections import Counter
+    print("repos:", dict(Counter((r["repo"], r["level"], r["role"]) for r in out)))
+
+
 def build_theses():
     """theses.json = CV section G.1 (authoritative) enriched with Portal de la Recerca records (repository link) + the owner's own thesis."""
     cvp, prp = SRC / "cv_theses.json", SRC / "portal_prc.json"
@@ -228,7 +326,21 @@ def build_theses():
             out.append({"title": t["title"].rstrip("."), "level": "phd", "status": "defended", "year": t["year"],
                         "student": "Xavier Baró Solé", "directors": [d.strip() for d in t["directors"].split(";")],
                         "role": "author", "repository_url": pr["handle"] if pr else None, "source": "Portal de la Recerca de Catalunya"})
-    out.sort(key=lambda x: (x["level"] != "phd", x["status"] != "ongoing", -(x.get("year") or 0)))
+    scan = json.loads(REPOS_SCAN.read_text()) if REPOS_SCAN.exists() else []
+    for r in scan:                          # repository records: link existing theses, add the new ones where the owner was tutor/director
+        m = next((o for o in out if difflib.SequenceMatcher(None, norm_title(o["title"]), norm_title(r["title"])).ratio() >= 0.9), None)
+        if m:
+            m.setdefault("repository_url", r["uri"])
+            continue
+        if r["role"] == "coordinator":
+            continue
+        yr = (re.search(r"(19|20)\d{2}", r["date"]) or [None])[0]
+        out.append({"title": r["title"].rstrip("."), "level": r["level"], "status": "defended", "student": r["student_initials"],
+                    "directors": ["Xavier Baró"], "year": int(yr) if yr else None, "date": r["date"] or None,
+                    "institution": {"UOC": "Universitat Oberta de Catalunya", "UB": "Universitat de Barcelona", "UAB": "Universitat Autònoma de Barcelona"}[r["repo"]],
+                    "role": "director", "repository_url": r["uri"], "source": f"{r['repo']} institutional repository (role in metadata: {', '.join(r['metadata_roles'])})"})
+    order = {"phd": 0, "master": 1, "research": 2, "bachelor": 3}
+    out.sort(key=lambda x: (order.get(x["level"], 9), x["status"] != "ongoing", -(x.get("year") or 0)))
     THESES.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
     return out
 
@@ -911,7 +1023,7 @@ def stats():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi", "portal"])
+    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi", "portal", "repos"])
     ap.add_argument("query", nargs="?")
     ap.add_argument("--offline", action="store_true")
     ap.add_argument("--refresh", action="store_true", help="metrics: refetch even cached Crossref values")
@@ -924,6 +1036,9 @@ if __name__ == "__main__":
         write_bib()
     elif a.cmd == "index":
         build_index()
+    elif a.cmd == "repos":
+        scan_repos()
+        merge()
     elif a.cmd == "portal":
         fetch_portal()
         merge()

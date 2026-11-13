@@ -1,0 +1,470 @@
+[
+ {
+  "repo": "UAB",
+  "level": "research",
+  "title": "Reconocimiento de objetos multi-clase basado en descriptores de forma",
+  "date": "2008",
+  "student_initials": "A.H.C.",
+  "role": "tutor",
+  "metadata_roles": [
+   "700 dir."
+  ],
+  "uri": "https://ddd.uab.cat/record/45716"
+ },
+ {
+  "repo": "UAB",
+  "level": "research",
+  "title": "Regiones salientes complejas para aplicaciones de seguimiento facial",
+  "date": "2008",
+  "student_initials": "M.E.E.",
+  "role": "tutor",
+  "metadata_roles": [
+   "700 dir."
+  ],
+  "uri": "https://ddd.uab.cat/record/45714"
+ },
+ {
+  "repo": "UAB",
+  "level": "research",
+  "title": "Protecció de la privacitat en entorns urbans i no urbans",
+  "date": "2010",
+  "student_initials": "C.D.P.",
+  "role": "tutor",
+  "metadata_roles": [
+   "700 dir."
+  ],
+  "uri": "https://ddd.uab.cat/record/69748"
+ },
+ {
+  "repo": "UB",
+  "level": "phd",
+  "title": "Evolutionary Bags of Space-Time Features for Human Analysis",
+  "date": "2016-06-02",
+  "student_initials": "V.P.L.",
+  "role": "tutor",
+  "metadata_roles": [
+   "advisor"
+  ],
+  "uri": "https://hdl.handle.net/2445/101360"
+ },
+ {
+  "repo": "UB",
+  "level": "bachelor",
+  "title": "Desenvolupament d’una plataforma web de gestió de tallers i reptes cientı́fics",
+  "date": "2016-06-30",
+  "student_initials": "O.S.P.",
+  "role": "tutor",
+  "metadata_roles": [
+   "advisor"
+  ],
+  "uri": "https://hdl.handle.net/2445/106483"
+ },
+ {
+  "repo": "UB",
+  "level": "bachelor",
+  "title": "Creació d’una plataforma web de cursos online d’estudiants per a estudiants universitaris",
+  "date": "2024-06",
+  "student_initials": "P.M.A.P.",
+  "role": "tutor",
+  "metadata_roles": [
+   "advisor"
+  ],
+  "uri": "https://hdl.handle.net/2445/215479"
+ },
+ {
+  "repo": "UB",
+  "level": "bachelor",
+  "title": "FITPROX: Desarrollo de una App de Gestión de Entrenamientos y Planes Nutricionales",
+  "date": "2025-01",
+  "student_initials": "P.S.C.",
+  "role": "tutor",
+  "metadata_roles": [
+   "advisor"
+  ],
+  "uri": "https://hdl.handle.net/2445/221356"
+ },
+ {
+  "repo": "UB",
+  "level": "bachelor",
+  "title": "Desenvolupament d’una pàgina web sobre reserva dolça",
+  "date": "2025-01",
+  "student_initials": "B.L.B.",
+  "role": "tutor",
+  "metadata_roles": [
+   "advisor"
+  ],
+  "uri": "https://hdl.handle.net/2445/221279"
+ },
+ {
+  "repo": "UB",
+  "level": "bachelor",
+  "title": "Aplicación para la gestión de presupuestos en el sector de la remodelación y análisis del impacto de la inteligencia artificial en el desarrollo web",
+  "date": "2025-01-20",
+  "student_initials": "W.D.S.J.",
+  "role": "tutor",
+  "metadata_roles": [
+   "advisor"
+  ],
+  "uri": "https://hdl.handle.net/2445/228104"
+ },
+ {
+  "repo": "UB",
+  "level": "bachelor",
+  "title": "Implementation of a full-stack blog content management system with a specialized rich text editor",
+  "date": "2025-06-09",
+  "student_initials": "K.N.M.",
+  "role": "tutor",
+  "metadata_roles": [
+   "advisor"
+  ],
+  "uri": "https://hdl.handle.net/2445/223907"
+ },
+ {
+  "repo": "UB",
+  "level": "bachelor",
+  "title": "AdoptAble: Creació d’una plataforma d’adopció",
+  "date": "2025-06-10",
+  "student_initials": "M.L.Á.",
+  "role": "tutor",
+  "metadata_roles": [
+   "advisor"
+  ],
+  "uri": "https://hdl.handle.net/2445/223905"
+ },
+ {
+  "repo": "UB",
+  "level": "bachelor",
+  "title": "Ribera en Ruta: Desenvolupament d’una aplicació web per a l’exploració de rutes a la natura",
+  "date": "2025-06-10",
+  "student_initials": "L.M.V.",
+  "role": "tutor",
+  "metadata_roles": [
+   "advisor"
+  ],
+  "uri": "https://hdl.handle.net/2445/227981"
+ },
+ {
+  "repo": "UB",
+  "level": "bachelor",
+  "title": "Sistema web para la gestión de tribunales de TFM",
+  "date": "2025-06-10",
+  "student_initials": "Z.Z.",
+  "role": "tutor",
+  "metadata_roles": [
+   "advisor"
+  ],
+  "uri": "https://hdl.handle.net/2445/228137"
+ },
+ {
+  "repo": "UB",
+  "level": "bachelor",
+  "title": "Desarrollo de una página web centrada en la moda",
+  "date": "2025-06-10",
+  "student_initials": "S.S.J.G.",
+  "role": "tutor",
+  "metadata_roles": [
+   "advisor"
+  ],
+  "uri": "https://hdl.handle.net/2445/228091"
+ },
+ {
+  "repo": "UOC",
+  "level": "master",
+  "title": "Reconeixement facial en obres d'art : avaluació del rendiment dels mètodes de l'estat de l'art actual",
+  "date": "2012-06-19",
+  "student_initials": "J.C.G.",
+  "role": "advisor-listed-as-author",
+  "metadata_roles": [
+   "author"
+  ],
+  "uri": "https://hdl.handle.net/10609/15101"
+ },
+ {
+  "repo": "UOC",
+  "level": "master",
+  "title": "Identification of paintings from camera-phone images",
+  "date": "2014-12-21",
+  "student_initials": "R.L.S.",
+  "role": "tutor",
+  "metadata_roles": [
+   "tutor"
+  ],
+  "uri": "https://hdl.handle.net/10609/40061"
+ },
+ {
+  "repo": "UOC",
+  "level": "master",
+  "title": "Estudio de las técnicas de reconocimiento facial en obras de arte a través de la visión por computador",
+  "date": "2015-01-13",
+  "student_initials": "J.A.O.d.A.P.",
+  "role": "tutor",
+  "metadata_roles": [
+   "tutor"
+  ],
+  "uri": "https://hdl.handle.net/10609/40381"
+ },
+ {
+  "repo": "UOC",
+  "level": "phd",
+  "title": "Human body parts segmentation via stacked and multi-task learning",
+  "date": "2019-10-09",
+  "student_initials": "D.S.A.",
+  "role": "tutor",
+  "metadata_roles": [
+   "director"
+  ],
+  "uri": "https://hdl.handle.net/10609/103966"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Diseño e implementación de la base de datos para una aplicación de control de procesos de seguridad informática",
+  "date": "2020-06",
+  "student_initials": "J.A.S.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/145346"
+ },
+ {
+  "repo": "UOC",
+  "level": "master",
+  "title": "Anàlisi de robustesa basada en la identificació de patrons de teclat",
+  "date": "2020-06-30",
+  "student_initials": "R.M.B.",
+  "role": "tutor",
+  "metadata_roles": [
+   "tutor"
+  ],
+  "uri": "https://hdl.handle.net/10609/118507"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Diseño e implementación de la base de datos para una aplicación de geolocalización",
+  "date": "2021-01",
+  "student_initials": "J.F.L.B.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/126348"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Diseño e implementación de la base de datos para una aplicación de gestión de procesos electorales",
+  "date": "2021-06",
+  "student_initials": "J.J.C.P.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/131808"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Diseño e implementación de la base de datos para una aplicación de gestión de procesos electorales",
+  "date": "2021-06-10",
+  "student_initials": "I.G.G.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/131806"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Diseño e implementación de la base de datos para una aplicación de gestión de procesos electorales",
+  "date": "2021-06-10",
+  "student_initials": "F.J.M.d.A.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/131807"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Diseño e implementación de la base de datos para la gestión de procesos electorales",
+  "date": "2021-06-18",
+  "student_initials": "J.M.M.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/131809"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Disseny i implementació de la base de dades per a una aplicació de gestió de processos informàtics",
+  "date": "2022-01-07",
+  "student_initials": "E.G.S.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/137507"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "ReviewSecurity: Controlando vulnerabilidades",
+  "date": "2022-06-10",
+  "student_initials": "R.P.A.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "director"
+  ],
+  "uri": "https://hdl.handle.net/10609/145289"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Diseño e implementación de la base de datos para una aplicación de control de procesos de seguridad informática",
+  "date": "2022-06-10",
+  "student_initials": "J.M.G.M.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/145266"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Disseny i implementació de la base de dades per a una aplicació de control de processos de seguretat informàtica",
+  "date": "2022-06-10",
+  "student_initials": "E.R.G.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/145288"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Diseño e implementación de la base de datos para una aplicación de control de procesos de seguridad informática",
+  "date": "2022-06-10",
+  "student_initials": "R.A.S.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/145287"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Diseño e implementación de la base de datos para una aplicación de control de procesos de seguridad informática",
+  "date": "2022-06-12",
+  "student_initials": "M.S.R.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/145386"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Diseño e implementación de una Base de Datos  basada en las vulnerabilidades informáticas de una empresa automovilística",
+  "date": "2022-06-13",
+  "student_initials": "J.J.F.H.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/145545"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "JacKBot - El Chatbot compañero",
+  "date": "2023-01-14",
+  "student_initials": "F.D.M.",
+  "role": "tutor",
+  "metadata_roles": [
+   "tutor"
+  ],
+  "uri": "https://hdl.handle.net/10609/147346"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Diseño e implementación de la base de datos para una aplicación de control de prácticas en empresas de estudiantes universitarios",
+  "date": "2023-02",
+  "student_initials": "A.E.P.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/147232"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Entrenament mitjançant aprenentatge per reforç d’un model de llenguatge per a la generació automatitzada d’aplicacions",
+  "date": "2023-06",
+  "student_initials": "Q.M.D.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/148726"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Avaluació dels LLM per la generació de codi",
+  "date": "2023-06-20",
+  "student_initials": "C.G.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/148353"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "El chatbot culinario",
+  "date": "2023-06-20",
+  "student_initials": "S.J.A.N.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/148167"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Análisis del consumo de la energía de un edificio mediante técnicas predictivas de Deep Learning",
+  "date": "2023-06-20",
+  "student_initials": "Á.G.d.l.C.H.",
+  "role": "coordinator",
+  "metadata_roles": [
+   "other"
+  ],
+  "uri": "https://hdl.handle.net/10609/148208"
+ },
+ {
+  "repo": "UOC",
+  "level": "bachelor",
+  "title": "Game of Hard Life",
+  "date": "2023-06-25",
+  "student_initials": "A.B.L.",
+  "role": "tutor",
+  "metadata_roles": [
+   "tutor"
+  ],
+  "uri": "https://hdl.handle.net/10609/148203"
+ }
+]
