@@ -407,6 +407,94 @@ def parse_projects(paras):
     return out
 
 
+TEACHING = ROOT / "teaching.json"
+UB_ACTIVITIES = ("Classes teoricopràctiques", "Classes teòriques", "Pràctiques de problemes", "Pràctiques de laboratori",
+                 "Pràctiques amb tecnologia", "Seminari", "Treball pràctic", "Treball tutelat", "Tutories")
+SUPERVISION = ("treball de fi de grau", "treball de fi de carrera", "tesi", "treballs acadèmicament dirigits")
+
+
+def _sentence_case(s):
+    s = s.strip()
+    if not s.isupper():
+        return s
+    s = s[0] + s[1:].lower()
+    s = re.sub(r"\((\w+)\)", lambda m: "(" + m.group(1).upper() + ")", s)
+    return re.sub(r"\b(ii|iii|iv)\b|\bi$", lambda m: m.group().upper(), s)   # roman numerals ('Programació II'), not the conjunction 'i'
+
+
+def parse_ub_teaching(text):
+    """One 'Encàrrecs i dedicació docent' PDF (UB) as text from `pdftotext -layout`. Only course metadata is kept (no timetables, rooms or exam dates)."""
+    year = (re.search(r"Curs (\d{4}-\d{4})", text) or [None, None])[1]
+    out, degree, sem, cur = [], None, None, None
+    for ln in text.splitlines():
+        m = re.match(r"^\s*(\w+) - (.+?) - Inici docència: (\d)\w* semestre", ln)
+        if m:
+            degree, sem, cur = (m.group(1), _sentence_case(m.group(2))), int(m.group(3)), None
+            continue
+        m = re.match(r"^\s*(\d{5,6}) - (.+?) \(([\d.]+) crèdits?\)", ln)
+        if m and degree:
+            cur = {"academic_year": year, "institution": "Universitat de Barcelona", "degree_code": degree[0], "degree": degree[1], "semester": sem,
+                   "subject_code": m.group(1), "subject": _sentence_case(m.group(2)), "credits": float(m.group(3)),
+                   "activities": [], "languages": []}
+            cur["kind"] = "supervision" if cur["subject"].lower() in SUPERVISION else "course"
+            out.append(cur)
+            continue
+        if cur:
+            for a in UB_ACTIVITIES:
+                if re.match(rf"^\s*{a}", ln) and a not in cur["activities"]:
+                    cur["activities"].append(a)
+            for lang in ("Català", "Castellà", "Anglès", "Francès"):
+                if re.search(rf"\b{lang}\b", ln) and lang not in cur["languages"]:
+                    cur["languages"].append(lang)
+    return out
+
+
+def import_teaching(pdfs):
+    """UB teaching assignments from PDFs (needs the `pdftotext` binary: brew install poppler)."""
+    import subprocess
+    rows = []
+    for f in pdfs:
+        txt = subprocess.run(["pdftotext", "-layout", str(f), "-"], capture_output=True, text=True, check=True).stdout
+        rows += parse_ub_teaching(txt)
+    rows.sort(key=lambda r: (r["academic_year"], r["semester"], r["subject_code"]))
+    for r in rows:
+        if r["academic_year"] == "2026-2027":
+            r["status"] = "planned"      # assignment for a future course, subject to validation by the university
+    (SRC / "ub_teaching.json").write_text(json.dumps(rows, indent=1, ensure_ascii=False) + "\n")
+    print(f"ub teaching: {len(rows)} subject-semesters over {len({r['academic_year'] for r in rows})} courses -> sources/ub_teaching.json")
+
+
+def build_teaching():
+    """teaching.json = UB undergraduate teaching (PDFs) + postgraduate teaching (CV section G.2)."""
+    ub, pg = SRC / "ub_teaching.json", SRC / "cv_postgrad_teaching.json"
+    out = {"ub": json.loads(ub.read_text()) if ub.exists() else [], "postgraduate": json.loads(pg.read_text()) if pg.exists() else [],
+           "_notes": ["UB data = 'Encàrrecs i dedicació docent' PDFs; the university marks them as informational and subject to validation. 2026-2027 is a plan.",
+                      "UB gap 2016-2023 (owner was at UOC) and UOC/UAB undergraduate teaching are not in these documents."]}
+    TEACHING.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
+
+
+def parse_postgrad_teaching(paras):
+    """CV section G.2: postgraduate courses taught."""
+    a = next((i for i, p in enumerate(paras) if p.startswith("G.2 Activitats")), None)
+    b = next((i for i, p in enumerate(paras) if re.match(r"^H\.\s", p)), None)
+    out, rec = [], {}
+    for p in paras[(a or 0) + 1:(b or 0)]:
+        k, _, v = p.partition(":")
+        key = {"Tipus d": "type", "Nom de l": "course", "Curs acadèmic": "academic_years", "Nombre d": "hours", "Institució": "institution"}
+        kk = next((val for pre, val in key.items() if k.startswith(pre)), None)
+        if kk == "type" and rec:
+            out.append(rec); rec = {}
+        if kk:
+            rec[kk] = v.strip()
+    if rec:
+        out.append(rec)
+    for r in out:
+        r["hours"] = float(r["hours"]) if re.fullmatch(r"[\d.]+", r.get("hours", "")) else None
+        r["academic_years"] = [y.strip() for y in re.split(r",|\si\s", r.get("academic_years", "")) if y.strip()]
+        r["source"] = "CV (AQU) G.2, 2024-12-31"
+    return out
+
+
 def build_theses():
     """theses.json = CV section G.1 (authoritative) enriched with Portal de la Recerca records (repository link) + the owner's own thesis."""
     cvp, prp = SRC / "cv_theses.json", SRC / "portal_prc.json"
@@ -600,6 +688,9 @@ def import_cv(path):
     quality = parse_quality(lines)
     (SRC / "cv_quality.json").write_text(json.dumps(quality, indent=1, ensure_ascii=False) + "\n")
     if str(path).endswith(".docx"):
+        pg = parse_postgrad_teaching(docx_paragraphs(path))
+        (SRC / "cv_postgrad_teaching.json").write_text(json.dumps(pg, indent=1, ensure_ascii=False) + "\n")
+        print(f"cv postgraduate teaching: {len(pg)} courses")
         pr = parse_projects(docx_paragraphs(path))
         PROJECTS.write_text(json.dumps(pr, indent=1, ensure_ascii=False) + "\n")
         print(f"cv projects: {len(pr)} -> projects.json")
@@ -898,6 +989,7 @@ def merge():
             refs[key].update({k: v for k, v in ov.items()})
     build_theses()
     build_activities()
+    build_teaching()
     items = sorted(refs.values(), key=lambda r: (-(r.get("year") or 0), r["title"].lower()))
     REFS.write_text(json.dumps(items, indent=1, ensure_ascii=False) + "\n")
     c = sum(1 for r in items if r["status"] == "confirmed")
@@ -1140,8 +1232,9 @@ def stats():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi", "portal", "repos", "blog"])
+    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi", "portal", "repos", "blog", "import-teaching"])
     ap.add_argument("query", nargs="?")
+    ap.add_argument("paths", nargs="*", help="import-teaching: the UB 'Encàrrecs i dedicació docent' PDFs")
     ap.add_argument("--offline", action="store_true")
     ap.add_argument("--refresh", action="store_true", help="metrics: refetch even cached Crossref values")
     a = ap.parse_args()
@@ -1153,6 +1246,9 @@ if __name__ == "__main__":
         write_bib()
     elif a.cmd == "index":
         build_index()
+    elif a.cmd == "import-teaching":
+        import_teaching(([a.query] if a.query else []) + a.paths)
+        merge()
     elif a.cmd == "blog":
         fetch_wordpress()
         merge()
