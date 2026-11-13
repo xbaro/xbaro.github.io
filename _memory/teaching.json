@@ -966,8 +966,7 @@
     "ca": "Seminaris en intel·ligència artificial (UB)"
    },
    "programmes": [
-    "Intel·ligència Artificial",
-    "Màster"
+    "Intel·ligència Artificial"
    ],
    "languages": [
     "Anglès"
@@ -988,7 +987,6 @@
    },
    "programmes": [
     "Intel·ligència Artificial",
-    "Màster",
     "Màster Interuniversitari en Intel·ligència Artificial"
    ],
    "languages": [
@@ -1184,10 +1182,6 @@
     [
      2014,
      2016
-    ],
-    [
-     2024,
-     2026
     ]
    ],
    "planned": []

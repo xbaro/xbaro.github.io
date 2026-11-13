@@ -490,7 +490,11 @@ def teaching_summary(t):
     """One row per (institution, subject): the periods it was taught, instead of one row per course.
     Names are keyed by language so the site can add translations (ca is the source language)."""
     groups = {}
+    ov = ROOT / "teaching_overrides.json"
+    excl = json.loads(ov.read_text())["exclude"] if ov.exists() else []
     for r in t["ub"]:
+        if any(e["subject"] == r["subject"] and r["academic_year"] in e["academic_years"] for e in excl):
+            continue                                     # owner override (e.g. exam proctoring only)
         if r.get("kind") != "course":
             continue                                     # TFG/TFC/Tesi are supervision (see theses.json)
         g = groups.setdefault(("Universitat de Barcelona", r["subject"].lower()), {
