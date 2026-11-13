@@ -101,9 +101,16 @@ def fetch_portal():
     """Portal de la Recerca de Catalunya (CSUC DSpace-CRIS): publications via OpenSearch Atom + theses tab."""
     import html
     def get(url):
+        import time
         req = urllib.request.Request(url, headers={"User-Agent": "personal-site-memory"})
-        with urllib.request.urlopen(req, timeout=90) as r:
-            return r.read().decode("utf-8", "replace")
+        for attempt in range(5):   # the portal intermittently answers 500
+            try:
+                with urllib.request.urlopen(req, timeout=90) as r:
+                    return r.read().decode("utf-8", "replace")
+            except urllib.error.HTTPError:
+                if attempt == 4:
+                    raise
+                time.sleep(3 * (attempt + 1))
     atom = get(f"{PRC_BASE}/open-search?query=author_authority:{PRC_RP}&format=atom&rpp=200")
     pubs = []
     for e in re.findall(r"<entry>.*?</entry>", atom, flags=re.S):
@@ -128,8 +135,21 @@ def fetch_portal():
     if not theses and (SRC / "portal_prc.json").exists():   # never replace known theses by an empty (failed) fetch
         theses = json.loads((SRC / "portal_prc.json").read_text()).get("theses", [])
         print("  [portal] theses tab came back empty; keeping previous theses")
-    (SRC / "portal_prc.json").write_text(json.dumps({"publications": pubs, "theses": theses}, indent=1, ensure_ascii=False) + "\n")
-    print(f"portal: {len(pubs)} items ({len(theses)} theses) -> sources/portal_prc.json")
+    projects = []   # public research projects tab: start date, title, institutions, researchers
+    for attempt in range(5):
+        tab = get(f"{PRC_BASE}/orcid/{ORCID}/publicresearcherprojects.html?onlytab=true")
+        rows = re.findall(r"<tr[^>]*>(.*?)</tr>", tab, flags=re.S)
+        cells = [[html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", c))).strip() for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", r, flags=re.S)] for r in rows]
+        projects = [{"start": c[0], "title": c[1], "institutions": c[2], "researchers": c[3]} for c in cells
+                    if len(c) >= 4 and re.fullmatch(r"\d\d-\d\d-\d{4}", c[0])]
+        if projects:
+            break
+        time.sleep(2 * (attempt + 1))
+    if not projects and (SRC / "portal_prc.json").exists():
+        projects = json.loads((SRC / "portal_prc.json").read_text()).get("projects", [])
+        print("  [portal] projects tab came back empty; keeping previous projects")
+    (SRC / "portal_prc.json").write_text(json.dumps({"publications": pubs, "theses": theses, "projects": projects}, indent=1, ensure_ascii=False) + "\n")
+    print(f"portal: {len(pubs)} items ({len(theses)} theses, {len(projects)} projects) -> sources/portal_prc.json")
 
 
 def flip_name(n):

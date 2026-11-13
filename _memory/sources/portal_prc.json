@@ -394,5 +394,49 @@
    "title": "Probabilistic Darwin Machines: A new approach to develop Evolutionary Object Detection Systems.",
    "directors": "Vitria Marca, Jordi"
   }
+ ],
+ "projects": [
+  {
+   "start": "01-01-2024",
+   "title": "23395 NEFA YouAddict EIT Digital Project",
+   "institutions": "UB",
+   "researchers": "Escalera, Sergio"
+  },
+  {
+   "start": "02-12-2024",
+   "title": "A Virtual Clothing try on System based on 3D Body and Garment reconstruction and animation 2024 PROD 00013",
+   "institutions": "UB",
+   "researchers": "Escalera, Sergio"
+  },
+  {
+   "start": "27-02-2025",
+   "title": "Data Science and Artificial Intelligence",
+   "institutions": "UB",
+   "researchers": "Segui Mesquida, Santiago"
+  },
+  {
+   "start": "01-01-2019",
+   "title": "Explainable Uncertainty-Aware Deep Learning. Application to emotion perception",
+   "institutions": "UB ; UOC",
+   "researchers": "Ventura Royo, Carles; Masip Rodo, David; Lapedriza Garcia, Àgata"
+  },
+  {
+   "start": "01-12-2022",
+   "title": "Modelado 3D corporal y de ropa basado en imagen para probadores virtuales",
+   "institutions": "UB",
+   "researchers": "Escalera, Sergio"
+  },
+  {
+   "start": "01-09-2026",
+   "title": "Modelos eficientes de representaciones multimodales",
+   "institutions": "UB",
+   "researchers": "Escalera, Sergio; Baró Solé, Xavier"
+  },
+  {
+   "start": "01-02-2026",
+   "title": "Un sistema de prueba de ropa y prueba virtual basado en aprendizaje profundo e inteligencia artificial generativa",
+   "institutions": "UB",
+   "researchers": "Escalera, Sergio"
+  }
  ]
 }
