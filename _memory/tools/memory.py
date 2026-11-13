@@ -217,7 +217,11 @@ def import_cv(path):
     (SRC / "cv_talks.json").write_text(json.dumps(talks, indent=1, ensure_ascii=False) + "\n")
     quality = parse_quality(lines)
     (SRC / "cv_quality.json").write_text(json.dumps(quality, indent=1, ensure_ascii=False) + "\n")
-    print(f"cv: {len(pubs)} publications, {len(talks)} talks, {len(quality)} quality records -> sources/cv_*.json")
+    indexing = parse_b_indexing(docx_paragraphs(path)) if str(path).endswith(".docx") else []
+    if indexing:
+        (SRC / "cv_indexing.json").write_text(json.dumps(indexing, indent=1, ensure_ascii=False) + "\n")
+    print(f"cv: {len(pubs)} publications, {len(talks)} talks, {len(quality)} quality records (K), "
+          f"{len(indexing)} per-item indexing records (B.1/B.3) -> sources/cv_*.json")
 
 
 _ACC = {"'": "\u0301", "`": "\u0300", '"': "\u0308", "^": "\u0302", "~": "\u0303", "=": "\u0304",
@@ -280,6 +284,70 @@ def load_scholar():
                     "year": int(f["year"]) if f.get("year", "").isdigit() else None,
                     "venue": tex_decode(f.get("journal") or f.get("booktitle") or f.get("publisher") or "") or None,
                     "scholar_key": key})
+    return out
+
+
+def docx_paragraphs(path):
+    """Every paragraph in document order, including those nested in tables/form fields."""
+    import docx
+    from docx.oxml.ns import qn
+    d = docx.Document(str(path))
+    return [t for t in ("".join(x.text or "" for x in p.iter(qn("w:t"))).strip() for p in d.element.body.iter(qn("w:p"))) if t]
+
+
+def parse_b_indexing(paras):
+    """Per-item indexing fields of the AQU CV: B.1 (journal articles: WoS/Scopus/JIF/SJR/quartiles/ranking) and B.3 (quality text)."""
+    out, sec, rec = [], None, []
+
+    def flush():
+        nonlocal rec
+        if not rec or sec not in ("B.1", "B.3"):
+            rec = []
+            return
+        g = lambda pat: next((re.sub(r"^[^:]*:\s*", "", p).strip() for p in rec if re.match(pat, p)), None)
+        n = lambda s: (float(s.replace(",", ".")) if s and re.fullmatch(r"[\d.,]+", s.strip()) else None)
+        title = g(r"^Títol(?! del)") or g(r"^Títol del capítol") or g(r"^Títol del llibre")
+        if not title:
+            rec = []
+            return
+        d = {"title": title, "section": sec}
+        if sec == "B.1":
+            si = [p.split(":")[-1].strip().upper() for p in rec if p.startswith("(SI/NO)")]
+            d.update({"wos_indexed": si[0] == "SI" if si else None, "scopus_indexed": si[1] == "SI" if len(si) > 1 else None,
+                      "cites_wos": n(g(r"^Nombre de citacions de l.article \(Wos")), "cites_scopus": n(g(r"^Nombre de citacions de l.article:")),
+                      "jcr_if": n(g(r"^JIF del JCR")), "sjr": n(g(r"^Índex SJR")),
+                      "jcr_quartile": g(r"^Quartil JCR"), "sjr_quartile": g(r"^Quartil SJR"),
+                      "jcr_category": g(r"^Categoria JCR"), "sjr_category": g(r"^Categoria SJR"), "ranking": g(r"^Rànquing"),
+                      "cites_scholar": n((re.search(r"Google Scholar:\s*(\d+)", " ".join(rec)) or [None, None])[1])})
+        else:
+            qt = g(r"^Indicis de qualitat")
+            d["quality_text"] = qt
+            for key, pat in (("cites_wos", r"WoS\s+(\d+)"), ("cites_scopus", r"Scopus\s+(\d+)"), ("cites_scholar", r"Google\s+(\d+)"),
+                             ("cites_publisher", r"(?:Springer|Science ?Direct|Elsevier)[^.]*?(\d+)\s*cites")):
+                mm = re.search(pat, qt or "")
+                if mm:
+                    d[key] = mm.group(1)
+            for key in ("cites_wos", "cites_scopus", "cites_scholar", "cites_publisher"):
+                if key in d:
+                    d[key] = float(d[key])
+        for k in ("cites_wos", "cites_scopus", "cites_scholar", "cites_publisher"):
+            if d.get(k) is not None:
+                d[k] = int(d[k])
+        out.append({k: v for k, v in d.items() if v not in (None, "")})
+        rec = []
+
+    for p in paras:
+        m = re.match(r"^(B\.[1-5])\s", p)
+        if m or re.match(r"^[C-K]\.\s", p):
+            flush()
+            sec = m.group(1) if m else None
+            continue
+        if p.startswith("Autors/"):
+            flush()
+            rec = [p]
+        elif rec:
+            rec.append(p)
+    flush()
     return out
 
 
@@ -372,15 +440,29 @@ def merge():
         if not r.get("authors") and rec.get("authors_cv"):
             r["authors"] = [a.strip() for a in re.split(r";|,\s(?=[A-ZÁÉÍÓÚ])", rec["authors_cv"]) if a.strip()]
 
-    for q in load_cv_quality():        # official indexing indicators reported in the CV (JCR, SJR, GGS, WoS/Scopus cites)
+    ip = SRC / "cv_indexing.json"      # per-item indexing from CV sections B.1 (articles) and B.3
+    for rec in (json.loads(ip.read_text()) if ip.exists() else []):
+        nt, k = norm_title(rec["title"]), by_title.get(norm_title(rec["title"]))
+        if k is None:
+            k = next((kk for t, kk in by_title.items() if difflib.SequenceMatcher(None, nt, t).ratio() >= 0.92
+                      or (min(len(t), len(nt)) >= 25 and (t.startswith(nt) or nt.startswith(t)))), None)
+        if k is None:
+            print("  [indexing B] no match for:", rec["title"][:80])
+            continue
+        refs[k]["indexing"] = {a: b for a, b in rec.items() if a not in ("title", "section")} | {"source": f"CV (AQU) {rec['section']}, 2024-12-31"}
+    for q in load_cv_quality():        # CV section K (10 most relevant): adds GGS/SPI and fills gaps
         text = norm_title(q["citation"])
         cands = [(len(norm_title(r["title"])), k) for k, r in refs.items()
                  if len(norm_title(r["title"])) >= 15 and norm_title(r["title"]) in text]
         if not cands:
-            print("  [indexing] no match for:", q["citation"][:90])
+            print("  [indexing K] no match for:", q["citation"][:90])
             continue
         k = max(cands)[1]
-        refs[k]["indexing"] = {a: b for a, b in q.items() if a not in ("citation", "kind")}
+        ix = refs[k].setdefault("indexing", {})
+        for a, b in q.items():
+            if a not in ("citation", "kind", "source"):
+                ix.setdefault(a, b)
+        ix.setdefault("source", q["source"])
     if METRICS.exists():               # attach last computed metrics (see `metrics` command)
         for k, m in json.loads(METRICS.read_text()).items():
             if k in refs:

@@ -251,6 +251,21 @@
   "abstract": "CodaLab Competitions is an open source web platform designed to help data scientists and research teams to crowd-source the resolution of machine learning problems through the organization of competitions, also called challenges or contests. CodaLab Competitions provides useful features such as multiple phases, results and code submissions, multi-score leaderboards, and jobs running inside Docker containers. The platform is very flexible and can handle large scale experiments, by allowing organizers to upload large datasets and provide their own CPU or GPU compute workers.",
   "openalex_id": "https://openalex.org/W4295682935",
   "scholar_key": "pavao2023codalab",
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 0,
+   "cites_scopus": 0,
+   "jcr_if": 4.3,
+   "sjr": 2.796,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Automation & Control Systems",
+   "sjr_category": "Artificial Intelligence",
+   "ranking": "21/84",
+   "cites_scholar": 160,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 87
@@ -292,6 +307,21 @@
   "issn_l": "1949-3045",
   "scholar_key": "junior2019first",
   "scholar_cited_by": 113,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 38,
+   "cites_scopus": 48,
+   "jcr_if": 11.2,
+   "sjr": 1.905,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial IntelligenceComputer Science, Artificial Intelligence",
+   "sjr_category": "Human-Computer Interaction",
+   "ranking": "10/145",
+   "cites_scholar": 113,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 102,
@@ -367,6 +397,21 @@
   "issn_l": "1949-3045",
   "scholar_key": "kulkarni2018automatic",
   "scholar_cited_by": 69,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 22,
+   "cites_scopus": 21,
+   "jcr_if": 6.288,
+   "sjr": 1.014,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Human-Computer Interaction",
+   "ranking": "12/134",
+   "cites_scholar": 69,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 70,
@@ -441,6 +486,21 @@
   "issn_l": "1751-9632",
   "scholar_key": "madadi2022end",
   "scholar_cited_by": 9,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 9,
+   "cites_scopus": 8,
+   "jcr_if": 1.7,
+   "sjr": 0.375,
+   "jcr_quartile": "Q3",
+   "sjr_quartile": "Q3",
+   "jcr_category": "Engineering, Electrical & Electronic",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "205/275",
+   "cites_scholar": 9,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 79,
@@ -478,6 +538,13 @@
   "openalex_id": "https://openalex.org/W2980891098",
   "issn_l": "2367-4520",
   "scholar_key": "baro2019biometric",
+  "indexing": {
+   "quality_text": "Cites:  WoS 5, Scopus 3, Google 8",
+   "cites_wos": 5,
+   "cites_scopus": 3,
+   "cites_scholar": 8,
+   "source": "CV (AQU) B.3, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 5,
@@ -510,6 +577,13 @@
   "openalex_id": "https://openalex.org/W2980448104",
   "issn_l": "2367-4520",
   "scholar_key": "guitart2019design",
+  "indexing": {
+   "quality_text": "Cites:  WoS 4, Scopus 6, Google 10",
+   "cites_wos": 4,
+   "cites_scopus": 6,
+   "cites_scholar": 10,
+   "source": "CV (AQU) B.3, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 8,
@@ -543,6 +617,13 @@
   "openalex_id": "https://openalex.org/W2981221185",
   "issn_l": "2367-4520",
   "scholar_key": "lopez2019forensic",
+  "indexing": {
+   "quality_text": "Cites:  WoS 39, Scopus 0, Google 3",
+   "cites_wos": 39,
+   "cites_scopus": 0,
+   "cites_scholar": 3,
+   "source": "CV (AQU) B.3, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 1,
@@ -583,6 +664,21 @@
   "issn_l": "0162-8828",
   "scholar_key": "escalera2020guest",
   "scholar_cited_by": 1,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 0,
+   "cites_scopus": 0,
+   "jcr_if": 16.389,
+   "sjr": 3.811,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "1/139",
+   "cites_scholar": 1,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
@@ -635,6 +731,21 @@
   "issn_l": "1949-3045",
   "scholar_key": "escalante2020modeling",
   "scholar_cited_by": 146,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 30,
+   "cites_scopus": 40,
+   "jcr_if": 10.506,
+   "sjr": 1.309,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Human-Computer Interaction",
+   "ranking": "9/139",
+   "cites_scholar": 146,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 120,
@@ -730,6 +841,21 @@
   "issn_l": "0932-8092",
   "scholar_key": "anbarjafari2019guest",
   "scholar_cited_by": 9,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 0,
+   "cites_scopus": 0,
+   "jcr_if": 1.605,
+   "sjr": 0.517,
+   "jcr_quartile": "Q3",
+   "sjr_quartile": "Q2",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "90/137",
+   "cites_scholar": 9,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
@@ -902,6 +1028,21 @@
   "issn_l": "1751-9632",
   "scholar_key": "ren2018back",
   "scholar_cited_by": 5,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 3,
+   "cites_scopus": 5,
+   "jcr_if": 1.648,
+   "sjr": 0.336,
+   "jcr_quartile": "Q3",
+   "sjr_quartile": "Q2",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "82/134",
+   "cites_scholar": 5,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 11,
@@ -993,6 +1134,21 @@
   "issn_l": "2169-3536",
   "scholar_key": "guo2018dominant",
   "scholar_cited_by": 114,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 53,
+   "cites_scopus": 83,
+   "jcr_if": 4.098,
+   "sjr": 0.609,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Information Systems",
+   "sjr_category": "Computer Science (miscellaneous)",
+   "ranking": "23/155",
+   "cites_scholar": 114,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 115,
@@ -1031,6 +1187,11 @@
   "openalex_id": "https://openalex.org/W4206210655",
   "issn_l": "2520-131X",
   "scholar_key": "escalante2018explainable",
+  "indexing": {
+   "quality_text": "Springer: 60K accessos i 375 cites",
+   "cites_publisher": 375,
+   "source": "CV (AQU) B.3, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 219,
@@ -1110,6 +1271,21 @@
   "abstract": "Person re-identification has received special attentionby the human analysis community in the last few years.To address the challenges in this field, many researchers haveproposed different strategies, which basically exploit eithercross-view invariant features or cross-view robust metrics. Inthis work we propose to combine different feature representationsthrough ranking aggregation. Spatial information, whichpotentially benefits the person matching, is represented usinga 2D body model, from which color and texture informationare extracted and combined. We also consider contextualinformation (background and foreground data), automaticallyextracted via Deep Decompositional Network, and the usage ofConvolutional Neural Network (CNN) features. To describe thematching between images we use the polynomial feature map,also taking into account local and global information. Finally,the Stuart ranking aggregation method is employed to combinecomplementary ranking lists obtained from different featurerepresentations. Experimental results demonstrated that weimprove the state-of-the-art on VIPeR and PRID450s datasets,achieving 58.77% and 71.56% on top-1 rank recognitionrate, respectively, as well as obtaining competitive results onCUHK01 dataset.",
   "scholar_key": "juniorexploiting",
   "scholar_cited_by": 7,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 4,
+   "cites_scopus": 5,
+   "jcr_if": 2.733,
+   "sjr": 0.633,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Theory & Methods",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "23/105",
+   "cites_scholar": 7,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 5,
@@ -1183,6 +1359,21 @@
   "issn_l": "1380-7501",
   "scholar_key": "madadi20182d",
   "scholar_cited_by": 4,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 2,
+   "cites_scopus": 3,
+   "jcr_if": 2.313,
+   "sjr": 0.462,
+   "jcr_quartile": "Q2",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Theory & Methods",
+   "sjr_category": "Media Technology",
+   "ranking": "34/108",
+   "cites_scholar": 4,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 4,
@@ -1220,18 +1411,24 @@
   "scholar_key": "escalera2018guest",
   "scholar_cited_by": 13,
   "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 5,
+   "cites_scopus": 7,
    "jcr_if": 6.288,
+   "sjr": 1.014,
    "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Human-Computer Interaction",
+   "ranking": "12/134",
+   "cites_scholar": 13,
+   "source": "CV (AQU) B.1, 2024-12-31",
    "jcr_categories": [
     "Computer Science, Artificial Intelligence",
     "Computer Science, Cybernetics"
    ],
-   "sjr": 1.014,
-   "sjr_quartiles_raw": "Q1 Human-Computer Interaction / Software",
-   "cites_wos": 5,
-   "cites_scopus": 7,
-   "cites_scholar": 13,
-   "source": "CV (AQU) section K, 2024-12-31"
+   "sjr_quartiles_raw": "Q1 Human-Computer Interaction / Software"
   },
   "metrics": {
    "as_of": "2026-11-13",
@@ -1277,6 +1474,21 @@
   "issn_l": "0162-8828",
   "scholar_key": "escalera2018guest",
   "scholar_cited_by": 9,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 3,
+   "cites_scopus": 6,
+   "jcr_if": 17.73,
+   "sjr": 3.764,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "1/134",
+   "cites_scholar": 9,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 11,
@@ -1355,6 +1567,21 @@
   "issn_l": "0920-5691",
   "scholar_key": "escalera2018looking",
   "scholar_cited_by": 3,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 2,
+   "cites_scopus": 2,
+   "jcr_if": 6.071,
+   "sjr": 3.595,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "13/134",
+   "cites_scholar": 3,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 2,
@@ -1398,6 +1625,21 @@
   "issn_l": "1949-3045",
   "scholar_key": "guccluturk2017multimodal",
   "scholar_cited_by": 75,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 37,
+   "cites_scopus": 48,
+   "jcr_if": 4.585,
+   "sjr": 1.13,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Human-Computer Interaction",
+   "ranking": "12/132",
+   "cites_scholar": 75,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 82,
@@ -1438,6 +1680,21 @@
   "issn_l": "0262-8856",
   "scholar_key": "madadi2018top",
   "scholar_cited_by": 12,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 7,
+   "cites_scopus": 9,
+   "jcr_if": 2.733,
+   "sjr": 0.633,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Theory & Methods",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "23/105",
+   "cites_scholar": 12,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 9,
@@ -1680,6 +1937,11 @@
   "openalex_id": "https://openalex.org/W2737327755",
   "issn_l": "2520-131X",
   "scholar_key": "asadi2017deep",
+  "indexing": {
+   "quality_text": "Springer: 3278 accessos i 33 cites.",
+   "cites_publisher": 33,
+   "source": "CV (AQU) B.3, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 59,
@@ -1884,6 +2146,21 @@
   "issn_l": "0941-0643",
   "scholar_key": "escalante2017evolving",
   "scholar_cited_by": 18,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 6,
+   "cites_scopus": 7,
+   "jcr_if": 4.215,
+   "sjr": 0.7,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Software",
+   "ranking": "15/132",
+   "cites_scholar": 18,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 10,
@@ -2105,6 +2382,17 @@
   "issn_l": "1863-0383",
   "scholar_key": "baneres2016adaptive",
   "scholar_cited_by": 29,
+  "indexing": {
+   "wos_indexed": false,
+   "scopus_indexed": true,
+   "cites_wos": 15,
+   "cites_scopus": 19,
+   "sjr": 0.217,
+   "sjr_quartile": "Q3",
+   "sjr_category": "Engineering (miscellaneous)",
+   "cites_scholar": 29,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 19,
@@ -2144,6 +2432,21 @@
   "issn_l": "1568-4156",
   "scholar_key": "alonso2016care",
   "scholar_cited_by": 1,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 0,
+   "cites_scopus": 0,
+   "jcr_if": 2.23,
+   "sjr": 0.864,
+   "jcr_quartile": "Q2",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Health Care Sciences & Services",
+   "sjr_category": "Health (social science)",
+   "ranking": "35/39",
+   "cites_scholar": 1,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 1,
@@ -2338,18 +2641,24 @@
   "scholar_key": "escalera2016guest",
   "scholar_cited_by": 9,
   "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 7,
+   "cites_scopus": 8,
    "jcr_if": 8.329,
+   "sjr": 5.388,
    "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "2/133",
+   "cites_scholar": 9,
+   "source": "CV (AQU) B.1, 2024-12-31",
    "jcr_categories": [
     "Computer Science, Artificial Intelligence",
     "Engineering, Electrical & Electronic"
    ],
-   "sjr": 5.388,
-   "sjr_quartiles_raw": "Q1 Artificial Intelligence / Computational Theory and Mathematics / Computer Vision and Pattern Recognition / Software",
-   "cites_wos": 7,
-   "cites_scopus": 8,
-   "cites_scholar": 9,
-   "source": "CV (AQU) section K, 2024-12-31"
+   "sjr_quartiles_raw": "Q1 Artificial Intelligence / Computational Theory and Mathematics / Computer Vision and Pattern Recognition / Software"
   },
   "metrics": {
    "as_of": "2026-11-13",
@@ -2474,6 +2783,11 @@
   "cited_by": 16,
   "openalex_id": "https://openalex.org/W2488725857",
   "scholar_key": "baneres2016towards",
+  "indexing": {
+   "quality_text": "Science Direct: 8 cites",
+   "cites_publisher": 8,
+   "source": "CV (AQU) B.3, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 16,
@@ -2816,6 +3130,21 @@
   "issn_l": "0167-8655",
   "scholar_key": "ponce2015non",
   "scholar_cited_by": 20,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 8,
+   "cites_scopus": 9,
+   "jcr_if": 1.586,
+   "sjr": 0.95,
+   "jcr_quartile": "Q2",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "59/130",
+   "cites_scholar": 20,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 11,
@@ -2886,6 +3215,21 @@
   "issn_l": "0031-3203",
   "scholar_key": "bautista2014design",
   "scholar_cited_by": 32,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 21,
+   "cites_scopus": 28,
+   "jcr_if": 3.096,
+   "sjr": 1.299,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "15/123",
+   "cites_scholar": 32,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 23,
@@ -2929,17 +3273,23 @@
   "scholar_key": "hernandez2014probability",
   "scholar_cited_by": 78,
   "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 35,
+   "cites_scopus": 47,
    "jcr_if": 1.551,
+   "sjr": 0.73,
    "jcr_quartile": "Q2",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "55/123",
+   "cites_scholar": 78,
+   "source": "CV (AQU) B.1, 2024-12-31",
    "jcr_categories": [
     "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE"
    ],
-   "sjr": 0.73,
-   "sjr_quartiles_raw": "Q1 Computer Vision and Pattern Recognition / Signal Processing / Q2 Software / Artificial Intelligence",
-   "cites_wos": 35,
-   "cites_scopus": 47,
-   "cites_scholar": 78,
-   "source": "CV (AQU) section K, 2024-12-31"
+   "sjr_quartiles_raw": "Q1 Computer Vision and Pattern Recognition / Signal Processing / Q2 Software / Artificial Intelligence"
   },
   "metrics": {
    "as_of": "2026-11-13",
@@ -3294,17 +3644,23 @@
   "scholar_key": "bautista2012minimal",
   "scholar_cited_by": 61,
   "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 38,
+   "cites_scopus": 44,
    "jcr_if": 1.266,
+   "sjr": 0.66,
    "jcr_quartile": "Q2",
+   "sjr_quartile": "Q2",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "56/115",
+   "cites_scholar": 61,
+   "source": "CV (AQU) B.1, 2024-12-31",
    "jcr_categories": [
     "Computer Science, Artificial Intelligence"
    ],
-   "sjr": 0.66,
-   "sjr_quartiles_raw": "Q2 Computer Vision and Pattern Recognition",
-   "cites_wos": 38,
-   "cites_scopus": 44,
-   "cites_scholar": 61,
-   "source": "CV (AQU) section K, 2024-12-31"
+   "sjr_quartiles_raw": "Q2 Computer Vision and Pattern Recognition"
   },
   "metrics": {
    "as_of": "2026-11-13",
@@ -3396,6 +3752,21 @@
   "issn_l": "1424-8220",
   "scholar_key": "escalera2012social",
   "scholar_cited_by": 20,
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 9,
+   "cites_scopus": 11,
+   "jcr_if": 1.953,
+   "sjr": 0.671,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Instruments & Instrumentation",
+   "sjr_category": "Electrical and Electronic Engineering",
+   "ranking": "8/57",
+   "cites_scholar": 20,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 11,
@@ -3802,9 +4173,11 @@
   "issn_l": "2191-5768",
   "scholar_key": "escalera2011traffic",
   "indexing": {
+   "quality_text": "Springer: 6401 accessos i 23 cites",
+   "cites_publisher": 23,
+   "source": "CV (AQU) B.3, 2024-12-31",
    "cites_scholar": 33,
-   "spi": "SPI: posició 4 rànquing editorials estrangeres.",
-   "source": "CV (AQU) section K, 2024-12-31"
+   "spi": "SPI: posició 4 rànquing editorials estrangeres."
   },
   "metrics": {
    "as_of": "2026-11-13",
@@ -3984,6 +4357,9 @@
    "Sergio Escalera",
    "Miquel Ferrer"
   ],
+  "indexing": {
+   "source": "CV (AQU) B.3, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4086,6 +4462,9 @@
   "year": 2009,
   "scholar_key": "baro2009probabilistic",
   "venue": "Universitat Autònoma de Barcelona,",
+  "indexing": {
+   "source": "CV (AQU) B.3, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13"
   }
@@ -4155,19 +4534,25 @@
   "scholar_key": "baro2009traffic",
   "scholar_cited_by": 280,
   "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 147,
+   "cites_scopus": 185,
    "jcr_if": 2.092,
+   "sjr": 1.207,
    "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Transportation science & Technology",
+   "sjr_category": "Computer Science Applications",
+   "ranking": "3/26",
+   "cites_scholar": 280,
+   "source": "CV (AQU) B.1, 2024-12-31",
    "jcr_categories": [
     "Civil Engineering",
     "Engineering, Electrical & Electronic",
     "Transportation science & Technology"
    ],
-   "sjr": 1.207,
-   "sjr_quartiles_raw": "Q1 Civil and Structural Engineering /  Electric and Electronic Engineering",
-   "cites_wos": 147,
-   "cites_scopus": 185,
-   "cites_scholar": 280,
-   "source": "CV (AQU) section K, 2024-12-31"
+   "sjr_quartiles_raw": "Q1 Civil and Structural Engineering /  Electric and Electronic Engineering"
   },
   "metrics": {
    "as_of": "2026-11-13",
