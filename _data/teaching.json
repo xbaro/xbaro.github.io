@@ -77,11 +77,6 @@
     "ca": "Intel·ligència Artificial",
     "en": "Artificial Intelligence (MSc)",
     "es": "Inteligencia Artificial (máster)"
-   },
-   {
-    "ca": "Màster",
-    "en": "Màster",
-    "es": "Màster"
    }
   ],
   "periods": [
@@ -112,11 +107,6 @@
     "ca": "Intel·ligència Artificial",
     "en": "Artificial Intelligence (MSc)",
     "es": "Inteligencia Artificial (máster)"
-   },
-   {
-    "ca": "Màster",
-    "en": "Màster",
-    "es": "Màster"
    },
    {
     "ca": "Màster Interuniversitari en Intel·ligència Artificial",
@@ -383,8 +373,7 @@
  },
  {
   "periods_label": [
-   "2014/15–2015/16",
-   "2024/25–2025/26"
+   "2014/15–2015/16"
   ],
   "planned_label": [],
   "institution": "Universitat de Barcelona",
@@ -405,10 +394,6 @@
    [
     2014,
     2016
-   ],
-   [
-    2024,
-    2026
    ]
   ],
   "planned": [],
