@@ -80,3 +80,13 @@ Es treballa **via screenshots**: l'agent aixeca la web a Podman, captura pantall
 - Comunicació amb l'usuari: **català**.
 - Commits i PRs: **anglès**, imperatiu. Branques temporals `feature/`, `fix/`, `docs/`, `chore/` des de `develop`.
 - Canvis quirúrgics; el que no es demana no es toca.
+
+
+## Multidioma (ca / en / es)
+
+- Sense connectors: carpetes per idioma. Idioma per defecte `en` a l'arrel (`/teaching/`), els altres sota `/<lang>/` (`/ca/teaching/`, `/es/teaching/`). Idiomes a `languages` i `default_lang` de `_config.yml`.
+- Cada pàgina porta `lang` i `translation_key` (mateixa clau = traducció l'una de l'altra); `_includes/lang-switch.html` genera el selector a la capçalera.
+- Textos del lloc a `_data/i18n.yml` (un bloc per idioma). Afegir un idioma = bloc a `i18n.yml` + carpeta `_pages/<lang>/` + codi a `languages`.
+- Contingut derivat de la memòria: `uv run _memory/tools/memory.py site` escriu `_data/teaching.json` (dades públiques, noms ja resolts per idioma). Les traduccions de noms d'assignatures/programes són a `_memory/i18n_teaching.json` (la clau és el nom en català; si falta una traducció es mostra el català).
+- Docència: una fila per institució i assignatura amb els **períodes** de cursos (`2012/13–2015/16`), no una per curs. Les planificades es marquen `planificat`.
+- Pendent: `hreflang` al `<head>`, traducció de la resta de pàgines (publicacions, tesis, projectes, CV) i de les cadenes de `ui-text.yml` (cal bloc `ca-ES`).

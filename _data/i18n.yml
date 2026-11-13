@@ -1,0 +1,44 @@
+# Site strings that Academic Pages' ui-text.yml does not cover. One block per language code (page.lang).
+# Add a language: add a block here, a `_pages/<lang>/` folder and the code to `site.languages` in _config.yml.
+en:
+  name: English
+  teaching: Teaching
+  teaching_intro: Subjects I have taught, by institution and academic years. Repeated editions are merged into periods.
+  undergraduate: Undergraduate
+  master: Master
+  planned: planned
+  taught_in: Language
+  languages: { Català: Catalan, Castellà: Spanish, Anglès: English }
+  institutions:
+    "Universitat de Barcelona": University of Barcelona
+    "Universitat Oberta de Catalunya": Open University of Catalonia (UOC)
+    "Université Paris-Saclay": Université Paris-Saclay
+  language_switch: Language
+ca:
+  name: Català
+  teaching: Docència
+  teaching_intro: Assignatures impartides, per institució i cursos acadèmics. Les edicions repetides s'agrupen en períodes.
+  undergraduate: Grau
+  master: Màster
+  planned: planificat
+  taught_in: Idioma
+  languages: { Català: Català, Castellà: Castellà, Anglès: Anglès }
+  institutions:
+    "Universitat de Barcelona": Universitat de Barcelona
+    "Universitat Oberta de Catalunya": Universitat Oberta de Catalunya (UOC)
+    "Université Paris-Saclay": Université Paris-Saclay
+  language_switch: Idioma
+es:
+  name: Español
+  teaching: Docencia
+  teaching_intro: Asignaturas impartidas, por institución y cursos académicos. Las ediciones repetidas se agrupan en periodos.
+  undergraduate: Grado
+  master: Máster
+  planned: planificado
+  taught_in: Idioma
+  languages: { Català: Catalán, Castellà: Castellano, Anglès: Inglés }
+  institutions:
+    "Universitat de Barcelona": Universidad de Barcelona
+    "Universitat Oberta de Catalunya": Universitat Oberta de Catalunya (UOC)
+    "Université Paris-Saclay": Université Paris-Saclay
+  language_switch: Idioma
