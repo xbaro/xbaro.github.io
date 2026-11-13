@@ -122,19 +122,115 @@ def fetch_portal():
         theses = json.loads((SRC / "portal_prc.json").read_text()).get("theses", [])
         print("  [portal] theses tab came back empty; keeping previous theses")
     (SRC / "portal_prc.json").write_text(json.dumps({"publications": pubs, "theses": theses}, indent=1, ensure_ascii=False) + "\n")
-    # theses are not publications: keep them as a separate collection (future supervision section)
-    th_titles = {norm_title(t["title"]) for t in theses}
-    handle = {norm_title(p["title"]): p["handle"] for p in pubs}
+    print(f"portal: {len(pubs)} items ({len(theses)} theses) -> sources/portal_prc.json")
+
+
+def flip_name(n):
+    """'Last, First' -> 'First Last' (the CV mixes both styles)."""
+    n = re.sub(r"^(Dr|Dra)\.\s*", "", (n or "").strip())
+    return " ".join(x.strip() for x in n.split(",", 1)[::-1]) if "," in n else (n or None)
+
+
+def split_people(s, level):
+    s = re.sub(r"\b(Dr|Dra)\.\s*", "", s or "")
+    if ";" in s:
+        return [flip_name(x) for x in s.split(";") if x.strip()]
+    if level == "master" and s.count(",") == 1 and " i " not in s:
+        return [flip_name(s)]
+    return [x.strip() for x in re.split(r",\s*|\s+i\s+|\s+and\s+", s) if x.strip()]
+
+
+def parse_theses(paras):
+    """CV section G.1: doctoral theses (finished/ongoing) and master's theses directed by the owner."""
+    out, level, rec = [], None, {}
+
+    def iso(s):
+        m = re.search(r"(\d{2})/(\d{2})/(\d{4})", s or "")
+        return f"{m.group(3)}-{m.group(2)}-{m.group(1)}" if m else None
+
+    def flush():
+        nonlocal rec
+        if rec.get("title"):
+            ds = split_people(rec.get("directors", ""), level[0])
+            when = rec.get("date") or ""
+            out.append({"title": rec["title"].strip().rstrip("."), "level": level[0], "status": level[1],
+                        "student": flip_name(rec.get("student")), "directors": ds, "date": iso(when) or None,
+                        "year": int((re.search(r"(19|20)\d{2}", when) or [None])[0]) if re.search(r"(19|20)\d{2}", when) else None,
+                        "institution": rec.get("institution"), "source": "CV (AQU) G.1, 2024-12-31"})
+        rec = {}
+
+    own, in7 = {}, False
+    for p in paras:
+        if p.startswith("7. Tesi doctoral"):
+            in7 = True
+            continue
+        if in7 and re.match(r"^8\.\s", p):
+            in7 = False
+            if own.get("title"):
+                out.append({"title": own["title"].rstrip("."), "level": "phd", "status": "defended", "student": "Xavier Baró Solé",
+                            "directors": split_people(own.get("directors", ""), "phd"), "date": iso(own.get("date")),
+                            "year": int(own["date"][-4:]) if own.get("date") else None, "institution": own.get("univ"),
+                            "role": "author", "source": "CV (AQU) section 7, 2024-12-31"})
+        if in7:
+            k, _, v = p.partition(":")
+            for key, label in (("title", "Títol"), ("directors", "Directors"), ("univ", "Universitat"), ("date", "Data de defensa")):
+                if k.startswith(label) and key not in own:
+                    own[key] = v.strip()
+            continue
+        if p.startswith("G.1.1"):
+            flush(); level = ("phd", "defended"); continue
+        if p.startswith("G.1.2"):
+            flush(); level = ("phd", "ongoing"); continue
+        if p.startswith("G.1.3"):
+            flush(); level = ("master", "defended"); continue
+        if p.startswith("G.2") or re.match(r"^H\.\s", p):
+            flush(); level = None; continue
+        if level is None:
+            continue
+        k, _, v = p.partition(":")
+        v = v.strip()
+        if k.startswith("Directors"):
+            flush(); rec["directors"] = v
+        elif k.startswith("Títol del treball"):
+            rec["title"] = v
+        elif k.startswith("Data de"):
+            rec["date"] = v
+        elif k.startswith("Nom del doctorand") or k.startswith("Nom de l"):
+            rec["student"] = v
+        elif k.startswith("Institució"):
+            rec["institution"] = v
+    flush()
+    return out
+
+
+def build_theses():
+    """theses.json = CV section G.1 (authoritative) enriched with Portal de la Recerca records (repository link) + the owner's own thesis."""
+    cvp, prp = SRC / "cv_theses.json", SRC / "portal_prc.json"
+    cv = json.loads(cvp.read_text()) if cvp.exists() else []
+    portal = json.loads(prp.read_text()) if prp.exists() else {"publications": [], "theses": []}
+    handles = {norm_title(p["title"]): p for p in portal["publications"]}
+
+    def find(title):
+        n = norm_title(title)
+        return next((p for t, p in handles.items() if difflib.SequenceMatcher(None, n, t).ratio() >= 0.9), None)
+
     out = []
-    for t in theses:
-        authors = [a for p in pubs if norm_title(p["title"]) == norm_title(t["title"]) for a in p["authors"]]
-        own = "Bar" in t["directors"] and "Baró Solé" not in t["directors"]
-        out.append({"title": t["title"], "year": t["year"], "directors": [d.strip() for d in t["directors"].split(";")],
-                    "student": None if own else (authors[0] if authors else None),
-                    "role": "author" if (own or not authors or authors[0].startswith("Baró")) else "co-director",
-                    "repository_url": handle.get(norm_title(t["title"])), "source": "Portal de la Recerca de Catalunya"})
+    for t in cv:
+        pr = find(t["title"])
+        t = dict(t, role=t.get("role") or ("director" if len(t["directors"]) == 1 else "co-director"))
+        if pr:
+            t["repository_url"] = pr["handle"]
+            t["source"] += " + Portal de la Recerca de Catalunya"
+        out.append(t)
+    for t in portal["theses"]:             # portal theses not in the CV list (e.g. the owner's own 2009 thesis)
+        if not any(difflib.SequenceMatcher(None, norm_title(t["title"]), norm_title(c["title"])).ratio() >= 0.9 for c in cv):
+            pr = find(t["title"])
+            out.append({"title": t["title"].rstrip("."), "level": "phd", "status": "defended", "year": t["year"],
+                        "student": "Xavier Baró Solé", "directors": [d.strip() for d in t["directors"].split(";")],
+                        "role": "author", "repository_url": pr["handle"] if pr else None, "source": "Portal de la Recerca de Catalunya"})
+    out.sort(key=lambda x: (x["level"] != "phd", x["status"] != "ongoing", -(x.get("year") or 0)))
     THESES.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
-    print(f"portal: {len(pubs)} items ({len(theses)} theses) -> sources/portal_prc.json, theses.json")
+    return out
 
 
 def load_portal():
@@ -281,6 +377,10 @@ def import_cv(path):
     (SRC / "cv_talks.json").write_text(json.dumps(talks, indent=1, ensure_ascii=False) + "\n")
     quality = parse_quality(lines)
     (SRC / "cv_quality.json").write_text(json.dumps(quality, indent=1, ensure_ascii=False) + "\n")
+    if str(path).endswith(".docx"):
+        th = parse_theses(docx_paragraphs(path))
+        (SRC / "cv_theses.json").write_text(json.dumps(th, indent=1, ensure_ascii=False) + "\n")
+        print(f"cv: {len(th)} directed theses (G.1) -> sources/cv_theses.json")
     indexing = parse_b_indexing(docx_paragraphs(path)) if str(path).endswith(".docx") else []
     if indexing:
         (SRC / "cv_indexing.json").write_text(json.dumps(indexing, indent=1, ensure_ascii=False) + "\n")
@@ -568,6 +668,7 @@ def merge():
     for key, ov in overrides.items():
         if key in refs:
             refs[key].update({k: v for k, v in ov.items()})
+    build_theses()
     items = sorted(refs.values(), key=lambda r: (-(r.get("year") or 0), r["title"].lower()))
     REFS.write_text(json.dumps(items, indent=1, ensure_ascii=False) + "\n")
     c = sum(1 for r in items if r["status"] == "confirmed")
