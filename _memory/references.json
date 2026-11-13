@@ -1,0 +1,3046 @@
+[
+ {
+  "id": "doi:10.1177/17479541261503436",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Effects of attentional focus (internal vs. external) and swing type (short vs. long) on skill acquisition, long-term retention, and motor learning in child golf beginners",
+  "venue": "International Journal of Sports Science & Coaching",
+  "type": "journal-article",
+  "year": 2026,
+  "date": "2026-11-06",
+  "doi": "10.1177/17479541261503436",
+  "url": "https://journals.sagepub.com/doi/pdf/10.1177/17479541261503436?download=true",
+  "authors": [
+   "Oriol Camacho",
+   "Xavier Baró",
+   "Ana‐Elena Guerrero‐Roldán"
+  ],
+  "cited_by": 0,
+  "abstract": "Motor learning traditionally advocates for the superiority of an external attentional focus; however, its universality remains questioned across variations in other influential factors. This study examined the effects of internal vs. external attentional focus across two distinct motor tasks during short-term skill acquisition, long-term retention, and motor learning in primary school beginners aged 8–12 years ( n = 187, 98 males, 89 females; n = 100, 51 males, 49 females). The participants completed an 8-h golf course within their physical education curriculum during two consecutive academic years, separated by a long-term retention period (10–11 months). They were assigned to either an internal or external attentional focus group and performed two distinct tasks. Performance was tracked through pre- and post-tests for each of the two interventions and for each swing type (short-game and long-game swing). During short-term skill acquisition, a statistically significant Time × Focus interaction emerged for the short-game, F(1, 185) = 5.45, p = .021, η p 2 = .029, driven by greater performance improvements in the external focus group compared to the internal focus group. For the long-game, no statistically significant Time × Focus interaction was detected, F(1, 185) = 1.97, p = .163, η p 2 = .011. These findings indicate that attentional focus advantages were confined to short-term post-intervention skill acquisition for the short-game swing. The study did not detect a statistically significant difference in focus efficacy between swing types. Furthermore, initial gains tended to decay over extended non-practice intervals regardless of the attentional cue used.",
+  "openalex_id": "https://openalex.org/W7225420887"
+ },
+ {
+  "id": "doi:10.1007/s12283-026-00579-y",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Quantifying delivery plane clubhead trajectory curvature across golfer skill level",
+  "venue": "Sports Engineering",
+  "type": "journal-article",
+  "year": 2026,
+  "date": "2026-10-30",
+  "doi": "10.1007/s12283-026-00579-y",
+  "url": "https://doi.org/10.1007/s12283-026-00579-y",
+  "authors": [
+   "Oriol Camacho",
+   "Ana‐Elena Guerrero‐Roldán",
+   "Xavier Baró"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W7224320581"
+ },
+ {
+  "id": "doi:10.48550/arxiv.2404.09703",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "AI Competitions and Benchmarks: Dataset Development",
+  "venue": "arXiv (Cornell University)",
+  "type": "preprint",
+  "year": 2024,
+  "date": "2024-04-15",
+  "doi": "10.48550/arxiv.2404.09703",
+  "url": "https://arxiv.org/pdf/2404.09703",
+  "authors": [
+   "Romain Égelé",
+   "Julio C. S. Jacques",
+   "Jan N. van Rijn",
+   "Isabelle Guyon",
+   "Xavier Baró",
+   "Albert Clapés",
+   "Prasanna Balaprakash",
+   "Sérgio Escalera",
+   "Thomas Baltzer Moeslund",
+   "Jun Wan"
+  ],
+  "cited_by": 3,
+  "abstract": "Machine learning is now used in many applications thanks to its ability to predict, generate, or discover patterns from large quantities of data. However, the process of collecting and transforming data for practical use is intricate. Even in today's digital era, where substantial data is generated daily, it is uncommon for it to be readily usable; most often, it necessitates meticulous manual data preparation. The haste in developing new models can frequently result in various shortcomings, potentially posing risks when deployed in real-world scenarios (eg social discrimination, critical failures), leading to the failure or substantial escalation of costs in AI-based projects. This chapter provides a comprehensive overview of established methodological tools, enriched by our practical experience, in the development of datasets for machine learning. Initially, we develop the tasks involved in dataset development and offer insights into their effective management (including requirements, design, implementation, evaluation, distribution, and maintenance). Then, we provide more details about the implementation process which includes data collection, transformation, and quality evaluation. Finally, we address practical considerations regarding dataset distribution and maintenance.",
+  "openalex_id": "https://openalex.org/W4394868113"
+ },
+ {
+  "id": "doi:10.1109/aciiw59127.2023.10388089",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Analyzing the contribution of different passively collected data to predict Stress and Depression",
+  "venue": "International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)",
+  "type": "conference-paper",
+  "year": 2023,
+  "date": "2023-09-10",
+  "doi": "10.1109/aciiw59127.2023.10388089",
+  "url": "https://arxiv.org/pdf/2310.13607",
+  "authors": [
+   "Irene Bonafonte-Pardàs",
+   "Cristina Bustos",
+   "Abraham Larrazolo",
+   "Gilberto Lorenzo Martínez Luna",
+   "Adolfo Guzmán Arenas",
+   "Xavier Baró",
+   "Isaac Tourgeman",
+   "Mercedes Balcells",
+   "Àgata Lapedriza"
+  ],
+  "cited_by": 5,
+  "abstract": "The possibility of recognizing diverse aspects of human behavior and environmental context from passively captured data motivates its use for mental health assessment. In this paper, we analyze the contribution of different passively collected sensor data types (WiFi, GPS, Social interaction, Phone Log, Physical Activity, Audio, and Academic features) to predict daily self-report stress and PHQ-9 depression score. First, we compute 125 mid-level features from the original raw data. These 125 features include groups of features from the different sensor data types. Then, we evaluate the contribution of each feature type by comparing the performance of Neural Network models trained with all features against Neural Network models trained with specific feature groups. Our results show that WiFi features (which encode mobility patterns) and Phone Log features (which encode information correlated with sleep patterns), provide significative information for stress and depression prediction.",
+  "openalex_id": "https://openalex.org/W4390905967"
+ },
+ {
+  "id": "doi:10.21125/iceri.2023.1013",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "GOLF SPORTS INITIATION WITHIN A PHYSICAL EDUCATION COURSE IN PRIMARY SCHOOLS THROUGH BLENDED LEARNING",
+  "venue": "ICERI proceedings",
+  "type": "conference-paper",
+  "year": 2023,
+  "date": "2023-11-01",
+  "doi": "10.21125/iceri.2023.1013",
+  "url": "https://doi.org/10.21125/iceri.2023.1013",
+  "authors": [
+   "Oriol Camacho",
+   "Ana‐Elena Guerrero‐Roldán",
+   "Xavier Baró"
+  ],
+  "cited_by": 2,
+  "abstract": "GOLF SPORTS INITIATION WITHIN A PHYSICAL EDUCATION COURSE IN PRIMARY SCHOOLS THROUGH BLENDED LEARNING",
+  "openalex_id": "https://openalex.org/W4389199022"
+ },
+ {
+  "id": "doi:10.1063/5.0179420",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Improving the online assessment in higher education with a trustworthy system based on authorship and authentication",
+  "venue": "AIP conference proceedings",
+  "type": "conference-paper",
+  "year": 2023,
+  "date": "2023-01-01",
+  "doi": "10.1063/5.0179420",
+  "url": "http://dx.doi.org/10.1063/5.0179420",
+  "authors": [
+   "David Bañeres",
+   "Ana‐Elena Guerrero‐Roldán",
+   "Maria Elena Rodríguez",
+   "Xavier Baró",
+   "Josep Prieto"
+  ],
+  "cited_by": 1,
+  "abstract": "Higher education institutions are reluctant to conduct all assessments online. For that reason, on-site exams are still being implemented as the most reliable instrument for identifying students and ensuring the authorship of their activities. Previous work demonstrates that there is still a need for developing and testing a system for supporting trustworthy e-assessment processes. This paper presents an e-assessment system prototype to ensure the identity of online learners, the authorship of learning activities, and the integrity and non-repudiation of these activities by combining technological and educational enhancements in online education. For developing the research, an Action Research methodology was followed. It aims to study and resolve significant educational problems based on several pilots’ cyclical design, testing, and improvement processes. Five courses with 198 learners were involved in pilot 1, while ten courses and 240 learners were in pilot 2. Results show that the system provides more confidence about the learners’ identity and the authorship of the assessment activities in an online learning environment. The system contains all mechanisms for a trustworthy and secure e-assessment process, and the deployment and running processes worked properly.",
+  "openalex_id": "https://openalex.org/W4389579200"
+ },
+ {
+  "id": "t:codalab-competitions-an-open-source-platform-to-organize-sci-2022",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "CodaLab Competitions An Open Source Platform to Organize Scientific Challenges",
+  "venue": "HAL",
+  "type": "report",
+  "year": 2022,
+  "date": "2022-04-04",
+  "url": "https://inria.hal.science/hal-03629462v1/document",
+  "authors": [
+   "Adrien Pavão",
+   "Isabelle Guyon",
+   "Anne-Catherine Letournel",
+   "Tran, Dinh Tuan",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Sérgio Escalera",
+   "Thomas, Tyler",
+   "Zhi Xu"
+  ],
+  "cited_by": 87,
+  "abstract": "CodaLab Competitions is an open source web platform designed to help data scientists and research teams to crowd-source the resolution of machine learning problems through the organization of competitions, also called challenges or contests. CodaLab Competitions provides useful features such as multiple phases, results and code submissions, multi-score leaderboards, and jobs running inside Docker containers. The platform is very flexible and can handle large scale experiments, by allowing organizers to upload large datasets and provide their own CPU or GPU compute workers.",
+  "openalex_id": "https://openalex.org/W4295682935"
+ },
+ {
+  "id": "doi:10.1109/taffc.2019.2930058",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "First Impressions: A Survey on Vision-Based Apparent Personality Trait Analysis",
+  "venue": "IEEE Transactions on Affective Computing",
+  "type": "journal-article",
+  "year": 2022,
+  "doi": "10.1109/taffc.2019.2930058",
+  "url": "https://doi.org/10.1109/TAFFC.2019.2930058",
+  "orcid_put_code": 109196347,
+  "date": "2019-07-23",
+  "authors": [
+   "Julio C. S. Jacques",
+   "Yağmur Güçlütürk",
+   "Marc Pérez",
+   "Umut Guclu",
+   "Carlos Andújar",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Isabelle Guyon",
+   "Marcel A. J. van Gerven",
+   "Rob van Lier",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 102,
+  "abstract": "Personality analysis has been widely studied in psychology, neuropsychology, and signal processing fields, among others. From the past few years, it also became an attractive research area in visual computing. From the computational point of view, by far speech and text have been the most considered cues of information for analyzing personality. However, recently there has been an increasing interest from the computer vision community in analyzing personality from visual data. Recent computer vision approaches are able to accurately analyze human faces, body postures and behaviors, and use these information to inferapparentpersonality traits. Because of the overwhelming research interest in this topic, and of the potential impact that this sort of methods could have in society, we present in this paper an up-to-date review of existing vision-based approaches for apparent personality trait recognition. We describe seminal and cutting edge works on the subject, discussing and comparing their distinctive features and limitations. Future venues of research in the field are identified and discussed. Furthermore, aspects on the subjectivity in data labeling/evaluation, as well as current datasets and challenges organized to push the research on the field are reviewed.",
+  "openalex_id": "https://openalex.org/W2963967532"
+ },
+ {
+  "id": "doi:10.1007/978-3-031-06430-2_27",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Multi-varied Cumulative Alignment for Domain Adaptation",
+  "venue": "Lecture notes in computer science",
+  "type": "conference-paper",
+  "year": 2022,
+  "date": "2022-01-01",
+  "doi": "10.1007/978-3-031-06430-2_27",
+  "url": "https://doi.org/10.1007/978-3-031-06430-2_27",
+  "authors": [
+   "Marc Oliu",
+   "Sarah Adel Bargal",
+   "Stan Sclaroff",
+   "Xavier Baró",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W4285207611"
+ },
+ {
+  "id": "doi:10.1109/taffc.2018.2874996",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Automatic Recognition of Facial Displays of Unfelt Emotions",
+  "venue": "IEEE Transactions on Affective Computing",
+  "type": "journal-article",
+  "year": 2021,
+  "doi": "10.1109/taffc.2018.2874996",
+  "url": "https://doi.org/10.1109/TAFFC.2018.2874996",
+  "orcid_put_code": 94559008,
+  "date": "2018-10-16",
+  "authors": [
+   "Kaustubh Kulkarni",
+   "Ciprian Adrian Corneanu",
+   "Ikechukwu Ofodile",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Sylwia Hyniewska",
+   "Jüri Allïk",
+   "Gholamreza Anbarjafari"
+  ],
+  "cited_by": 70,
+  "abstract": "Humans modify their facial expressions in order to communicate their internal states and sometimes to mislead observers regarding their true emotional states. Evidence in experimental psychology shows that discriminative facial responses are short and subtle. This suggests that such behavior would be easier to distinguish when captured in high resolution at an increased frame rate. We are proposing SASE-FE, the first dataset of facial expressions that are either congruent or incongruent with underlying emotion states. We show that overall the problem of recognizing whether facial movements are expressions of authentic emotions or not can be successfully addressed by learning spatio-temporal representations of the data. For this purpose, we propose a method that aggregates features along fiducial trajectories in a deeply learnt space. Performance of the proposed model shows that on average, it is easier to distinguish among genuine facial expressions of emotion than among unfelt facial expressions of emotion and that certain emotion pairs such as contempt and disgust are more difficult to distinguish than the rest. Furthermore, the proposed methodology improves state of the art results on CK+ and OULU-CASIA datasets for video emotion recognition, and achieves competitive results when classifying facial action units on BP4D datase.",
+  "openalex_id": "https://openalex.org/W2783866469"
+ },
+ {
+  "id": "t:chalearn-looking-at-people-inpainting-and-denoising-challeng-2021",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "ChaLearn Looking at People: Inpainting and Denoising challenges",
+  "venue": "arXiv",
+  "type": "other",
+  "year": 2021,
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85109632037&partnerID=MN8TOARS",
+  "orcid_put_code": 97804711,
+  "date": "2019-01-01",
+  "doi": "10.1007/978-3-030-25614-2_2",
+  "authors": [
+   "Sérgio Escalera",
+   "Martí Soler",
+   "Stéphane Ayache",
+   "Umut Güçlü",
+   "Jun Wan",
+   "Meysam Madadi",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Isabelle Guyon"
+  ],
+  "cited_by": 4,
+  "openalex_id": "https://openalex.org/W2980626109"
+ },
+ {
+  "id": "doi:10.1049/cvi2.12064",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "End‐to‐end global to local convolutional neural network learning for hand pose recovery in depth data",
+  "venue": "IET Computer Vision",
+  "type": "journal-article",
+  "year": 2021,
+  "date": "2021-08-12",
+  "doi": "10.1049/cvi2.12064",
+  "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cvi2.12064",
+  "authors": [
+   "Meysam Madadi",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Jordi Gonzàlez"
+  ],
+  "cited_by": 79,
+  "abstract": "Abstract Despite recent advances in 3‐D pose estimation of human hands, thanks to the advent of convolutional neural networks (CNNs) and depth cameras, this task is still far from being solved in uncontrolled setups. This is mainly due to the highly non‐linear dynamics of fingers and self‐occlusions, which make hand model training a challenging task. In this study, a novel hierarchical tree‐like structured CNN is exploited, in which branches are trained to become specialised in predefined subsets of hand joints called local poses. Further, local pose features, extracted from hierarchical CNN branches, are fused to learn higher order dependencies among joints in the final pose by end‐to‐end training. Lastly, the loss function used is also defined to incorporate appearance and physical constraints about doable hand motions and deformations. Finally, a non‐rigid data augmentation approach is introduced to increase the amount of training depth data. Experimental results suggest that feeding a tree‐shaped CNN, specialised in local poses, into a fusion network for modelling joints' correlations and dependencies, helps to increase the precision of final estimations, showing competitive results on NYU, MSRA, Hands17 and SyntheticHand datasets.",
+  "openalex_id": "https://openalex.org/W3195646717"
+ },
+ {
+  "id": "doi:10.1007/978-3-030-29326-0_3",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Biometric tools for learner identity in e-assessment",
+  "venue": "Lecture Notes on Data Engineering and Communications Technologies",
+  "type": "book-chapter",
+  "year": 2020,
+  "doi": "10.1007/978-3-030-29326-0_3",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85083672804&partnerID=MN8TOARS",
+  "orcid_put_code": 97804729,
+  "date": "2019-10-18",
+  "authors": [
+   "Xavier Baró",
+   "Roger Muñoz Bernaus",
+   "David Bañeres",
+   "Ana‐Elena Guerrero‐Roldán"
+  ],
+  "cited_by": 5,
+  "openalex_id": "https://openalex.org/W2980891098"
+ },
+ {
+  "id": "doi:10.1007/978-3-030-29326-0_6",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Design and implementation of dashboards to support teachers decision-making process in e-assessment systems",
+  "venue": "Lecture Notes on Data Engineering and Communications Technologies",
+  "type": "book-chapter",
+  "year": 2020,
+  "doi": "10.1007/978-3-030-29326-0_6",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85083640494&partnerID=MN8TOARS",
+  "orcid_put_code": 97804730,
+  "date": "2019-10-18",
+  "authors": [
+   "Isabel Guitart",
+   "Maria Elena Rodríguez",
+   "Xavier Baró"
+  ],
+  "cited_by": 8,
+  "openalex_id": "https://openalex.org/W2980448104"
+ },
+ {
+  "id": "doi:10.1007/978-3-030-29326-0_1",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Forensic analysis recognition",
+  "venue": "Lecture Notes on Data Engineering and Communications Technologies",
+  "type": "book-chapter",
+  "year": 2020,
+  "doi": "10.1007/978-3-030-29326-0_1",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85083650895&partnerID=MN8TOARS",
+  "orcid_put_code": 97804735,
+  "date": "2019-10-18",
+  "authors": [
+   "Adrián Pastor López-Monroy",
+   "Hugo Jair Escalante",
+   "Manuel Montes-y-Gómez",
+   "Xavier Baró"
+  ],
+  "cited_by": 1,
+  "openalex_id": "https://openalex.org/W2981221185"
+ },
+ {
+  "id": "doi:10.1109/tpami.2020.2971291",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Guest Editorial: Image and Video Inpainting and Denoising",
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "type": "journal-article",
+  "year": 2020,
+  "doi": "10.1109/tpami.2020.2971291",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85083010841&partnerID=MN8TOARS",
+  "orcid_put_code": 97804723,
+  "date": "2020-04-15",
+  "authors": [
+   "Sérgio Escalera",
+   "Hugo Jair Escalante",
+   "Xavier Baró",
+   "Isabelle Guyon",
+   "Meysam Madadi",
+   "Jun Wan",
+   "Stéphane Ayache",
+   "Yağmur Güçlütürk",
+   "Umut Güçlü"
+  ],
+  "cited_by": 0,
+  "abstract": "The papers in this special issue comprise all aspects of computer vision and pattern recognition devoted to image and video inpainting, including related tasks like denoising, debluring, sampling, super-resolutkon enhancement, restoration, hallucination, etc. The special issue was associated to the 2018 Chalearn Looking at People Satellite ECCV Workshop1 and the 2018 ChaLearn Challenges on Image and Video Inpainting.",
+  "openalex_id": "https://openalex.org/W3014640976"
+ },
+ {
+  "id": "doi:10.1109/taffc.2020.2973984",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Modeling, Recognizing, and Explaining Apparent Personality from Videos",
+  "venue": "IEEE Transactions on Affective Computing",
+  "type": "journal-article",
+  "year": 2020,
+  "doi": "10.1109/taffc.2020.2973984",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85085992577&partnerID=MN8TOARS",
+  "orcid_put_code": 97804724,
+  "date": "2020-02-14",
+  "authors": [
+   "Hugo Jair Escalante",
+   "Heysem Kaya",
+   "Albert Ali Salah",
+   "Sérgio Escalera",
+   "Yağmur Güçlütürk",
+   "Umut Guclu",
+   "Xavier Baró",
+   "Isabelle Guyon",
+   "Julio C. S. Jacques",
+   "Meysam Madadi",
+   "Stéphane Ayache",
+   "Evelyne Viegas",
+   "Furkan Gurpnar",
+   "Achmadnoer Sukma Wicaksana",
+   "Cynthia C. S. Liem",
+   "Marcel A. J. van Gerven",
+   "Rob van Lier"
+  ],
+  "cited_by": 120,
+  "abstract": "Explainability and interpretability are two critical aspects of decision support systems. Despite their importance, it is only recently that researchers are starting to explore these aspects. This paper provides an introduction to explainability and interpretability in the context of apparent personality recognition. To the best of our knowledge, this is the first effort in this direction. We describe a challenge we organized on explainability in first impressions analysis from video. We analyze in detail the newly introduced data set, evaluation protocol, proposed solutions and summarize the results of the challenge. We investigate the issue of bias in detail. Finally, derived from our study, we outline research opportunities that we foresee will be relevant in this area in the near future.",
+  "openalex_id": "https://openalex.org/W3005891272"
+ },
+ {
+  "id": "doi:10.1109/wacvw52041.2021.00006",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Person perception biases exposed: Revisiting the first impressions dataset",
+  "venue": "arXiv",
+  "type": "other",
+  "year": 2020,
+  "doi": "10.1109/wacvw52041.2021.00006",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85099327142&partnerID=MN8TOARS",
+  "orcid_put_code": 97804712,
+  "date": "2021-01-01",
+  "authors": [
+   "Julio C. S. Jacques",
+   "Àgata Lapedriza",
+   "Cristina Palmero",
+   "Xavier Baró",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 14,
+  "abstract": "This work revisits the ChaLearn First Impressions database, annotated for personality perception using pairwise comparisons via crowdsourcing. We analyse for the first time the original pairwise annotations, and reveal existing person perception biases associated to perceived attributes like gender, ethnicity, age and face attractiveness. We show how person perception bias can influence data labelling of a subjective task, which has received little attention from the computer vision and machine learning communities by now. We further show that the mechanism used to convert pairwise annotations to continuous values may magnify the biases if no special treatment is considered. The findings of this study are relevant for the computer vision community that is still creating new datasets on subjective tasks, and using them for practical applications, ignoring these perceptual biases.",
+  "openalex_id": "https://openalex.org/W3159564482"
+ },
+ {
+  "id": "doi:10.1007/s00138-019-01031-x",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Guest editorial: special issue on human abnormal behavioural analysis",
+  "venue": "Machine Vision and Applications",
+  "type": "journal-article",
+  "year": 2019,
+  "doi": "10.1007/s00138-019-01031-x",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85066884901&partnerID=MN8TOARS",
+  "orcid_put_code": 97804732,
+  "date": "2019-05-22",
+  "authors": [
+   "Gholamreza Anbarjafari",
+   "Sérgio Escalera",
+   "Kamal Nasrollahi",
+   "Hugo Jair Escalante",
+   "Xavier Baró",
+   "Jun Wan",
+   "Thomas Baltzer Moeslund"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W2945744916"
+ },
+ {
+  "id": "doi:10.1007/978-3-030-25614-2",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Inpainting and Denoising Challenges",
+  "venue": "The Springer series on challenges in machine learning",
+  "type": "book",
+  "year": 2019,
+  "date": "2019-01-01",
+  "doi": "10.1007/978-3-030-25614-2",
+  "url": "https://doi.org/10.1007/978-3-030-25614-2",
+  "authors": [
+   "Sérgio Escalera",
+   "Stéphane Ayache",
+   "J. Wan",
+   "Meysam Madadi",
+   "U. Güçlü",
+   "Xavier Baró"
+  ],
+  "cited_by": 13,
+  "openalex_id": "https://openalex.org/W3002773039"
+ },
+ {
+  "id": "doi:10.1109/fg.2019.8756572",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Multi-task human analysis in still images: 2D/3D pose, depth map, and multi-part segmentation",
+  "venue": "arXiv",
+  "type": "other",
+  "year": 2019,
+  "doi": "10.1109/fg.2019.8756572",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85093570450&partnerID=MN8TOARS",
+  "orcid_put_code": 97804713,
+  "date": "2019-05-01",
+  "authors": [
+   "Daniel Sanchez",
+   "Marc Oliu",
+   "Meysam Madadi",
+   "Xavier Baró",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 7,
+  "abstract": "While many individual tasks in the domain of human analysis have recently received an accuracy boost from deep learning approaches, multi-task learning has mostly been ignored due to a lack of data. New synthetic datasets are being released, filling this gap with synthetic generated data. In this work, we analyze four related human analysis tasks in still images in a multi-task scenario by leveraging such datasets. Specifically, we study the correlation of 2D/3D pose estimation, body part segmentation and full-body depth estimation. These tasks are learned via the well-known Stacked Hourglass module such that each of the task-specific streams shares information with the others. The main goal is to analyze how training together these four related tasks can benefit each individual task for a better generalization. Results on the newly released SURREAL dataset show that all four tasks benefit from the multi-task approach, but with different combinations of tasks: while combining all four tasks improves 2D pose estimation the most, 2D pose improves neither 3D pose nor full-body depth estimation. On the other hand 2D parts segmentation can benefit from 2D pose but not from 3D pose. In all cases, as expected, the maximum improvement is achieved on those human body parts that show more variability in terms of spatial distribution, appearance and shape, e.g. wrists and ankles.",
+  "openalex_id": "https://openalex.org/W2945327620"
+ },
+ {
+  "id": "doi:10.1109/fg.2019.8756595",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "On the effect of age perception biases for real age regression",
+  "venue": "arXiv",
+  "type": "other",
+  "year": 2019,
+  "doi": "10.1109/fg.2019.8756595",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85093615477&partnerID=MN8TOARS",
+  "orcid_put_code": 97804714,
+  "date": "2019-05-01",
+  "authors": [
+   "Julio C. S. Jacques",
+   "Cagri Ozcinar",
+   "Marina Marjanovic",
+   "Xavier Baró",
+   "Gholamreza Anbarjafari",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 9,
+  "abstract": "Automatic age estimation from facial images represents an important task in computer vision. This paper analyses the effect of gender, age, ethnic, makeup and expression attributes of faces as sources of bias to improve deep apparent age prediction. Following recent works where it is shown that apparent age labels benefit real age estimation, rather than direct real to real age regression, our main contribution is the integration, in an end-to-end architecture, of face attributes for apparent age prediction with an additional loss for real age regression. Experimental results on the APPA-REAL dataset indicate the proposed network successfully take advantage of the adopted attributes to improve both apparent and real age estimation. Our model outperformed a state-of-the-art architecture proposed to separately address apparent and real age regression. Finally, we present preliminary results and discussion of a proof of concept application using the proposed model to regress the apparent age of an individual based on the gender of an external observer.",
+  "openalex_id": "https://openalex.org/W2962712577"
+ },
+ {
+  "id": "doi:10.1049/iet-cvi.2016.0309",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Back-dropout transfer learning for action recognition",
+  "venue": "IET Computer Vision",
+  "type": "journal-article",
+  "year": 2018,
+  "doi": "10.1049/iet-cvi.2016.0309",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85047490181&partnerID=MN8TOARS",
+  "orcid_put_code": 97804725,
+  "date": "2018-01-03",
+  "authors": [
+   "Huamin Ren",
+   "Nattiya Kanhabua",
+   "Andreas Møgelmose",
+   "Weifeng Liu",
+   "Kaustubh Kulkarni",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Thomas Baltzer Moeslund"
+  ],
+  "cited_by": 11,
+  "abstract": "Transfer learning aims at adapting a model learned from source dataset to target dataset. It is a beneficial approach especially when annotating on the target dataset is expensive or infeasible. Transfer learning has demonstrated its powerful learning capabilities in various vision tasks. Despite transfer learning being a promising approach, it is still an open question how to adapt the model learned from the source dataset to the target dataset. One big challenge is to prevent the impact of category bias on classification performance. Dataset bias exists when two images from the same category, but from different datasets, are not classified as the same. To address this problem, a transfer learning algorithm has been proposed, called negative back‐dropout transfer learning (NB‐TL), which utilizes images that have been misclassified and further performs back‐dropout strategy on them to penalize errors. Experimental results demonstrate the effectiveness of the proposed algorithm. In particular, the authors evaluate the performance of the proposed NB‐TL algorithm on UCF 101 action recognition dataset, achieving 88.9% recognition rate.",
+  "openalex_id": "https://openalex.org/W2530913366"
+ },
+ {
+  "id": "doi:10.1109/fg.2018.00098",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Changes in facial expression as biometric: A database and benchmarks of identification",
+  "venue": "Proceedings - 13th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2018",
+  "type": "conference-paper",
+  "year": 2018,
+  "doi": "10.1109/fg.2018.00098",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85048189713&partnerID=MN8TOARS",
+  "orcid_put_code": 97804746,
+  "date": "2018-05-01",
+  "authors": [
+   "Rain Eric Haamer",
+   "Kaustubh Kulkarni",
+   "Nasrin Imanpour",
+   "Mohammad A. Haque",
+   "Egils Avots",
+   "Michelle Breisch",
+   "Kamal Nasrollahi",
+   "Sérgio Escalera",
+   "Cagri Ozcinar",
+   "Xavier Baró",
+   "Ahmad Reza Naghsh‐Nilchi",
+   "Thomas Baltzer Moeslund",
+   "Gholamreza Anbarjafari"
+  ],
+  "cited_by": 29,
+  "abstract": "Facial dynamics can be considered as unique signatures for discrimination between people. These have started to become important topic since many devices have the possibility of unlocking using face recognition or verification. In this work, we evaluate the efficacy of the transition frames of video in emotion as compared to the peak emotion frames for identification. For experiments with transition frames we extract features from each frame of the video from a fine-tuned VGG-Face Convolutional Neural Network (CNN) and geometric features from facial landmark points. To model the temporal context of the transition frames we train a Long-Short Term Memory (LSTM) on the geometric and the CNN features. Furthermore, we employ two fusion strategies: first, an early fusion, in which the geometric and the CNN features are stacked and fed to the LSTM. Second, a late fusion, in which the prediction of the LSTMs, trained independently on the two features, are stacked and used with a Support Vector Machine (SVM). Experimental results show that the late fusion strategy gives the best results and the transition frames give better identification results as compared to the peak emotion frames.",
+  "openalex_id": "https://openalex.org/W2790019119"
+ },
+ {
+  "id": "doi:10.1109/access.2018.2831927",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Dominant and Complementary Emotion Recognition from Still Images of Faces",
+  "venue": "IEEE Access",
+  "type": "journal-article",
+  "year": 2018,
+  "doi": "10.1109/access.2018.2831927",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85046369915&partnerID=MN8TOARS",
+  "orcid_put_code": 97804747,
+  "date": "2018-01-01",
+  "authors": [
+   "Jianzhu Guo",
+   "Zhen Lei",
+   "Jun Wan",
+   "Egils Avots",
+   "Noushin Hajarolasvadi",
+   "Boris A. Knyazev",
+   "Artem Kuharenko",
+   "Julio C. S. Jacques",
+   "Xavier Baró",
+   "Hasan Demirel",
+   "Sérgio Escalera",
+   "Jüri Allïk",
+   "Gholamreza Anbarjafari"
+  ],
+  "cited_by": 115,
+  "abstract": "Emotion recognition has a key role in affective computing. Recently, fine-grained emotion analysis, such as compound facial expression of emotions, has attracted high interest of researchers working on affective computing. A compound facial emotion includes dominant and complementary emotions (e.g., happily-disgusted and sadly-fearful), which is more detailed than the seven classical facial emotions (e.g., happy, disgust, and so on). Current studies on compound emotions are limited to use data sets with limited number of categories and unbalanced data distributions, with labels obtained automatically by machine learning-based algorithms which could lead to inaccuracies. To address these problems, we released the iCV-MEFED data set, which includes 50 classes of compound emotions and labels assessed by psychologists. The task is challenging due to high similarities of compound facial emotions from different categories. In addition, we have organized a challenge based on the proposed iCV-MEFED data set, held at FG workshop 2017. In this paper, we analyze the top three winner methods and perform further detailed experiments on the proposed data set. Experiments indicate that pairs of compound emotion (e.g., surprisingly-happy vs happily-surprised) are more difficult to be recognized if compared with the seven basic emotions. However, we hope the proposed data set can help to pave the way for further research on compound facial emotion recognition.",
+  "openalex_id": "https://openalex.org/W2800170478"
+ },
+ {
+  "id": "doi:10.1007/978-3-319-98131-4",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Explainable and Interpretable Models in Computer Vision and Machine Learning",
+  "venue": "The Springer series on challenges in machine learning",
+  "type": "book",
+  "year": 2018,
+  "date": "2018-01-01",
+  "doi": "10.1007/978-3-319-98131-4",
+  "url": "http://arxiv.org/pdf/1709.05321",
+  "authors": [
+   "Hugo Jair Escalante",
+   "Sérgio Escalera",
+   "Isabelle Guyon",
+   "Xavier Baró",
+   "Yağmur Güçlütürk",
+   "Umut Güçlü",
+   "Marcel van Gerven"
+  ],
+  "cited_by": 219,
+  "openalex_id": "https://openalex.org/W4206210655"
+ },
+ {
+  "id": "t:explaining-first-impressions-modeling-recognizing-and-explai-2018",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Explaining first impressions: Modeling, recognizing, and explaining apparent personality from videos",
+  "venue": "arXiv",
+  "type": "other",
+  "year": 2018,
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85095096218&partnerID=MN8TOARS",
+  "orcid_put_code": 97804718,
+  "date": "2018-02-02",
+  "doi": "10.48550/arxiv.1802.00745",
+  "authors": [
+   "Hugo Jair Escalante",
+   "Heysem Kaya",
+   "Albert Ali Salah",
+   "Sérgio Escalera",
+   "Yağmur Güçlütürk",
+   "Umut Güçlü",
+   "Xavier Baró",
+   "Isabelle Guyon",
+   "Julio C. S. Jacques",
+   "Meysam Madadi",
+   "Stéphane Ayache",
+   "Evelyne Viegas",
+   "Furkan Gürpınar",
+   "Achmadnoer Sukma Wicaksana",
+   "Cynthia C. S. Liem",
+   "Marcel A. J. van Gerven",
+   "Rob van Lier"
+  ],
+  "cited_by": 44,
+  "abstract": "Explainability and interpretability are two critical aspects of decision support systems. Within computer vision, they are critical in certain tasks related to human behavior analysis such as in health care applications. Despite their importance, it is only recently that researchers are starting to explore these aspects. This paper provides an introduction to explainability and interpretability in the context of computer vision with an emphasis on looking at people tasks. Specifically, we review and study those mechanisms in the context of first impressions analysis. To the best of our knowledge, this is the first effort in this direction. Additionally, we describe a challenge we organized on explainability in first impressions analysis from video. We analyze in detail the newly introduced data set, the evaluation protocol, and summarize the results of the challenge. Finally, derived from our study, we outline research opportunities that we foresee will be decisive in the near future for the development of the explainable computer vision field.",
+  "openalex_id": "https://openalex.org/W2786879748"
+ },
+ {
+  "id": "doi:10.1016/j.imavis.2018.08.001",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Exploiting feature representations through similarity learning, post-ranking and ranking aggregation for person re-identification",
+  "venue": "arXiv",
+  "type": "other",
+  "year": 2018,
+  "doi": "10.1016/j.imavis.2018.08.001",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85093039315&partnerID=MN8TOARS",
+  "orcid_put_code": 97804717,
+  "date": "2018-09-16",
+  "authors": [
+   "Julio C. S. Jacques",
+   "Xavier Baró",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 5,
+  "openalex_id": "https://openalex.org/W2963281296"
+ },
+ {
+  "id": "t:first-impressions-a-survey-on-computer-vision-based-apparent-2018",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "First Impressions: A Survey on Computer Vision-Based Apparent Personality Trait Analysis",
+  "type": "journal-article",
+  "year": 2018,
+  "date": "2018-04-21",
+  "url": "https://arxiv.org/abs/1804.08046",
+  "authors": [
+   "Julio C. S. Jacques",
+   "Yağmur Güçlütürk",
+   "Marc Pérez",
+   "Umut Güçlü",
+   "Carlos Andújar",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Isabelle Guyon",
+   "Marcel A. J. van Gerven",
+   "Rob van Lier",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 27,
+  "abstract": "Personality analysis has been widely studied in psychology, neuropsychology, and signal processing fields, among others. From the past few years, it also became an attractive research area in visual computing. From the computational point of view, by far speech and text have been the most considered cues of information for analyzing personality. However, recently there has been an increasing interest from the computer vision community in analyzing personality from visual data. Recent computer vision approaches are able to accurately analyze human faces, body postures and behaviors, and use these information to infer apparent personality traits. Because of the overwhelming research interest in this topic, and of the potential impact that this sort of methods could have in society, we present in this paper an up-to-date review of existing vision-based approaches for apparent personality trait recognition. We describe seminal and cutting edge works on the subject, discussing and comparing their distinctive features and limitations. Future venues of research in the field are identified and discussed. Furthermore, aspects on the subjectivity in data labeling/evaluation, as well as current datasets and challenges organized to push the research on the field are reviewed.",
+  "openalex_id": "https://openalex.org/W2799183216"
+ },
+ {
+  "id": "doi:10.1007/s11042-019-7739-5",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "From 2D to 3D geodesic-based garment matching",
+  "venue": "arXiv",
+  "type": "other",
+  "year": 2018,
+  "doi": "10.1007/s11042-019-7739-5",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85094482249&partnerID=MN8TOARS",
+  "orcid_put_code": 97804715,
+  "date": "2019-06-03",
+  "authors": [
+   "Egils Avots",
+   "Meysam Madadi",
+   "Sérgio Escalera",
+   "Jordi Gonzàlez",
+   "Xavier Baró",
+   "Paul Pällin",
+   "Gholamreza Anbarjafari"
+  ],
+  "cited_by": 4,
+  "openalex_id": "https://openalex.org/W2889982522"
+ },
+ {
+  "id": "doi:10.1109/taffc.2018.2864230",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Guest Editorial: Apparent Personality Analysis",
+  "venue": "IEEE Transactions on Affective Computing",
+  "type": "journal-article",
+  "year": 2018,
+  "doi": "10.1109/taffc.2018.2864230",
+  "url": "https://doi.org/10.1109/TAFFC.2018.2864230",
+  "orcid_put_code": 50206046,
+  "date": "2018-07-01",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Isabelle Guyon",
+   "Hugo Jair Escalante"
+  ],
+  "cited_by": 10,
+  "abstract": "The papers in this special section focus on personality analysis. Automatic analysis of videos to characterize human behavior has become an active area of research with applications in affective computing, human-machine interfaces, gaming, security, marketing, and health, just to mention a few. Research advances in multimedia information processing, computer vision and pattern recognition have lead to established methodologies that are able to successfully recognize consciously executed actions, or intended movements (e.g., gestures, actions, interactions with objects and other people). However, recently there has been much progress in terms of computational approaches to characterize sub-conscious behaviors, which may be revealing aptitudes or competence, hidden intentions, and personality traits. Much remains to be done still, but it is essential nowadays to have a compilation of cutting edge work in this direction to identify potential opportunities and challenges involved. In this line, we edited a special issue on automatic methods for apparent personality analysis. Personality refers to individual differences in characteristic patterns of thinking, feeling and behaving.",
+  "openalex_id": "https://openalex.org/W2890409774"
+ },
+ {
+  "id": "doi:10.1109/tpami.2018.2869610",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Guest Editorial: The Computational Face",
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "type": "journal-article",
+  "year": 2018,
+  "doi": "10.1109/tpami.2018.2869610",
+  "url": "https://doi.org/10.1109/TPAMI.2018.2869610",
+  "orcid_put_code": 50206047,
+  "date": "2018-10-09",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Isabelle Guyon",
+   "Hugo Jair Escalante",
+   "Georgios Tzimiropoulos",
+   "Michel Valstar",
+   "Maja Pantić",
+   "Jeffrey F. Cohn",
+   "Takeo Kanade A"
+  ],
+  "cited_by": 11,
+  "abstract": "The papers in this special section examine the concept of automated face analysis (AFA). AFA has received special attention from the computer vision and pattern recognition communities. Research progress often gives the impression that problems such as face recognition and face detection are solved, at least for some scenarios. Several aspects of face analysis remain open problems, including the implementation of large scale face recognition/detection methods for in the wild images, emotion recognition, micro-expression analysis, and others. The community keeps making rapid progress on these topics, with continual improvement of current methods and creation of new ones that push the state-of-the-art. Applications are countless, including security and video surveillance, human computer/robot interaction, communication, entertainment, and commerce, while having an important social impact in assistive technologies for education and health. The importance of face analysis, together with the vast amount of work on the subject and the latest developments in the field, motivated us to organize a special section on this theme. The scope of the compilation comprises all aspects of face analysis from a computer vision perspective. Including, but not limited to: recognition, detection, alignment, reconstruction of faces, pose estimation of faces, gaze analysis, age, emotion, gender, and facial attributes estimation, and applications among others.",
+  "openalex_id": "https://openalex.org/W2896152522"
+ },
+ {
+  "id": "doi:10.1002/itl2.56",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Integration of an adaptive trust‐based e‐assessment system into virtual learning environments—The TeSLA project experience",
+  "venue": "Internet Technology Letters",
+  "type": "journal-article",
+  "year": 2018,
+  "date": "2018-06-09",
+  "doi": "10.1002/itl2.56",
+  "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/itl2.56",
+  "authors": [
+   "Xavier Baró",
+   "Ana‐Elena Guerrero‐Roldán",
+   "Josep Prieto",
+   "Anna Rozeva",
+   "Orlin Marinov",
+   "Christophe Kiennert",
+   "Pierre‐Olivier Rocher",
+   "Joaquín García-Alfaro"
+  ],
+  "cited_by": 13,
+  "abstract": "E‐assessment is a novel form to evaluate learners' knowledge and skills in online education. Issues concerning security and privacy of learners' data must be guaranteed. Such issues are discussed under the scope of the TeSLA project, a EU‐funded project that aims at providing learners with an innovative environment that allows them to take assessments remotely, thus avoiding mandatory attendance constraints. In this letter, we outline the main concepts underlying TeSLA in terms of security and privacy of learners' data. We also report some technical hands‐on experience conducted by members of the consortium during the pilot phases of the project.",
+  "openalex_id": "https://openalex.org/W2805180167"
+ },
+ {
+  "id": "doi:10.1007/s11263-017-1058-y",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Looking at People Special Issue",
+  "venue": "International Journal of Computer Vision",
+  "type": "journal-article",
+  "year": 2018,
+  "doi": "10.1007/s11263-017-1058-y",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85042373389&partnerID=MN8TOARS",
+  "orcid_put_code": 97804740,
+  "date": "2018-01-31",
+  "authors": [
+   "Sérgio Escalera",
+   "Jordi Gonzàlez",
+   "Hugo Jair Escalante",
+   "Xavier Baró",
+   "Isabelle Guyon"
+  ],
+  "cited_by": 2,
+  "openalex_id": "https://openalex.org/W2791408503"
+ },
+ {
+  "id": "doi:10.1109/taffc.2017.2751469",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Multimodal First Impression Analysis with Deep Residual Networks",
+  "venue": "IEEE Transactions on Affective Computing",
+  "type": "journal-article",
+  "year": 2018,
+  "doi": "10.1109/taffc.2017.2751469",
+  "url": "https://doi.org/10.1109/TAFFC.2017.2751469",
+  "orcid_put_code": 50206045,
+  "date": "2017-09-12",
+  "authors": [
+   "Yağmur Güçlütürk",
+   "Umut Guclu",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Isabelle Guyon",
+   "Sérgio Escalera",
+   "Marcel A. J. van Gerven",
+   "Rob van Lier"
+  ],
+  "cited_by": 82,
+  "abstract": "People form first impressions about the personalities of unfamiliar individuals even after very brief interactions with them. In this study we present and evaluate several models that mimic this automatic social behavior. Specifically, we present several models trained on a large dataset of short YouTube video blog posts for predicting apparent Big Five personality traits of people and whether they seem suitable to be recommended to a job interview. Along with presenting our audiovisual approach and results that won the third place in the ChaLearn First Impressions Challenge, we investigate modeling in different modalities including audio only, visual only, language only, audiovisual, and combination of audiovisual and language. Our results demonstrate that the best performance could be obtained using a fusion of all data modalities. Finally, in order to promote explainability in machine learning and to provide an example for the upcoming ChaLearn challenges, we present a simple approach for explaining the predictions for job interview recommendations.",
+  "openalex_id": "https://openalex.org/W2756004689"
+ },
+ {
+  "id": "doi:10.1016/j.imavis.2018.09.006",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Top-down model fitting for hand pose recovery in sequences of depth images",
+  "venue": "Image and Vision Computing",
+  "type": "journal-article",
+  "year": 2018,
+  "doi": "10.1016/j.imavis.2018.09.006",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85054301307&partnerID=MN8TOARS",
+  "orcid_put_code": 97804753,
+  "date": "2018-09-21",
+  "authors": [
+   "Meysam Madadi",
+   "Sérgio Escalera",
+   "Alex Carruesco",
+   "Carlos Andújar",
+   "Xavier Baró",
+   "Jordi Gonzàlez"
+  ],
+  "cited_by": 9,
+  "openalex_id": "https://openalex.org/W2889975771"
+ },
+ {
+  "id": "doi:10.1109/fg.2017.150",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "A Survey on Deep Learning Based Approaches for Action and Gesture Recognition in Image Sequences",
+  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
+  "type": "conference-paper",
+  "year": 2017,
+  "doi": "10.1109/fg.2017.150",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85026303373&partnerID=MN8TOARS",
+  "orcid_put_code": 35804272,
+  "date": "2017-05-01",
+  "authors": [
+   "M. Asadi",
+   "Albert Clapés",
+   "Marco Bellantonio",
+   "Hugo Jair Escalante",
+   "Víctor Ponce-López",
+   "Xavier Baró",
+   "Isabelle Guyon",
+   "Shohreh Kasaei",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 181,
+  "abstract": "The interest in action and gesture recognition has grown considerably in the last years. In this paper, we present a survey on current deep learning methodologies for action and gesture recognition in image sequences. We introduce a taxonomy that summarizes important aspects of deep learning for approaching both tasks. We review the details of the proposed architectures, fusion strategies, main datasets, and competitions. We summarize and discuss the main works proposed so far with particular interest on how they treat the temporal dimension of data, discussing their main features and identify opportunities and challenges for future research.",
+  "openalex_id": "https://openalex.org/W2728972335"
+ },
+ {
+  "id": "doi:10.1109/fg.2017.20",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Apparent and Real Age Estimation in Still Images with Deep Residual Regressors on Appa-Real Database",
+  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
+  "type": "conference-paper",
+  "year": 2017,
+  "doi": "10.1109/fg.2017.20",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85026324900&partnerID=MN8TOARS",
+  "orcid_put_code": 35804279,
+  "date": "2017-05-01",
+  "authors": [
+   "Eirikur Agustsson",
+   "Radu Timofte",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Isabelle Guyon",
+   "Rasmus Rothe"
+  ],
+  "cited_by": 109,
+  "abstract": "After decades of research, the real (biological) age estimation from a single face image reached maturity thanks to the availability of large public face databases and impressive accuracies achieved by recently proposed methods. The estimation of “apparent age” is a related task concerning the age perceived by human observers. Significant advances have been also made in this new research direction with the recent Looking At People challenges. In this paper we make several contributions to age estimation research. (i) We introduce APPA-REAL, a large face image database with both real and apparent age annotations. (ii)We study the relationship between real and apparent age. (iii) We develop a residual age regression method to further improve the performance. (iv) We show that real age estimation can be successfully tackled as an apparent age estimation followed by an apparent to real age residual regression. (v) We graphically reveal the facial regions on which the CNN focuses in order to perform apparent and real age estimation tasks.",
+  "openalex_id": "https://openalex.org/W2725329413"
+ },
+ {
+  "id": "t:automatic-recognition-of-deceptive-facial-expressions-of-emo-2017",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Automatic Recognition of Deceptive Facial Expressions of Emotion.",
+  "venue": "arXiv (Cornell University)",
+  "type": "preprint",
+  "year": 2017,
+  "date": "2017-07-13",
+  "url": "https://arxiv.org/abs/1707.04061",
+  "authors": [
+   "Ikechukwu Ofodile",
+   "Kaustubh Kulkarni",
+   "Ciprian Adrian Corneanu",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Sylwia Hyniewska",
+   "Jüri Allïk",
+   "Gholamreza Anbarjafari"
+  ],
+  "cited_by": 26,
+  "abstract": "Humans modify facial expressions in order to mislead observers regarding their true emotional states. Being able to recognize the authenticity of emotional displays is notoriously difficult for human observers. Evidence in experimental psychology shows that discriminative facial responses are short and subtle. This suggests that such behavior would be easier to distinguish when captured in high resolution at an increased frame rate. We are proposing SASE-FE, the first dataset of genuine and deceptive facial expressions of emotions for automatic recognition. We show that overall the problem of recognizing deceptive facial expressions can be successfully addressed by learning spatio-temporal representations of the data. For this purpose, we propose a method that aggregates features along fiducial trajectories in a deeply learnt feature space. Interesting additional results show that on average it is easier to distinguish among genuine expressions than deceptive ones and that certain emotion pairs are more difficult to distinguish than others.",
+  "openalex_id": "https://openalex.org/W2735357749"
+ },
+ {
+  "id": "t:chalearn-looking-at-people-events-and-resources-2017",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "ChaLearn Looking at People - Events and Resources.",
+  "venue": "arXiv (Cornell University)",
+  "type": "preprint",
+  "year": 2017,
+  "date": "2017-01-10",
+  "url": "https://arxiv.org/abs/1701.02664",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Isabelle Guyon"
+  ],
+  "cited_by": 3,
+  "openalex_id": "https://openalex.org/W2577304286"
+ },
+ {
+  "id": "doi:10.1109/ijcnn.2017.7966041",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "ChaLearn looking at people: A review of events and resources",
+  "venue": "International Joint Conference on Neural Networks (IJCNN)",
+  "type": "conference-paper",
+  "year": 2017,
+  "date": "2017-05-01",
+  "doi": "10.1109/ijcnn.2017.7966041",
+  "url": "https://arxiv.org/pdf/1701.02664",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Isabelle Guyon"
+  ],
+  "cited_by": 38,
+  "abstract": "This paper reviews the historic of ChaLearn Looking at People (LAP) events. We started in 2011 (with the release of the first Kinect device) to run challenges related to human action/activity and gesture recognition. Since then we have regularly organized events in a series of competitions covering all aspects of visual analysis of humans. So far we have organized more than 10 international challenges and events in this field. This paper reviews associated events, and introduces the ChaLearn LAP platform where public resources (including code, data and preprints of papers) related to the organized events are available. We also provide a discussion on our main findings and perspectives of ChaLearn LAP activities.",
+  "openalex_id": "https://openalex.org/W2618390276"
+ },
+ {
+  "id": "doi:10.1007/978-3-319-57021-1_19",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Deep Learning for Action and Gesture Recognition in Image Sequences: A Survey",
+  "venue": "The Springer series on challenges in machine learning",
+  "type": "book-chapter",
+  "year": 2017,
+  "date": "2017-01-01",
+  "doi": "10.1007/978-3-319-57021-1_19",
+  "url": "https://inria.hal.science/hal-01678006",
+  "authors": [
+   "M. Asadi",
+   "Albert Clapés",
+   "Marco Bellantonio",
+   "Hugo Jair Escalante",
+   "Víctor Ponce-López",
+   "Xavier Baró",
+   "Isabelle Guyon",
+   "Shohreh Kasaei",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 59,
+  "openalex_id": "https://openalex.org/W2737327755"
+ },
+ {
+  "id": "t:design-and-preliminary-evaluation-of-team-based-competitions-2017",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Design and preliminary evaluation of team based competitions in video forecasting",
+  "type": "journal-article",
+  "year": 2017,
+  "date": "2017-02-17",
+  "url": "https://openreview.net/pdf?id=HkG1JKVKg",
+  "authors": [
+   "Florin Popescu",
+   "Isabelle Guyon",
+   "Lisheng Sun",
+   "Diviyan Kalainathan",
+   "Sébastien Treguer",
+   "Cécile Capponi",
+   "Stéphane Ayache",
+   "Xavier Baró",
+   "Julio C. S. Jacques",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W2912020989"
+ },
+ {
+  "id": "doi:10.1109/ijcnn.2017.7966320",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Design of an explainable machine learning challenge for video interviews",
+  "venue": "Proceedings of the International Joint Conference on Neural Networks",
+  "type": "conference-paper",
+  "year": 2017,
+  "doi": "10.1109/ijcnn.2017.7966320",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85030973767&partnerID=MN8TOARS",
+  "orcid_put_code": 97804738,
+  "date": "2017-05-01",
+  "authors": [
+   "Hugo Jair Escalante",
+   "Isabelle Guyon",
+   "Sérgio Escalera",
+   "Julio C. S. Jacques",
+   "Meysam Madadi",
+   "Xavier Baró",
+   "Stéphane Ayache",
+   "Evelyne Viegas",
+   "Yağmur Güçlütürk",
+   "Umut Güçlü",
+   "Marcel A. J. van Gerven",
+   "Rob van Lier"
+  ],
+  "cited_by": 70,
+  "abstract": "This paper reviews and discusses research advances on “explainable machine learning” in computer vision. We focus on a particular area of the “Looking at People” (LAP) thematic domain: first impressions and personality analysis. Our aim is to make the computational intelligence and computer vision communities aware of the importance of developing explanatory mechanisms for computer-assisted decision making applications, such as automating recruitment. Judgments based on personality traits are being made routinely by human resource departments to evaluate the candidates' capacity of social insertion and their potential of career growth. However, inferring personality traits and, in general, the process by which we humans form a first impression of people, is highly subjective and may be biased. Previous studies have demonstrated that learning machines can learn to mimic human decisions. In this paper, we go one step further and formulate the problem of explaining the decisions of the models as a means of identifying what visual aspects are important, understanding how they relate to decisions suggested, and possibly gaining insight into undesirable negative biases. We design a new challenge on explainability of learning machines for first impressions analysis. We describe the setting, scenario, evaluation metrics and preliminary outcomes of the competition. To the best of our knowledge this is the first effort in terms of challenges for explainability in computer vision. In addition our challenge design comprises several other quantitative and qualitative elements of novelty, including a “coopetition” setting, which combines competition and collaboration.",
+  "openalex_id": "https://openalex.org/W2735866559"
+ },
+ {
+  "id": "doi:10.1109/fg.2017.106",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Dominant and Complementary Multi-Emotional Facial Expression Recognition Using C-Support Vector Classification",
+  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
+  "type": "conference-paper",
+  "year": 2017,
+  "doi": "10.1109/fg.2017.106",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85026287273&partnerID=MN8TOARS",
+  "orcid_put_code": 35804286,
+  "date": "2017-05-01",
+  "authors": [
+   "Christer Loob",
+   "Pejman Rasti",
+   "Iiris Lüsi",
+   "Julio C. S. Jacques",
+   "Xavier Baró",
+   "Sérgio Escalera",
+   "Tomasz Sapiński",
+   "Dorota Kamińska",
+   "Gholamreza Anbarjafari"
+  ],
+  "cited_by": 18,
+  "abstract": "We are proposing a new facial expression recognition model which introduces 30+ detailed facial expressions recognisable by any artificial intelligence interacting with a human. Throughout this research, we introduce two categories for the emotions, namely, dominant emotions and complementary emotions. In this research paper the complementary emotion is recognised by using the eye region if the dominant emotion is angry, fearful or sad, and if the dominant emotion is disgust or happiness the complementary emotion is mainly conveyed by the mouth. In order to verify the tagged dominant and complementary emotions, randomly chosen people voted for the recognised multi-emotional facial expressions. The average results of voting are showing that 73.88% of the voters agree on the correctness of the recognised multi-emotional facial expressions.",
+  "openalex_id": "https://openalex.org/W2729544402"
+ },
+ {
+  "id": "doi:10.48550/arxiv.1703.03305",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "End-to-end semantic face segmentation with conditional random fields as convolutional, recurrent and adversarial networks",
+  "venue": "arXiv (Cornell University)",
+  "type": "preprint",
+  "year": 2017,
+  "date": "2017-03-09",
+  "doi": "10.48550/arxiv.1703.03305",
+  "url": "https://arxiv.org/pdf/1703.03305",
+  "authors": [
+   "Umut Güçlü",
+   "Yağmur Güçlütürk",
+   "Meysam Madadi",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Jordi Gonzàlez",
+   "Rob van Lier",
+   "Marcel A. J. van Gerven"
+  ],
+  "cited_by": 21,
+  "abstract": "Recent years have seen a sharp increase in the number of related yet distinct advances in semantic segmentation. Here, we tackle this problem by leveraging the respective strengths of these advances. That is, we formulate a conditional random field over a four-connected graph as end-to-end trainable convolutional and recurrent networks, and estimate them via an adversarial process. Importantly, our model learns not only unary potentials but also pairwise potentials, while aggregating multi-scale contexts and controlling higher-order inconsistencies. We evaluate our model on two standard benchmark datasets for semantic face segmentation, achieving state-of-the-art results on both of them.",
+  "openalex_id": "https://openalex.org/W2596700998"
+ },
+ {
+  "id": "doi:10.1007/s00521-016-2223-x",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Evolving weighting schemes for the Bag of Visual Words",
+  "venue": "Neural Computing and Applications",
+  "type": "journal-article",
+  "year": 2017,
+  "doi": "10.1007/s00521-016-2223-x",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84959342812&partnerID=MN8TOARS",
+  "orcid_put_code": 35804280,
+  "date": "2016-03-01",
+  "authors": [
+   "Hugo Jair Escalante",
+   "Víctor Ponce-López",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Alicia Morales-Reyes",
+   "José Martínez-Carranza"
+  ],
+  "cited_by": 10,
+  "openalex_id": "https://openalex.org/W2291214253"
+ },
+ {
+  "id": "doi:10.1109/fg.2017.133",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Exploiting feature Representations Through Similarity Learning and Ranking Aggregation for Person Re-identification",
+  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
+  "type": "conference-paper",
+  "year": 2017,
+  "doi": "10.1109/fg.2017.133",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85026311716&partnerID=MN8TOARS",
+  "orcid_put_code": 35804276,
+  "date": "2017-05-01",
+  "authors": [
+   "Julio C. S. Jacques",
+   "Xavier Baró",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 0,
+  "abstract": "Person re-identification has received special attentionby the human analysis community in the last few years.To address the challenges in this field, many researchers haveproposed different strategies, which basically exploit eithercross-view invariant features or cross-view robust metrics. Inthis work we propose to combine different feature representationsthrough ranking aggregation. Spatial information, whichpotentially benefits the person matching, is represented usinga 2D body model, from which color and texture informationare extracted and combined. We also consider contextualinformation (background and foreground data), automaticallyextracted via Deep Decompositional Network, and the usage ofConvolutional Neural Network (CNN) features. To describe thematching between images we use the polynomial feature map,also taking into account local and global information. Finally,the Stuart ranking aggregation method is employed to combinecomplementary ranking lists obtained from different featurerepresentations. Experimental results demonstrated that weimprove the state-of-the-art on VIPeR and PRID450s datasets,achieving 58.77% and 71.56% on top-1 rank recognitionrate, respectively, as well as obtaining competitive results onCUHK01 dataset.",
+  "openalex_id": "https://openalex.org/W2724353308"
+ },
+ {
+  "id": "doi:10.1109/fg.2017.102",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation: Databases",
+  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
+  "type": "conference-paper",
+  "year": 2017,
+  "doi": "10.1109/fg.2017.102",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85026329317&partnerID=MN8TOARS",
+  "orcid_put_code": 35804274,
+  "date": "2017-05-01",
+  "authors": [
+   "Iiris Lüsi",
+   "Julio C. S. Jacques",
+   "Jelena Gorbova",
+   "Xavier Baró",
+   "Sérgio Escalera",
+   "Hasan Demirel",
+   "Jüri Allïk",
+   "Cagri Ozcinar",
+   "Gholamreza Anbarjafari"
+  ],
+  "cited_by": 45,
+  "abstract": "In this work two databases for the Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation1 are introduced. Head pose estimation paired with and detailed emotion recognition have become very important in relation to human-computer interaction. The 3D head pose database, SASE, is a 3D database acquired with Microsoft Kinect 2 camera, including RGB and depth information of different head poses which is composed by a total of 30000 frames with annotated markers, including 32 male and 18 female subjects. For the dominant and complementary emotion database, iCVMEFED, includes 31250 images with different emotions of 115 subjects whose gender distribution is almost uniform. For each subject there are 5 samples. The emotions are composed by 7 basic emotions plus neutral, being defined as complementary and dominant pairs. The emotion associated to the images were labeled with the support of psychologists.",
+  "openalex_id": "https://openalex.org/W2727455004"
+ },
+ {
+  "id": "doi:10.1109/fg.2017.37",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Occlusion Aware Hand Pose Recovery from Sequences of Depth Images",
+  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
+  "type": "conference-paper",
+  "year": 2017,
+  "doi": "10.1109/fg.2017.37",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85026302382&partnerID=MN8TOARS",
+  "orcid_put_code": 35804273,
+  "date": "2017-05-01",
+  "authors": [
+   "Meysam Madadi",
+   "Sérgio Escalera",
+   "Alex Carruesco",
+   "Carlos Andújar",
+   "Xavier Baró",
+   "Jordi Gonzàlez"
+  ],
+  "cited_by": 17,
+  "abstract": "State-of-the-art approaches on hand pose estimation from depth images have reported promising results under quite controlled considerations. In this paper we propose a two-step pipeline for recovering the hand pose from a sequence of depth images. The pipeline has been designed to deal with images taken from any viewpoint and exhibiting a high degree of finger occlusion. In a first step we initialize the hand pose using a part-based model, fitting a set of hand components in the depth images. In a second step we consider temporal data and estimate the parameters of a trained bilinear model consisting of shape and trajectory bases. Results on a synthetic, highly-occluded dataset demonstrate that the proposed method outperforms most recent pose recovering approaches, including those based on CNNs.",
+  "openalex_id": "https://openalex.org/W2724168988"
+ },
+ {
+  "id": "doi:10.1109/iccvw.2017.377",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Results and Analysis of ChaLearn LAP Multi-modal Isolated and Continuous Gesture Recognition, and Real Versus Fake Expressed Emotions Challenges",
+  "venue": "Proceedings - 2017 IEEE International Conference on Computer Vision Workshops, ICCVW 2017",
+  "type": "conference-paper",
+  "year": 2017,
+  "doi": "10.1109/iccvw.2017.377",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85046270292&partnerID=MN8TOARS",
+  "orcid_put_code": 97804731,
+  "date": "2017-10-01",
+  "authors": [
+   "Jun Wan",
+   "Sérgio Escalera",
+   "Gholamreza Anbarjafari",
+   "Hugo Jair Escalante",
+   "Xavier Baró",
+   "Isabelle Guyon",
+   "Meysam Madadi",
+   "Jüri Allïk",
+   "Jelena Gorbova",
+   "Chi Lin",
+   "Yiliang Xie"
+  ],
+  "cited_by": 79,
+  "abstract": "We analyze the results of the 2017 ChaLearn Looking at People Challenge at ICCV The challenge comprised three tracks: (1) large-scale isolated (2) continuous gesture recognition, and (3) real versus fake expressed emotions tracks. It is the second round for both gesture recognition challenges, which were held first in the context of the ICPR 2016 workshop on \"multimedia challenges beyond visual analysis\". In this second round, more participants joined the competitions, and the performances considerably improved compared to the first round. Particularly, the best recognition accuracy of isolated gesture recognition has improved from 56.90% to 67.71% in the IsoGD test set, and Mean Jaccard Index (MJI) of continuous gesture recognition has improved from 0.2869 to 0.6103 in the ConGD test set. The third track is the first challenge on real versus fake expressed emotion classification, including six emotion categories, for which a novel database was introduced. The first place was shared between two teams who achieved 67.70% averaged recognition rate on the test set. The data of the three tracks, the participants' code and method descriptions are publicly available to allow researchers to keep making progress in the field.",
+  "openalex_id": "https://openalex.org/W2771248633"
+ },
+ {
+  "id": "doi:10.1109/iccvw.2017.367",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Visualizing apparent personality analysis with deep residual networks",
+  "venue": "Proceedings - 2017 IEEE International Conference on Computer Vision Workshops, ICCVW 2017",
+  "type": "conference-paper",
+  "year": 2017,
+  "doi": "10.1109/iccvw.2017.367",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85046294699&partnerID=MN8TOARS",
+  "orcid_put_code": 97804745,
+  "date": "2017-10-01",
+  "authors": [
+   "Yağmur Güçlütürk",
+   "Sérgio Escalera",
+   "Marcel A. J. van Gerven",
+   "Rob van Lier",
+   "Umut Güçlü",
+   "Marc Pérez",
+   "Hugo Jair Escalante",
+   "Xavier Baró",
+   "Carlos Andújar",
+   "Isabelle Guyon",
+   "Julio C. S. Jacques",
+   "Meysam Madadi"
+  ],
+  "cited_by": 25,
+  "abstract": "Automatic prediction of personality traits is a subjective task that has recently received much attention. Specifically, automatic apparent personality trait prediction from multimodal data has emerged as a hot topic within the filed of computer vision and, more particularly, the so called \"looking at people\" sub-field. Considering \"apparent\" personality traits as opposed to real ones considerably reduces the subjectivity of the task. The real world applications are encountered in a wide range of domains, including entertainment, health, human computer interaction, recruitment and security. Predictive models of personality traits are useful for individuals in many scenarios (e.g., preparing for job interviews, preparing for public speaking). However, these predictions in and of themselves might be deemed to be untrustworthy without human understandable supportive evidence. Through a series of experiments on a recently released benchmark dataset for automatic apparent personality trait prediction, this paper characterizes the audio and visual information that is used by a state-of-the-art model while making its predictions, so as to provide such supportive evidence by explaining predictions made. Additionally, the paper describes a new web application, which gives feedback on apparent personality traits of its users by combining model predictions with their explanations.",
+  "openalex_id": "https://openalex.org/W2769012417"
+ },
+ {
+  "id": "doi:10.3991/ijet.v11i07.5888",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Adaptive e-assessment system: A general approach",
+  "venue": "International Journal of Emerging Technologies in Learning",
+  "type": "journal-article",
+  "year": 2016,
+  "doi": "10.3991/ijet.v11i07.5888",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84980352511&partnerID=MN8TOARS",
+  "orcid_put_code": 35804271,
+  "date": "2016-07-21",
+  "authors": [
+   "David Bañeres",
+   "Xavier Baró",
+   "Ana‐Elena Guerrero‐Roldán",
+   "Maria Elena Rodríguez"
+  ],
+  "cited_by": 19,
+  "abstract": "On any type of course (on site or online), a learner is evaluated whether he has acquired the knowledge and competences provided in the course. The evaluation should be performed by evaluating his progression by means of the interaction in the classroom or assessment activities. Mostly, assessment activities are used to check the level of expertise of the learner. Typically, the assessment model and assessment activities of subjects in official programmes are the same for all the learners, since they should be evaluated having the same opportunities and conditions. However, when the learner is evaluated based on a continuous assessment model, he is demonstrating on each activity his knowledge and proficiency level and, at the same time, his reputation could be also built based on the actions he is performing within the course. Therefore, the assessment model can be particularly adapted for each learned based on this information. In this paper, we present a general system to adapt any component of the assessment process (model, activity, question…) based on different evidences gathered from the learning process of the learner.",
+  "openalex_id": "https://openalex.org/W2496505282"
+ },
+ {
+  "id": "doi:10.5334/ijic.2680",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Care respite: taking care of the caregivers",
+  "venue": "International Journal of Integrated Care",
+  "type": "journal-article",
+  "year": 2016,
+  "date": "2016-12-16",
+  "doi": "10.5334/ijic.2680",
+  "url": "https://doi.org/10.5334/ijic.2680",
+  "authors": [
+   "Fernando Alonso",
+   "Xavier Baró",
+   "Sérgio Escalera",
+   "Jordi Gonzàlez",
+   "Martha Mackay",
+   "Anna Serrahima"
+  ],
+  "cited_by": 1,
+  "abstract": "Introduction: With an ageing population, the issue of care provision is becoming increasingly critical. Since the aspiration of the majority of older people is to live safely and well at home, housing monitoring will be part of health & care integration in the next decades. As a consequence, a higher proportion of people will have to rely on family, friends or neighbours as their informal caregivers, providing that this group already count as around 80% of all caregivers in the EU). The varied and cumulative problems that this caregivers face include loss of personal opportunities and self-esteem, financial problems or physical and emotional problems. Several strategies need to be enforced to prevent the burnout and improve the quality of life of these informal caregivers, such as the possibility of providing them with useful and reliable monitoring tools that can help reduce the exhausting and continuous supervision activity they have to perform, reduce their stress, and increase their leisure time while improving the autonomy and wellness of the dependent people. The technological solutions currently in use are invasive (wearable sensors) or require actions difficult to perform by the elder (call or press the button), in critical situations (e.g. falling or fainting situations, where the elder is not able to give any response). As an alternative to these solutions, this paper describes *\"Care Respite\", a novel non-invasive, real-time and privacy-preserving monitoring technology conceived for the first time as a real respite for those taking care of others* and describes the results of the case studies. Short description: The Care Respite technology is composed of an ambient intelligent device (AID) and a remote receiver. The AID device includes a Microsoft Kinect multi-modal sensor and a computer unit. The sensor captures audio and depth maps from around 25 m2 (thanks to its infrared structured light technology) to be processed in a computer unit by an advanced generation of Computer Vision software. This software is able to recognize specific events like: leaving the environment, falling/fainting, high agitation, etc. Monitoring can be done in dark environments thanks to the infrared technology of the sensor, therefore the appearance of the person is not used at all. The alert is transmitted to a receiver, any smartphone with Internet connection. With our smartphone application, different caregivers can share the monitoring task of a single person, and a single caregiver can monitor multiple dependent people at the same time. Key findings: The innovative aspect of Care Respite relies on (i) the benefits of the incorporation and exploitation of novel computer vision technologies now available thanks to the use of low-cost depth cameras, and (ii) on the feedback provided by informal and professional caregivers during these last two years. No other monitoring system in the market addressed to the caregivers is comparable in terms of safety, relief, autonomy, satisfaction, intimacy and cost reduction. The system does not require a fixed installation point, therefore the monitoring camera can be placed anywhere inside a home or a retirement house. Highlights: Low cost RGB-D cameras are completely changing the computer vision world, as they are being successfully used in several applications and research areas. Following this trend, the first users of Care Respite liked the idea of exploiting depth data (not the appearance) recorded at the older person’s homes to send alarms and information to their caregivers, who are connected using smartphone. An additional feature that liked the first users of Care Respite is its personalization aspect: the remote smartphone application allows the professionals or family carers to choose which risky events to monitor. Another lesson learnt during implementation is that the remote visualization and communication via image and audio is an essential and supporting tool for fast responses in case of risk, while improving the autonomy and life quality of both the elderly and their caregivers. Conclusion: This project aims at ensuring that all disabled or chronically ill people can get the help they need without overburdening their families. Improving carers' quality of life and preventing their burnout require new solutions that are affordable and user friendly for families and caregivers. In this context, Care Respite represents a technological solution for the automatic detection of events like falling down, not moving during a period of time, receiving an unexpected visit or being absent from a room. The intelligent software is able to send an alert to the mobile device of the caregivers allowing real time response.",
+  "openalex_id": "https://openalex.org/W2583920691"
+ },
+ {
+  "id": "doi:10.1109/icpr.2016.7899609",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "ChaLearn Joint Contest on Multimedia Challenges beyond Visual Analysis: An overview",
+  "venue": "Proceedings - International Conference on Pattern Recognition",
+  "type": "conference-paper",
+  "year": 2016,
+  "doi": "10.1109/icpr.2016.7899609",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85019136220&partnerID=MN8TOARS",
+  "orcid_put_code": 35804289,
+  "date": "2016-12-01",
+  "authors": [
+   "Hugo Jair Escalante",
+   "Víctor Ponce-López",
+   "Jun Wan",
+   "Michael Alexander Riegler",
+   "Baiyu Chen",
+   "Albert Clapés",
+   "Sérgio Escalera",
+   "Isabelle Guyon",
+   "Xavier Baró",
+   "Pål Halvorsen",
+   "Henning Müller",
+   "Martha Larson"
+  ],
+  "cited_by": 86,
+  "abstract": "This paper provides an overview of the Joint Contest on Multimedia Challenges Beyond Visual Analysis. We organized an academic competition that focused on four problems that require effective processing of multimodal information in order to be solved. Two tracks were devoted to gesture spotting and recognition from RGB-D video, two fundamental problems for human computer interaction. Another track was devoted to a second round of the first impressions challenge of which the goal was to develop methods to recognize personality traits from short video clips. For this second round we adopted a novel collaborative-competitive (i.e., coopetition) setting. The fourth track was dedicated to the problem of video recommendation for improving user experience. The challenge was open for about 45 days, and received outstanding participation: almost 200 participants registered to the contest, and 20 teams sent predictions in the final stage. The main goals of the challenge were fulfilled: the state of the art was advanced considerably in the four tracks, with novel solutions to the proposed problems (mostly relying on deep learning). However, further research is still required. The data of the four tracks will be available to allow researchers to keep making progress in the four tracks.",
+  "openalex_id": "https://openalex.org/W2609984075"
+ },
+ {
+  "id": "doi:10.1007/978-3-319-49409-8_32",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Chalearn LAP 2016: First round challenge on first impressions - Dataset and results",
+  "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  "type": "book",
+  "year": 2016,
+  "doi": "10.1007/978-3-319-49409-8_32",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85006056475&partnerID=MN8TOARS",
+  "orcid_put_code": 35804285,
+  "date": "2016-01-01",
+  "authors": [
+   "Víctor Ponce-López",
+   "Baiyu Chen",
+   "Marc Oliu",
+   "Ciprian Adrian Corneanu",
+   "Albert Clapés",
+   "Isabelle Guyon",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 226,
+  "openalex_id": "https://openalex.org/W2573933330"
+ },
+ {
+  "id": "doi:10.1109/cvprw.2016.93",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "ChaLearn Looking at People and Faces of the World: Face AnalysisWorkshop and Challenge 2016",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops",
+  "type": "conference-paper",
+  "year": 2016,
+  "doi": "10.1109/cvprw.2016.93",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85010189093&partnerID=MN8TOARS",
+  "orcid_put_code": 35804283,
+  "date": "2016-06-01",
+  "authors": [
+   "Sérgio Escalera",
+   "Mohammad Ali Bagheri",
+   "Michel Valstar",
+   "Mercedes Torres Torres",
+   "Brais Martínez",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Isabelle Guyon",
+   "Georgios Tzimiropoulos",
+   "Ciprian Adrian Corneanu",
+   "Marc Oliu"
+  ],
+  "cited_by": 107,
+  "abstract": "We present the 2016 ChaLearn Looking at People and Faces of the World Challenge and Workshop, which ran three competitions on the common theme of face analysis from still images. The first one, Looking at People, addressed age estimation, while the second and third competitions, Faces of the World, addressed accessory classification and smile and gender classification, respectively. We present two crowd-sourcing methodologies used to collect manual annotations. A custom-build application was used to collect and label data about the apparent age of people (as opposed to the real age). For the Faces of the World data, the citizen-science Zooniverse platform was used. This paper summarizes the three challenges and the data used, as well as the results achieved by the participants of the competitions. Details of the ChaLearn LAP FotW competitions can be found at http://gesture.chalearn.org.",
+  "openalex_id": "https://openalex.org/W2472456744"
+ },
+ {
+  "id": "t:from-geospatial-observations-of-ocean-currents-to-causal-pre-2016",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "From geospatial observations of ocean currents to causal predictors of spatio-economic activity using computer vision and machine learning",
+  "venue": "HAL",
+  "type": "conference-paper",
+  "year": 2016,
+  "date": "2016-01-01",
+  "url": "https://hal.science/hal-01381147",
+  "authors": [
+   "Florin Popescu",
+   "Stéphane Ayache",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Cécile Capponi",
+   "Patrick Panciatici",
+   "Isabelle Guyon"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W2611811286"
+ },
+ {
+  "id": "doi:10.1109/tpami.2016.2557878",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Guest Editors' Introduction to the special issue on multimodal human pose recovery and behavior analysis",
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "type": "journal-article",
+  "year": 2016,
+  "doi": "10.1109/tpami.2016.2557878",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84978632062&partnerID=MN8TOARS",
+  "orcid_put_code": 35804284,
+  "date": "2016-07-01",
+  "authors": [
+   "Sérgio Escalera",
+   "Jordi Gonzàlez",
+   "Xavier Baró",
+   "Jamie Shotton"
+  ],
+  "cited_by": 13,
+  "abstract": "The sixteen papers in this special section focus on human pose recovery and behavior analysis (HuPBA). This is one of the most challenging topics in computer vision, pattern analysis, and machine learning. It is of critical importance for application areas that include gaming, computer interaction, human robot interaction, security, commerce, assistive technologies and rehabilitation, sports, sign language recognition, and driver assistance technology, to mention just a few. In essence, HuPBA requires dealing with the articulated nature of the human body, changes in appearance due to clothing, and the inherent problems of clutter scenes, such as background artifacts, occlusions, and illumination changes. These papers represent the most recent research in this field, including new methods considering still images, image sequences, depth data, stereo vision, 3D vision, audio, and IMUs, among others.",
+  "openalex_id": "https://openalex.org/W2474191075"
+ },
+ {
+  "id": "doi:10.1016/b978-0-12-803637-2.09988-7",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "List of Contributors",
+  "venue": "Elsevier eBooks",
+  "type": "other",
+  "year": 2016,
+  "date": "2016-01-01",
+  "doi": "10.1016/b978-0-12-803637-2.09988-7",
+  "url": "https://doi.org/10.1016/b978-0-12-803637-2.09988-7",
+  "authors": [
+   "K. Aoki",
+   "Joan Arnedo-Moreno",
+   "I. Balasooriya",
+   "D. Baneres",
+   "Xavier Baró",
+   "Z. Callejas",
+   "M.M. Chan",
+   "P. Compañ-Rosique",
+   "J. Conesa",
+   "M. Drlík",
+   "A.A. Economides",
+   "Maria Elena Rodríguez",
+   "N. Escudero-Viladoms",
+   "M.F. Farghally",
+   "M. Feidakis",
+   "E. Fouh",
+   "F.J. Gallego-Durán",
+   "D. Griol",
+   "Ana‐Elena Guerrero‐Roldán",
+   "Christian Gütl",
+   "I. Guitart",
+   "S. Hamouda",
+   "E. Hettiarachchi",
+   "M.A. Huertas",
+   "F. Llorens-Largo",
+   "V.I. Marín",
+   "Rafael Molina-Carmona",
+   "E. Mor",
+   "M. Munk",
+   "Z. Papamitsiou",
+   "Adolfina Pérez Garcías",
+   "Daniel Riera",
+   "R.H. Rizzardini",
+   "T. Sancho-Vinuesa",
+   "Rosana Satorre Cuerda",
+   "C.A. Shaffer",
+   "U. Tudevdagva",
+   "C.J. Villagrá-Arnedo"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W4242633438"
+ },
+ {
+  "id": "t:the-assesment-process-as-a-cornerstone-of-quality-assurance--2016",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "The assesment process as a cornerstone of quality assurance education: the UOC case",
+  "venue": "EDEN Conference Proceedings",
+  "type": "conference-paper",
+  "year": 2016,
+  "date": "2016-06-14",
+  "url": "https://www.eden-online.org/proc-2485/index.php/PROC/article/download/1507/1215",
+  "authors": [
+   "Ana‐Elena Guerrero‐Roldán",
+   "Maria Elena Rodríguez",
+   "Xavier Baró",
+   "David Bañeres",
+   "Ingrid Noguera"
+  ],
+  "cited_by": 0,
+  "abstract": "The accreditation system of Higher Education degrees is currently being shaken by new types of learning resources and educational courses. Internet has long since opened a new scenario for teaching and learning processes which are promoting rethinking of, and new insights about quality assurance. Universities are analysing the impact of new net-based course formats and approaches such as MOOCs, and their corresponding certification. Blended or fully online learning environments are being extended across educational institutions. This requires, then, that the educational system ensure the quality of these new learning processes.",
+  "openalex_id": "https://openalex.org/W3163224445"
+ },
+ {
+  "id": "doi:10.1016/b978-0-12-803637-2.00002-6",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Towards an Adaptive e-Assessment System Based on Trustworthiness",
+  "venue": "Formative Assessment, Learning Data Analytics and Gamification: In ICT Education",
+  "type": "book",
+  "year": 2016,
+  "doi": "10.1016/b978-0-12-803637-2.00002-6",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84987920176&partnerID=MN8TOARS",
+  "orcid_put_code": 35804281,
+  "date": "2016-01-01",
+  "authors": [
+   "David Bañeres",
+   "Maria Elena Rodríguez",
+   "Ana‐Elena Guerrero‐Roldán",
+   "Xavier Baró"
+  ],
+  "cited_by": 16,
+  "openalex_id": "https://openalex.org/W2488725857"
+ },
+ {
+  "id": "doi:10.1109/cvprw.2015.7301329",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "ChaLearn Looking at People 2015 challenges: Action spotting and cultural event recognition",
+  "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops",
+  "type": "conference-paper",
+  "year": 2015,
+  "doi": "10.1109/cvprw.2015.7301329",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84951966587&partnerID=MN8TOARS",
+  "orcid_put_code": 35804287,
+  "date": "2015-06-01",
+  "authors": [
+   "Xavier Baró",
+   "Jordi Gonzàlez",
+   "Junior Fabián",
+   "Miguel Ángel Bautista",
+   "Marc Oliu",
+   "Hugo Jair Escalante",
+   "Isabelle Guyon",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 41,
+  "abstract": "Following previous series on Looking at People (LAP) challenges [6, 5, 4], ChaLearn ran two competitions to be presented at CVPR 2015: action/interaction spotting and cultural event recognition in RGB data. We ran a second round on human activity recognition on RGB data sequences. In terms of cultural event recognition, tens of categories have to be recognized. This involves scene understanding and human analysis. This paper summarizes the two challenges and the obtained results. Details of the ChaLearn LAP competitions can be found at http://gesture.chalearn.org/.",
+  "openalex_id": "https://openalex.org/W1946408210"
+ },
+ {
+  "id": "doi:10.1109/ijcnn.2015.7280614",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "ChaLearn looking at people 2015 new competitions: Age estimation and cultural event recognition",
+  "venue": "Proceedings of the International Joint Conference on Neural Networks",
+  "type": "conference-paper",
+  "year": 2015,
+  "doi": "10.1109/ijcnn.2015.7280614",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84951171030&partnerID=MN8TOARS",
+  "orcid_put_code": 35804277,
+  "date": "2015-07-01",
+  "authors": [
+   "Sérgio Escalera",
+   "Jordi Gonzàlez",
+   "Xavier Baró",
+   "Pablo Llopis Pardo",
+   "Junior Fabián",
+   "Marc Oliu",
+   "Hugo Jair Escalante",
+   "Iván Huerta",
+   "Isabelle Guyon"
+  ],
+  "cited_by": 15,
+  "abstract": "Following previous series on Looking at People (LAP) challenges [1], [2], [3], in 2015 ChaLearn runs two new competitions within the field of Looking at People: age and cultural event recognition in still images. We propose the first crowd-sourcing application to collect and label data about apparent age of people instead of the real age. In terms of cultural event recognition, tens of categories have to be recognized. This involves scene understanding and human analysis. This paper summarizes both challenges and data, providing some initial baselines. The results of the first round of the competition were presented at ChaLearn LAP 2015 IJCNN special session on computer vision and robotics http://www.dtic.ua.es/~jgarcia/IJCNN2015. Details of the ChaLearn LAP competitions can be found at http://gesture.chalearn.org/.",
+  "openalex_id": "https://openalex.org/W1654487363"
+ },
+ {
+  "id": "doi:10.1109/iccvw.2015.40",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "ChaLearn Looking at People 2015: Apparent Age and Cultural Event Recognition Datasets and Results",
+  "venue": "Proceedings of the IEEE International Conference on Computer Vision",
+  "type": "conference-paper",
+  "year": 2015,
+  "doi": "10.1109/iccvw.2015.40",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84961988049&partnerID=MN8TOARS",
+  "orcid_put_code": 35804282,
+  "date": "2015-12-01",
+  "authors": [
+   "Sérgio Escalera",
+   "Junior Fabián",
+   "Pablo Llopis Pardo",
+   "Xavier Baró",
+   "Jordi Gonzàlez",
+   "Hugo Jair Escalante",
+   "Dusan Misevic",
+   "Ulrich Karl Steiner",
+   "Isabelle Guyon"
+  ],
+  "cited_by": 153,
+  "abstract": "Following previous series on Looking at People (LAP) competitions [14] [13] [11] [12] [2], in 2015 ChaLearn ran two new competitions within the field of Looking at People: age and cultural event recognition in still images. We proposed a crowd-sourcing application to collect and label data about the age people looks like instead of the real age. In terms of cultural event recognition, one hundred categories had to be recognized. This involved scene understanding and human body analysis. This paper summarizes both challenges and data, as well as the results achieved by the participants of the competition. Details of the ChaLearn LAP competitions can be found at http://gesture.chalearn.org/.",
+  "openalex_id": "https://openalex.org/W2239890062"
+ },
+ {
+  "id": "doi:10.1007/978-3-319-16178-5_32",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Chalearn looking at people challenge 2014: Dataset and results",
+  "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  "type": "book",
+  "year": 2015,
+  "doi": "10.1007/978-3-319-16178-5_32",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84925310875&partnerID=MN8TOARS",
+  "orcid_put_code": 17518679,
+  "date": "2015-01-01",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Jordi Gonzàlez",
+   "Miguel Ángel Bautista",
+   "Meysam Madadi",
+   "Miguel Reyes",
+   "Víctor Ponce-López",
+   "Hugo Jair Escalante",
+   "Jamie Shotton",
+   "Isabelle Guyon"
+  ],
+  "cited_by": 215,
+  "openalex_id": "https://openalex.org/W619311409"
+ },
+ {
+  "id": "doi:10.1109/ipta.2015.7367098",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Deep learning based super-resolution for improved action recognition",
+  "venue": "5th International Conference on Image Processing, Theory, Tools and Applications 2015, IPTA 2015",
+  "type": "conference-paper",
+  "year": 2015,
+  "doi": "10.1109/ipta.2015.7367098",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84963787502&partnerID=MN8TOARS",
+  "orcid_put_code": 35804290,
+  "date": "2015-11-01",
+  "authors": [
+   "Kamal Nasrollahi",
+   "Sérgio Escalera",
+   "Pejman Rasti",
+   "Gholamreza Anbarjafari",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Thomas Baltzer Moeslund"
+  ],
+  "cited_by": 30,
+  "abstract": "Action recognition systems mostly work with videos of proper quality and resolution. Even most challenging benchmark databases for action recognition, hardly include videos of low-resolution from, e.g., surveillance cameras. In videos recorded by such cameras, due to the distance between people and cameras, people are pictured very small and hence challenge action recognition algorithms. Simple upsampling methods, like bicubic interpolation, cannot retrieve all the detailed information that can help the recognition. To deal with this problem, in this paper we combine results of bicubic interpolation with results of a state-of-the-art deep learning-based super-resolution algorithm, through an alpha-blending approach. The experimental results obtained on down-sampled version of a large subset of Hoolywood2 benchmark database show the importance of the proposed system in increasing the recognition rate of a state-of-the-art action recognition system for handling low-resolution videos.",
+  "openalex_id": "https://openalex.org/W2196256193"
+ },
+ {
+  "id": "t:experiencias-en-la-evaluacion-de-estudiantes-residentes-en-e-2015",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Experiencias en la evaluación de estudiantes residentes en el extranjero",
+  "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+  "type": "conference-paper",
+  "year": 2015,
+  "date": "2015-07-08",
+  "url": "http://hdl.handle.net/2117/77316",
+  "authors": [
+   "David Bañeres",
+   "Xavier Baró",
+   "Ana‐Elena Guerrero‐Roldán",
+   "Laura Porta",
+   "Maria Elena Rodríguez"
+  ],
+  "cited_by": 0,
+  "abstract": "Actualmente existe un problema creciente en nuestras universidades debido a la coyuntura económica del país: hay estudiantes que emigran a otros países. Algunos de estos estudiantes están interesados en continuar los estudios desde el extranjero siempre y cuando la universidad les ofrezca esta oportunidad. Nuestras universidades no siempre están preparadas para estos nuevos retos ya que algunos sistemas de evaluación actuales son demasiado restrictivos. En este artículo se presenta la experiencia de nuestra universidad frente a este problema y qué sistemas se han utilizado en la evaluación de estudiantes residentes en el extranjero.",
+  "openalex_id": "https://openalex.org/W1936942770"
+ },
+ {
+  "id": "doi:10.5244/c.29.129",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Gesture and Action Recognition by Evolved Dynamic Subgestures",
+  "venue": "British Machine Vision Conference (BMVC)",
+  "type": "conference-paper",
+  "year": 2015,
+  "date": "2015-01-01",
+  "doi": "10.5244/c.29.129",
+  "url": "https://discovery.ucl.ac.uk/10114950/1/BMVC2015_129.pdf",
+  "authors": [
+   "Víctor Ponce-López",
+   "Hugo Jair Escalante",
+   "Sérgio Escalera",
+   "Xavier Baró"
+  ],
+  "cited_by": 10,
+  "abstract": "This paper introduces a framework for gesture and action recognition based on the \\nevolution of temporal gesture primitives, or subgestures. Our work is inspired on the \\nprinciple of producing genetic variations within a population of gesture subsequences, \\nwith the goal of obtaining a set of gesture units that enhance the generalization capability of standard gesture recognition approaches. In our context, gesture primitives are evolved over time using dynamic programming and generative models in order to recognize complex actions. In few generations, the proposed subgesture-based representation \\nof actions and gestures outperforms the state of the art results on the MSRDaily3D and \\nMSRAction3D datasets.",
+  "openalex_id": "https://openalex.org/W2323460794"
+ },
+ {
+  "id": "doi:10.1109/ijcnn.2015.7280799",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Improving bag of visual words representations with genetic programming",
+  "venue": "Proceedings of the International Joint Conference on Neural Networks",
+  "type": "conference-paper",
+  "year": 2015,
+  "doi": "10.1109/ijcnn.2015.7280799",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84951054467&partnerID=MN8TOARS",
+  "orcid_put_code": 35804278,
+  "date": "2015-07-01",
+  "authors": [
+   "Hugo Jair Escalante",
+   "José Martínez-Carranza",
+   "Sérgio Escalera",
+   "Víctor Ponce-López",
+   "Xavier Baró"
+  ],
+  "cited_by": 3,
+  "abstract": "The bag of visual words is a well established representation in diverse computer vision problems. Taking inspiration from the fields of text mining and retrieval, this representation has proved to be very effective in a large number of domains. In most cases, a standard term-frequency weighting scheme is considered for representing images and videos in computer vision. This is somewhat surprising, as there are many alternative ways of generating bag of words representations within the text processing community. This paper explores the use of alternative weighting schemes for landmark tasks in computer vision: image categorization and gesture recognition. We study the suitability of using well-known supervised and unsupervised weighting schemes for such tasks. More importantly, we devise a genetic program that learns new ways of representing images and videos under the bag of visual words representation. The proposed method learns to combine term-weighting primitives trying to maximize the classification performance. Experimental results are reported in standard image and video data sets showing the effectiveness of the proposed evolutionary algorithm.",
+  "openalex_id": "https://openalex.org/W1610662540"
+ },
+ {
+  "id": "doi:10.1016/j.patrec.2015.07.040",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Non-verbal communication analysis in Victim-Offender Mediations",
+  "venue": "Pattern Recognition Letters",
+  "type": "journal-article",
+  "year": 2015,
+  "doi": "10.1016/j.patrec.2015.07.040",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84945897949&partnerID=MN8TOARS",
+  "orcid_put_code": 35804275,
+  "date": "2015-09-02",
+  "authors": [
+   "Víctor Ponce-López",
+   "Sérgio Escalera",
+   "Marc Pérez",
+   "Oriol Janés",
+   "Xavier Baró"
+  ],
+  "cited_by": 11,
+  "openalex_id": "https://openalex.org/W1884018204"
+ },
+ {
+  "id": "doi:10.1109/incos.2015.53",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Towards a General Adaptive e-Assessment System",
+  "venue": "Proceedings - 2015 International Conference on Intelligent Networking and Collaborative Systems, IEEE INCoS 2015",
+  "type": "conference-paper",
+  "year": 2015,
+  "doi": "10.1109/incos.2015.53",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84958965951&partnerID=MN8TOARS",
+  "orcid_put_code": 35804288,
+  "date": "2015-09-01",
+  "authors": [
+   "David Bañeres",
+   "Xavier Baró",
+   "Ana‐Elena Guerrero‐Roldán",
+   "Maria Elena Rodríguez"
+  ],
+  "cited_by": 3,
+  "abstract": "Assessment is an important part of the learning process. The instructor should be able to evaluate whether a learner has acquired the knowledge and competences provided in the course. Moreover, assessment activities also help a learner to check his level of expertise. Typically, the assessment model and assessment activities of subjects in official programmes are the same for all the learners, since they should be evaluated having the same opportunities and conditions. However, when the learner is evaluated by means of a continuous assessment model, he is proving on each activity his knowledge and proficiency level and, at the same time, his reputation could be also built based on the actions he is performing within the course. Therefore, the assessment model can be adapted based on this information. In this paper, we present a general system to adapt the assessment based on different evidences gathered from the learning process of the learner.",
+  "openalex_id": "https://openalex.org/W1941607744"
+ },
+ {
+  "id": "doi:10.1016/j.patcog.2013.06.019",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "On the design of an ECOC-Compliant Genetic Algorithm",
+  "venue": "Pattern Recognition",
+  "type": "journal-article",
+  "year": 2014,
+  "doi": "10.1016/j.patcog.2013.06.019",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84887025222&partnerID=MN8TOARS",
+  "orcid_put_code": 17518681,
+  "date": "2013-06-26",
+  "authors": [
+   "Miguel Ángel Bautista",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Oriol Pujol"
+  ],
+  "cited_by": 23,
+  "openalex_id": "https://openalex.org/W2020207001"
+ },
+ {
+  "id": "doi:10.1016/j.patrec.2013.09.009",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Probability-based Dynamic Time Warping and Bag-of-Visual-and-Depth-Words for Human Gesture Recognition in RGB-D",
+  "venue": "Pattern Recognition Letters",
+  "type": "journal-article",
+  "year": 2014,
+  "doi": "10.1016/j.patrec.2013.09.009",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84908219424&partnerID=MN8TOARS",
+  "orcid_put_code": 17518680,
+  "date": "2013-09-20",
+  "authors": [
+   "Antonio Hernández-Vela",
+   "Miguel Ángel Bautista",
+   "Xavier Perez-Sala",
+   "Víctor Ponce-López",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Cecilio Ángulo"
+  ],
+  "cited_by": 59,
+  "openalex_id": "https://openalex.org/W2134336275"
+ },
+ {
+  "id": "doi:10.1109/incos.2014.69",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "ValID: A trust-based virtual assessment system",
+  "venue": "Proceedings - 2014 International Conference on Intelligent Networking and Collaborative Systems, IEEE INCoS 2014",
+  "type": "conference-paper",
+  "year": 2014,
+  "doi": "10.1109/incos.2014.69",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84980391129&partnerID=MN8TOARS",
+  "orcid_put_code": 17518682,
+  "date": "2014-09-01",
+  "authors": [
+   "Joan Arnedo-Moreno",
+   "David Bañeres",
+   "Xavier Baró",
+   "Santi Caballé",
+   "Ana‐Elena Guerrero‐Roldán",
+   "Xavier Mas",
+   "Laura Porta",
+   "Josep Prieto"
+  ],
+  "cited_by": 4,
+  "abstract": "Even though online education is a very important pillar of lifelong education, institutions are still reluctant to wager for a fully online educational model. At the end, they keep relying on on-site assessment systems, mainly because fully virtual alternatives do not have the deserved social recognition or credibility. Thus, the design of virtual assessment systems that are able to provide effective proof of student authenticity and authorship and the integrity of the activities in a scalable and cost efficient manner would be very helpful. This paper presents ValID, a virtual assessment approach based on a continuous trust level evaluation between students and the institution. The current trust level serves as the main mechanism to dynamically decide which kind of controls a given student should be subjected to, across different courses in a degree. The main goal is providing a fair trade-off between security, scalability and cost, while maintaining the perceived quality of the educational model.",
+  "openalex_id": "https://openalex.org/W2058664679"
+ },
+ {
+  "id": "doi:10.1145/2522848.2532597",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "ChaLearn multi-modal gesture recognition 2013: Grand challenge and workshop summary",
+  "venue": "ICMI 2013 - Proceedings of the 2013 ACM International Conference on Multimodal Interaction",
+  "type": "conference-paper",
+  "year": 2013,
+  "doi": "10.1145/2522848.2532597",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84892567660&partnerID=MN8TOARS",
+  "orcid_put_code": 17518683,
+  "date": "2013-11-27",
+  "authors": [
+   "Sérgio Escalera",
+   "Jordi Gonzàlez",
+   "Xavier Baró",
+   "Miguel Reyes",
+   "Isabelle Guyon",
+   "Vassilis Athitsos",
+   "Hugo Jair Escalante",
+   "Leonid Sigal",
+   "Antonis Argyros",
+   "Cristian Sminchisescu",
+   "Richard Bowden",
+   "Stan Sclaroff"
+  ],
+  "cited_by": 53,
+  "abstract": "We organized a Grand Challenge and Workshop on Multi-Modal Gesture Recognition.",
+  "openalex_id": "https://openalex.org/W2075973450"
+ },
+ {
+  "id": "doi:10.1007/978-3-642-41550-0_10",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Emotion detection using hybrid structural and appearance descriptors",
+  "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  "type": "book",
+  "year": 2013,
+  "doi": "10.1007/978-3-642-41550-0_10",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84893274370&partnerID=MN8TOARS",
+  "orcid_put_code": 17518686,
+  "date": "2013-01-01",
+  "authors": [
+   "David Sanchez-Mendoza",
+   "David Masip",
+   "Xavier Baró",
+   "Àgata Lapedriza"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W201294811"
+ },
+ {
+  "id": "doi:10.1145/2522848.2532595",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Multi-modal gesture recognition challenge 2013: Dataset and results",
+  "venue": "ICMI 2013 - Proceedings of the 2013 ACM International Conference on Multimodal Interaction",
+  "type": "conference-paper",
+  "year": 2013,
+  "doi": "10.1145/2522848.2532595",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84892583619&partnerID=MN8TOARS",
+  "orcid_put_code": 17518684,
+  "date": "2013-11-27",
+  "authors": [
+   "Sérgio Escalera",
+   "Jordi Gonzàlez",
+   "Xavier Baró",
+   "Miguel Reyes",
+   "Oscar Lopes",
+   "Isabelle Guyon",
+   "Vassilis Athitsos",
+   "Hugo Jair Escalante"
+  ],
+  "cited_by": 185,
+  "abstract": "The recognition of continuous natural gestures is a complex and challenging problem due to the multi-modal nature of involved visual cues (e.g. fingers and lips movements, subtle facial expressions, body pose, etc.), as well as technical limitations such as spatial and temporal resolution and unreliable depth cues. In order to promote the research advance on this field, we organized a challenge on multi-modal gesture recognition. We made available a large video database of 13,858 gestures from a lexicon of 20 Italian gesture categories recorded with a Kinect™ camera, providing the audio, skeletal model, user mask, RGB and depth images. The focus of the challenge was on user independent multiple gesture learning. There are no resting positions and the gestures are performed in continuous sequences lasting 1-2 minutes, containing between 8 and 20 gesture instances in each sequence. As a result, the dataset contains around 1.720.800 frames. In addition to the 20 main gesture categories, \"distracter\" gestures are included, meaning that additional audio and gestures out of the vocabulary are included. The final evaluation of the challenge was defined in terms of the Levenshtein edit distance, where the goal was to indicate the real order of gestures within the sequence. 54 international teams participated in the challenge, and outstanding results were obtained by the first ranked participants.",
+  "openalex_id": "https://openalex.org/W2108036388"
+ },
+ {
+  "id": "doi:10.1145/2522848.2532594",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Multi-modal social signal analysis for predicting agreement in conversation settings",
+  "venue": "ICMI 2013 - Proceedings of the 2013 ACM International Conference on Multimodal Interaction",
+  "type": "conference-paper",
+  "year": 2013,
+  "doi": "10.1145/2522848.2532594",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84892585251&partnerID=MN8TOARS",
+  "orcid_put_code": 17518685,
+  "date": "2013-11-27",
+  "authors": [
+   "Víctor Ponce-López",
+   "Sérgio Escalera",
+   "Xavier Baró"
+  ],
+  "cited_by": 17,
+  "abstract": "In this paper we present a non-invasive ambient intelligence framework for the analysis of non-verbal communication applied to conversational settings. In particular, we apply feature extraction techniques to multi-modal audio-RGB-depth data. We compute a set of behavioral indicators that define communicative cues coming from the fields of psychology and observational methodology. We test our methodology over data captured in victim-offender mediation scenarios. Using different state-of-the-art classification approaches, our system achieve upon 75% of recognition predicting agreement among the parts involved in the conversations, using as ground truth the experts opinions.",
+  "openalex_id": "https://openalex.org/W2025275271"
+ },
+ {
+  "id": "t:pelp-plataforma-para-el-aprendizaje-de-lenguajes-de-programa-2013",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "PeLP: Plataforma para el Aprendizaje de Lenguajes de Programación",
+  "venue": "Repositorio Institucional de la Universidad de Alicante (Universidad de Alicante)",
+  "type": "conference-paper",
+  "year": 2013,
+  "date": "2013-07-10",
+  "url": "http://hdl.handle.net/2099/15384",
+  "authors": [
+   "Xavier Baró",
+   "David Masip",
+   "Elena Planas",
+   "Julià Minguillón"
+  ],
+  "cited_by": 0,
+  "abstract": "En este artículo se presenta una plataforma para el aprendizaje en línea de lenguajes de programación. Su principal objetivo es ofrecer una retroalimentación inmediata a los estudiantes en sus ejercicios de programación. Además, la plataforma contiene un conjunto de servicios web que permiten la compilación y verificación de código en línea. La plataforma no sólo facilita a los docentes la gestión y corrección de las actividades de los estudiantes y les da un retorno inmediato, sino que abre la puerta a la realización de aplicaciones web que permitan la resolución en línea de ejercicios de programación sin la necesidad de instalar ningún entorno de desarrollo ni depender de ninguna plataforma concreta. Actualmente se está implantando en asignaturas de los Grados en Ingeniería Informática y Tecnologías de la Telecomunicación.",
+  "openalex_id": "https://openalex.org/W853837701"
+ },
+ {
+  "id": "doi:10.1007/978-3-642-40303-3_14",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Probability-based dynamic time warping for gesture recognition on RGB-D data",
+  "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  "type": "book",
+  "year": 2013,
+  "doi": "10.1007/978-3-642-40303-3_14",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84883269382&partnerID=MN8TOARS",
+  "orcid_put_code": 17518687,
+  "date": "2013-01-01",
+  "authors": [
+   "Miguel Ángel Bautista",
+   "Antonio Hernández-Vela",
+   "Víctor Ponce-López",
+   "Xavier Perez-Sala",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Cecilio Ángulo",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 38,
+  "openalex_id": "https://openalex.org/W72718568"
+ },
+ {
+  "id": "doi:10.1007/978-3-642-34166-3_82",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "A genetic inspired optimization for ECOC",
+  "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  "type": "book",
+  "year": 2012,
+  "doi": "10.1007/978-3-642-34166-3_82",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84868146642&partnerID=MN8TOARS",
+  "orcid_put_code": 17518669,
+  "date": "2012-01-01",
+  "authors": [
+   "Miguel Ángel Bautista",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Oriol Pujol"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W121545057"
+ },
+ {
+  "id": "t:bovdw-bag-of-visual-and-depth-words-for-gesture-recognition-2012",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "BoVDW: Bag-of-Visual-and-Depth-Words for gesture recognition",
+  "venue": "Proceedings - International Conference on Pattern Recognition",
+  "type": "conference-paper",
+  "year": 2012,
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84874576470&partnerID=MN8TOARS",
+  "orcid_put_code": 17518688,
+  "date": "2012-11-01",
+  "authors": [
+   "Antonio Hernández-Vela",
+   "Miguel Ángel Bautista",
+   "Xavier Perez-Sala",
+   "Víctor Ponce-López",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Cecilio Ángulo",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 32,
+  "abstract": "We present a Bag-of-Visual-and-Depth-Words (BoVDW) model for gesture recognition, an extension of the Bag-of-Visual-Words (BoVW) model, that benefits from the multimodal fusion of visual and depth features. State-of-the-art RGB and depth features, including a new proposed depth descriptor, are analysed and combined in a late fusion fashion. The method is integrated in a continuous gesture recognition pipeline, where Dynamic Time Warping (DTW) algorithm is used to perform prior segmentation of gestures. Results of the method in public data sets, within our gesture recognition pipeline, show better performance in comparison to a standard BoVW model.",
+  "openalex_id": "https://openalex.org/W2087592855"
+ },
+ {
+  "id": "doi:10.1016/j.patrec.2011.09.023",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Minimal design of error-correcting output codes",
+  "venue": "Pattern Recognition Letters",
+  "type": "journal-article",
+  "year": 2012,
+  "doi": "10.1016/j.patrec.2011.09.023",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84856799903&partnerID=MN8TOARS",
+  "orcid_put_code": 17518668,
+  "date": "2011-10-25",
+  "authors": [
+   "Miguel Ángel Bautista",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Petia I. Radeva",
+   "Jordi M. Vitria",
+   "Oriol Pujol"
+  ],
+  "cited_by": 46,
+  "openalex_id": "https://openalex.org/W2094801485"
+ },
+ {
+  "id": "t:multi-modal-human-gesture-recognition-combining-dynamic-prog-2012",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "MULTI-MODAL HUMAN GESTURE RECOGNITION COMBINING DYNAMIC PROGRAMMING AND PROBABILISTIC METHODS",
+  "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+  "type": "thesis",
+  "year": 2012,
+  "date": "2012-06-22",
+  "url": "http://hdl.handle.net/2099.1/16087",
+  "authors": [
+   "Víctor Ponce-López",
+   "Sérgio Escalera",
+   "Xavier Baró"
+  ],
+  "cited_by": 0,
+  "abstract": "In this M. Sc. Thesis, we deal with the problem of Human Gesture Recognition using Human Behavior Analysis technologies. In particular, we apply the proposed methodologies in both health care and social applications. In these contexts, gestures are usually performed in a natural way, producing a high variability between the Human Poses that belong to them. This fact makes Human Gesture Recognition a very challenging task, as well as their generalization on developing technologies for Human Behavior Analysis. In order to tackle with the complete framework for Human Gesture Recognition, we split the process in three main goals: Computing multi-modal feature spaces, probabilistic modelling of gestures, and clustering of Human Poses for Sub-Gesture representation. Each of these goals implicitly includes different challenging problems, which are interconnected and faced by three presented approaches: Bag-of-Visual-and-Depth-Words, Probabilistic-Based Dynamic Time Warping, and Sub-Gesture Representation. The methodologies of each of these approaches are explained in detail in the next sections. We have validated the presented approaches on different public and designed data sets, showing high performance and the viability of using our methods for real Human Behavior Analysis systems and applications. Finally, we show a summary of different related applications currently in development, as well as both conclusions and future trends of research.",
+  "openalex_id": "https://openalex.org/W2163388301"
+ },
+ {
+  "id": "t:reconeixement-facial-en-obres-d-art-avaluacio-del-rendiment--2012",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Reconeixement facial en obres d'art : avaluació del rendiment dels mètodes de l'estat de l'art actual",
+  "venue": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)",
+  "type": "thesis",
+  "year": 2012,
+  "date": "2012-06-19",
+  "url": "http://hdl.handle.net/10609/15101",
+  "authors": [
+   "Jesús Colorado González",
+   "Àgata Lapedriza",
+   "Xavier Baró"
+  ],
+  "cited_by": 0,
+  "abstract": "Aquest paper es divideix en 3 parts fonamentals, la primera relata el que pretén mostrar aquest estudi, que és aplicar els sistemes actuals de reconeixement facial en una base de dades d'obres d'art. Explica quins mètodes s'utilitzaran i perquè es interessant realitzar aquest estudi. La segona passa a mostrar el detall de les dades obtingudes en l'experiment, amb imatges i gràfics que facilitaran la comprensió. I en l'última part tenim la discussió dels resultats obtinguts en l'anàlisi i les seves posteriors conclusions.",
+  "openalex_id": "https://openalex.org/W2556458801"
+ },
+ {
+  "id": "doi:10.3390/s120201702",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Social network extraction and analysis based on multimodal dyadic interaction",
+  "venue": "Sensors",
+  "type": "journal-article",
+  "year": 2012,
+  "doi": "10.3390/s120201702",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84857551613&partnerID=MN8TOARS",
+  "orcid_put_code": 17518667,
+  "date": "2012-02-07",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Jordi M. Vitria",
+   "Petia I. Radeva",
+   "Bogdan Raducanu"
+  ],
+  "cited_by": 11,
+  "abstract": "Social interactions are a very important component in people's lives. Social network analysis has become a common technique used to model and quantify the properties of social interactions. In this paper, we propose an integrated framework to explore the characteristics of a social network extracted from multimodal dyadic interactions. For our study, we used a set of videos belonging to New York Times' Blogging Heads opinion blog. The Social Network is represented as an oriented graph, whose directed links are determined by the Influence Model. The links' weights are a measure of the \"influence\" a person has over the other. The states of the Influence Model encode automatically extracted audio/visual features from our videos using state-of-the art algorithms. Our results are reported in terms of accuracy of audio/visual data fusion for speaker segmentation and centrality measures used to characterize the extracted social network.",
+  "openalex_id": "https://openalex.org/W1974507401"
+ },
+ {
+  "id": "t:uoc-api-site-a-seed-for-new-elearning-applications-2012",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "UOC API Site, a seed for new eLearning applications",
+  "venue": "RUA, Repositorio Institucional de la Universidad de Alicante (Universidad de Alicante)",
+  "type": "conference-paper",
+  "year": 2012,
+  "date": "2012-06-01",
+  "url": "http://hdl.handle.net/10045/35618",
+  "authors": [
+   "Àngels Rius",
+   "Xavier Aracíl",
+   "Xavier Baró"
+  ],
+  "cited_by": 1,
+  "abstract": "Nowadays the evolution of mobile devices and their cost reduction are favoring a new scenario for educational technologies. Students and teachers of Technical degrees, regardless the lack of investment in crisis time, have enough knowledge and skills to carry out innovative projects to take advantage of this fact. The UOC API Site project deals with this matter proposing a framework with the aim of giving support to the campus existing services for the BCS/MCS final projects and later, for the integration of new tools to the UOC Campus in favor of all its community members. Furthermore, this solution is scalable to other educational institutions using interoperability standards.",
+  "openalex_id": "https://openalex.org/W47864309"
+ },
+ {
+  "id": "t:analisis-de-la-expresion-oral-y-gestual-en-proyectos-fin-de--2011",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Análisis de la Expresión Oral y Gestual en Proyectos Fin de Carrera vía un Sistema de Visión Artificial",
+  "venue": "ReVision",
+  "type": "journal-article",
+  "year": 2011,
+  "date": "2011-06-06",
+  "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=5838417",
+  "authors": [
+   "Víctor Ponce-López",
+   "Mario Gorga",
+   "Xavier Baró",
+   "Petia I. Radeva",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 1,
+  "abstract": "La comunicacion y expresion oral es una competencia de especial relevancia en el EEES. No obstante, en muchas ensenanzas superiores la puesta en practica de esta competencia ha sido relegada principalmente a la presentacion de proyectos fin de carrera. Dentro de un proyecto de innovacion docente, se ha desarrollado una herramienta informatica para la extraccion de informacion objetiva para el analisis de la expresion oral y gestual de los alumnos. El objetivo es dar un “feedback” a los estudiantes que les permita mejorar la calidad de sus presentaciones. El prototipo inicial que se presenta en este trabajo permite extraer de forma automatica informacion audiovisual y analizarla mediante tecnicas de aprendizaje. El sistema ha sido aplicado a 15 proyectos fin de carrera y 15 exposiciones dentro de una asignatura de cuarto curso. Los resultados obtenidos muestran la viabilidad del sistema para sugerir factores que ayuden tanto en el exito de la comunicacion asi como en los criterios de evaluacion.",
+  "openalex_id": "https://openalex.org/W1856797494"
+ },
+ {
+  "id": "doi:10.1007/978-1-4471-2245-6_2",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Background on Traffic Sign Detection and Recognition",
+  "venue": "SpringerBriefs in computer science",
+  "type": "book-chapter",
+  "year": 2011,
+  "date": "2011-01-01",
+  "doi": "10.1007/978-1-4471-2245-6_2",
+  "url": "https://doi.org/10.1007/978-1-4471-2245-6_2",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Jordi M. Vitria",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 15,
+  "openalex_id": "https://openalex.org/W193131875"
+ },
+ {
+  "id": "doi:10.1007/978-1-4471-2245-6_6",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Conclusion",
+  "venue": "SpringerBriefs in computer science",
+  "type": "book-chapter",
+  "year": 2011,
+  "date": "2011-01-01",
+  "doi": "10.1007/978-1-4471-2245-6_6",
+  "url": "https://doi.org/10.1007/978-1-4471-2245-6_6",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Jordi M. Vitria",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W4240673393"
+ },
+ {
+  "id": "doi:10.5591/978-1-57735-516-8/ijcai11-490",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Human behavior analysis from video data using bag-of-gestures",
+  "venue": "IJCAI International Joint Conference on Artificial Intelligence",
+  "type": "conference-paper",
+  "year": 2011,
+  "doi": "10.5591/978-1-57735-516-8/ijcai11-490",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84881069227&partnerID=MN8TOARS",
+  "orcid_put_code": 17518689,
+  "date": "2011-07-16",
+  "authors": [
+   "Víctor Ponce-López",
+   "Mario Gorga",
+   "Xavier Baró",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 7,
+  "abstract": "Human Behavior Analysis in Uncontrolled Environments can be categorized in two main challenges: 1) Feature extraction and 2) Behavior analysis from a set of corporal language vocabulary. In this work, we present our achievements characterizing some simple behaviors from visual data on \\ndifferent real applications and discuss our plan for \\nfuture work: low level vocabulary definition from \\nbag-of-gesture units and high level modelling and \\ninference of human behaviors.",
+  "openalex_id": "https://openalex.org/W2264199406"
+ },
+ {
+  "id": "doi:10.1007/978-3-642-21557-5_25",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Introducing the separability matrix for error correcting output codes coding",
+  "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  "type": "book",
+  "year": 2011,
+  "doi": "10.1007/978-3-642-21557-5_25",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-80053010140&partnerID=MN8TOARS",
+  "orcid_put_code": 17518671,
+  "date": "2011-01-01",
+  "authors": [
+   "Miguel Ángel Bautista",
+   "Oriol Pujol",
+   "Xavier Baró",
+   "Sérgio Escalera"
+  ],
+  "cited_by": 2,
+  "openalex_id": "https://openalex.org/W2228647239"
+ },
+ {
+  "id": "doi:10.1007/978-1-4471-2245-6_1",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Introduction",
+  "venue": "SpringerBriefs in Computer Science",
+  "type": "book-chapter",
+  "year": 2011,
+  "doi": "10.1007/978-1-4471-2245-6_1",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85099429821&partnerID=MN8TOARS",
+  "orcid_put_code": 97804749,
+  "date": "2011-01-01",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Jordi M. Vitria",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W4233999389"
+ },
+ {
+  "id": "doi:10.1007/978-3-642-22910-7_2",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "On the design of low redundancy error-correcting output codes",
+  "venue": "Studies in Computational Intelligence",
+  "type": "book",
+  "year": 2011,
+  "doi": "10.1007/978-3-642-22910-7_2",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-80054761305&partnerID=MN8TOARS",
+  "orcid_put_code": 17518670,
+  "date": "2011-01-01",
+  "authors": [
+   "Miguel Ángel Bautista",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Jordi M. Vitria",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 1,
+  "openalex_id": "https://openalex.org/W147697501"
+ },
+ {
+  "id": "doi:10.1007/978-1-4471-2245-6_4",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Traffic sign categorization",
+  "venue": "SpringerBriefs in Computer Science",
+  "type": "book-chapter",
+  "year": 2011,
+  "doi": "10.1007/978-1-4471-2245-6_4",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85099429678&partnerID=MN8TOARS",
+  "orcid_put_code": 97804743,
+  "date": "2011-01-01",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Jordi M. Vitria",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W97113812"
+ },
+ {
+  "id": "doi:10.1007/978-1-4471-2245-6_3",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Traffic sign detection",
+  "venue": "SpringerBriefs in Computer Science",
+  "type": "book-chapter",
+  "year": 2011,
+  "doi": "10.1007/978-1-4471-2245-6_3",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85099429301&partnerID=MN8TOARS",
+  "orcid_put_code": 97804742,
+  "date": "2011-01-01",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Jordi M. Vitria",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 3,
+  "openalex_id": "https://openalex.org/W2241703800"
+ },
+ {
+  "id": "doi:10.1007/978-1-4471-2245-6_5",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Traffic sign detection and recognition system",
+  "venue": "SpringerBriefs in Computer Science",
+  "type": "book-chapter",
+  "year": 2011,
+  "doi": "10.1007/978-1-4471-2245-6_5",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85058373912&partnerID=MN8TOARS",
+  "orcid_put_code": 97804739,
+  "date": "2011-01-01",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Jordi M. Vitria",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 8,
+  "openalex_id": "https://openalex.org/W37141559"
+ },
+ {
+  "id": "doi:10.1007/978-1-4471-2245-6",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Traffic-Sign Recognition Systems",
+  "venue": "SpringerBriefs in computer science",
+  "type": "book",
+  "year": 2011,
+  "date": "2011-01-01",
+  "doi": "10.1007/978-1-4471-2245-6",
+  "url": "https://doi.org/10.1007/978-1-4471-2245-6",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Jordi M. Vitria",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 27,
+  "openalex_id": "https://openalex.org/W639861996"
+ },
+ {
+  "id": "t:automatic-analysis-of-non-verbal-communication-2010",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Automatic Analysis of Non-verbal Communication",
+  "type": "journal-article",
+  "year": 2010,
+  "date": "2010-10-01",
+  "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.300.77",
+  "authors": [
+   "Víctor Ponce-López",
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 2,
+  "abstract": "Oral expression and communication is one of the most important competencies for personal, academic, professional and civic life[3]. According to the American Society of Personnel Administrators [1], it is considered that a good oral communication skill is important for obtaining a job, and for a good efficiency at work [2]. The main objective of this project is to obtain a Software tool that is able to obtain a series of features of a subject from automatic audiovisual analysis. The extraction of the features obtained from the oral and nonverbal language is something of particular interest in the analysis of psychological factors that a subject presents. This analysis is useful to improve the quality of oral communication: presentations, job interviews, etc. This is the ultimate goal of the project. The system has been applied to 15 end career project videos and presentations of fourth course students. It has been created a version that analyzes a recording and other that makes it in realtime via WebCam. 1",
+  "openalex_id": "https://openalex.org/W2738240830"
+ },
+ {
+  "id": "doi:10.1145/1891903.1891967",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Modelling and analyzing multimodal dyadic interactions using social networks",
+  "venue": "International Conference on Multimodal Interfaces and the Workshop on Machine Learning for Multimodal Interaction, ICMI-MLMI 2010",
+  "type": "conference-paper",
+  "year": 2010,
+  "doi": "10.1145/1891903.1891967",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-78650933201&partnerID=MN8TOARS",
+  "orcid_put_code": 17518672,
+  "date": "2010-11-08",
+  "authors": [
+   "Sérgio Escalera",
+   "Petia I. Radeva",
+   "Jordi M. Vitria",
+   "Xavier Baró",
+   "Bogdan Raducanu"
+  ],
+  "cited_by": 3,
+  "abstract": "Social network analysis became a common technique used to model and quantify the properties of social interactions. In this paper, we propose an integrated framework to explore the characteristics of a social network extracted from multimodal dyadic interactions. First, speech detection is performed through an audio/visual fusion scheme based on stacked sequential learning. In the audio domain, speech is detected through clusterization of audio features. Clusters are modelled by means of an One-state Hidden Markov Model containing a diagonal covariance Gaussian Mixture Model. In the visual domain, speech detection is performed through differential-based feature extraction from the segmented mouth region, and a dynamic programming matching procedure. Second, in order to model the dyadic interactions, we employed the Influence Model whose states encode the previous integrated audio/visual data. Third, the social network is extracted based on the estimated influences. For our study, we used a set of videos belonging to New York Times' Blogging Heads opinion blog. The results are reported both in terms of accuracy of the audio/visual data fusion and centrality measures used to characterize the social network.",
+  "openalex_id": "https://openalex.org/W2135268757"
+ },
+ {
+  "id": "t:metodos-automaticos-para-el-analisis-de-la-expresion-oral-y--2010",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Métodos automáticos para el análisis de la expresión oral y gestual en proyectos fin de carrera",
+  "venue": "RUA, Repositorio Institucional de la Universidad de Alicante (Universidad de Alicante)",
+  "type": "conference-paper",
+  "year": 2010,
+  "date": "2010-07-07",
+  "url": "http://hdl.handle.net/2099/11761",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 0,
+  "abstract": "La comunicación y expresión oral es una competencia de especial relevancia en el EEES. No obstante, en muchas enseñanzas superiores la puesta en práctica de esta competencia ha sido relegada principalmente a la presentación de proyectos fin de carrera. Dentro de un proyecto de innovación docente, se ha desarrollado una herramienta informática para la extracción de información objetiva para el análisis de la expresión oral y gestual de los alumnos. El objetivo es dar un “feedback” a los estudiantes que les permita mejorar la calidad de sus presentaciones.El prototipo inicial que se presenta en este trabajo permite extraer de forma automática información audio-visual y analizarla mediante técnicas de aprendizaje. El sistema ha sido aplicado a 15 proyectos fin de carrera y 15 exposiciones dentro de una asignatura de cuarto curso. Los resultados obtenidos muestran la viabilidad del sistema para sugerir factores que ayuden tanto en el éxito de la comunicación así como en los criterios de evaluación.",
+  "openalex_id": "https://openalex.org/W1593285307"
+ },
+ {
+  "id": "t:asociacionismo-y-ciudadania-en-los-jovenes-mediterraneos-2009",
+  "status": "candidate",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Asociacionismo y ciudadanía en los jóvenes mediterráneos",
+  "venue": "Quaderns de la Mediterrània = Cuadernos del Mediterráneo",
+  "type": "journal-article",
+  "year": 2009,
+  "date": "2009-01-01",
+  "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3020612",
+  "authors": [
+   "Xavier Baró"
+  ],
+  "cited_by": 0,
+  "abstract": "Con el presente articulo vamos a tratar de agregar algunos elementos de reflexion sobre la conexion entre el asociacionismo juvenil y el desarrollo de la ciudadania desde la perspectiva de las organizaciones y el trabajo juvenil. Aun cuando es evidente que hay importantes diferencias entre las realidades del area euromediterranea, tambien queremos resaltar algunos elementos comunes que se aprecian en el desarrollo de estrategias de cooperacion entre entidades juveniles a nivel euromediterraneo. Asi, desde el ano 2004, el Consell Nacional de la Joventut de Catalunya ha consolidado su estrategia de cooperacion con otros consejos de juventud del sur de Europa y con organizaciones juveniles de los paises MEDA. Esta cooperacion incluye elementos de encuentro, intercambio y formacion entre lideres juveniles y educadores de dichas organizaciones, asi como la promocion de redes entre organizaciones que puedan crear consejos de juventud libres y democraticos.",
+  "openalex_id": "https://openalex.org/W87522579"
+ },
+ {
+  "id": "doi:10.3233/978-1-60750-061-2-27",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Generic object recognition in urban image databases",
+  "venue": "Frontiers in Artificial Intelligence and Applications",
+  "type": "book",
+  "year": 2009,
+  "doi": "10.3233/978-1-60750-061-2-27",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-72749101771&partnerID=MN8TOARS",
+  "orcid_put_code": 17518676,
+  "date": "2009-01-01",
+  "authors": [
+   "Xavier Baró",
+   "Sérgio Escalera",
+   "Petia I. Radeva",
+   "Jordi M. Vitria"
+  ],
+  "cited_by": 4,
+  "abstract": "In this paper we propose the construction of a visual content layer which describes the visual appearance of geographic locations in a city. We captured, by means of a Mobile Mapping system, a huge set of georeferenced images (>500K) which cover the whole city of Barcelona. For each image, hundreds of region descriptions are computed off-line and described as a hash code. All this information is extracted without an object of reference, which allows to search for any type of objects using their visual appearance. A new Visual Content layer is built over Google Maps, allowing the object recognition information to be organized and fused with other content, like satellite images, street maps, and business locations.",
+  "openalex_id": "https://openalex.org/W1556331792"
+ },
+ {
+  "id": "t:probabilistic-darwin-machines-for-object-detection-2009",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Probabilistic darwin machines for object detection",
+  "venue": "Proceedings of the 2009 International Conference on Image Processing, Computer Vision, and Pattern Recognition, IPCV 2009",
+  "type": "conference-paper",
+  "year": 2009,
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-78651068974&partnerID=MN8TOARS",
+  "orcid_put_code": 17518690,
+  "date": "2009-07-01",
+  "authors": [
+   "Xavier Baró",
+   "Jordi M. Vitria"
+  ],
+  "cited_by": 2,
+  "abstract": "Since the apparition of the first object detection systems in the late 1960s, the complexity of faced scenarios has been continuously growing. From a small set of simple objects in a homogeneous background, where simple alignment strategies or the use of geometric primitives were enough to recognize them, to nowadays, where we are dealing with sets of thousands of complex objects in cluttered scenes,\r\nwhere more sophisticated methods to describe and recognize\r\nobjects are necessary. In this paper, we present an approach\r\nto the object detection problem based on Probabilistic Darwin Machines (PDM), where one of the most used object\r\ndetection systems has been redefined in order to allow the\r\nuse large feature sets, which are able to better describe the objects. Two different PDM are used in combination with\r\na large set of visual features in order to learn an object\r\ndetection system for five different real world visual object\r\nclasses.",
+  "openalex_id": "https://openalex.org/W1576123337"
+ },
+ {
+  "id": "doi:10.3233/978-1-60750-061-2-35",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Text detection in urban scenes",
+  "venue": "Frontiers in Artificial Intelligence and Applications",
+  "type": "book",
+  "year": 2009,
+  "doi": "10.3233/978-1-60750-061-2-35",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-72749083912&partnerID=MN8TOARS",
+  "orcid_put_code": 17518675,
+  "date": "2009-01-01",
+  "authors": [
+   "Sérgio Escalera",
+   "Xavier Baró",
+   "Jordi M. Vitria",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 10,
+  "abstract": "Text detection in urban scenes is a hard task due to the high variability of text appearance: different text fonts, changes in the point of view, or partial occlusion are just a few problems. Text detection can be specially suited for georeferencing business, navigation, tourist assistance, or to help visual impaired people. In this paper, we propose a general methodology to deal with the problem of text detection in outdoor scenes. The method is based on learning spatial information of gradient based features and Census Transform images using a cascade of classifiers. The method is applied in the context of Mobile Mapping systems, where a mobile vehicle captures urban image sequences. Moreover, a cover data set is presented and tested with the new methodology. The results show high accuracy when detecting multi-linear text regions with high variability of appearance, at same time that it preserves a low false alarm rate compared to classical approaches.",
+  "openalex_id": "https://openalex.org/W1598272383"
+ },
+ {
+  "id": "doi:10.1109/tits.2008.2011702",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Traffic sign recognition using evolutionary adaboost detection and forest-ECOC classification",
+  "venue": "IEEE Transactions on Intelligent Transportation Systems",
+  "type": "journal-article",
+  "year": 2009,
+  "doi": "10.1109/tits.2008.2011702",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-61849144358&partnerID=MN8TOARS",
+  "orcid_put_code": 17518674,
+  "date": "2009-02-09",
+  "authors": [
+   "Xavier Baró",
+   "Sérgio Escalera",
+   "Jordi M. Vitria",
+   "Oriol Pujol",
+   "Petia I. Radeva"
+  ],
+  "cited_by": 197,
+  "abstract": "The high variability of sign appearance in uncontrolled environments has made the detection and classification of road signs a challenging problem in computer vision. In this paper, we introduce a novel approach for the detection and classification of traffic signs. Detection is based on a boosted detectors cascade, trained with a novel evolutionary version of Adaboost, which allows the use of large feature spaces. Classification is defined as a multiclass categorization problem. A battery of classifiers is trained to split classes in an Error-Correcting Output Code (ECOC) framework. We propose an ECOC design through a forest of optimal tree structures that are embedded in the ECOC matrix. The novel system offers high performance and better accuracy than the state-of-the-art strategies and is potentially better in terms of noise, affine deformation, partial occlusions, and reduced illumination.",
+  "openalex_id": "https://openalex.org/W2140670173"
+ },
+ {
+  "id": "doi:10.1109/icme.2009.5202828",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Visual content layer for scalable object recognition in urban image databases",
+  "venue": "Proceedings - 2009 IEEE International Conference on Multimedia and Expo, ICME 2009",
+  "type": "conference-paper",
+  "year": 2009,
+  "doi": "10.1109/icme.2009.5202828",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-70449598165&partnerID=MN8TOARS",
+  "orcid_put_code": 17518673,
+  "date": "2009-06-01",
+  "authors": [
+   "Xavier Baró",
+   "Sérgio Escalera",
+   "Petia I. Radeva",
+   "Jordi M. Vitria"
+  ],
+  "cited_by": 4,
+  "abstract": "Rich online map interaction represents a useful tool to get multimedia information related to physical places. With this type of systems, users can automatically compute the optimal route for a trip or to look for entertainment places or hotels near their actual position. Standard maps are defined as a fusion of layers, where each one contains specific data such height, streets, or a particular business location. In this paper we propose the construction of a visual content layer which describes the visual appearance of geographic locations in a city. We captured, by means of a mobile mapping system, a huge set of georeferenced images (> 500 K) which cover the whole city of Barcelona. For each image, hundreds of region descriptions are computed off-line and described as a hash code. This allows an efficient and scalable way of accessing maps by visual content.",
+  "openalex_id": "https://openalex.org/W2125741264"
+ },
+ {
+  "id": "doi:10.1007/978-3-540-78761-7_24",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Evolutionary object detection by means of Naïve Bayes Models estimation",
+  "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  "type": "book",
+  "year": 2008,
+  "doi": "10.1007/978-3-540-78761-7_24",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-47349107091&partnerID=MN8TOARS",
+  "orcid_put_code": 17518678,
+  "date": "2008-01-01",
+  "authors": [
+   "Xavier Baró",
+   "Jordi M. Vitria"
+  ],
+  "cited_by": 2,
+  "openalex_id": "https://openalex.org/W1608608624"
+ },
+ {
+  "id": "doi:10.1007/978-3-540-79547-6_27",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Weighted dissociated dipoles: An extended visual feature set",
+  "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  "type": "book",
+  "year": 2008,
+  "doi": "10.1007/978-3-540-79547-6_27",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-44649151671&partnerID=MN8TOARS",
+  "orcid_put_code": 17518677,
+  "date": "2008-05-08",
+  "authors": [
+   "Xavier Baró",
+   "Jordi M. Vitria"
+  ],
+  "cited_by": 2,
+  "openalex_id": "https://openalex.org/W1535807159"
+ },
+ {
+  "id": "t:weighted-dissociated-dipoles-for-evolutive-learning-2007",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex"
+  ],
+  "title": "Weighted dissociated dipoles for evolutive learning",
+  "venue": "Frontiers in Artificial Intelligence and Applications",
+  "type": "book",
+  "year": 2007,
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84878032022&partnerID=MN8TOARS",
+  "orcid_put_code": 17518691,
+  "date": "2007-06-13",
+  "authors": [
+   "Xavier Baró",
+   "Jordi M. Vitria"
+  ],
+  "cited_by": 0,
+  "abstract": "The complexity of any learning task depends as in the learning method as on finding a good representation of the data. In the concrete case of object recognition in computer vision, the representation of the images is one of the most important decisions in the design step. As a starting point, in this work we use the representation based on Haar-like filters, a biological inspired feature based on local intensity differences. From this commonly used representation, we jump to the dissociated dipoles, another biological plausible representation which also includes non-local comparisons. After analyzing the benefits of both representations, we present a more general representation which brings together all the good properties of Haar-like and dissociated dipoles representations. All these feature sets are tested with an evolutionary learning algorithm over different object recognition problems. Besides, an extended statistically study of these results is performed in order to verify the relevance of these huge feature spaces applied to different object recognition problems.",
+  "openalex_id": "https://openalex.org/W1546754677"
+ },
+ {
+  "id": "t:real-time-object-detection-using-an-evolutionary-boosting-st-2006",
+  "status": "confirmed",
+  "sources": [
+   "orcid"
+  ],
+  "title": "Real-time object detection using an evolutionary boosting strategy",
+  "venue": "Frontiers in Artificial Intelligence and Applications",
+  "type": "book",
+  "year": 2006,
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84878077781&partnerID=MN8TOARS",
+  "orcid_put_code": 17518692
+ },
+ {
+  "id": "t:feature-selection-with-non-parametric-mutual-information-for-2005",
+  "status": "confirmed",
+  "sources": [
+   "orcid"
+  ],
+  "title": "Feature selection with non-parametric mutual information for adaboost learning",
+  "venue": "Frontiers in Artificial Intelligence and Applications",
+  "type": "book",
+  "year": 2005,
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84878066410&partnerID=MN8TOARS",
+  "orcid_put_code": 17518693
+ },
+ {
+  "id": "t:els-consorcis-el-consorci-hospitalari-del-parc-tauli-chpt-1998",
+  "status": "rejected",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Els consorcis: el consorci Hospitalari del Parc Taulí (CHPT)",
+  "venue": "Fulls econòmics del sistema sanitari",
+  "type": "journal-article",
+  "year": 1998,
+  "date": "1998-01-01",
+  "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3492114",
+  "authors": [
+   "Francisco Sánchez",
+   "Lluís Brunet‐Llobet",
+   "Pere Monràs",
+   "Xavier Baró"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W100909588",
+  "note": "Different person with the same name (homonym); not authored by Xavier Baró (UB)."
+ },
+ {
+  "id": "t:el-sistema-de-informacion-del-consorcio-hospitalario-parc-ta-1997",
+  "status": "rejected",
+  "sources": [
+   "openalex"
+  ],
+  "title": "El sistema de información del Consorcio Hospitalario Parc Taulí",
+  "venue": "Capital humano: revista para la integración y desarrollo de los recursos humanos",
+  "type": "journal-article",
+  "year": 1997,
+  "date": "1997-01-01",
+  "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=228552",
+  "authors": [
+   "Xavier Baró"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W172689442",
+  "note": "Different person with the same name (homonym); not authored by Xavier Baró (UB)."
+ },
+ {
+  "id": "t:cirugia-del-diafragma-derecho-en-la-infancia-1974",
+  "status": "rejected",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Cirugía del Diafragma derecho en la infancia",
+  "venue": "Annals de Medicina",
+  "type": "journal-article",
+  "year": 1974,
+  "date": "1974-01-01",
+  "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=7478812",
+  "authors": [
+   "Carles Fontanillas",
+   "Xavier Baró",
+   "Jacopo Conti"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W3083191745",
+  "note": "Different person with the same name (homonym); not authored by Xavier Baró (UB)."
+ },
+ {
+  "id": "t:tratamiento-guirurgico-de-las-pleuresias-reddivantes-de-orig-1974",
+  "status": "rejected",
+  "sources": [
+   "openalex"
+  ],
+  "title": "Tratamiento guirúrgico de las pleuresías reddivantes de origen neoplásico",
+  "venue": "Archivos de Bronconeumología",
+  "type": "journal-article",
+  "year": 1974,
+  "date": "1974-05-01",
+  "url": "https://archbronconeumol.org/es-tratamiento-guirurgico-pleuresias-reddivantes-origen-articulo-X0300289674308191",
+  "authors": [
+   "Xavier Baró",
+   "Jaume Reventós"
+  ],
+  "cited_by": 0,
+  "openalex_id": "https://openalex.org/W2242209367",
+  "note": "Different person with the same name (homonym); not authored by Xavier Baró (UB)."
+ }
+]
