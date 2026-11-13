@@ -11,3 +11,5 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+# Derived search index (rebuild with: uv run _memory/tools/memory.py index)
+_memory/index.sqlite

@@ -38,10 +38,16 @@ Qualsevol script Python (generador de contingut, scripts de recopilació) usa un
 
 ## Contingut i memòria dels agents
 Estat inicial: les col·leccions `_publications`, `_talks`, `_teaching`, `_posts` contenen encara **exemples de la plantilla**; només `_pages/about.md`, `_pages/cv.md` i l'autor a `_config.yml` són reals.
+**Memòria estructurada: `_memory/`** (dins el repo, però **no es publica**: Jekyll ignora les carpetes que comencen per `_`; verificat, `/_memory/...` dona 404). El repo és públic: només informació ja pública.
+- `_memory/references.json` (font de veritat, generat), `_memory/overrides.json` (correccions manuals que sobreviuen a cada sync), `_memory/sources/` (cache ORCID/OpenAlex), `_memory/index.sqlite` (cerca FTS5, derivat, fora de git), `_memory/tools/memory.py` (CLI amb `uv`). Detalls a `_memory/README.md`.
+- Estats: `confirmed` (a l'ORCID de l'usuari), `candidate` (només a OpenAlex, per revisar), `rejected` (homònims; no es tornen a proposar).
+- Actualitzar: `uv run _memory/tools/memory.py sync` · cercar: `... search "<text>"` · resum: `... stats`.
+- Fonts: ORCID `0000-0001-5338-3007` + OpenAlex (APIs públiques, sense clau; paginar amb `page=`, el `cursor=` exigeix clau).
+
 Pla:
-1. Recopilar la informació real (bio, CV, publicacions, docència, projectes) de les fonts existents.
-2. Guardar-la com a **contingut estructurat en memòria dels agents** (font de veritat del contingut, versionada al repo).
-3. Construir/regenerar la web a partir d'aquesta font. El motor (Academic Pages/Jekyll) es pot mantenir o canviar: decisió oberta, es discutirà amb l'usuari.
+1. Recopilar la informació real (publicacions fet; falten bio, CV, docència, xerrades, projectes).
+2. Guardar-la a `_memory/` (font de veritat del contingut).
+3. Generar les pàgines Jekyll (`_publications/`, etc.) a partir de la memòria. Es manté Academic Pages/Jekyll de moment (decisió de l'usuari); el motor es revisarà més endavant.
 
 ## Workflow de disseny
 Es treballa **via screenshots**: l'agent aixeca la web a Podman, captura pantalles i les ensenya a l'usuari per validar la direcció abans d'avançar. Iterar sobre el feedback; no desplegar res fins que l'usuari ho demani.
