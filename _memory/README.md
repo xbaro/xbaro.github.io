@@ -41,4 +41,5 @@ uv run _memory/tools/memory.py sync --offline     # attach them to references.js
 - Citations: Crossref (`cited_by_crossref`), OpenAlex (`cited_by_openalex`), Scholar from the CV (`cited_by_scholar_cv_2024`, frozen at Dec 2024). Counts differ between sources; always show the source.
 - Journal: OpenAlex `2yr_mean_citedness` (open proxy, **not** the Clarivate Impact Factor) and `h_index`.
 - Quartiles: SCImago SJR. SCImago blocks automated downloads, so download the CSV manually (scimagojr.com → Journal Rankings → year → Download data) as `sources/scimago_<year>.csv`; `metrics` picks it up by ISSN.
-- Official JCR Impact Factor/quartile is proprietary: enter it by hand in `overrides.json` if wanted (`"jcr_if"`, `"jcr_quartile"`).
+- **Official indexing from the CV** (section K, the 10 most relevant contributions: JCR IF + quartile + categories, SJR, WoS/Scopus/Scholar citations, GGS conference rating, SPI for the book): extracted by `import-cv` into `sources/cv_quality.json` and attached to matching references as `indexing`. These are values **as reported in the CV (Dec 2024)**; the JCR year is not stated, so present them as such. Only covers 8 works.
+- Official JCR Impact Factor/quartile for the rest is proprietary: enter it by hand in `overrides.json` if wanted (`"jcr_if"`, `"jcr_quartile"`).

@@ -215,7 +215,9 @@ def import_cv(path):
     SRC.mkdir(parents=True, exist_ok=True)
     (SRC / "cv_publications.json").write_text(json.dumps(pubs, indent=1, ensure_ascii=False) + "\n")
     (SRC / "cv_talks.json").write_text(json.dumps(talks, indent=1, ensure_ascii=False) + "\n")
-    print(f"cv: {len(pubs)} publications, {len(talks)} talks -> sources/cv_*.json")
+    quality = parse_quality(lines)
+    (SRC / "cv_quality.json").write_text(json.dumps(quality, indent=1, ensure_ascii=False) + "\n")
+    print(f"cv: {len(pubs)} publications, {len(talks)} talks, {len(quality)} quality records -> sources/cv_*.json")
 
 
 _ACC = {"'": "\u0301", "`": "\u0300", '"': "\u0308", "^": "\u0302", "~": "\u0303", "=": "\u0304",
@@ -281,6 +283,39 @@ def load_scholar():
     return out
 
 
+def parse_quality(lines):
+    """Section K of the AQU CV: 'ten most relevant contributions' with JCR/SJR/GGS/SPI indicators and citations."""
+    start = next((i for i, ln in enumerate(lines) if ln.startswith("K. Feu constar")), None)
+    out = []
+    for ln in lines[start + 1:] if start is not None else []:
+        if "Indicis de Qualitat" not in ln:
+            continue
+        head, _, tail = ln.partition("Indicis de Qualitat")
+        num = lambda pat: (lambda m: float(m.group(1)) if m else None)(re.search(pat, tail))
+        jq = re.search(r"JCR\s+\w+\s+(Q\d)\s*(.*?)\s*/\s*SJ", tail)
+        sj = re.search(r"SJ\w*\s+I\w*:\s*([\d.]+)\s*(.*?)\s*/\s*Cites", tail)
+        q = {"kind": head.split("]")[0].lstrip("[").strip(), "citation": re.sub(r"\s+", " ", head).strip(" /"),
+             "jcr_if": num(r"JCR IF:\s*([\d.]+)"), "jcr_quartile": jq.group(1) if jq else None,
+             "jcr_categories": [c.strip() for c in jq.group(2).split(" / ")] if jq else None,
+             "sjr": float(sj.group(1)) if sj else None,
+             "sjr_quartiles_raw": sj.group(2).strip() if sj else None,
+             "cites_wos": num(r"Cites WoS:\s*(\d+)"), "cites_scopus": num(r"Cites Scopus:\s*(\d+)"),
+             "cites_scholar": num(r"[Cc]it(?:es|acions) Google Scholar:\s*(\d+)"),
+             "ggs_rating": (lambda m: m.group(1).strip() if m else None)(re.search(r"GGS Rating:\s*(.+?)\s*/", tail)),
+             "spi": (lambda m: m.group(1).strip() if m else None)(re.search(r"(SPI:[^/]+)", tail)),
+             "source": "CV (AQU) section K, 2024-12-31"}
+        for k in ("jcr_if", "sjr", "cites_wos", "cites_scopus", "cites_scholar"):
+            if q[k] is not None and q[k] == int(q[k]) and k.startswith("cites"):
+                q[k] = int(q[k])
+        out.append({k: v for k, v in q.items() if v is not None})
+    return out
+
+
+def load_cv_quality():
+    p = SRC / "cv_quality.json"
+    return json.loads(p.read_text()) if p.exists() else []
+
+
 def load_cv():
     p = SRC / "cv_publications.json"
     return json.loads(p.read_text()) if p.exists() else []
@@ -337,6 +372,15 @@ def merge():
         if not r.get("authors") and rec.get("authors_cv"):
             r["authors"] = [a.strip() for a in re.split(r";|,\s(?=[A-ZÁÉÍÓÚ])", rec["authors_cv"]) if a.strip()]
 
+    for q in load_cv_quality():        # official indexing indicators reported in the CV (JCR, SJR, GGS, WoS/Scopus cites)
+        text = norm_title(q["citation"])
+        cands = [(len(norm_title(r["title"])), k) for k, r in refs.items()
+                 if len(norm_title(r["title"])) >= 15 and norm_title(r["title"]) in text]
+        if not cands:
+            print("  [indexing] no match for:", q["citation"][:90])
+            continue
+        k = max(cands)[1]
+        refs[k]["indexing"] = {a: b for a, b in q.items() if a not in ("citation", "kind")}
     if METRICS.exists():               # attach last computed metrics (see `metrics` command)
         for k, m in json.loads(METRICS.read_text()).items():
             if k in refs:

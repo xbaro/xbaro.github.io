@@ -1,0 +1,106 @@
+[
+ {
+  "kind": "Publicació Revista Indexada",
+  "citation": "[Publicació Revista Indexada] / Xavier Baró, Sergio Escalera, Jordi Vitrià, Oriol Pujol i Petia Radeva. “Traffic Sign Recognition Using Evolutionary Adaboost Detection and Forest-ECOC Classification”. IEEE Transactions on Intelligent Transportation Systems, Vol. 10, pàg. 113-126. DOI: 1109/TITS.2008.2011702. ISSN: 1524-9050. 2009.",
+  "jcr_if": 2.092,
+  "jcr_quartile": "Q1",
+  "jcr_categories": [
+   "Civil Engineering",
+   "Engineering, Electrical & Electronic",
+   "Transportation science & Technology"
+  ],
+  "sjr": 1.207,
+  "sjr_quartiles_raw": "Q1 Civil and Structural Engineering /  Electric and Electronic Engineering",
+  "cites_wos": 147,
+  "cites_scopus": 185,
+  "cites_scholar": 280,
+  "source": "CV (AQU) section K, 2024-12-31"
+ },
+ {
+  "kind": "Publicació Revista Indexada",
+  "citation": "[Publicació Revista Indexada] / Antonio Hernández-Vela, Miguel Ángel Bautista, Xavier Perez-Sala, Víctor Ponce-López, Sergio Escalera, Xavier Baró, Oriol Pujol i Cecilio Angulo. “Probability-based Dynamic Time Warping and Bag-of-Visual-and-Depth-Words for Human Gesture Recognition in RGB-D”. Pattern Recognition Letters. 50, pp. 112 - 121. ISSN: 0167-8655. 2011.",
+  "jcr_if": 1.551,
+  "jcr_quartile": "Q2",
+  "jcr_categories": [
+   "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE"
+  ],
+  "sjr": 0.73,
+  "sjr_quartiles_raw": "Q1 Computer Vision and Pattern Recognition / Signal Processing / Q2 Software / Artificial Intelligence",
+  "cites_wos": 35,
+  "cites_scopus": 47,
+  "cites_scholar": 78,
+  "source": "CV (AQU) section K, 2024-12-31"
+ },
+ {
+  "kind": "Publicació Revista Indexada",
+  "citation": "[Publicació Revista Indexada] / Miguel Ángel Bautista, Xavier Baró, Oriol Pujol, Petia Radeva, Jordi Vitrià i Sergio Escalera. “Minimal design of error-correcting output codes”. Pattern Recognition Letters. Volume 33 Issue 6, pp. 693-702. DOI: 1.10.1016/j.patrec.2011.09.023. ISSN: 0167-8655. 2012.",
+  "jcr_if": 1.266,
+  "jcr_quartile": "Q2",
+  "jcr_categories": [
+   "Computer Science, Artificial Intelligence"
+  ],
+  "sjr": 0.66,
+  "sjr_quartiles_raw": "Q2 Computer Vision and Pattern Recognition",
+  "cites_wos": 38,
+  "cites_scopus": 44,
+  "cites_scholar": 61,
+  "source": "CV (AQU) section K, 2024-12-31"
+ },
+ {
+  "kind": "Publicació Revista Indexada",
+  "citation": "[Publicació Revista Indexada] / Escalera Guerrero, Sergio; Baró Solé, Xavier; Guyon, Isabelle; Escalante, Hugo Jair. “Guest Editorial: Apparent Personality Analysis”. IEEE Transactions on Affective Computing, 2018, vol. 9, no. 3, pp. 299-302. ISSN: 1949-3045. DOI: 10.1109/TAFFC.2018.2864230. 2018.",
+  "jcr_if": 6.288,
+  "jcr_quartile": "Q1",
+  "jcr_categories": [
+   "Computer Science, Artificial Intelligence",
+   "Computer Science, Cybernetics"
+  ],
+  "sjr": 1.014,
+  "sjr_quartiles_raw": "Q1 Human-Computer Interaction / Software",
+  "cites_wos": 5,
+  "cites_scopus": 7,
+  "cites_scholar": 13,
+  "source": "CV (AQU) section K, 2024-12-31"
+ },
+ {
+  "kind": "Publicació Revista Indexada",
+  "citation": "[Publicació Revista Indexada] / Sergio Escalera, Jordi Gonzàlez, Xavier Baró, Jamie Shotton. “Guest Editors' Introduction to the special issue on multimodal human pose recovery and behavior analysis”. IEEE Transactions on Pattern Analysis and Machine Intelligence, 38 (8), pp. 1489-1491. ISSN: 0162-8828. DOI: 10.1109/TPAMI.2016.2557878. 2016.",
+  "jcr_if": 8.329,
+  "jcr_quartile": "Q1",
+  "jcr_categories": [
+   "Computer Science, Artificial Intelligence",
+   "Engineering, Electrical & Electronic"
+  ],
+  "sjr": 5.388,
+  "sjr_quartiles_raw": "Q1 Artificial Intelligence / Computational Theory and Mathematics / Computer Vision and Pattern Recognition / Software",
+  "cites_wos": 7,
+  "cites_scopus": 8,
+  "cites_scholar": 9,
+  "source": "CV (AQU) section K, 2024-12-31"
+ },
+ {
+  "kind": "Publicació Conferència",
+  "citation": "[Publicació Conferència] / M. Asadi-Aghbolaghi et al., \"A Survey on Deep Learning Based Approaches for Action and Gesture Recognition in Image Sequences,\" 2017 12th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2017), Washington, DC, USA, 2017, pp. 476-483, doi: 10.1109/FG.2017.150.",
+  "cites_wos": 135,
+  "cites_scopus": 165,
+  "cites_scholar": 235,
+  "ggs_rating": "A- (Class 2)",
+  "source": "CV (AQU) section K, 2024-12-31"
+ },
+ {
+  "kind": "Publicació Conferència",
+  "citation": "[Publicació Conferència] / Ponce-López, V. et al. (2016). ChaLearn LAP 2016: First Round Challenge on First Impressions - Dataset and Results. In: Hua, G., Jégou, H. (eds) Computer Vision – ECCV 2016 Workshops. ECCV 2016. Lecture Notes in Computer Science, vol 9915. Springer, Cham. https://doi.org/10.1007/978-3-319-49409-8_32",
+  "cites_wos": 110,
+  "cites_scopus": 141,
+  "cites_scholar": 282,
+  "ggs_rating": "A++ (Class 1)",
+  "source": "CV (AQU) section K, 2024-12-31"
+ },
+ {
+  "kind": "Llibre",
+  "citation": "[Llibre] / Sergio Escalera, Xavier Baró, Oriol Pujol, Jordi Vitrià i Petia Radeva. “Traffic-Sign Recognition Systems”. Springer. 96 pàgines. ISBN: 978-1-4471-2244-9.",
+  "cites_scholar": 33,
+  "spi": "SPI: posició 4 rànquing editorials estrangeres.",
+  "source": "CV (AQU) section K, 2024-12-31"
+ }
+]

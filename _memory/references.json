@@ -1219,6 +1219,20 @@
   "issn_l": "1949-3045",
   "scholar_key": "escalera2018guest",
   "scholar_cited_by": 13,
+  "indexing": {
+   "jcr_if": 6.288,
+   "jcr_quartile": "Q1",
+   "jcr_categories": [
+    "Computer Science, Artificial Intelligence",
+    "Computer Science, Cybernetics"
+   ],
+   "sjr": 1.014,
+   "sjr_quartiles_raw": "Q1 Human-Computer Interaction / Software",
+   "cites_wos": 5,
+   "cites_scopus": 7,
+   "cites_scholar": 13,
+   "source": "CV (AQU) section K, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 10,
@@ -1494,6 +1508,13 @@
   "openalex_id": "https://openalex.org/W2728972335",
   "issn_l": "1541-5058",
   "scholar_key": "asadi2017survey",
+  "indexing": {
+   "cites_wos": 135,
+   "cites_scopus": 165,
+   "cites_scholar": 235,
+   "ggs_rating": "A- (Class 2)",
+   "source": "CV (AQU) section K, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 181,
@@ -2205,6 +2226,13 @@
   "openalex_id": "https://openalex.org/W2573933330",
   "issn_l": "0302-9743",
   "scholar_key": "ponce2016chalearn",
+  "indexing": {
+   "cites_wos": 110,
+   "cites_scopus": 141,
+   "cites_scholar": 282,
+   "ggs_rating": "A++ (Class 1)",
+   "source": "CV (AQU) section K, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 226,
@@ -2309,6 +2337,20 @@
   "issn_l": "0162-8828",
   "scholar_key": "escalera2016guest",
   "scholar_cited_by": 9,
+  "indexing": {
+   "jcr_if": 8.329,
+   "jcr_quartile": "Q1",
+   "jcr_categories": [
+    "Computer Science, Artificial Intelligence",
+    "Engineering, Electrical & Electronic"
+   ],
+   "sjr": 5.388,
+   "sjr_quartiles_raw": "Q1 Artificial Intelligence / Computational Theory and Mathematics / Computer Vision and Pattern Recognition / Software",
+   "cites_wos": 7,
+   "cites_scopus": 8,
+   "cites_scholar": 9,
+   "source": "CV (AQU) section K, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 13,
@@ -2886,6 +2928,19 @@
   "issn_l": "0167-8655",
   "scholar_key": "hernandez2014probability",
   "scholar_cited_by": 78,
+  "indexing": {
+   "jcr_if": 1.551,
+   "jcr_quartile": "Q2",
+   "jcr_categories": [
+    "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE"
+   ],
+   "sjr": 0.73,
+   "sjr_quartiles_raw": "Q1 Computer Vision and Pattern Recognition / Signal Processing / Q2 Software / Artificial Intelligence",
+   "cites_wos": 35,
+   "cites_scopus": 47,
+   "cites_scholar": 78,
+   "source": "CV (AQU) section K, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 59,
@@ -3238,6 +3293,19 @@
   "issn_l": "0167-8655",
   "scholar_key": "bautista2012minimal",
   "scholar_cited_by": 61,
+  "indexing": {
+   "jcr_if": 1.266,
+   "jcr_quartile": "Q2",
+   "jcr_categories": [
+    "Computer Science, Artificial Intelligence"
+   ],
+   "sjr": 0.66,
+   "sjr_quartiles_raw": "Q2 Computer Vision and Pattern Recognition",
+   "cites_wos": 38,
+   "cites_scopus": 44,
+   "cites_scholar": 61,
+   "source": "CV (AQU) section K, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 46,
@@ -3733,6 +3801,11 @@
   "openalex_id": "https://openalex.org/W639861996",
   "issn_l": "2191-5768",
   "scholar_key": "escalera2011traffic",
+  "indexing": {
+   "cites_scholar": 33,
+   "spi": "SPI: posició 4 rànquing editorials estrangeres.",
+   "source": "CV (AQU) section K, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 27,
@@ -4081,6 +4154,21 @@
   "issn_l": "1524-9050",
   "scholar_key": "baro2009traffic",
   "scholar_cited_by": 280,
+  "indexing": {
+   "jcr_if": 2.092,
+   "jcr_quartile": "Q1",
+   "jcr_categories": [
+    "Civil Engineering",
+    "Engineering, Electrical & Electronic",
+    "Transportation science & Technology"
+   ],
+   "sjr": 1.207,
+   "sjr_quartiles_raw": "Q1 Civil and Structural Engineering /  Electric and Electronic Engineering",
+   "cites_wos": 147,
+   "cites_scopus": 185,
+   "cites_scholar": 280,
+   "source": "CV (AQU) section K, 2024-12-31"
+  },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 197,
