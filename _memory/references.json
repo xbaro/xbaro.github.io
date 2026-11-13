@@ -100,13 +100,13 @@
   "url": "https://arxiv.org/pdf/2404.09703",
   "authors": [
    "Romain Égelé",
-   "Julio C. S. Jacques",
+   "Julio C. S. Jacques Junior",
    "Jan N. van Rijn",
    "Isabelle Guyon",
    "Xavier Baró",
    "Albert Clapés",
    "Prasanna Balaprakash",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Thomas Baltzer Moeslund",
    "Jun Wan"
   ],
@@ -133,7 +133,7 @@
  },
  {
   "id": "t:dataset-development-2024",
-  "status": "confirmed",
+  "status": "duplicate",
   "sources": [
    "scholar"
   ],
@@ -159,7 +159,9 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "duplicate_of": "doi:10.48550/arxiv.2404.09703",
+  "note": "Scholar 'Dataset Development' (2024, same 10 authors) is Chapter 3 of the ChaLearn book whose preprint is arXiv 2404.09703 (arXiv comment: 'Preprint version of the 3rd Chapter')."
  },
  {
   "id": "doi:10.1109/aciiw59127.2023.10388089",
@@ -209,6 +211,62 @@
   }
  },
  {
+  "id": "t:codalab-competitions-an-open-source-platform-to-organize-sci-2022",
+  "status": "confirmed",
+  "sources": [
+   "openalex",
+   "prc",
+   "scholar",
+   "cv"
+  ],
+  "title": "CodaLab Competitions: An Open Source Platform to Organize Scientific Challenges",
+  "venue": "Journal of Machine Learning Research 24(198):1-6",
+  "type": "journal-article",
+  "year": 2023,
+  "date": null,
+  "url": "https://jmlr.org/papers/v24/21-1436.html",
+  "authors": [
+   "Adrien Pavão",
+   "Isabelle Guyon",
+   "Anne-Catherine Letournel",
+   "Dinh-Tuan Tran",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Sergio Escalera",
+   "Tyler Thomas",
+   "Zhen Xu"
+  ],
+  "cited_by": 87,
+  "abstract": "CodaLab Competitions is an open source web platform designed to help data scientists and research teams to crowd-source the resolution of machine learning problems through the organization of competitions, also called challenges or contests. CodaLab Competitions provides useful features such as multiple phases, results and code submissions, multi-score leaderboards, and jobs running inside Docker containers. The platform is very flexible and can handle large scale experiments, by allowing organizers to upload large datasets and provide their own CPU or GPU compute workers.",
+  "openalex_id": "https://openalex.org/W4295682935",
+  "repository_url": "https://hdl.handle.net/123456789/125892227",
+  "scholar_key": "pavao2023codalab",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 0,
+   "cites_scopus": 0,
+   "jcr_if": 4.3,
+   "sjr": 2.796,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Automation & Control Systems",
+   "sjr_category": "Artificial Intelligence",
+   "ranking": "21/84",
+   "cites_scholar": 160,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
+  "metrics": {
+   "as_of": "2026-11-13",
+   "cited_by_openalex": 87
+  },
+  "note": "jmlr.org/papers/v24/21-1436: JMLR 24(198):1-6, 2023, author 'Zhen Xu' (OpenAlex 'Zhi Xu'); CV B.1 and Scholar agree; HAL hal-03629462 (2022) is the preprint. CV B.1 JCR/SJR indexing is JMLR's."
+ },
+ {
   "id": "doi:10.21125/iceri.2023.1013",
   "status": "confirmed",
   "sources": [
@@ -216,7 +274,7 @@
    "prc",
    "scholar"
   ],
-  "title": "GOLF SPORTS INITIATION WITHIN A PHYSICAL EDUCATION COURSE IN PRIMARY SCHOOLS THROUGH BLENDED LEARNING",
+  "title": "Golf sports initiation within a physical education course in primary schools through blended learning",
   "venue": "ICERI proceedings",
   "type": "conference-paper",
   "year": 2023,
@@ -249,7 +307,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 2,
    "cited_by_crossref": 2
-  }
+  },
+  "note": "Registry title is all caps; sentence case for display."
  },
  {
   "id": "doi:10.1063/5.0179420",
@@ -295,7 +354,7 @@
   }
  },
  {
-  "id": "t:codalab-competitions-an-open-source-platform-to-organize-sci-2022",
+  "id": "doi:10.1049/cvi2.12064",
   "status": "confirmed",
   "sources": [
    "openalex",
@@ -303,51 +362,62 @@
    "scholar",
    "cv"
   ],
-  "title": "CodaLab Competitions An Open Source Platform to Organize Scientific Challenges",
-  "venue": "HAL",
-  "type": "report",
+  "title": "End‐to‐end global to local convolutional neural network learning for hand pose recovery in depth data",
+  "venue": "IET Computer Vision",
+  "type": "journal-article",
   "year": 2022,
-  "date": "2022-04-04",
-  "url": "https://inria.hal.science/hal-03629462v1/document",
+  "date": "2021-08-12",
+  "doi": "10.1049/cvi2.12064",
+  "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cvi2.12064",
   "authors": [
-   "Adrien Pavão",
-   "Isabelle Guyon",
-   "Anne-Catherine Letournel",
-   "Tran, Dinh Tuan",
+   "Meysam Madadi",
+   "Sergio Escalera",
    "Xavier Baró",
-   "Hugo Jair Escalante",
-   "Sérgio Escalera",
-   "Thomas, Tyler",
-   "Zhi Xu"
+   "Jordi Gonzàlez"
   ],
-  "cited_by": 87,
-  "abstract": "CodaLab Competitions is an open source web platform designed to help data scientists and research teams to crowd-source the resolution of machine learning problems through the organization of competitions, also called challenges or contests. CodaLab Competitions provides useful features such as multiple phases, results and code submissions, multi-score leaderboards, and jobs running inside Docker containers. The platform is very flexible and can handle large scale experiments, by allowing organizers to upload large datasets and provide their own CPU or GPU compute workers.",
-  "openalex_id": "https://openalex.org/W4295682935",
-  "repository_url": "https://hdl.handle.net/123456789/125892227",
-  "scholar_key": "pavao2023codalab",
+  "cited_by": 79,
+  "abstract": "Abstract Despite recent advances in 3‐D pose estimation of human hands, thanks to the advent of convolutional neural networks (CNNs) and depth cameras, this task is still far from being solved in uncontrolled setups. This is mainly due to the highly non‐linear dynamics of fingers and self‐occlusions, which make hand model training a challenging task. In this study, a novel hierarchical tree‐like structured CNN is exploited, in which branches are trained to become specialised in predefined subsets of hand joints called local poses. Further, local pose features, extracted from hierarchical CNN branches, are fused to learn higher order dependencies among joints in the final pose by end‐to‐end training. Lastly, the loss function used is also defined to incorporate appearance and physical constraints about doable hand motions and deformations. Finally, a non‐rigid data augmentation approach is introduced to increase the amount of training depth data. Experimental results suggest that feeding a tree‐shaped CNN, specialised in local poses, into a fusion network for modelling joints' correlations and dependencies, helps to increase the precision of final estimations, showing competitive results on NYU, MSRA, Hands17 and SyntheticHand datasets.",
+  "openalex_id": "https://openalex.org/W3195646717",
+  "issn_l": "1751-9632",
+  "repository_url": "https://hdl.handle.net/123456789/126150037",
+  "scholar_key": "madadi2022end",
+  "scholar_cited_by": 9,
   "doi_check": {
    "checked": "2026-11-13",
-   "status": "none_found"
+   "doi": "10.1049/cvi2.12064",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "End‐to‐end global to local convolutional neural network learning for hand pose recovery in depth data",
+   "registry_year": 2021,
+   "status": "verified"
   },
   "indexing": {
    "wos_indexed": true,
    "scopus_indexed": true,
-   "cites_wos": 0,
-   "cites_scopus": 0,
-   "jcr_if": 4.3,
-   "sjr": 2.796,
-   "jcr_quartile": "Q1",
-   "sjr_quartile": "Q1",
-   "jcr_category": "Automation & Control Systems",
-   "sjr_category": "Artificial Intelligence",
-   "ranking": "21/84",
-   "cites_scholar": 160,
+   "cites_wos": 9,
+   "cites_scopus": 8,
+   "jcr_if": 1.7,
+   "sjr": 0.375,
+   "jcr_quartile": "Q3",
+   "sjr_quartile": "Q3",
+   "jcr_category": "Engineering, Electrical & Electronic",
+   "sjr_category": "Computer Vision and Pattern Recognition",
+   "ranking": "205/275",
+   "cites_scholar": 9,
    "source": "CV (AQU) B.1, 2024-12-31"
   },
   "metrics": {
    "as_of": "2026-11-13",
-   "cited_by_openalex": 87
-  }
+   "cited_by_openalex": 79,
+   "cited_by_crossref": 9,
+   "cited_by_scholar_cv_2024": 9,
+   "journal": "IET Computer Vision",
+   "oa_2yr_mean_citedness": 4.38,
+   "oa_h_index": 56
+  },
+  "note": "Crossref published-print 2022-02, IET Computer Vision 16(1) (online 2021-08-12); issue-year policy as other refs; CV B.1 says 2022."
  },
  {
   "id": "doi:10.1109/taffc.2019.2930058",
@@ -368,17 +438,17 @@
   "orcid_put_code": 109196347,
   "date": "2019-07-23",
   "authors": [
-   "Julio C. S. Jacques",
+   "Julio C. S. Jacques Junior",
    "Yağmur Güçlütürk",
    "Marc Pérez",
-   "Umut Guclu",
+   "Umut Güçlü",
    "Carlos Andújar",
    "Xavier Baró",
    "Hugo Jair Escalante",
    "Isabelle Guyon",
    "Marcel A. J. van Gerven",
    "Rob van Lier",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 102,
   "abstract": "Personality analysis has been widely studied in psychology, neuropsychology, and signal processing fields, among others. From the past few years, it also became an attractive research area in visual computing. From the computational point of view, by far speech and text have been the most considered cues of information for analyzing personality. However, recently there has been an increasing interest from the computer vision community in analyzing personality from visual data. Recent computer vision approaches are able to accurately analyze human faces, body postures and behaviors, and use these information to inferapparentpersonality traits. Because of the overwhelming research interest in this topic, and of the potential impact that this sort of methods could have in society, we present in this paper an up-to-date review of existing vision-based approaches for apparent personality trait recognition. We describe seminal and cutting edge works on the subject, discussing and comparing their distinctive features and limitations. Future venues of research in the field are identified and discussed. Furthermore, aspects on the subjectivity in data labeling/evaluation, as well as current datasets and challenges organized to push the research on the field are reviewed.",
@@ -424,6 +494,87 @@
   }
  },
  {
+  "id": "doi:10.1109/taffc.2020.2973984",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex",
+   "prc",
+   "scholar",
+   "cv"
+  ],
+  "title": "Modeling, Recognizing, and Explaining Apparent Personality from Videos",
+  "venue": "IEEE Transactions on Affective Computing",
+  "type": "journal-article",
+  "year": 2022,
+  "doi": "10.1109/taffc.2020.2973984",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85085992577&partnerID=MN8TOARS",
+  "orcid_put_code": 97804724,
+  "date": "2022-04-01",
+  "authors": [
+   "Hugo Jair Escalante",
+   "Heysem Kaya",
+   "Albert Ali Salah",
+   "Sergio Escalera",
+   "Yağmur Güçlütürk",
+   "Umut Güçlü",
+   "Xavier Baró",
+   "Isabelle Guyon",
+   "Julio C. S. Jacques Junior",
+   "Meysam Madadi",
+   "Stéphane Ayache",
+   "Evelyne Viegas",
+   "Furkan Gurpnar",
+   "Achmadnoer Sukma Wicaksana",
+   "Cynthia C. S. Liem",
+   "Marcel A. J. van Gerven",
+   "Rob van Lier"
+  ],
+  "cited_by": 120,
+  "abstract": "Explainability and interpretability are two critical aspects of decision support systems. Despite their importance, it is only recently that researchers are starting to explore these aspects. This paper provides an introduction to explainability and interpretability in the context of apparent personality recognition. To the best of our knowledge, this is the first effort in this direction. We describe a challenge we organized on explainability in first impressions analysis from video. We analyze in detail the newly introduced data set, evaluation protocol, proposed solutions and summarize the results of the challenge. We investigate the issue of bias in detail. Finally, derived from our study, we outline research opportunities that we foresee will be relevant in this area in the near future.",
+  "openalex_id": "https://openalex.org/W3005891272",
+  "issn_l": "1949-3045",
+  "repository_url": "https://hdl.handle.net/123456789/126284641",
+  "scholar_key": "escalante2020modeling",
+  "scholar_cited_by": 146,
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1109/taffc.2020.2973984",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": false,
+   "registry_title": "Modeling, Recognizing, and Explaining Apparent Personality From Videos",
+   "registry_year": 2022,
+   "status": "partial"
+  },
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 30,
+   "cites_scopus": 40,
+   "jcr_if": 10.506,
+   "sjr": 1.309,
+   "jcr_quartile": "Q1",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Artificial Intelligence",
+   "sjr_category": "Human-Computer Interaction",
+   "ranking": "9/139",
+   "cites_scholar": 146,
+   "source": "CV (AQU) B.1, 2024-12-31"
+  },
+  "metrics": {
+   "as_of": "2026-11-13",
+   "cited_by_openalex": 120,
+   "cited_by_crossref": 96,
+   "cited_by_scholar_cv_2024": 146,
+   "journal": "IEEE Transactions on Affective Computing",
+   "oa_2yr_mean_citedness": 9.34,
+   "oa_h_index": 140
+  },
+  "note": "Crossref issued 2022-04-01, IEEE TAFFC 13(2):894-911 (CV B.1 gives vol 13(2) but year 2020 = early access)."
+ },
+ {
   "id": "doi:10.1007/978-3-031-06430-2_27",
   "status": "confirmed",
   "sources": [
@@ -443,7 +594,7 @@
    "Sarah Adel Bargal",
    "Stan Sclaroff",
    "Xavier Baró",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 0,
   "openalex_id": "https://openalex.org/W4285207611",
@@ -488,7 +639,7 @@
    "Kaustubh Kulkarni",
    "Ciprian Adrian Corneanu",
    "Ikechukwu Ofodile",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Sylwia Hyniewska",
    "Jüri Allïk",
@@ -538,117 +689,50 @@
   }
  },
  {
-  "id": "t:chalearn-looking-at-people-inpainting-and-denoising-challeng-2021",
+  "id": "doi:10.1109/wacvw52041.2021.00006",
   "status": "confirmed",
   "sources": [
    "orcid",
    "openalex",
-   "scholar"
-  ],
-  "title": "ChaLearn Looking at People: Inpainting and Denoising challenges",
-  "venue": "arXiv",
-  "type": "other",
-  "year": 2021,
-  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85109632037&partnerID=MN8TOARS",
-  "orcid_put_code": 97804711,
-  "date": "2019-01-01",
-  "doi": "10.1007/978-3-030-25614-2_2",
-  "authors": [
-   "Sérgio Escalera",
-   "Martí Soler",
-   "Stéphane Ayache",
-   "Umut Güçlü",
-   "Jun Wan",
-   "Meysam Madadi",
-   "Xavier Baró",
-   "Hugo Jair Escalante",
-   "Isabelle Guyon"
-  ],
-  "cited_by": 4,
-  "openalex_id": "https://openalex.org/W2980626109",
-  "issn_l": "2520-131X",
-  "scholar_key": "escalera2019chalearn",
-  "doi_check": {
-   "checked": "2026-11-13",
-   "doi": "10.1007/978-3-030-25614-2_2",
-   "registry": "crossref",
-   "title_sim": 1.0,
-   "author_ok": true,
-   "year_ok": false,
-   "registry_title": "ChaLearn Looking at People: Inpainting and Denoising Challenges",
-   "registry_year": 2019,
-   "status": "partial"
-  },
-  "metrics": {
-   "as_of": "2026-11-13",
-   "cited_by_openalex": 4,
-   "cited_by_crossref": 2
-  }
- },
- {
-  "id": "doi:10.1049/cvi2.12064",
-  "status": "confirmed",
-  "sources": [
-   "openalex",
-   "prc",
    "scholar",
    "cv"
   ],
-  "title": "End‐to‐end global to local convolutional neural network learning for hand pose recovery in depth data",
-  "venue": "IET Computer Vision",
-  "type": "journal-article",
+  "title": "Person perception biases exposed: Revisiting the first impressions dataset",
+  "venue": "2021 IEEE Winter Conference on Applications of Computer Vision Workshops (WACVW)",
+  "type": "conference-paper",
   "year": 2021,
-  "date": "2021-08-12",
-  "doi": "10.1049/cvi2.12064",
-  "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cvi2.12064",
+  "doi": "10.1109/wacvw52041.2021.00006",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85099327142&partnerID=MN8TOARS",
+  "orcid_put_code": 97804712,
+  "date": "2021-01-01",
   "authors": [
-   "Meysam Madadi",
-   "Sérgio Escalera",
+   "Julio C. S. Jacques Junior",
+   "Àgata Lapedriza",
+   "Cristina Palmero",
    "Xavier Baró",
-   "Jordi Gonzàlez"
+   "Sergio Escalera"
   ],
-  "cited_by": 79,
-  "abstract": "Abstract Despite recent advances in 3‐D pose estimation of human hands, thanks to the advent of convolutional neural networks (CNNs) and depth cameras, this task is still far from being solved in uncontrolled setups. This is mainly due to the highly non‐linear dynamics of fingers and self‐occlusions, which make hand model training a challenging task. In this study, a novel hierarchical tree‐like structured CNN is exploited, in which branches are trained to become specialised in predefined subsets of hand joints called local poses. Further, local pose features, extracted from hierarchical CNN branches, are fused to learn higher order dependencies among joints in the final pose by end‐to‐end training. Lastly, the loss function used is also defined to incorporate appearance and physical constraints about doable hand motions and deformations. Finally, a non‐rigid data augmentation approach is introduced to increase the amount of training depth data. Experimental results suggest that feeding a tree‐shaped CNN, specialised in local poses, into a fusion network for modelling joints' correlations and dependencies, helps to increase the precision of final estimations, showing competitive results on NYU, MSRA, Hands17 and SyntheticHand datasets.",
-  "openalex_id": "https://openalex.org/W3195646717",
-  "issn_l": "1751-9632",
-  "repository_url": "https://hdl.handle.net/123456789/126150037",
-  "scholar_key": "madadi2022end",
-  "scholar_cited_by": 9,
+  "cited_by": 14,
+  "abstract": "This work revisits the ChaLearn First Impressions database, annotated for personality perception using pairwise comparisons via crowdsourcing. We analyse for the first time the original pairwise annotations, and reveal existing person perception biases associated to perceived attributes like gender, ethnicity, age and face attractiveness. We show how person perception bias can influence data labelling of a subjective task, which has received little attention from the computer vision and machine learning communities by now. We further show that the mechanism used to convert pairwise annotations to continuous values may magnify the biases if no special treatment is considered. The findings of this study are relevant for the computer vision community that is still creating new datasets on subjective tasks, and using them for practical applications, ignoring these perceptual biases.",
+  "openalex_id": "https://openalex.org/W3159564482",
+  "scholar_key": "junior2021person",
   "doi_check": {
    "checked": "2026-11-13",
-   "doi": "10.1049/cvi2.12064",
+   "doi": "10.1109/wacvw52041.2021.00006",
    "registry": "crossref",
    "title_sim": 1.0,
    "author_ok": true,
    "year_ok": true,
-   "registry_title": "End‐to‐end global to local convolutional neural network learning for hand pose recovery in depth data",
+   "registry_title": "Person Perception Biases Exposed: Revisiting the First Impressions Dataset",
    "registry_year": 2021,
    "status": "verified"
   },
-  "indexing": {
-   "wos_indexed": true,
-   "scopus_indexed": true,
-   "cites_wos": 9,
-   "cites_scopus": 8,
-   "jcr_if": 1.7,
-   "sjr": 0.375,
-   "jcr_quartile": "Q3",
-   "sjr_quartile": "Q3",
-   "jcr_category": "Engineering, Electrical & Electronic",
-   "sjr_category": "Computer Vision and Pattern Recognition",
-   "ranking": "205/275",
-   "cites_scholar": 9,
-   "source": "CV (AQU) B.1, 2024-12-31"
-  },
   "metrics": {
    "as_of": "2026-11-13",
-   "cited_by_openalex": 79,
-   "cited_by_crossref": 9,
-   "cited_by_scholar_cv_2024": 9,
-   "journal": "IET Computer Vision",
-   "oa_2yr_mean_citedness": 4.38,
-   "oa_h_index": 56
-  }
+   "cited_by_openalex": 14,
+   "cited_by_crossref": 8
+  },
+  "note": "Crossref proceedings-article WACVW, issued 2021-01; CV B.5 (2021). Was typed other/arXiv/2020."
  },
  {
   "id": "doi:10.1007/978-3-030-29326-0_3",
@@ -821,7 +905,7 @@
   "orcid_put_code": 97804723,
   "date": "2020-04-15",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Hugo Jair Escalante",
    "Xavier Baró",
    "Isabelle Guyon",
@@ -872,10 +956,61 @@
    "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
    "oa_2yr_mean_citedness": 25.71,
    "oa_h_index": 575
-  }
+  },
+  "genre": "editorial",
+  "note": "Guest editorial / special-issue introduction (Crossref journal-article, CV B.1); type kept so it stays listed, 'genre' marks it for labelling."
  },
  {
-  "id": "doi:10.1109/taffc.2020.2973984",
+  "id": "t:chalearn-looking-at-people-inpainting-and-denoising-challeng-2021",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex",
+   "scholar"
+  ],
+  "title": "ChaLearn Looking at People: Inpainting and Denoising challenges",
+  "venue": "Inpainting and Denoising Challenges (The Springer Series on Challenges in Machine Learning)",
+  "type": "book-chapter",
+  "year": 2019,
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85109632037&partnerID=MN8TOARS",
+  "orcid_put_code": 97804711,
+  "date": "2019-01-01",
+  "doi": "10.1007/978-3-030-25614-2_2",
+  "authors": [
+   "Sergio Escalera",
+   "Martí Soler",
+   "Stéphane Ayache",
+   "Umut Güçlü",
+   "Jun Wan",
+   "Meysam Madadi",
+   "Xavier Baró",
+   "Hugo Jair Escalante",
+   "Isabelle Guyon"
+  ],
+  "cited_by": 4,
+  "openalex_id": "https://openalex.org/W2980626109",
+  "issn_l": "2520-131X",
+  "scholar_key": "escalera2019chalearn",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "doi": "10.1007/978-3-030-25614-2_2",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": false,
+   "registry_title": "ChaLearn Looking at People: Inpainting and Denoising Challenges",
+   "registry_year": 2019,
+   "status": "partial"
+  },
+  "metrics": {
+   "as_of": "2026-11-13",
+   "cited_by_openalex": 4,
+   "cited_by_crossref": 2
+  },
+  "note": "DOI 10.1007/978-3-030-25614-2_2: Crossref book-chapter in 'Inpainting and Denoising Challenges', issued 2019 (was typed other/arXiv/2021)."
+ },
+ {
+  "id": "doi:10.1007/s11042-019-7739-5",
   "status": "confirmed",
   "sources": [
    "orcid",
@@ -884,120 +1019,62 @@
    "scholar",
    "cv"
   ],
-  "title": "Modeling, Recognizing, and Explaining Apparent Personality from Videos",
-  "venue": "IEEE Transactions on Affective Computing",
+  "title": "From 2D to 3D geodesic-based garment matching",
+  "venue": "Multimedia Tools and Applications",
   "type": "journal-article",
-  "year": 2020,
-  "doi": "10.1109/taffc.2020.2973984",
-  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85085992577&partnerID=MN8TOARS",
-  "orcid_put_code": 97804724,
-  "date": "2020-02-14",
+  "year": 2019,
+  "doi": "10.1007/s11042-019-7739-5",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85094482249&partnerID=MN8TOARS",
+  "orcid_put_code": 97804715,
+  "date": "2019-06-03",
   "authors": [
-   "Hugo Jair Escalante",
-   "Heysem Kaya",
-   "Albert Ali Salah",
-   "Sérgio Escalera",
-   "Yağmur Güçlütürk",
-   "Umut Guclu",
-   "Xavier Baró",
-   "Isabelle Guyon",
-   "Julio C. S. Jacques",
+   "Egils Avots",
    "Meysam Madadi",
-   "Stéphane Ayache",
-   "Evelyne Viegas",
-   "Furkan Gurpnar",
-   "Achmadnoer Sukma Wicaksana",
-   "Cynthia C. S. Liem",
-   "Marcel A. J. van Gerven",
-   "Rob van Lier"
-  ],
-  "cited_by": 120,
-  "abstract": "Explainability and interpretability are two critical aspects of decision support systems. Despite their importance, it is only recently that researchers are starting to explore these aspects. This paper provides an introduction to explainability and interpretability in the context of apparent personality recognition. To the best of our knowledge, this is the first effort in this direction. We describe a challenge we organized on explainability in first impressions analysis from video. We analyze in detail the newly introduced data set, evaluation protocol, proposed solutions and summarize the results of the challenge. We investigate the issue of bias in detail. Finally, derived from our study, we outline research opportunities that we foresee will be relevant in this area in the near future.",
-  "openalex_id": "https://openalex.org/W3005891272",
-  "issn_l": "1949-3045",
-  "repository_url": "https://hdl.handle.net/123456789/126284641",
-  "scholar_key": "escalante2020modeling",
-  "scholar_cited_by": 146,
-  "doi_check": {
-   "checked": "2026-11-13",
-   "doi": "10.1109/taffc.2020.2973984",
-   "registry": "crossref",
-   "title_sim": 1.0,
-   "author_ok": true,
-   "year_ok": false,
-   "registry_title": "Modeling, Recognizing, and Explaining Apparent Personality From Videos",
-   "registry_year": 2022,
-   "status": "partial"
-  },
-  "indexing": {
-   "wos_indexed": true,
-   "scopus_indexed": true,
-   "cites_wos": 30,
-   "cites_scopus": 40,
-   "jcr_if": 10.506,
-   "sjr": 1.309,
-   "jcr_quartile": "Q1",
-   "sjr_quartile": "Q1",
-   "jcr_category": "Computer Science, Artificial Intelligence",
-   "sjr_category": "Human-Computer Interaction",
-   "ranking": "9/139",
-   "cites_scholar": 146,
-   "source": "CV (AQU) B.1, 2024-12-31"
-  },
-  "metrics": {
-   "as_of": "2026-11-13",
-   "cited_by_openalex": 120,
-   "cited_by_crossref": 96,
-   "cited_by_scholar_cv_2024": 146,
-   "journal": "IEEE Transactions on Affective Computing",
-   "oa_2yr_mean_citedness": 9.34,
-   "oa_h_index": 140
-  }
- },
- {
-  "id": "doi:10.1109/wacvw52041.2021.00006",
-  "status": "confirmed",
-  "sources": [
-   "orcid",
-   "openalex",
-   "scholar",
-   "cv"
-  ],
-  "title": "Person perception biases exposed: Revisiting the first impressions dataset",
-  "venue": "arXiv",
-  "type": "other",
-  "year": 2020,
-  "doi": "10.1109/wacvw52041.2021.00006",
-  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85099327142&partnerID=MN8TOARS",
-  "orcid_put_code": 97804712,
-  "date": "2021-01-01",
-  "authors": [
-   "Julio C. S. Jacques",
-   "Àgata Lapedriza",
-   "Cristina Palmero",
+   "Sergio Escalera",
+   "Jordi Gonzàlez",
    "Xavier Baró",
-   "Sérgio Escalera"
+   "Paul Pällin",
+   "Gholamreza Anbarjafari"
   ],
-  "cited_by": 14,
-  "abstract": "This work revisits the ChaLearn First Impressions database, annotated for personality perception using pairwise comparisons via crowdsourcing. We analyse for the first time the original pairwise annotations, and reveal existing person perception biases associated to perceived attributes like gender, ethnicity, age and face attractiveness. We show how person perception bias can influence data labelling of a subjective task, which has received little attention from the computer vision and machine learning communities by now. We further show that the mechanism used to convert pairwise annotations to continuous values may magnify the biases if no special treatment is considered. The findings of this study are relevant for the computer vision community that is still creating new datasets on subjective tasks, and using them for practical applications, ignoring these perceptual biases.",
-  "openalex_id": "https://openalex.org/W3159564482",
-  "scholar_key": "junior2021person",
+  "cited_by": 4,
+  "openalex_id": "https://openalex.org/W2889982522",
+  "issn_l": "1380-7501",
+  "repository_url": "https://hdl.handle.net/123456789/125764598",
+  "scholar_key": "madadi20182d",
+  "scholar_cited_by": 4,
   "doi_check": {
    "checked": "2026-11-13",
-   "doi": "10.1109/wacvw52041.2021.00006",
+   "doi": "10.1007/s11042-019-7739-5",
    "registry": "crossref",
    "title_sim": 1.0,
    "author_ok": true,
    "year_ok": true,
-   "registry_title": "Person Perception Biases Exposed: Revisiting the First Impressions Dataset",
-   "registry_year": 2021,
+   "registry_title": "From 2D to 3D geodesic-based garment matching",
+   "registry_year": 2019,
    "status": "verified"
+  },
+  "indexing": {
+   "wos_indexed": true,
+   "scopus_indexed": true,
+   "cites_wos": 2,
+   "cites_scopus": 3,
+   "jcr_if": 2.313,
+   "sjr": 0.462,
+   "jcr_quartile": "Q2",
+   "sjr_quartile": "Q1",
+   "jcr_category": "Computer Science, Theory & Methods",
+   "sjr_category": "Media Technology",
+   "ranking": "34/108",
+   "cites_scholar": 4,
+   "source": "CV (AQU) B.1, 2024-12-31"
   },
   "metrics": {
    "as_of": "2026-11-13",
-   "cited_by_openalex": 14,
-   "cited_by_crossref": 8
-  }
+   "cited_by_openalex": 4,
+   "cited_by_crossref": 4,
+   "cited_by_scholar_cv_2024": 4
+  },
+  "note": "Crossref journal-article MTAP, issued 2019-06; CV B.1 (2019, vol. 78). Was typed other/arXiv/2018."
  },
  {
   "id": "doi:10.1007/s00138-019-01031-x",
@@ -1019,7 +1096,7 @@
   "date": "2019-05-22",
   "authors": [
    "Gholamreza Anbarjafari",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Kamal Nasrollahi",
    "Hugo Jair Escalante",
    "Xavier Baró",
@@ -1066,7 +1143,9 @@
    "journal": "Machine Vision and Applications",
    "oa_2yr_mean_citedness": 3.71,
    "oa_h_index": 103
-  }
+  },
+  "genre": "editorial",
+  "note": "Guest editorial / special-issue introduction (Crossref journal-article, CV B.1); type kept so it stays listed, 'genre' marks it for labelling."
  },
  {
   "id": "doi:10.1007/978-3-030-25614-2",
@@ -1084,11 +1163,11 @@
   "doi": "10.1007/978-3-030-25614-2",
   "url": "https://doi.org/10.1007/978-3-030-25614-2",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Stéphane Ayache",
-   "J. Wan",
+   "Jun Wan",
    "Meysam Madadi",
-   "U. Güçlü",
+   "Umut Güçlü",
    "Xavier Baró"
   ],
   "cited_by": 13,
@@ -1111,7 +1190,9 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 13,
    "cited_by_crossref": 4
-  }
+  },
+  "edited": true,
+  "note": "Edited volume: the listed authors are the editors."
  },
  {
   "id": "doi:10.1109/fg.2019.8756572",
@@ -1123,8 +1204,8 @@
    "cv"
   ],
   "title": "Multi-task human analysis in still images: 2D/3D pose, depth map, and multi-part segmentation",
-  "venue": "arXiv",
-  "type": "other",
+  "venue": "2019 14th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2019)",
+  "type": "conference-paper",
   "year": 2019,
   "doi": "10.1109/fg.2019.8756572",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85093570450&partnerID=MN8TOARS",
@@ -1135,7 +1216,7 @@
    "Marc Oliu",
    "Meysam Madadi",
    "Xavier Baró",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 7,
   "abstract": "While many individual tasks in the domain of human analysis have recently received an accuracy boost from deep learning approaches, multi-task learning has mostly been ignored due to a lack of data. New synthetic datasets are being released, filling this gap with synthetic generated data. In this work, we analyze four related human analysis tasks in still images in a multi-task scenario by leveraging such datasets. Specifically, we study the correlation of 2D/3D pose estimation, body part segmentation and full-body depth estimation. These tasks are learned via the well-known Stacked Hourglass module such that each of the task-specific streams shares information with the others. The main goal is to analyze how training together these four related tasks can benefit each individual task for a better generalization. Results on the newly released SURREAL dataset show that all four tasks benefit from the multi-task approach, but with different combinations of tasks: while combining all four tasks improves 2D pose estimation the most, 2D pose improves neither 3D pose nor full-body depth estimation. On the other hand 2D parts segmentation can benefit from 2D pose but not from 3D pose. In all cases, as expected, the maximum improvement is achieved on those human body parts that show more variability in terms of spatial distribution, appearance and shape, e.g. wrists and ankles.",
@@ -1157,7 +1238,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 7,
    "cited_by_crossref": 4
-  }
+  },
+  "note": "Crossref proceedings-article FG 2019; CV B.5. Was typed other/arXiv."
  },
  {
   "id": "doi:10.1109/fg.2019.8756595",
@@ -1169,20 +1251,20 @@
    "cv"
   ],
   "title": "On the effect of age perception biases for real age regression",
-  "venue": "arXiv",
-  "type": "other",
+  "venue": "2019 14th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2019)",
+  "type": "conference-paper",
   "year": 2019,
   "doi": "10.1109/fg.2019.8756595",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85093615477&partnerID=MN8TOARS",
   "orcid_put_code": 97804714,
   "date": "2019-05-01",
   "authors": [
-   "Julio C. S. Jacques",
+   "Julio C. S. Jacques Junior",
    "Cagri Ozcinar",
    "Marina Marjanovic",
    "Xavier Baró",
    "Gholamreza Anbarjafari",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 9,
   "abstract": "Automatic age estimation from facial images represents an important task in computer vision. This paper analyses the effect of gender, age, ethnic, makeup and expression attributes of faces as sources of bias to improve deep apparent age prediction. Following recent works where it is shown that apparent age labels benefit real age estimation, rather than direct real to real age regression, our main contribution is the integration, in an end-to-end architecture, of face attributes for apparent age prediction with an additional loss for real age regression. Experimental results on the APPA-REAL dataset indicate the proposed network successfully take advantage of the adopted attributes to improve both apparent and real age estimation. Our model outperformed a state-of-the-art architecture proposed to separately address apparent and real age regression. Finally, we present preliminary results and discussion of a proof of concept application using the proposed model to regress the apparent age of an individual based on the gender of an external observer.",
@@ -1204,7 +1286,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 9,
    "cited_by_crossref": 4
-  }
+  },
+  "note": "Crossref proceedings-article FG 2019; CV B.5. Was typed other/arXiv."
  },
  {
   "id": "t:scratch-day-septiembre-2019-2019",
@@ -1213,11 +1296,11 @@
    "scholar"
   ],
   "title": "Scratch day, septiembre 2019",
-  "type": "journal-article",
+  "type": "other",
   "authors": [
    "Javier Martí Pintanel",
    "Xavier Eguiguren Huerta",
-   "David Baneres",
+   "David Bañeres",
    "Xavier Baró",
    "Carlos Casado-Martínez",
    "Enric Mor",
@@ -1234,7 +1317,10 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "url": "https://openaccess.uoc.edu/handle/10609/146511",
+  "note": "UOC O2 handle 10609/146511: dc.type 'lecture', issued 2019-09, publisher UOC; an outreach session, not a journal article. Hidden from the site until verified: not a publication? owner to decide",
+  "public": false
  },
  {
   "id": "doi:10.1049/iet-cvi.2016.0309",
@@ -1260,7 +1346,7 @@
    "Andreas Møgelmose",
    "Weifeng Liu",
    "Kaustubh Kulkarni",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Thomas Baltzer Moeslund"
   ],
@@ -1333,7 +1419,7 @@
    "Egils Avots",
    "Michelle Breisch",
    "Kamal Nasrollahi",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Cagri Ozcinar",
    "Xavier Baró",
    "Ahmad Reza Naghsh‐Nilchi",
@@ -1389,10 +1475,10 @@
    "Noushin Hajarolasvadi",
    "Boris A. Knyazev",
    "Artem Kuharenko",
-   "Julio C. S. Jacques",
+   "Julio C. S. Jacques Junior",
    "Xavier Baró",
    "Hasan Demirel",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Jüri Allïk",
    "Gholamreza Anbarjafari"
   ],
@@ -1457,12 +1543,12 @@
   "url": "http://arxiv.org/pdf/1709.05321",
   "authors": [
    "Hugo Jair Escalante",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Isabelle Guyon",
    "Xavier Baró",
    "Yağmur Güçlütürk",
    "Umut Güçlü",
-   "Marcel van Gerven"
+   "Marcel A. J. van Gerven"
   ],
   "cited_by": 219,
   "openalex_id": "https://openalex.org/W4206210655",
@@ -1489,7 +1575,9 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 219,
    "cited_by_crossref": 88
-  }
+  },
+  "edited": true,
+  "note": "Edited volume: the listed authors are the editors."
  },
  {
   "id": "t:explaining-first-impressions-modeling-recognizing-and-explai-2018",
@@ -1511,12 +1599,12 @@
    "Hugo Jair Escalante",
    "Heysem Kaya",
    "Albert Ali Salah",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Yağmur Güçlütürk",
    "Umut Güçlü",
    "Xavier Baró",
    "Isabelle Guyon",
-   "Julio C. S. Jacques",
+   "Julio C. S. Jacques Junior",
    "Meysam Madadi",
    "Stéphane Ayache",
    "Evelyne Viegas",
@@ -1560,24 +1648,23 @@
    "cv"
   ],
   "title": "Exploiting feature representations through similarity learning, post-ranking and ranking aggregation for person re-identification",
-  "venue": "arXiv",
-  "type": "other",
+  "venue": "Image and Vision Computing",
+  "type": "journal-article",
   "year": 2018,
   "doi": "10.1016/j.imavis.2018.08.001",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85093039315&partnerID=MN8TOARS",
   "orcid_put_code": 97804717,
   "date": "2018-09-16",
   "authors": [
-   "Julio C. S. Jacques",
+   "Julio C. S. Jacques Junior",
    "Xavier Baró",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 5,
   "openalex_id": "https://openalex.org/W2963281296",
   "issn_l": "0262-8856",
-  "abstract": "Person re-identification has received special attentionby the human analysis community in the last few years.To address the challenges in this field, many researchers haveproposed different strategies, which basically exploit eithercross-view invariant features or cross-view robust metrics. Inthis work we propose to combine different feature representationsthrough ranking aggregation. Spatial information, whichpotentially benefits the person matching, is represented usinga 2D body model, from which color and texture informationare extracted and combined. We also consider contextualinformation (background and foreground data), automaticallyextracted via Deep Decompositional Network, and the usage ofConvolutional Neural Network (CNN) features. To describe thematching between images we use the polynomial feature map,also taking into account local and global information. Finally,the Stuart ranking aggregation method is employed to combinecomplementary ranking lists obtained from different featurerepresentations. Experimental results demonstrated that weimprove the state-of-the-art on VIPeR and PRID450s datasets,achieving 58.77% and 71.56% on top-1 rank recognitionrate, respectively, as well as obtaining competitive results onCUHK01 dataset.",
   "repository_url": "https://hdl.handle.net/123456789/126590258",
-  "scholar_key": "juniorexploiting",
+  "scholar_key": "junior2018exploiting",
   "scholar_cited_by": 7,
   "doi_check": {
    "checked": "2026-11-13",
@@ -1610,7 +1697,8 @@
    "cited_by_openalex": 5,
    "cited_by_crossref": 4,
    "cited_by_scholar_cv_2024": 7
-  }
+  },
+  "note": "Crossref journal-article, Image and Vision Computing 79 (2018); CV B.1. Was typed other/arXiv."
  },
  {
   "id": "t:first-impressions-a-survey-on-computer-vision-based-apparent-2018",
@@ -1625,7 +1713,7 @@
   "date": "2018-04-21",
   "url": "https://arxiv.org/abs/1804.08046",
   "authors": [
-   "Julio C. S. Jacques",
+   "Julio C. S. Jacques Junior",
    "Yağmur Güçlütürk",
    "Marc Pérez",
    "Umut Güçlü",
@@ -1635,7 +1723,7 @@
    "Isabelle Guyon",
    "Marcel A. J. van Gerven",
    "Rob van Lier",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 27,
   "abstract": "Personality analysis has been widely studied in psychology, neuropsychology, and signal processing fields, among others. From the past few years, it also became an attractive research area in visual computing. From the computational point of view, by far speech and text have been the most considered cues of information for analyzing personality. However, recently there has been an increasing interest from the computer vision community in analyzing personality from visual data. Recent computer vision approaches are able to accurately analyze human faces, body postures and behaviors, and use these information to infer apparent personality traits. Because of the overwhelming research interest in this topic, and of the potential impact that this sort of methods could have in society, we present in this paper an up-to-date review of existing vision-based approaches for apparent personality trait recognition. We describe seminal and cutting edge works on the subject, discussing and comparing their distinctive features and limitations. Future venues of research in the field are identified and discussed. Furthermore, aspects on the subjectivity in data labeling/evaluation, as well as current datasets and challenges organized to push the research on the field are reviewed.",
@@ -1652,72 +1740,6 @@
   },
   "duplicate_of": "doi:10.1109/taffc.2019.2930058",
   "note": "Preprint/earlier version of the published work (same title/authors); kept for traceability, not shown."
- },
- {
-  "id": "doi:10.1007/s11042-019-7739-5",
-  "status": "confirmed",
-  "sources": [
-   "orcid",
-   "openalex",
-   "prc",
-   "scholar",
-   "cv"
-  ],
-  "title": "From 2D to 3D geodesic-based garment matching",
-  "venue": "arXiv",
-  "type": "other",
-  "year": 2018,
-  "doi": "10.1007/s11042-019-7739-5",
-  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85094482249&partnerID=MN8TOARS",
-  "orcid_put_code": 97804715,
-  "date": "2019-06-03",
-  "authors": [
-   "Egils Avots",
-   "Meysam Madadi",
-   "Sérgio Escalera",
-   "Jordi Gonzàlez",
-   "Xavier Baró",
-   "Paul Pällin",
-   "Gholamreza Anbarjafari"
-  ],
-  "cited_by": 4,
-  "openalex_id": "https://openalex.org/W2889982522",
-  "issn_l": "1380-7501",
-  "repository_url": "https://hdl.handle.net/123456789/125764598",
-  "scholar_key": "madadi20182d",
-  "scholar_cited_by": 4,
-  "doi_check": {
-   "checked": "2026-11-13",
-   "doi": "10.1007/s11042-019-7739-5",
-   "registry": "crossref",
-   "title_sim": 1.0,
-   "author_ok": true,
-   "year_ok": true,
-   "registry_title": "From 2D to 3D geodesic-based garment matching",
-   "registry_year": 2019,
-   "status": "verified"
-  },
-  "indexing": {
-   "wos_indexed": true,
-   "scopus_indexed": true,
-   "cites_wos": 2,
-   "cites_scopus": 3,
-   "jcr_if": 2.313,
-   "sjr": 0.462,
-   "jcr_quartile": "Q2",
-   "sjr_quartile": "Q1",
-   "jcr_category": "Computer Science, Theory & Methods",
-   "sjr_category": "Media Technology",
-   "ranking": "34/108",
-   "cites_scholar": 4,
-   "source": "CV (AQU) B.1, 2024-12-31"
-  },
-  "metrics": {
-   "as_of": "2026-11-13",
-   "cited_by_openalex": 4,
-   "cited_by_crossref": 4,
-   "cited_by_scholar_cv_2024": 4
-  }
  },
  {
   "id": "doi:10.1109/taffc.2018.2864230",
@@ -1738,7 +1760,7 @@
   "orcid_put_code": 50206046,
   "date": "2018-07-01",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Isabelle Guyon",
    "Hugo Jair Escalante"
@@ -1789,7 +1811,9 @@
    "journal": "IEEE Transactions on Affective Computing",
    "oa_2yr_mean_citedness": 9.34,
    "oa_h_index": 140
-  }
+  },
+  "genre": "editorial",
+  "note": "Guest editorial / special-issue introduction (Crossref journal-article, CV B.1); type kept so it stays listed, 'genre' marks it for labelling."
  },
  {
   "id": "doi:10.1109/tpami.2018.2869610",
@@ -1810,7 +1834,7 @@
   "orcid_put_code": 50206047,
   "date": "2018-10-09",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Isabelle Guyon",
    "Hugo Jair Escalante",
@@ -1861,7 +1885,9 @@
    "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
    "oa_2yr_mean_citedness": 25.71,
    "oa_h_index": 575
-  }
+  },
+  "genre": "editorial",
+  "note": "Guest editorial / special-issue introduction (Crossref journal-article, CV B.1); type kept so it stays listed, 'genre' marks it for labelling."
  },
  {
   "id": "doi:10.1002/itl2.56",
@@ -1932,7 +1958,7 @@
   "orcid_put_code": 97804740,
   "date": "2018-01-31",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Jordi Gonzàlez",
    "Hugo Jair Escalante",
    "Xavier Baró",
@@ -1978,7 +2004,9 @@
    "journal": "International Journal of Computer Vision",
    "oa_2yr_mean_citedness": 19.5,
    "oa_h_index": 299
-  }
+  },
+  "genre": "editorial",
+  "note": "Guest editorial / special-issue introduction (Crossref journal-article, CV B.1); type kept so it stays listed, 'genre' marks it for labelling."
  },
  {
   "id": "doi:10.1109/taffc.2017.2751469",
@@ -2000,11 +2028,11 @@
   "date": "2017-09-12",
   "authors": [
    "Yağmur Güçlütürk",
-   "Umut Guclu",
+   "Umut Güçlü",
    "Xavier Baró",
    "Hugo Jair Escalante",
    "Isabelle Guyon",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Marcel A. J. van Gerven",
    "Rob van Lier"
   ],
@@ -2071,7 +2099,7 @@
   "date": "2018-09-21",
   "authors": [
    "Meysam Madadi",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Alex Carruesco",
    "Carlos Andújar",
    "Xavier Baró",
@@ -2121,7 +2149,7 @@
  },
  {
   "id": "t:2016-index-ieee-transactions-on-pattern-analysis-and-machine-2017",
-  "status": "confirmed",
+  "status": "rejected",
   "sources": [
    "scholar"
   ],
@@ -2148,7 +2176,8 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "note": "TPAMI vol. 38 annual author index (Scholar lists 'Ackermann, Agapito, ...' as authors), not a publication; Scholar mis-attribution."
  },
  {
   "id": "doi:10.1109/fg.2017.150",
@@ -2160,7 +2189,7 @@
    "cv"
   ],
   "title": "A Survey on Deep Learning Based Approaches for Action and Gesture Recognition in Image Sequences",
-  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
+  "venue": "Proceedings of the 12th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2017)",
   "type": "conference-paper",
   "year": 2017,
   "doi": "10.1109/fg.2017.150",
@@ -2168,7 +2197,7 @@
   "orcid_put_code": 35804272,
   "date": "2017-05-01",
   "authors": [
-   "M. Asadi",
+   "Maryam Asadi-Aghbolaghi",
    "Albert Clapés",
    "Marco Bellantonio",
    "Hugo Jair Escalante",
@@ -2176,7 +2205,7 @@
    "Xavier Baró",
    "Isabelle Guyon",
    "Shohreh Kasaei",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 181,
   "abstract": "The interest in action and gesture recognition has grown considerably in the last years. In this paper, we present a survey on current deep learning methodologies for action and gesture recognition in image sequences. We introduce a taxonomy that summarizes important aspects of deep learning for approaching both tasks. We review the details of the proposed architectures, fusion strategies, main datasets, and competitions. We summarize and discuss the main works proposed so far with particular interest on how they treat the temporal dimension of data, discussing their main features and identify opportunities and challenges for future research.",
@@ -2205,7 +2234,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 181,
    "cited_by_crossref": 134
-  }
+  },
+  "note": "Scopus venue string was 499 characters long; replaced by the proceedings title."
  },
  {
   "id": "doi:10.1109/fg.2017.20",
@@ -2217,7 +2247,7 @@
    "cv"
   ],
   "title": "Apparent and Real Age Estimation in Still Images with Deep Residual Regressors on Appa-Real Database",
-  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
+  "venue": "Proceedings of the 12th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2017)",
   "type": "conference-paper",
   "year": 2017,
   "doi": "10.1109/fg.2017.20",
@@ -2227,7 +2257,7 @@
   "authors": [
    "Eirikur Agustsson",
    "Radu Timofte",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Isabelle Guyon",
    "Rasmus Rothe"
@@ -2252,7 +2282,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 109,
    "cited_by_crossref": 67
-  }
+  },
+  "note": "Scopus venue string was 499 characters long; replaced by the proceedings title."
  },
  {
   "id": "t:automatic-recognition-of-deceptive-facial-expressions-of-emo-2017",
@@ -2271,7 +2302,7 @@
    "Ikechukwu Ofodile",
    "Kaustubh Kulkarni",
    "Ciprian Adrian Corneanu",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Sylwia Hyniewska",
    "Jüri Allïk",
@@ -2289,7 +2320,9 @@
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 26
-  }
+  },
+  "public": false,
+  "note": "Hidden from the site until verified: probable preprint of TAFFC 2021; owner to decide"
  },
  {
   "id": "t:chalearn-looking-at-people-events-and-resources-2017",
@@ -2306,7 +2339,7 @@
   "date": "2017-01-10",
   "url": "https://arxiv.org/abs/1701.02664",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Hugo Jair Escalante",
    "Isabelle Guyon"
@@ -2343,7 +2376,7 @@
   "doi": "10.1109/ijcnn.2017.7966041",
   "url": "https://arxiv.org/pdf/1701.02664",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Hugo Jair Escalante",
    "Isabelle Guyon"
@@ -2386,7 +2419,7 @@
   "doi": "10.1007/978-3-319-57021-1_19",
   "url": "https://inria.hal.science/hal-01678006",
   "authors": [
-   "M. Asadi",
+   "Maryam Asadi-Aghbolaghi",
    "Albert Clapés",
    "Marco Bellantonio",
    "Hugo Jair Escalante",
@@ -2394,7 +2427,7 @@
    "Xavier Baró",
    "Isabelle Guyon",
    "Shohreh Kasaei",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 59,
   "openalex_id": "https://openalex.org/W2737327755",
@@ -2430,7 +2463,7 @@
    "scholar"
   ],
   "title": "Design and preliminary evaluation of team based competitions in video forecasting",
-  "type": "journal-article",
+  "type": "preprint",
   "year": 2017,
   "date": "2017-02-17",
   "url": "https://openreview.net/pdf?id=HkG1JKVKg",
@@ -2443,8 +2476,8 @@
    "Cécile Capponi",
    "Stéphane Ayache",
    "Xavier Baró",
-   "Julio C. S. Jacques",
-   "Sérgio Escalera"
+   "Julio C. S. Jacques Junior",
+   "Sergio Escalera"
   ],
   "cited_by": 0,
   "openalex_id": "https://openalex.org/W2912020989",
@@ -2456,7 +2489,9 @@
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0
-  }
+  },
+  "venue": "OpenReview",
+  "note": "Only record is an OpenReview manuscript (HkG1JKVKg, 2017-02-17); OpenAlex: no source, is_published=false; no DOI in Crossref. Not a journal article."
  },
  {
   "id": "doi:10.1109/ijcnn.2017.7966320",
@@ -2478,8 +2513,8 @@
   "authors": [
    "Hugo Jair Escalante",
    "Isabelle Guyon",
-   "Sérgio Escalera",
-   "Julio C. S. Jacques",
+   "Sergio Escalera",
+   "Julio C. S. Jacques Junior",
    "Meysam Madadi",
    "Xavier Baró",
    "Stéphane Ayache",
@@ -2521,7 +2556,7 @@
    "cv"
   ],
   "title": "Dominant and Complementary Multi-Emotional Facial Expression Recognition Using C-Support Vector Classification",
-  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
+  "venue": "Proceedings of the 12th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2017)",
   "type": "conference-paper",
   "year": 2017,
   "doi": "10.1109/fg.2017.106",
@@ -2532,9 +2567,9 @@
    "Christer Loob",
    "Pejman Rasti",
    "Iiris Lüsi",
-   "Julio C. S. Jacques",
+   "Julio C. S. Jacques Junior",
    "Xavier Baró",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Tomasz Sapiński",
    "Dorota Kamińska",
    "Gholamreza Anbarjafari"
@@ -2559,7 +2594,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 18,
    "cited_by_crossref": 14
-  }
+  },
+  "note": "Scopus venue string was 499 characters long; replaced by the proceedings title."
  },
  {
   "id": "t:end-to-end-global-to-local-cnn-learning-for-hand-pose-recove-2017",
@@ -2614,7 +2650,7 @@
    "Umut Güçlü",
    "Yağmur Güçlütürk",
    "Meysam Madadi",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Jordi Gonzàlez",
    "Rob van Lier",
@@ -2662,7 +2698,7 @@
   "authors": [
    "Hugo Jair Escalante",
    "Víctor Ponce-López",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Alicia Morales-Reyes",
    "José Martínez-Carranza"
@@ -2710,6 +2746,46 @@
   }
  },
  {
+  "id": "doi:10.1109/fg.2017.133",
+  "status": "confirmed",
+  "sources": [
+   "orcid",
+   "openalex",
+   "scholar",
+   "cv"
+  ],
+  "title": "Exploiting feature Representations Through Similarity Learning and Ranking Aggregation for Person Re-identification",
+  "venue": "Proceedings of the 12th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2017)",
+  "type": "conference-paper",
+  "year": 2017,
+  "doi": "10.1109/fg.2017.133",
+  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85026311716&partnerID=MN8TOARS",
+  "orcid_put_code": 35804276,
+  "date": "2017-05-01",
+  "authors": [
+   "Julio C. S. Jacques Junior",
+   "Xavier Baró",
+   "Sergio Escalera"
+  ],
+  "cited_by": 0,
+  "abstract": "Person re-identification has received special attentionby the human analysis community in the last few years.To address the challenges in this field, many researchers haveproposed different strategies, which basically exploit eithercross-view invariant features or cross-view robust metrics. Inthis work we propose to combine different feature representationsthrough ranking aggregation. Spatial information, whichpotentially benefits the person matching, is represented usinga 2D body model, from which color and texture informationare extracted and combined. We also consider contextualinformation (background and foreground data), automaticallyextracted via Deep Decompositional Network, and the usage ofConvolutional Neural Network (CNN) features. To describe thematching between images we use the polynomial feature map,also taking into account local and global information. Finally,the Stuart ranking aggregation method is employed to combinecomplementary ranking lists obtained from different featurerepresentations. Experimental results demonstrated that weimprove the state-of-the-art on VIPeR and PRID450s datasets,achieving 58.77% and 71.56% on top-1 rank recognitionrate, respectively, as well as obtaining competitive results onCUHK01 dataset.",
+  "openalex_id": "https://openalex.org/W2724353308",
+  "issn_l": "1541-5058",
+  "scholar_key": "juniorexploiting",
+  "doi_check": {
+   "checked": "2026-11-14",
+   "doi": "10.1109/fg.2017.133",
+   "registry": "crossref",
+   "title_sim": 1.0,
+   "author_ok": true,
+   "year_ok": true,
+   "registry_title": "Exploiting feature Representations Through Similarity Learning and Ranking Aggregation for Person Re-identification",
+   "registry_year": 2017,
+   "status": "verified"
+  },
+  "note": "Scopus venue string was 499 characters long; replaced by the proceedings title."
+ },
+ {
   "id": "doi:10.1109/fg.2017.102",
   "status": "confirmed",
   "sources": [
@@ -2719,7 +2795,7 @@
    "cv"
   ],
   "title": "Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation: Databases",
-  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
+  "venue": "Proceedings of the 12th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2017)",
   "type": "conference-paper",
   "year": 2017,
   "doi": "10.1109/fg.2017.102",
@@ -2728,10 +2804,10 @@
   "date": "2017-05-01",
   "authors": [
    "Iiris Lüsi",
-   "Julio C. S. Jacques",
+   "Julio C. S. Jacques Junior",
    "Jelena Gorbova",
    "Xavier Baró",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Hasan Demirel",
    "Jüri Allïk",
    "Cagri Ozcinar",
@@ -2757,11 +2833,12 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 45,
    "cited_by_crossref": 38
-  }
+  },
+  "note": "Scopus venue string was 499 characters long; replaced by the proceedings title."
  },
  {
   "id": "t:multimodal-gesture-recognition-based-on-the-resc3d-network-2017",
-  "status": "confirmed",
+  "status": "rejected",
   "sources": [
    "scholar"
   ],
@@ -2785,7 +2862,8 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "note": "Crossref 10.1109/iccvw.2017.360 authors: Miao, Li, Ouyang, Ma, Xu, Shi, Cao (no Baró); Scholar bib also lacks him; Scholar mis-attribution."
  },
  {
   "id": "doi:10.1109/fg.2017.37",
@@ -2797,7 +2875,7 @@
    "cv"
   ],
   "title": "Occlusion Aware Hand Pose Recovery from Sequences of Depth Images",
-  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
+  "venue": "Proceedings of the 12th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2017)",
   "type": "conference-paper",
   "year": 2017,
   "doi": "10.1109/fg.2017.37",
@@ -2806,7 +2884,7 @@
   "date": "2017-05-01",
   "authors": [
    "Meysam Madadi",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Alex Carruesco",
    "Carlos Andújar",
    "Xavier Baró",
@@ -2832,7 +2910,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 17,
    "cited_by_crossref": 14
-  }
+  },
+  "note": "Scopus venue string was 499 characters long; replaced by the proceedings title."
  },
  {
   "id": "doi:10.1109/iccvw.2017.377",
@@ -2853,7 +2932,7 @@
   "date": "2017-10-01",
   "authors": [
    "Jun Wan",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Gholamreza Anbarjafari",
    "Hugo Jair Escalante",
    "Xavier Baró",
@@ -2905,7 +2984,7 @@
   "date": "2017-10-01",
   "authors": [
    "Yağmur Güçlütürk",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Marcel A. J. van Gerven",
    "Rob van Lier",
    "Umut Güçlü",
@@ -2914,7 +2993,7 @@
    "Xavier Baró",
    "Carlos Andújar",
    "Isabelle Guyon",
-   "Julio C. S. Jacques",
+   "Julio C. S. Jacques Junior",
    "Meysam Madadi"
   ],
   "cited_by": 25,
@@ -3018,7 +3097,7 @@
   "authors": [
    "Fernando Alonso",
    "Xavier Baró",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Jordi Gonzàlez",
    "Martha Mackay",
    "Anna Serrahima"
@@ -3047,7 +3126,7 @@
    "cites_scopus": 0,
    "jcr_if": 2.23,
    "sjr": 0.864,
-   "jcr_quartile": "Q2",
+   "jcr_quartile": "Q4",
    "sjr_quartile": "Q1",
    "jcr_category": "Health Care Sciences & Services",
    "sjr_category": "Health (social science)",
@@ -3063,7 +3142,8 @@
    "journal": "International Journal of Integrated Care",
    "oa_2yr_mean_citedness": 0.43,
    "oa_h_index": 79
-  }
+  },
+  "note": "CV B.1 gives JCR ranking 35/39 (=0.90, Q4) but quartile Q2: internally inconsistent; publish Q4 consistent with the ranking. Owner to confirm in JCR."
  },
  {
   "id": "doi:10.1109/icpr.2016.7899609",
@@ -3088,7 +3168,7 @@
    "Michael Alexander Riegler",
    "Baiyu Chen",
    "Albert Clapés",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Isabelle Guyon",
    "Xavier Baró",
    "Pål Halvorsen",
@@ -3127,7 +3207,7 @@
   ],
   "title": "Chalearn LAP 2016: First round challenge on first impressions - Dataset and results",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2016,
   "doi": "10.1007/978-3-319-49409-8_32",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85006056475&partnerID=MN8TOARS",
@@ -3142,7 +3222,7 @@
    "Isabelle Guyon",
    "Xavier Baró",
    "Hugo Jair Escalante",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 226,
   "openalex_id": "https://openalex.org/W2573933330",
@@ -3170,7 +3250,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 226,
    "cited_by_crossref": 143
-  }
+  },
+  "note": "Crossref book-chapter in LNCS 'Computer Vision – ECCV 2016 Workshops' (workshop paper, not a book)."
  },
  {
   "id": "doi:10.1109/cvprw.2016.93",
@@ -3180,7 +3261,7 @@
    "openalex",
    "scholar"
   ],
-  "title": "ChaLearn Looking at People and Faces of the World: Face AnalysisWorkshop and Challenge 2016",
+  "title": "ChaLearn Looking at People and Faces of the World: Face Analysis Workshop and Challenge 2016",
   "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops",
   "type": "conference-paper",
   "year": 2016,
@@ -3189,7 +3270,7 @@
   "orcid_put_code": 35804283,
   "date": "2016-06-01",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Mohammad Ali Bagheri",
    "Michel Valstar",
    "Mercedes Torres Torres",
@@ -3220,7 +3301,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 107,
    "cited_by_crossref": 43
-  }
+  },
+  "note": "Missing space in title."
  },
  {
   "id": "t:from-geospatial-observations-of-ocean-currents-to-causal-pre-2016",
@@ -3238,7 +3320,7 @@
   "authors": [
    "Florin Popescu",
    "Stéphane Ayache",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Cécile Capponi",
    "Patrick Panciatici",
@@ -3254,7 +3336,9 @@
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0
-  }
+  },
+  "public": false,
+  "note": "Hidden from the site until verified: EGU abstract; owner to decide"
  },
  {
   "id": "doi:10.1109/tpami.2016.2557878",
@@ -3275,7 +3359,7 @@
   "orcid_put_code": 35804284,
   "date": "2016-07-01",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Jordi Gonzàlez",
    "Xavier Baró",
    "Jamie Shotton"
@@ -3326,7 +3410,9 @@
    "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
    "oa_2yr_mean_citedness": 25.71,
    "oa_h_index": 575
-  }
+  },
+  "genre": "editorial",
+  "note": "Guest editorial / special-issue introduction (Crossref journal-article, CV B.1); type kept so it stays listed, 'genre' marks it for labelling."
  },
  {
   "id": "doi:10.1016/b978-0-12-803637-2.09988-7",
@@ -3430,7 +3516,7 @@
   ],
   "title": "Towards an Adaptive e-Assessment System Based on Trustworthiness",
   "venue": "Formative Assessment, Learning Data Analytics and Gamification: In ICT Education",
-  "type": "book",
+  "type": "book-chapter",
   "year": 2016,
   "doi": "10.1016/b978-0-12-803637-2.00002-6",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84987920176&partnerID=MN8TOARS",
@@ -3465,7 +3551,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 16,
    "cited_by_crossref": 8
-  }
+  },
+  "note": "Crossref book-chapter in 'Formative Assessment, Learning Data Analytics and Gamification'; CV B.3 book chapter."
  },
  {
   "id": "doi:10.1109/cvprw.2015.7301329",
@@ -3491,7 +3578,7 @@
    "Marc Oliu",
    "Hugo Jair Escalante",
    "Isabelle Guyon",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 41,
   "abstract": "Following previous series on Looking at People (LAP) challenges [6, 5, 4], ChaLearn ran two competitions to be presented at CVPR 2015: action/interaction spotting and cultural event recognition in RGB data. We ran a second round on human activity recognition on RGB data sequences. In terms of cultural event recognition, tens of categories have to be recognized. This involves scene understanding and human analysis. This paper summarizes the two challenges and the obtained results. Details of the ChaLearn LAP competitions can be found at http://gesture.chalearn.org/.",
@@ -3532,7 +3619,7 @@
   "orcid_put_code": 35804277,
   "date": "2015-07-01",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Jordi Gonzàlez",
    "Xavier Baró",
    "Pablo Llopis Pardo",
@@ -3582,7 +3669,7 @@
   "orcid_put_code": 35804282,
   "date": "2015-12-01",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Junior Fabián",
    "Pablo Llopis Pardo",
    "Xavier Baró",
@@ -3616,7 +3703,7 @@
  },
  {
   "id": "t:chalearn-looking-at-people-2015-dataset-and-results-action-s-2015",
-  "status": "confirmed",
+  "status": "duplicate",
   "sources": [
    "scholar"
   ],
@@ -3641,7 +3728,9 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "duplicate_of": "doi:10.1109/cvprw.2015.7301329",
+  "note": "Scholar-only variant title of the CVPRW 2015 paper (Crossref 10.1109/cvprw.2015.7301329, same first author Baró, same venue/year/topic)."
  },
  {
   "id": "doi:10.1007/978-3-319-16178-5_32",
@@ -3654,14 +3743,14 @@
   ],
   "title": "Chalearn looking at people challenge 2014: Dataset and results",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2015,
   "doi": "10.1007/978-3-319-16178-5_32",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84925310875&partnerID=MN8TOARS",
   "orcid_put_code": 17518679,
   "date": "2015-01-01",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Jordi Gonzàlez",
    "Miguel Ángel Bautista",
@@ -3691,7 +3780,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 215,
    "cited_by_crossref": 98
-  }
+  },
+  "note": "Crossref book-chapter in LNCS 'Computer Vision - ECCV 2014 Workshops'; CV B.5 conference paper."
  },
  {
   "id": "doi:10.1109/ipta.2015.7367098",
@@ -3711,7 +3801,7 @@
   "date": "2015-11-01",
   "authors": [
    "Kamal Nasrollahi",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Pejman Rasti",
    "Gholamreza Anbarjafari",
    "Xavier Baró",
@@ -3789,7 +3879,7 @@
   "authors": [
    "Víctor Ponce-López",
    "Hugo Jair Escalante",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró"
   ],
   "cited_by": 10,
@@ -3833,7 +3923,7 @@
   "authors": [
    "Hugo Jair Escalante",
    "José Martínez-Carranza",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Víctor Ponce-López",
    "Xavier Baró"
   ],
@@ -3879,7 +3969,7 @@
   "date": "2015-09-02",
   "authors": [
    "Víctor Ponce-López",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Marc Pérez",
    "Oriol Janés",
    "Xavier Baró"
@@ -3989,7 +4079,7 @@
   "date": "2013-06-26",
   "authors": [
    "Miguel Ángel Bautista",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol"
   ],
@@ -4058,7 +4148,7 @@
    "Miguel Ángel Bautista",
    "Xavier Perez-Sala",
    "Víctor Ponce-López",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol",
    "Cecilio Ángulo"
@@ -4174,7 +4264,7 @@
   "orcid_put_code": 17518683,
   "date": "2013-11-27",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Jordi Gonzàlez",
    "Xavier Baró",
    "Miguel Reyes",
@@ -4219,7 +4309,7 @@
   ],
   "title": "Emotion detection using hybrid structural and appearance descriptors",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2013,
   "doi": "10.1007/978-3-642-41550-0_10",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84893274370&partnerID=MN8TOARS",
@@ -4250,7 +4340,32 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
    "cited_by_crossref": 0
-  }
+  },
+  "note": "Crossref book-chapter in LNCS 'Modeling Decisions for Artificial Intelligence'; CV B.5 (MDAI 2013)."
+ },
+ {
+  "id": "t:experiencia-de-aprendizaje-de-programacion-basada-en-proyect-nd",
+  "status": "confirmed",
+  "sources": [
+   "scholar"
+  ],
+  "title": "Experiencia de aprendizaje de programación basada en proyectos",
+  "type": "conference-paper",
+  "authors": [
+   "Laura Igual",
+   "Xavier Baró"
+  ],
+  "scholar_key": "igualexperiencia",
+  "doi_check": {
+   "checked": "2026-11-13",
+   "status": "none_found"
+  },
+  "metrics": {
+   "as_of": "2026-11-13"
+  },
+  "year": 2013,
+  "venue": "Actas del Simposio-Taller sobre estrategias y herramientas para el aprendizaje y la evaluación (Jenui 2013), Castellón, pp. 27-34",
+  "note": "Jenui 2013 Simposio-Taller proceedings (UJI, e-ISBN 978-84-695-8091-2): table of contents lists this title by Laura Igual y Xavier Baró, p. 27."
  },
  {
   "id": "doi:10.1145/2522848.2532595",
@@ -4270,7 +4385,7 @@
   "orcid_put_code": 17518684,
   "date": "2013-11-27",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Jordi Gonzàlez",
    "Xavier Baró",
    "Miguel Reyes",
@@ -4319,7 +4434,7 @@
   "date": "2013-11-27",
   "authors": [
    "Víctor Ponce-López",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró"
   ],
   "cited_by": 17,
@@ -4386,7 +4501,7 @@
   ],
   "title": "Probability-based dynamic time warping for gesture recognition on RGB-D data",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2013,
   "doi": "10.1007/978-3-642-40303-3_14",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84883269382&partnerID=MN8TOARS",
@@ -4400,7 +4515,7 @@
    "Xavier Baró",
    "Oriol Pujol",
    "Cecilio Ángulo",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 38,
   "openalex_id": "https://openalex.org/W72718568",
@@ -4421,7 +4536,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 38,
    "cited_by_crossref": 16
-  }
+  },
+  "note": "Crossref book-chapter in LNCS 'Advances in Depth Image Analysis and Applications'; CV B.5 conference paper."
  },
  {
   "id": "doi:10.1007/978-3-642-34166-3_82",
@@ -4434,7 +4550,7 @@
   ],
   "title": "A genetic inspired optimization for ECOC",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2012,
   "doi": "10.1007/978-3-642-34166-3_82",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84868146642&partnerID=MN8TOARS",
@@ -4442,7 +4558,7 @@
   "date": "2012-01-01",
   "authors": [
    "Miguel Ángel Bautista",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol"
   ],
@@ -4465,7 +4581,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
    "cited_by_crossref": 0
-  }
+  },
+  "note": "Crossref book-chapter in LNCS 'Structural, Syntactic, and Statistical Pattern Recognition' (S+SSPR 2012); CV B.5."
  },
  {
   "id": "t:bovdw-bag-of-visual-and-depth-words-for-gesture-recognition-2012",
@@ -4491,7 +4608,7 @@
    "Xavier Baró",
    "Oriol Pujol",
    "Cecilio Ángulo",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 32,
   "abstract": "We present a Bag-of-Visual-and-Depth-Words (BoVDW) model for gesture recognition, an extension of the Bag-of-Visual-Words (BoVW) model, that benefits from the multimodal fusion of visual and depth features. State-of-the-art RGB and depth features, including a new proposed depth descriptor, are analysed and combined in a late fusion fashion. The method is integrated in a continuous gesture recognition pipeline, where Dynamic Time Warping (DTW) algorithm is used to perform prior segmentation of gestures. Results of the method in public data sets, within our gesture recognition pipeline, show better performance in comparison to a standard BoVW model.",
@@ -4526,10 +4643,10 @@
   "date": "2011-10-25",
   "authors": [
    "Miguel Ángel Bautista",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
-   "Petia I. Radeva",
-   "Jordi M. Vitria",
+   "Petia Radeva",
+   "Jordi Vitrià",
    "Oriol Pujol"
   ],
   "cited_by": 46,
@@ -4592,7 +4709,7 @@
   "url": "http://hdl.handle.net/2099.1/16087",
   "authors": [
    "Víctor Ponce-López",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró"
   ],
   "cited_by": 0,
@@ -4647,10 +4764,10 @@
   "orcid_put_code": 17518667,
   "date": "2012-02-07",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
-   "Jordi M. Vitria",
-   "Petia I. Radeva",
+   "Jordi Vitrià",
+   "Petia Radeva",
    "Bogdan Raducanu"
   ],
   "cited_by": 11,
@@ -4703,9 +4820,9 @@
    "scholar"
   ],
   "title": "Social signal analysis in criminal mediation processes",
-  "type": "journal-article",
+  "type": "conference-paper",
   "authors": [
-   "V\\ictor Ponce",
+   "Víctor Ponce",
    "Sergio Escalera",
    "Xavier Baró"
   ],
@@ -4718,7 +4835,8 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "note": "Venue 'Advances in Theory and Applications of Computer Vision, CVCR&D' (CVCRD 2012 workshop proceedings); 'V\\ictor' LaTeX residue from Scholar fixed."
  },
  {
   "id": "t:uoc-api-site-a-seed-for-new-elearning-applications-2012",
@@ -4770,8 +4888,8 @@
    "Víctor Ponce-López",
    "Mario Gorga",
    "Xavier Baró",
-   "Petia I. Radeva",
-   "Sérgio Escalera"
+   "Petia Radeva",
+   "Sergio Escalera"
   ],
   "cited_by": 1,
   "abstract": "La comunicacion y expresion oral es una competencia de especial relevancia en el EEES. No obstante, en muchas ensenanzas superiores la puesta en practica de esta competencia ha sido relegada principalmente a la presentacion de proyectos fin de carrera. Dentro de un proyecto de innovacion docente, se ha desarrollado una herramienta informatica para la extraccion de informacion objetiva para el analisis de la expresion oral y gestual de los alumnos. El objetivo es dar un “feedback” a los estudiantes que les permita mejorar la calidad de sus presentaciones. El prototipo inicial que se presenta en este trabajo permite extraer de forma automatica informacion audiovisual y analizarla mediante tecnicas de aprendizaje. El sistema ha sido aplicado a 15 proyectos fin de carrera y 15 exposiciones dentro de una asignatura de cuarto curso. Los resultados obtenidos muestran la viabilidad del sistema para sugerir factores que ayuden tanto en el exito de la comunicacion asi como en los criterios de evaluacion.",
@@ -4792,7 +4910,7 @@
  },
  {
   "id": "doi:10.1007/978-1-4471-2245-6_2",
-  "status": "confirmed",
+  "status": "duplicate",
   "sources": [
    "openalex",
    "scholar"
@@ -4805,11 +4923,11 @@
   "doi": "10.1007/978-1-4471-2245-6_2",
   "url": "https://doi.org/10.1007/978-1-4471-2245-6_2",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol",
-   "Jordi M. Vitria",
-   "Petia I. Radeva"
+   "Jordi Vitrià",
+   "Petia Radeva"
   ],
   "cited_by": 15,
   "openalex_id": "https://openalex.org/W193131875",
@@ -4830,11 +4948,13 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 15,
    "cited_by_crossref": 10
-  }
+  },
+  "duplicate_of": "doi:10.1007/978-1-4471-2245-6",
+  "note": "Crossref book-chapter 2 of the SpringerBrief 'Traffic-Sign Recognition Systems' (2011); the book itself is listed (CV B.3)."
  },
  {
   "id": "doi:10.1007/978-1-4471-2245-6_6",
-  "status": "rejected",
+  "status": "duplicate",
   "sources": [
    "openalex"
   ],
@@ -4846,16 +4966,17 @@
   "doi": "10.1007/978-1-4471-2245-6_6",
   "url": "https://doi.org/10.1007/978-1-4471-2245-6_6",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol",
-   "Jordi M. Vitria",
-   "Petia I. Radeva"
+   "Jordi Vitrià",
+   "Petia Radeva"
   ],
   "cited_by": 0,
   "openalex_id": "https://openalex.org/W4240673393",
   "issn_l": "2191-5768",
-  "note": "Section of the book 'Traffic-Sign Recognition Systems' (already listed as the book); not on Scholar/CV."
+  "note": "Section of the book 'Traffic-Sign Recognition Systems' (already listed as the book); not on Scholar/CV. Chapter 'Conclusion' of the Traffic-Sign Recognition Systems book (as chapters _1.._5): duplicate of the book, not 'not mine'.",
+  "duplicate_of": "doi:10.1007/978-1-4471-2245-6"
  },
  {
   "id": "doi:10.5591/978-1-57735-516-8/ijcai11-490",
@@ -4870,29 +4991,29 @@
   "venue": "IJCAI International Joint Conference on Artificial Intelligence",
   "type": "conference-paper",
   "year": 2011,
-  "doi": "10.5591/978-1-57735-516-8/ijcai11-490",
-  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84881069227&partnerID=MN8TOARS",
+  "doi": null,
+  "url": "https://www.ijcai.org/Proceedings/11/Papers/490.pdf",
   "orcid_put_code": 17518689,
   "date": "2011-07-16",
   "authors": [
    "Víctor Ponce-López",
    "Mario Gorga",
    "Xavier Baró",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 7,
   "abstract": "Human Behavior Analysis in Uncontrolled Environments can be categorized in two main challenges: 1) Feature extraction and 2) Behavior analysis from a set of corporal language vocabulary. In this work, we present our achievements characterizing some simple behaviors from visual data on \\ndifferent real applications and discuss our plan for \\nfuture work: low level vocabulary definition from \\nbag-of-gesture units and high level modelling and \\ninference of human behaviors.",
   "openalex_id": "https://openalex.org/W2264199406",
   "scholar_key": "ponce2011human",
   "doi_check": {
-   "checked": "2026-11-13",
-   "doi": "10.5591/978-1-57735-516-8/ijcai11-490",
-   "status": "unresolved"
+   "checked": "2026-11-14",
+   "status": "none_found"
   },
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 7
-  }
+  },
+  "note": "Auditor: DOI 10.5591/978-1-57735-516-8/ijcai11-490 is not registered (doi.org 404); ijcai.org lists the paper as IJCAI-11 paper 490. Use the proceedings PDF instead."
  },
  {
   "id": "doi:10.1007/978-3-642-21557-5_25",
@@ -4905,7 +5026,7 @@
   ],
   "title": "Introducing the separability matrix for error correcting output codes coding",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2011,
   "doi": "10.1007/978-3-642-21557-5_25",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-80053010140&partnerID=MN8TOARS",
@@ -4915,7 +5036,7 @@
    "Miguel Ángel Bautista",
    "Oriol Pujol",
    "Xavier Baró",
-   "Sérgio Escalera"
+   "Sergio Escalera"
   ],
   "cited_by": 2,
   "openalex_id": "https://openalex.org/W2228647239",
@@ -4936,11 +5057,12 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 2,
    "cited_by_crossref": 2
-  }
+  },
+  "note": "Crossref book-chapter in LNCS 'Multiple Classifier Systems' (MCS 2011); CV B.5; Scholar inproceedings."
  },
  {
   "id": "doi:10.1007/978-1-4471-2245-6_1",
-  "status": "confirmed",
+  "status": "duplicate",
   "sources": [
    "orcid",
    "openalex",
@@ -4955,11 +5077,11 @@
   "orcid_put_code": 97804749,
   "date": "2011-01-01",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol",
-   "Jordi M. Vitria",
-   "Petia I. Radeva"
+   "Jordi Vitrià",
+   "Petia Radeva"
   ],
   "cited_by": 0,
   "openalex_id": "https://openalex.org/W4233999389",
@@ -4980,7 +5102,9 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
    "cited_by_crossref": 0
-  }
+  },
+  "duplicate_of": "doi:10.1007/978-1-4471-2245-6",
+  "note": "Crossref book-chapter 1 of the SpringerBrief 'Traffic-Sign Recognition Systems' (2011); the book itself is listed (CV B.3)."
  },
  {
   "id": "doi:10.1007/978-3-642-22910-7_2",
@@ -4991,8 +5115,8 @@
    "scholar"
   ],
   "title": "On the design of low redundancy error-correcting output codes",
-  "venue": "Studies in Computational Intelligence",
-  "type": "book",
+  "venue": "Ensembles in Machine Learning Applications (Studies in Computational Intelligence)",
+  "type": "book-chapter",
   "year": 2011,
   "doi": "10.1007/978-3-642-22910-7_2",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-80054761305&partnerID=MN8TOARS",
@@ -5000,11 +5124,11 @@
   "date": "2011-01-01",
   "authors": [
    "Miguel Ángel Bautista",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol",
-   "Jordi M. Vitria",
-   "Petia I. Radeva"
+   "Jordi Vitrià",
+   "Petia Radeva"
   ],
   "cited_by": 1,
   "openalex_id": "https://openalex.org/W147697501",
@@ -5025,11 +5149,12 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 1,
    "cited_by_crossref": 1
-  }
+  },
+  "note": "Crossref book-chapter in the edited volume 'Ensembles in Machine Learning Applications' (SCI series), not a book."
  },
  {
   "id": "doi:10.1007/978-1-4471-2245-6_4",
-  "status": "confirmed",
+  "status": "duplicate",
   "sources": [
    "orcid",
    "openalex",
@@ -5044,11 +5169,11 @@
   "orcid_put_code": 97804743,
   "date": "2011-01-01",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol",
-   "Jordi M. Vitria",
-   "Petia I. Radeva"
+   "Jordi Vitrià",
+   "Petia Radeva"
   ],
   "cited_by": 0,
   "openalex_id": "https://openalex.org/W97113812",
@@ -5069,11 +5194,13 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 0,
    "cited_by_crossref": 0
-  }
+  },
+  "duplicate_of": "doi:10.1007/978-1-4471-2245-6",
+  "note": "Crossref book-chapter 4 of the SpringerBrief 'Traffic-Sign Recognition Systems' (2011); the book itself is listed (CV B.3)."
  },
  {
   "id": "doi:10.1007/978-1-4471-2245-6_3",
-  "status": "confirmed",
+  "status": "duplicate",
   "sources": [
    "orcid",
    "openalex",
@@ -5088,11 +5215,11 @@
   "orcid_put_code": 97804742,
   "date": "2011-01-01",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol",
-   "Jordi M. Vitria",
-   "Petia I. Radeva"
+   "Jordi Vitrià",
+   "Petia Radeva"
   ],
   "cited_by": 3,
   "openalex_id": "https://openalex.org/W2241703800",
@@ -5113,11 +5240,13 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 3,
    "cited_by_crossref": 1
-  }
+  },
+  "duplicate_of": "doi:10.1007/978-1-4471-2245-6",
+  "note": "Crossref book-chapter 3 of the SpringerBrief 'Traffic-Sign Recognition Systems' (2011); the book itself is listed (CV B.3)."
  },
  {
   "id": "doi:10.1007/978-1-4471-2245-6_5",
-  "status": "confirmed",
+  "status": "duplicate",
   "sources": [
    "orcid",
    "openalex",
@@ -5132,11 +5261,11 @@
   "orcid_put_code": 97804739,
   "date": "2011-01-01",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol",
-   "Jordi M. Vitria",
-   "Petia I. Radeva"
+   "Jordi Vitrià",
+   "Petia Radeva"
   ],
   "cited_by": 8,
   "openalex_id": "https://openalex.org/W37141559",
@@ -5157,7 +5286,9 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 8,
    "cited_by_crossref": 1
-  }
+  },
+  "duplicate_of": "doi:10.1007/978-1-4471-2245-6",
+  "note": "Crossref book-chapter 5 of the SpringerBrief 'Traffic-Sign Recognition Systems' (2011); the book itself is listed (CV B.3)."
  },
  {
   "id": "doi:10.1007/978-1-4471-2245-6",
@@ -5175,11 +5306,11 @@
   "doi": "10.1007/978-1-4471-2245-6",
   "url": "https://doi.org/10.1007/978-1-4471-2245-6",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol",
-   "Jordi M. Vitria",
-   "Petia I. Radeva"
+   "Jordi Vitrià",
+   "Petia Radeva"
   ],
   "cited_by": 27,
   "openalex_id": "https://openalex.org/W639861996",
@@ -5217,15 +5348,15 @@
    "scholar"
   ],
   "title": "Automatic Analysis of Non-verbal Communication",
-  "type": "journal-article",
+  "type": "conference-paper",
   "year": 2010,
   "date": "2010-10-01",
   "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.300.77",
   "authors": [
    "Víctor Ponce-López",
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
-   "Petia I. Radeva"
+   "Petia Radeva"
   ],
   "cited_by": 2,
   "abstract": "Oral expression and communication is one of the most important competencies for personal, academic, professional and civic life[3]. According to the American Society of Personnel Administrators [1], it is considered that a good oral communication skill is important for obtaining a job, and for a good efficiency at work [2]. The main objective of this project is to obtain a Software tool that is able to obtain a series of features of a subject from automatic audiovisual analysis. The extraction of the features obtained from the oral and nonverbal language is something of particular interest in the analysis of psychological factors that a subject presents. This analysis is useful to improve the quality of oral communication: presentations, job interviews, etc. This is the ultimate goal of the project. The system has been applied to 15 end career project videos and presentations of fourth course students. It has been created a version that analyzes a recording and other that makes it in realtime via WebCam. 1",
@@ -5239,7 +5370,8 @@
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 2
-  }
+  },
+  "note": "Venue is the 5th CVC Research and Development Workshop proceedings (CVCRD'10, pp. 105-108 per Scholar), a workshop paper."
  },
  {
   "id": "t:combining-detectors-for-human-layout-analysis-2010",
@@ -5250,9 +5382,9 @@
   "title": "Combining Detectors for Human Layout Analysis",
   "type": "conference-paper",
   "authors": [
-   "X Baró",
-   "David Masip Rodo",
-   "Àgata Lapedriza Garcia"
+   "Xavier Baró",
+   "David Masip",
+   "Àgata Lapedriza"
   ],
   "year": 2010,
   "venue": "11th European Conference on Computer Vision, The Pascal Visual Object Classes Challenge Workshop 2010, 2010, p. 1",
@@ -5275,14 +5407,14 @@
   "title": "Compact Design of ECOC for Multi-class Object Categorization",
   "year": 2010,
   "authors": [
-   "Baró Solé, Xavier",
-   "Pujol Vila, Oriol",
-   "Vitria Marca, Jordi",
-   "Ivanova Radeva, Petia"
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Jordi Vitrià",
+   "Petia Radeva"
   ],
   "repository_url": "https://hdl.handle.net/123456789/126420589",
-  "type": "journal-article",
-  "venue": "Proc. 5th CVCRD",
+  "type": "conference-paper",
+  "venue": "5th CVC Research and Development Workshop (CVCRD 2010), pp. 54-57",
   "scholar_key": "bautista2010compact",
   "doi_check": {
    "checked": "2026-11-13",
@@ -5290,7 +5422,9 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "note": "Workshop paper (Scholar 'Proc. 5th CVCRD' pp. 54-57); no DOI. Authors kept from PRC record (names normalised); Scholar adds Bautista and Escalera: OWNER QUESTION. Hidden from the site until verified: author list unverified (P8)",
+  "public": false
  },
  {
   "id": "t:compact-evolutive-design-of-error-correcting-output-codes-2010",
@@ -5302,7 +5436,7 @@
   "title": "Compact evolutive design of error-correcting output codes",
   "type": "conference-paper",
   "authors": [
-   "Miguel A Bautista",
+   "Miguel Ángel Bautista",
    "Xavier Baró",
    "Oriol Pujol",
    "Petia Radeva",
@@ -5346,9 +5480,9 @@
   "orcid_put_code": 17518672,
   "date": "2010-11-08",
   "authors": [
-   "Sérgio Escalera",
-   "Petia I. Radeva",
-   "Jordi M. Vitria",
+   "Sergio Escalera",
+   "Petia Radeva",
+   "Jordi Vitrià",
    "Xavier Baró",
    "Bogdan Raducanu"
   ],
@@ -5388,9 +5522,9 @@
   "date": "2010-07-07",
   "url": "http://hdl.handle.net/2099/11761",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
-   "Petia I. Radeva"
+   "Petia Radeva"
   ],
   "cited_by": 0,
   "abstract": "La comunicación y expresión oral es una competencia de especial relevancia en el EEES. No obstante, en muchas enseñanzas superiores la puesta en práctica de esta competencia ha sido relegada principalmente a la presentación de proyectos fin de carrera. Dentro de un proyecto de innovación docente, se ha desarrollado una herramienta informática para la extracción de información objetiva para el análisis de la expresión oral y gestual de los alumnos. El objetivo es dar un “feedback” a los estudiantes que les permita mejorar la calidad de sus presentaciones.El prototipo inicial que se presenta en este trabajo permite extraer de forma automática información audio-visual y analizarla mediante técnicas de aprendizaje. El sistema ha sido aplicado a 15 proyectos fin de carrera y 15 exposiciones dentro de una asignatura de cuarto curso. Los resultados obtenidos muestran la viabilidad del sistema para sugerir factores que ayuden tanto en el éxito de la comunicación así como en los criterios de evaluación.",
@@ -5429,7 +5563,9 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "public": false,
+  "note": "Hidden from the site until verified: edited proceedings; owner to decide"
  },
  {
   "id": "t:asociacionismo-y-ciudadania-en-los-jovenes-mediterraneos-2009",
@@ -5462,7 +5598,7 @@
   ],
   "title": "Generic object recognition in urban image databases",
   "venue": "Frontiers in Artificial Intelligence and Applications",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2009,
   "doi": "10.3233/978-1-60750-061-2-27",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-72749101771&partnerID=MN8TOARS",
@@ -5470,9 +5606,9 @@
   "date": "2009-01-01",
   "authors": [
    "Xavier Baró",
-   "Sérgio Escalera",
-   "Petia I. Radeva",
-   "Jordi M. Vitria"
+   "Sergio Escalera",
+   "Petia Radeva",
+   "Jordi Vitrià"
   ],
   "cited_by": 4,
   "abstract": "In this paper we propose the construction of a visual content layer which describes the visual appearance of geographic locations in a city. We captured, by means of a Mobile Mapping system, a huge set of georeferenced images (>500K) which cover the whole city of Barcelona. For each image, hundreds of region descriptions are computed off-line and described as a hash code. All this information is extracted without an object of reference, which allows to search for any type of objects using their visual appearance. A new Visual Content layer is built over Google Maps, allowing the object recognition information to be organized and fused with other content, like satellite images, street maps, and business locations.",
@@ -5494,7 +5630,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 4,
    "cited_by_crossref": 0
-  }
+  },
+  "note": "Crossref book-chapter in FAIA 'Artificial Intelligence Research and Development' (CCIA 2009 proceedings); CV B.5."
  },
  {
   "id": "t:probabilistic-darwin-machines-for-object-detection-2009",
@@ -5514,7 +5651,7 @@
   "date": "2009-07-01",
   "authors": [
    "Xavier Baró",
-   "Jordi M. Vitria"
+   "Jordi Vitrià"
   ],
   "cited_by": 2,
   "abstract": "Since the apparition of the first object detection systems in the late 1960s, the complexity of faced scenarios has been continuously growing. From a small set of simple objects in a homogeneous background, where simple alignment strategies or the use of geometric primitives were enough to recognize them, to nowadays, where we are dealing with sets of thousands of complex objects in cluttered scenes,\r\nwhere more sophisticated methods to describe and recognize\r\nobjects are necessary. In this paper, we present an approach\r\nto the object detection problem based on Probabilistic Darwin Machines (PDM), where one of the most used object\r\ndetection systems has been redefined in order to allow the\r\nuse large feature sets, which are able to better describe the objects. Two different PDM are used in combination with\r\na large set of visual features in order to learn an object\r\ndetection system for five different real world visual object\r\nclasses.",
@@ -5537,13 +5674,13 @@
    "cv"
   ],
   "title": "Probabilistic Darwin Machines: A new approach to develop Evolutionary Object Detection Systems",
-  "type": "other",
+  "type": "book",
   "authors": [
    "Xavier Baró"
   ],
   "year": 2009,
   "scholar_key": "baro2009probabilistic",
-  "venue": "Universitat Autònoma de Barcelona,",
+  "venue": "Ediciones Gráficas Rey, S.L. (Centre de Visió per Computador, UAB)",
   "doi_check": {
    "checked": "2026-11-13",
    "status": "none_found"
@@ -5553,7 +5690,9 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "isbn": "978-84-936529-2-0",
+  "note": "PhD thesis (UAB, defended 2009-04-03) also published as a book: ISBN 978-84-936529-2-0, copyright 2010, printed by Ediciones Gráficas Rey (TDX PDF copyright page). Owner chose to show year 2009. The Scholar 2010 entry is the same edition."
  },
  {
   "id": "doi:10.3233/978-1-60750-061-2-35",
@@ -5566,17 +5705,17 @@
   ],
   "title": "Text detection in urban scenes",
   "venue": "Frontiers in Artificial Intelligence and Applications",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2009,
   "doi": "10.3233/978-1-60750-061-2-35",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-72749083912&partnerID=MN8TOARS",
   "orcid_put_code": 17518675,
   "date": "2009-01-01",
   "authors": [
-   "Sérgio Escalera",
+   "Sergio Escalera",
    "Xavier Baró",
-   "Jordi M. Vitria",
-   "Petia I. Radeva"
+   "Jordi Vitrià",
+   "Petia Radeva"
   ],
   "cited_by": 10,
   "abstract": "Text detection in urban scenes is a hard task due to the high variability of text appearance: different text fonts, changes in the point of view, or partial occlusion are just a few problems. Text detection can be specially suited for georeferencing business, navigation, tourist assistance, or to help visual impaired people. In this paper, we propose a general methodology to deal with the problem of text detection in outdoor scenes. The method is based on learning spatial information of gradient based features and Census Transform images using a cascade of classifiers. The method is applied in the context of Mobile Mapping systems, where a mobile vehicle captures urban image sequences. Moreover, a cover data set is presented and tested with the new methodology. The results show high accuracy when detecting multi-linear text regions with high variability of appearance, at same time that it preserves a low false alarm rate compared to classical approaches.",
@@ -5598,7 +5737,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 10,
    "cited_by_crossref": 0
-  }
+  },
+  "note": "Crossref book-chapter in FAIA 'Artificial Intelligence Research and Development' (CCIA 2009 proceedings); CV B.5."
  },
  {
   "id": "doi:10.1109/tits.2008.2011702",
@@ -5620,10 +5760,10 @@
   "date": "2009-02-09",
   "authors": [
    "Xavier Baró",
-   "Sérgio Escalera",
-   "Jordi M. Vitria",
+   "Sergio Escalera",
+   "Jordi Vitrià",
    "Oriol Pujol",
-   "Petia I. Radeva"
+   "Petia Radeva"
   ],
   "cited_by": 197,
   "abstract": "The high variability of sign appearance in uncontrolled environments has made the detection and classification of road signs a challenging problem in computer vision. In this paper, we introduce a novel approach for the detection and classification of traffic signs. Detection is based on a boosted detectors cascade, trained with a novel evolutionary version of Adaboost, which allows the use of large feature spaces. Classification is defined as a multiclass categorization problem. A battery of classifiers is trained to split classes in an Error-Correcting Output Code (ECOC) framework. We propose an ECOC design through a forest of optimal tree structures that are embedded in the ECOC matrix. The novel system offers high performance and better accuracy than the state-of-the-art strategies and is potentially better in terms of noise, affine deformation, partial occlusions, and reduced illumination.",
@@ -5693,9 +5833,9 @@
   "date": "2009-06-01",
   "authors": [
    "Xavier Baró",
-   "Sérgio Escalera",
-   "Petia I. Radeva",
-   "Jordi M. Vitria"
+   "Sergio Escalera",
+   "Petia Radeva",
+   "Jordi Vitrià"
   ],
   "cited_by": 4,
   "abstract": "Rich online map interaction represents a useful tool to get multimedia information related to physical places. With this type of systems, users can automatically compute the optimal route for a trip or to look for entertainment places or hotels near their actual position. Standard maps are defined as a fusion of layers, where each one contains specific data such height, streets, or a particular business location. In this paper we propose the construction of a visual content layer which describes the visual appearance of geographic locations in a city. We captured, by means of a mobile mapping system, a huge set of georeferenced images (> 500 K) which cover the whole city of Barcelona. For each image, hundreds of region descriptions are computed off-line and described as a hash code. This allows an efficient and scalable way of accessing maps by visual content.",
@@ -5736,7 +5876,9 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "public": false,
+  "note": "Hidden from the site until verified: report without venue; owner to verify"
  },
  {
   "id": "doi:10.1007/978-3-540-78761-7_24",
@@ -5749,7 +5891,7 @@
   ],
   "title": "Evolutionary object detection by means of Naïve Bayes Models estimation",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2008,
   "doi": "10.1007/978-3-540-78761-7_24",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-47349107091&partnerID=MN8TOARS",
@@ -5757,7 +5899,7 @@
   "date": "2008-01-01",
   "authors": [
    "Xavier Baró",
-   "Jordi M. Vitria"
+   "Jordi Vitrià"
   ],
   "cited_by": 2,
   "openalex_id": "https://openalex.org/W1608608624",
@@ -5778,7 +5920,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 2,
    "cited_by_crossref": 1
-  }
+  },
+  "note": "Crossref book-chapter in LNCS 'Applications of Evolutionary Computing' (EvoWorkshops 2008); CV B.5."
  },
  {
   "id": "t:reconeixement-de-guals-en-entorns-urbans-2008",
@@ -5798,7 +5941,9 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "public": false,
+  "note": "Hidden from the site until verified: report without venue; owner to verify"
  },
  {
   "id": "doi:10.1007/978-3-540-79547-6_27",
@@ -5811,7 +5956,7 @@
   ],
   "title": "Weighted dissociated dipoles: An extended visual feature set",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2008,
   "doi": "10.1007/978-3-540-79547-6_27",
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-44649151671&partnerID=MN8TOARS",
@@ -5819,7 +5964,7 @@
   "date": "2008-05-08",
   "authors": [
    "Xavier Baró",
-   "Jordi M. Vitria"
+   "Jordi Vitrià"
   ],
   "cited_by": 2,
   "openalex_id": "https://openalex.org/W1535807159",
@@ -5839,7 +5984,8 @@
    "as_of": "2026-11-13",
    "cited_by_openalex": 2,
    "cited_by_crossref": 1
-  }
+  },
+  "note": "Crossref book-chapter in LNCS 'Computer Vision Systems' (ICVS 2008); CV B.5."
  },
  {
   "id": "t:two-level-gmm-clustering-of-human-poses-for-automatic-human--2007",
@@ -5850,12 +5996,12 @@
   "title": "Two-level GMM clustering of human poses for automatic human behavior analysis",
   "type": "journal-article",
   "authors": [
-   "V\\ictor Ponce",
+   "Víctor Ponce",
    "Miguel Reyes",
-   "Xavier Baro",
+   "Xavier Baró",
    "Mario Gorga",
    "Sergio Escalera",
-   "AG Keskar"
+   "A. G. Keskar"
   ],
   "year": 2007,
   "venue": "GVIP Journal",
@@ -5866,7 +6012,8 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "note": "Author names normalised ('V\\ictor' LaTeX residue from Scholar)."
  },
  {
   "id": "t:visual-features-selection-using-naive-bayes-models-2007",
@@ -5875,10 +6022,10 @@
    "scholar"
   ],
   "title": "Visual features selection using Naïve Bayes Models",
-  "type": "journal-article",
+  "type": "conference-paper",
   "authors": [
    "Xavier Baró",
-   "Jordi Vitria"
+   "Jordi Vitrià"
   ],
   "year": 2007,
   "venue": "Computer Vision: Process of research and development",
@@ -5889,7 +6036,8 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "note": "Venue 'Computer Vision: Process of research and development' (Scholar pp. 54-59) = 2nd CVC R&D Workshop proceedings (CVCRD 2007), workshop paper."
  },
  {
   "id": "t:weighted-dissociated-dipoles-for-evolutive-learning-2007",
@@ -5903,14 +6051,14 @@
   ],
   "title": "Weighted dissociated dipoles for evolutive learning",
   "venue": "Frontiers in Artificial Intelligence and Applications",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2007,
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84878032022&partnerID=MN8TOARS",
   "orcid_put_code": 17518691,
   "date": "2007-06-13",
   "authors": [
    "Xavier Baró",
-   "Jordi M. Vitria"
+   "Jordi Vitrià"
   ],
   "cited_by": 0,
   "abstract": "The complexity of any learning task depends as in the learning method as on finding a good representation of the data. In the concrete case of object recognition in computer vision, the representation of the images is one of the most important decisions in the design step. As a starting point, in this work we use the representation based on Haar-like filters, a biological inspired feature based on local intensity differences. From this commonly used representation, we jump to the dissociated dipoles, another biological plausible representation which also includes non-local comparisons. After analyzing the benefits of both representations, we present a more general representation which brings together all the good properties of Haar-like and dissociated dipoles representations. All these feature sets are tested with an evolutionary learning algorithm over different object recognition problems. Besides, an extended statistically study of these results is performed in order to verify the relevance of these huge feature spaces applied to different object recognition problems.",
@@ -5924,7 +6072,8 @@
   "metrics": {
    "as_of": "2026-11-13",
    "cited_by_openalex": 0
-  }
+  },
+  "note": "CV B.5 conference paper: FAIA vol. 163 'Artificial Intelligence Research and Development' (CCIA 2007), pp. 189-196."
  },
  {
   "id": "t:real-time-object-detection-using-an-evolutionary-boosting-st-2006",
@@ -5936,13 +6085,13 @@
   ],
   "title": "Real-time object detection using an evolutionary boosting strategy",
   "venue": "Frontiers in Artificial Intelligence and Applications",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2006,
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84878077781&partnerID=MN8TOARS",
   "orcid_put_code": 17518692,
   "authors": [
-   "Baró Solé, Xavier",
-   "Vitria Marca, Jordi"
+   "Xavier Baró",
+   "Jordi Vitrià"
   ],
   "repository_url": "https://hdl.handle.net/123456789/125853262",
   "scholar_key": "baro2006real",
@@ -5952,7 +6101,8 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "note": "Scholar/ORCID: FAIA vol. 146 (IOS Press), the CCIA 2006 'Artificial Intelligence Research and Development' proceedings, as the 2005/2007/2009 CCIA papers. | Author names normalised (PRC 'Baró Solé, Xavier; Vitria Marca, Jordi')."
  },
  {
   "id": "t:feature-selection-with-non-parametric-mutual-information-for-2005",
@@ -5964,13 +6114,13 @@
   ],
   "title": "Feature selection with non-parametric mutual information for adaboost learning",
   "venue": "Frontiers in Artificial Intelligence and Applications",
-  "type": "book",
+  "type": "conference-paper",
   "year": 2005,
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84878066410&partnerID=MN8TOARS",
   "orcid_put_code": 17518693,
   "authors": [
-   "Baró Solé, Xavier",
-   "Vitria Marca, Jordi"
+   "Xavier Baró",
+   "Jordi Vitrià"
   ],
   "repository_url": "https://hdl.handle.net/123456789/126248391",
   "scholar_key": "baro2005feature",
@@ -5980,7 +6130,8 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "note": "Scholar inproceedings 'Proceeding of the 2005 conference on Artificial Intelligence Research and Development' (IOS Press, FAIA), pp. 131-138. | Author names normalised (PRC 'Baró Solé, Xavier; Vitria Marca, Jordi')."
  },
  {
   "id": "t:fast-traffic-sign-detection-on-greyscale-images-2004",
@@ -5992,28 +6143,22 @@
   "title": "Fast Traffic Sign Detection on greyscale images",
   "year": 2004,
   "authors": [
-   "Baró Solé, Xavier",
-   "Vitria Marca, Jordi"
+   "Xavier Baró",
+   "Jordi Vitrià"
   ],
   "repository_url": "https://hdl.handle.net/123456789/126642028",
-  "type": "journal-article",
-  "venue": "Recent Advances in Artificial Intelligence Research and Development",
+  "type": "conference-paper",
+  "venue": "Recent Advances in Artificial Intelligence Research and Development (CCIA 2004, IOS Press), pp. 69-76",
   "scholar_key": "baro2004fast",
   "doi_check": {
    "checked": "2026-11-13",
    "status": "candidate"
   },
-  "doi_candidate": {
-   "doi": "10.1007/978-1-4471-2245-6_3",
-   "title_sim": 1.0,
-   "author_ok": true,
-   "year_ok": false,
-   "registry_title": "Traffic Sign Detection",
-   "registry_year": 2011
-  },
+  "doi_candidate": null,
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "note": "CCIA 2004 proceedings paper (Scholar pp. 69-76). doi_candidate 10.1007/978-1-4471-2245-6_3 is the 2011 book chapter 'Traffic Sign Detection': wrong, never accept."
  },
  {
   "id": "t:els-consorcis-el-consorci-hospitalari-del-parc-tauli-chpt-1998",
@@ -6108,7 +6253,7 @@
   "title": "Analyzing the Separability Matrix for ECOC coding",
   "type": "journal-article",
   "authors": [
-   "Miguel Angel Bautista",
+   "Miguel Ángel Bautista",
    "Sergio Escalera",
    "Xavier Baró",
    "Oriol Pujol"
@@ -6120,7 +6265,9 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "public": false,
+  "note": "Hidden from the site until verified: undated; owner to verify (duplicate of a dated work?)"
  },
  {
   "id": "t:apparent-personality-trait-prediction-with-audiovisual-deep--nd",
@@ -6138,9 +6285,9 @@
    "Baiyu Chen",
    "Hugo Jair Escalante",
    "Isabelle Guyon",
-   "Carlos Andujar",
+   "Carlos Andújar",
    "Rob van Lier",
-   "Marcel AJ van Gerven"
+   "Marcel A. J. van Gerven"
   ],
   "scholar_key": "guccluturkapparent",
   "doi_check": {
@@ -6149,28 +6296,9 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
- },
- {
-  "id": "t:experiencia-de-aprendizaje-de-programacion-basada-en-proyect-nd",
-  "status": "confirmed",
-  "sources": [
-   "scholar"
-  ],
-  "title": "Experiencia de aprendizaje de programación basada en proyectos",
-  "type": "journal-article",
-  "authors": [
-   "Laura Igual",
-   "Xavier Baró"
-  ],
-  "scholar_key": "igualexperiencia",
-  "doi_check": {
-   "checked": "2026-11-13",
-   "status": "none_found"
   },
-  "metrics": {
-   "as_of": "2026-11-13"
-  }
+  "public": false,
+  "note": "Hidden from the site until verified: undated; owner to verify"
  },
  {
   "id": "t:multi-modal-non-verbal-communication-analysis-in-victim-offe-nd",
@@ -6200,6 +6328,8 @@
   },
   "metrics": {
    "as_of": "2026-11-13"
-  }
+  },
+  "public": false,
+  "note": "Hidden from the site until verified: undated; probable duplicate of PRL 2015"
  }
 ]

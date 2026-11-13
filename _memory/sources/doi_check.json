@@ -906,9 +906,8 @@
   "status": "verified"
  },
  "doi:10.5591/978-1-57735-516-8/ijcai11-490": {
-  "checked": "2026-11-13",
-  "doi": "10.5591/978-1-57735-516-8/ijcai11-490",
-  "status": "unresolved"
+  "checked": "2026-11-14",
+  "status": "none_found"
  },
  "doi:10.1007/978-3-642-21557-5_25": {
   "checked": "2026-11-13",
@@ -1179,5 +1178,16 @@
    "registry_title": "Non-verbal communication analysis in Victim–Offender Mediations",
    "registry_year": 2015
   }
+ },
+ "doi:10.1109/fg.2017.133": {
+  "checked": "2026-11-14",
+  "doi": "10.1109/fg.2017.133",
+  "registry": "crossref",
+  "title_sim": 1.0,
+  "author_ok": true,
+  "year_ok": true,
+  "registry_title": "Exploiting feature Representations Through Similarity Learning and Ranking Aggregation for Person Re-identification",
+  "registry_year": 2017,
+  "status": "verified"
  }
 }

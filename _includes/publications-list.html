@@ -1,3 +1,4 @@
+<style>.pub-tag{font-size:.7em;text-transform:uppercase;letter-spacing:.04em;border:1px solid currentColor;border-radius:3px;padding:0 .35em;margin-left:.4em;opacity:.75;vertical-align:middle}</style>
 {% assign L = page.lang | default: site.default_lang %}
 {% assign T = site.data.i18n[L] %}
 <p>{{ T.publications_intro }} <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
@@ -9,9 +10,10 @@
     <ul class="pub-list">
     {% for p in items %}
       <li>
-        <strong>{{ p.title }}</strong><br>
+        <strong>{{ p.title }}</strong>{% if p.label %} <span class="pub-tag">{{ T.pub_tags[p.label] }}</span>{% endif %}<br>
         <span>{% for a in p.authors %}{% if a contains "Baró" %}<u>{{ a }}</u>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span><br>
         <em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% else %}, {{ T.no_year }}{% endif %}
+        {% if p.isbn %} · ISBN {{ p.isbn }}{% endif %}
         {% if p.quartile %} · JCR {{ p.quartile }}{% endif %}
         {% if p.doi %} · <a href="https://doi.org/{{ p.doi }}">DOI</a>{% elsif p.url %} · <a href="{{ p.url }}">link</a>{% endif %}
       </li>

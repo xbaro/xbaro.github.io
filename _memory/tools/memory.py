@@ -61,7 +61,7 @@ def norm_doi(d):
     if not d:
         return None
     d = d.strip().lower()
-    d = re.sub(r"^https?://(dx\.)?doi\.org/", "", d)
+    d = re.sub(r"^https?://(dx\.)?doi\.org/", "", d).rstrip(".")   # CV exports sometimes end the DOI with a full stop
     return d or None
 
 
@@ -555,12 +555,11 @@ def build_site_data():
 
     pubs = []
     for r in json.loads(REFS.read_text()):
-        if r["status"] != "confirmed":
+        if r["status"] != "confirmed" or r.get("public") is False:   # only verified references reach the site
             continue
-        ix = r.get("indexing") or {}
         pubs.append({"title": r["title"], "authors": r.get("authors", []), "venue": r.get("venue") or "", "year": r.get("year"),
                      "type": {"preprint": "report"}.get(r.get("type"), r.get("type") or "other"), "doi": r.get("doi"), "url": None if r.get("doi") else r.get("url"),
-                     "quartile": ix.get("jcr_quartile") if r.get("type") == "journal-article" else None})
+                     "isbn": r.get("isbn"), "label": "preprint" if r.get("type") == "preprint" else None})
     pubs.sort(key=lambda x: (-(x["year"] or 0), x["title"].lower()))
     out = ROOT.parent / "_data" / "publications.json"
     out.write_text(json.dumps(pubs, indent=1, ensure_ascii=False) + "\n")
@@ -963,11 +962,22 @@ def load_cv_quality():
 
 def load_cv():
     p = SRC / "cv_publications.json"
-    return json.loads(p.read_text()) if p.exists() else []
+    recs = json.loads(p.read_text()) if p.exists() else []
+    for r in recs:
+        r["doi"] = norm_doi(r.get("doi"))
+    return recs
 
 
 def ref_id(rec):
     return f"doi:{rec['doi']}" if rec.get("doi") else f"t:{norm_title(rec['title'])[:60].replace(' ', '-')}-{rec.get('year') or 'nd'}"
+
+
+AUTHOR_ALIASES = {"Sérgio Escalera": "Sergio Escalera", "David Baneres": "David Bañeres", "Umut Guclu": "Umut Güçlü",
+                  "Carlos Andujar": "Carlos Andújar", "Miguel Angel Bautista": "Miguel Ángel Bautista", "Jordi Vitria": "Jordi Vitrià",
+                  "Jordi M. Vitria": "Jordi Vitrià", "Petia I. Radeva": "Petia Radeva", "Miguel A Bautista": "Miguel Ángel Bautista",
+                  "Marcel AJ van Gerven": "Marcel A. J. van Gerven", "Marcel van Gerven": "Marcel A. J. van Gerven", "U. Güçlü": "Umut Güçlü",
+                  "J. Wan": "Jun Wan", "M. Asadi": "Maryam Asadi-Aghbolaghi", "X Baró": "Xavier Baró", "David Masip Rodo": "David Masip",
+                  "Àgata Lapedriza Garcia": "Àgata Lapedriza", "Julio C. S. Jacques": "Julio C. S. Jacques Junior"}
 
 
 def merge():
@@ -975,17 +985,21 @@ def merge():
     by_title = {}
 
     def add(rec, source):
+        def conflict(k):   # two different DOIs are two different works, whatever their titles look like
+            a, b = rec.get("doi"), refs[k].get("doi")
+            return bool(a and b and a != b and not a.startswith("10.48550/") and not b.startswith("10.48550/"))   # arXiv DOI = preprint of the same work
+
         key = None
         if rec.get("doi") and f"doi:{rec['doi']}" in refs:
             key = f"doi:{rec['doi']}"
-        elif norm_title(rec["title"]) in by_title:
+        elif norm_title(rec["title"]) in by_title and not conflict(by_title[norm_title(rec["title"])]):
             key = by_title[norm_title(rec["title"])]
         else:  # fuzzy: near-identical title, year within 1
             nt = norm_title(rec["title"])
             for t, k in by_title.items():
                 ry = refs[k].get("year")
                 near = difflib.SequenceMatcher(None, nt, t).ratio() >= 0.92 or (min(len(nt), len(t)) >= 30 and (nt in t or t in nt))
-                if (not ry or not rec.get("year") or abs(ry - rec["year"]) <= 1) and near:
+                if (not ry or not rec.get("year") or abs(ry - rec["year"]) <= 1) and near and not conflict(k):
                     key = k
                     break
         if key is None:
@@ -1081,6 +1095,9 @@ def merge():
     for key, ov in overrides.items():
         if key in refs:
             refs[key].update({k: v for k, v in ov.items()})
+    for r in refs.values():            # one spelling per author (same person written with/without accents)
+        if r.get("authors"):
+            r["authors"] = [AUTHOR_ALIASES.get(a, a) for a in r["authors"]]
     build_theses()
     build_activities()
     build_teaching()
@@ -1101,8 +1118,8 @@ def _bib_esc(s):
 
 
 def write_bib():
-    """Canonical BibTeX (UTF-8) of all confirmed references, for easy export/reuse."""
-    items = [r for r in json.loads(REFS.read_text()) if r["status"] == "confirmed"]
+    """BibTeX (UTF-8) of the verified references (confirmed and not hidden with public=false), for easy export/reuse."""
+    items = [r for r in json.loads(REFS.read_text()) if r["status"] == "confirmed" and r.get("public") is not False]
     used, out = set(), []
     for r in items:
         first = (r.get("authors") or ["anon"])[0].split()[-1]
@@ -1113,10 +1130,26 @@ def write_bib():
             key += "b"
         used.add(key)
         kind = BIB_TYPES.get(r.get("type"), "misc")
-        venue_field = {"article": "journal", "inproceedings": "booktitle", "incollection": "booktitle"}.get(kind, "howpublished")
-        f = [("title", "{" + _bib_esc(r["title"]) + "}"), ("author", _bib_esc(" and ".join(r.get("authors", [])))),
-             ("year", str(r["year"]) if r.get("year") else None), (venue_field, _bib_esc(r.get("venue"))),
-             ("doi", r.get("doi")), ("url", None if r.get("doi") else r.get("url"))]
+        venue = r.get("venue") or ""
+        extra = []
+        if kind == "article":
+            m = re.match(r"^(.*?)\s+(\d+)\((\d+)\):\s*([\d]+)\s*[-\u2013]\s*([\d]+)$", venue)   # "Journal 24(198):1-6"
+            if m:
+                venue = m.group(1)
+                extra = [("volume", m.group(2)), ("number", m.group(3)), ("pages", f"{m.group(4)}--{m.group(5)}")]
+            extra.insert(0, ("journal", venue))
+        elif kind in ("inproceedings", "incollection"):
+            extra = [("booktitle", venue)]
+        elif kind == "book":   # the venue is often the series; Springer DOIs (10.1007) identify the publisher
+            extra = [("publisher", "Springer"), ("series", venue)] if (r.get("doi") or "").startswith("10.1007/") else [("publisher", venue)]
+        elif kind == "techreport":
+            extra = [("institution", venue or "Unpublished report")]
+        else:
+            extra = [("howpublished", venue), ("note", "Preprint" if r.get("type") == "preprint" else None)]
+        names = _bib_esc(" and ".join(r.get("authors", [])))
+        who = ("editor", names) if (kind == "book" and r.get("edited")) else ("author", names)
+        f = [("title", "{" + _bib_esc(r["title"]) + "}"), who, ("year", str(r["year"]) if r.get("year") else None)]
+        f += [(k, _bib_esc(v)) for k, v in extra] + [("doi", r.get("doi")), ("isbn", r.get("isbn")), ("url", None if r.get("doi") else r.get("url"))]
         body = ",\n".join(f"  {k} = {{{v}}}" for k, v in f if v)
         out.append(f"@{kind}{{{key},\n{body}\n}}")
     BIB.write_text("\n\n".join(out) + "\n")

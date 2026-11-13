@@ -56,6 +56,8 @@ uv run _memory/tools/memory.py doi              # verify every DOI against Cross
 uv run _memory/tools/memory.py sync --offline   # attach results, assign resolved DOIs, merge refs sharing a DOI
 ```
 - Each reference gets `doi_check`: `verified` (registry title ≥0.9 similar, year ±1, X. Baró among the authors), `partial` (title matches but year/author differ: usually online-first vs issue year, or registry without authors), `mismatch`, `unresolved` (DOI not registered), `resolved` (DOI found by bibliographic search with high confidence; saved as `doi`, `doi_source: crossref-search`), `candidate` (possible DOI, needs review → `doi_candidate`), `none_found`.
+- Override flags: `"public": false` hides a confirmed reference from the site and from `references.bib` until the owner verifies it (the site and the BibTeX contain only verified references); `"edited": true` marks an edited volume (authors are editors; BibTeX uses `editor`); `"isbn"` is exported to BibTeX and the site.
+- Works with different DOIs are never merged by title (arXiv `10.48550/*` excepted); trailing "." in CV DOIs is stripped; `AUTHOR_ALIASES` in `memory.py` unifies name spellings.
 - References that end up with the same DOI are merged (`merged_ids`). Preprint↔published pairs without a shared DOI are marked manually as `duplicate` in `overrides.json`.
 - Results are cached in `sources/doi_check.json`; use `--refresh` to recheck everything.
 
