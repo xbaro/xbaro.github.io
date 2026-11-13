@@ -1,0 +1,747 @@
+[
+ {
+  "title": "CodaLab Competitions: An Open Source Platform to Organize Scientific Challenges",
+  "authors_cv": "Adrien Pavao, Isabelle Guyon, Anne-Catherine Letournel, Dinh-Tuan Tran, Xavier Baro, Hugo Jair Escalante, Sergio Escalera, Tyler Thomas, Zhen Xu",
+  "year": 2023,
+  "venue": "Journal of Machine Learning Research JMLR, Volume 24, issue 1, pp. 9525-9530.",
+  "doi": null,
+  "cv_section": "B.1",
+  "type": "journal-article"
+ },
+ {
+  "title": "First Impressions: A Survey on Vision-Based Apparent Personality Trait Analysis",
+  "authors_cv": "Jacques Junior, Julio C. S. and Güçlütürk, Yağmur and Pérez, Marc and Güçlü, Umut and Andujar, Carlos and Baró, Xavier and Escalante, Hugo Jair and Guyon, Isabelle and van Gerven, Marcel A. J. and van Lier, Rob and Escalera, Sergio",
+  "year": 2022,
+  "venue": "IEEE Transactions on Affective Computing, pp. 75-95, vol. 13.",
+  "doi": "10.1109/taffc.2019.2930058",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 113
+ },
+ {
+  "title": "End-to-end global to local convolutional neural network learning for hand pose recovery in depth data",
+  "authors_cv": "Madadi, Meysam; Escalera, Sergio; Baró, Xavier; Gonzàlez, Jordi",
+  "year": 2022,
+  "venue": "IET Computer Vision, Vol. 16. pp 50-66",
+  "doi": "10.1049/cvi2.12064",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 9
+ },
+ {
+  "title": "Guest Editorial: Image and Video Inpainting and Denoising",
+  "authors_cv": "Escalera, Sergio; Escalante, Hugo Jair; Baró Solé, Xavier; Guyon, Isabelle; Madadi, Meysam; Wan, Jun; Ayache, Stephane; Gucluturk, Yagmur; Guclu, Umut",
+  "year": 2020,
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 42 (5), pp. 1021-1024.",
+  "doi": "10.1109/tpami.2020.2971291",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 1
+ },
+ {
+  "title": "Modeling, Recognizing, and Explaining Apparent Personality from Videos",
+  "authors_cv": "Escalante, Hugo Jair; Kaya, Heysem; Salah, Albert Ali; Escalera, Sergio; Güçlütürk, Yagmur; Güçlü, Umut; Baró, Xavier; Guyon, Isabelle; Silveira Jacques Junior, Julio Cezar; Madadi, Meysam; Ayache, Stephane; Viegas, Evelyne; Gürpinar, Furkan; Wicaksa",
+  "year": 2020,
+  "venue": "IEEE Transactions on Affective Computing, Vol 13 (2), pp. 894-911",
+  "doi": "10.1109/taffc.2020.2973984",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 146
+ },
+ {
+  "title": "Guest editorial: special issue on human abnormal behavioural analysis",
+  "authors_cv": "Egils Avots, Meysam Madadi, Sergio Escalera, Jordi Gonzàlez, Xavier Baró, Paul Pällin, Gholamreza Anbarjafari",
+  "year": 2019,
+  "venue": "Machine Vision and Applications, Vol 30, Issue 5, pp 807-811.",
+  "doi": "10.1007/s00138-019-01031-x",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 9
+ },
+ {
+  "title": "From 2D to 3D geodesic-based garment matching",
+  "authors_cv": "Egils Avots, Meysam Madadi, Sergio Escalera, Jordi Gonzàlez, Xavier Baró, Paul Pällin, Gholamreza Anbarjafari",
+  "year": 2019,
+  "venue": "Multimedia Tools Applications, Vol. 78, issue 18, pp. 25829-25853",
+  "doi": "10.1007/s11042-019-7739-5",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 4
+ },
+ {
+  "title": "Guest Editorial: The Computational Face",
+  "authors_cv": "Escalera, Sergio; Baró, Xavier; Guyon, I; Escalante, H J; Tzimiropoulos, G; Valstar, M; Pantic, M; Cohn, J; Kanade, T",
+  "year": 2018,
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 40 (11), pp. 2541-2545.",
+  "doi": "10.1109/tpami.2018.2869610",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 9
+ },
+ {
+  "title": "Top-down model fitting for hand pose recovery in sequences of depth images",
+  "authors_cv": "Madadi, Meysam; Escalera, Sergio; Carruesco, A; Andujar, Carlos; Baró, Xavier; Gonzàlez, Jordi",
+  "year": 2018,
+  "venue": "Image and Vision Computing, 79 , pp. 63-75.",
+  "doi": "10.1016/j.imavis.2018.09.006",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 12
+ },
+ {
+  "title": "Exploiting feature representations through similarity learning, post-ranking and ranking aggregation for person re-identification",
+  "authors_cv": "J.C.S., Junior Jacques; Baró, Xavier; Escalera, Sergio",
+  "year": 2018,
+  "venue": "Image and Vision Computing, 79 , pp. 76-85",
+  "doi": "10.1016/j.imavis.2018.08.001",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 7
+ },
+ {
+  "title": "Automatic Recognition of Facial Displays of Unfelt Emotions",
+  "authors_cv": "Kulkarni, K; Corneanu, C; Ofodile, I; Escalera, Sergio; Baró, Xavier; Hyniewska, S; Allik, J; Anbarjafari, G",
+  "year": 2018,
+  "venue": "IEEE Transactions on Affective Computing, Vol. 12, Issue 2, pp. 377-390",
+  "doi": "10.1109/taffc.2018.2874996",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 69
+ },
+ {
+  "title": "Guest Editorial: Apparent Personality Analysis",
+  "authors_cv": "Escalera Guerrero, Sergio; Baró Solé, Xavier; Guyon, Isabelle; Escalante, Hugo Jair",
+  "year": 2018,
+  "venue": "IEEE Transactions on Affective Computing, vol. 9, no. 3, pp. 299-302",
+  "doi": "10.1109/taffc.2018.2864230",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 13
+ },
+ {
+  "title": "Back-dropout transfer learning for action recognition",
+  "authors_cv": "Ren, Huamin; Kanhabua, Nattiya; Møgelmose, Andreas; Liu, Weifeng; Kulkarni, Kaustubh; Escalera, Sergio; Baró, Xavier; Moeslund, Thomas B.",
+  "year": 2018,
+  "venue": "IET Computer Vision, vol. 12, núm. 4, p. 484-491",
+  "doi": "10.1049/iet-cvi.2016.0309",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 5
+ },
+ {
+  "title": "Dominant and Complementary Emotion Recognition from Still Images of Faces",
+  "authors_cv": "Guo, Jianzgu; Lei, Zhen; Wan, Jun; Avots, Egils; Hajarolasvadi, Noushin; Knyazev, Boris; Kuharenko, Artem; Silveira Jacques Junior, Julio Cezar; Baró Solé, Xavier; Demirel, Hasan; Escalera, Sergio; Allik, Juri; Anbarjafari, Gholamreza",
+  "year": 2018,
+  "venue": "IEEE Access, Vol. 6, pp 26391-26403",
+  "doi": "10.1109/access.2018.2831927",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 114
+ },
+ {
+  "title": "Looking at People Special Issue",
+  "authors_cv": "Escalera, Sergio; Gonzàlez, Jordi; Escalante, Hugo Jair; Baró Solé, Xavier; Guyon, Isabelle",
+  "year": 2018,
+  "venue": "International Journal of Computer Vision, vol. 126, núm. 2-4, p. 141-143",
+  "doi": "10.1007/s11263-017-1058-y",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 3
+ },
+ {
+  "title": "Multimodal First Impression Analysis with Deep Residual Networks",
+  "authors_cv": "Güçlütürk, Yagmur; Güçlü, Umut; Baró Solé, Xavier; Escalante, Hugo Jair; Guyon, Isabellle; Escalera, Sergio; van Gerven, Marcel A.J.; van Lier, Rob",
+  "year": 2017,
+  "venue": "IEEE Transactions on Affective Computing, vol. 9, no. 3, pp. 316-329",
+  "doi": "10.1109/taffc.2017.2751469",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 75
+ },
+ {
+  "title": "Evolving weighting schemes for the Bag of Visual Words",
+  "authors_cv": "Hugo J. Escalante, Victor Ponce-López, Sergio Escalera, Xavier Baró, Alicia Morales-Reyes, José Martínez-Carranza",
+  "year": 2017,
+  "venue": "Neural Computing and Applications, vol 28, núm. 5, pp. 925-939",
+  "doi": "10.1007/s00521-016-2223-x",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 18
+ },
+ {
+  "title": "Guest Editors' Introduction to the special issue on multimodal human pose recovery and behavior analysis",
+  "authors_cv": "Sergio Escalera, Jordi Gonzàlez, Xavier Baró, Jamie Shotton",
+  "year": 2016,
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, Issue 8, pp. 1489-1491",
+  "doi": "10.1109/tpami.2016.2557878",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 9
+ },
+ {
+  "title": "Care respite: taking care of the caregivers",
+  "authors_cv": "Alonso, Fernando ;Baro, Xavier ; Escalera, Sergio ; Gonzalez, Jordi ; MacKay, Martha ; Serrahima, Anna",
+  "year": 2016,
+  "venue": "International Journal of Integrated Care, 16(6), p. A132",
+  "doi": "10.5334/ijic.2680",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 1
+ },
+ {
+  "title": "Adaptive e-assessment system: A general approach",
+  "authors_cv": "Baneres, David; Baró, Xavier; Guerrero-Roldán, Ana-Elena; Rodriguez, M. Elena",
+  "year": 2016,
+  "venue": "International Journal of Emerging Technologies in Learning, 11(7), pp. 16–23",
+  "doi": "10.3991/ijet.v11i07.5888",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 29
+ },
+ {
+  "title": "Non-verbal communication analysis in Victim–Offender Mediations",
+  "authors_cv": "Victor Ponce, Sergio Escalera, Marc Pérez, Oriol Janés i Xavier Baró",
+  "year": 2015,
+  "venue": "Pattern Recognition Letters, 67, pp. 19-27",
+  "doi": "10.1016/j.patrec.2015.07.040",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 20
+ },
+ {
+  "title": "On the design of an ECOC-Compliant Genetic Algorithm",
+  "authors_cv": "Miguel Ángel Bautista, Sergio Escalera, Xavier Baró i Oriol Pujol",
+  "year": 2014,
+  "venue": "Pattern Recognition. 47 - 2, pp. 865 - 884.",
+  "doi": "10.1016/j.patcog.2013.06.019",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 32
+ },
+ {
+  "title": "Probability-based Dynamic Time Warping and Bag-of-Visual-and-Depth-Words for Human Gesture Recognition in RGB-D",
+  "authors_cv": "Antonio Hernández-Vela, Miguel Ángel Bautista, Xavier Perez-Sala, Víctor Ponce-López, Sergio Escalera, Xavier Baró, Oriol Pujol i Cecilio Angulo",
+  "year": 2014,
+  "venue": "Pattern Recognition Letters. 50, pp. 112 - 121.",
+  "doi": "10.1016/j.patrec.2013.09.009",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 78
+ },
+ {
+  "title": "Social Network Extraction and Analysis Based on Multimodal Dyadic Interaction",
+  "authors_cv": "Sergio Escalera, Xavier Baró, Jordi Vitrià, Petia Radeva i Bogdan Raducanu",
+  "year": 2012,
+  "venue": "Sensors. 12(2) pp 1702-1719.",
+  "doi": "10.3390/s120201702",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 20
+ },
+ {
+  "title": "Minimal Design of Error-Correcting Output Codes",
+  "authors_cv": "Miguel Ángel Bautista, Xavier Baró, Oriol Pujol, Petia Radeva, Jordi Vitrià i Sergio Escalera",
+  "year": 2012,
+  "venue": "Pattern Recognition Letters. Volume 33 Issue 6, pp. 693-702. ISSN: 0167-8655.",
+  "doi": "10.1016/j.patrec.2011.09.023",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 61
+ },
+ {
+  "title": "Traffic Sign Recognition Using Evolutionary Adaboost Detection and Forest-ECOC Classification.",
+  "authors_cv": "Xavier Baró, Sergio Escalera, Jordi Vitrià, Oriol Pujol i Petia Radeva",
+  "year": 2009,
+  "venue": "IEEE Transactions on Intelligent Transportation Systems, Vol. 10, pàg. 113-126.",
+  "doi": "10.1109/tits.2008.2011702",
+  "cv_section": "B.1",
+  "type": "journal-article",
+  "scholar_cited_by": 280
+ },
+ {
+  "title": "Integration of an adaptive trust-based e-assessment system into virtual learning environments—The TeSLA project experience",
+  "authors_cv": "Xavier Baró,  Ana E. Guerrero-Roldan,  Josep Prieto-Blázquez,  Anna Rozeva,  Orlin Marinov,  Christophe Kiennert,  Pierre-Olivier Rocher,  Joaquin Garcia-Alfaro",
+  "year": 2018,
+  "venue": "Internet Technology Letters; 1:e56. https://doi.org/10.1002/itl2.56",
+  "doi": "10.1002/itl2.56",
+  "cv_section": "B.2",
+  "type": "journal-article"
+ },
+ {
+  "title": "Análisis de la Expresión Oral y Gestual en Proyectos Fin de Carrera vía Un Sistema de Visión Artificial",
+  "authors_cv": "Victor Ponce, Mario Gorga, Xavier Baró, Petia Radeva, Sergio Escalera Guerrero",
+  "year": 2011,
+  "venue": "ReVisión: Revista Hispanoamericana de Educación Universitaria de la Informática, Vol. 4, pàg 8-18.",
+  "doi": null,
+  "cv_section": "B.2",
+  "type": "journal-article"
+ },
+ {
+  "title": "Biometric tools for learner identity in e-assessment",
+  "authors_cv": "X. Baró; Muñoz Bernaus, Roger; David Baneres; Guerrero Roldán, Ana Elena",
+  "year": 2020,
+  "venue": "Engineering Data-Driven Adaptive Trust-based e-Assessment Systems: Challenges and Infrastructure Solutions",
+  "doi": "10.1007/978-3-030-29326-0_3",
+  "cv_section": "B.3",
+  "type": "book-chapter"
+ },
+ {
+  "title": "Forensic analysis recognition",
+  "authors_cv": "López Monroy, Adrián Pastor; Escalante , Hugo Jair; Montes Gómez, Manuel; X.",
+  "year": 2020,
+  "venue": "Engineering Data-Driven Adaptive Trust-based e-Assessment Systems: Challenges and Infrastructure Solutions",
+  "doi": "10.1007/978-3-030-29326-0_1",
+  "cv_section": "B.3",
+  "type": "book-chapter"
+ },
+ {
+  "title": "Design and Implementation of Dashboards to Support Teachers Decision-Making Process",
+  "authors_cv": "Guitart Hormigo, Isabel; M. Elena Rodríguez González; X. Baró",
+  "year": 2020,
+  "venue": "Engineering Data-Driven Adaptive Trust-based e-Assessment Systems: Challenges and Infrastructure Solutions",
+  "doi": "10.1007/978-3-030-29326-0_6",
+  "cv_section": "B.3",
+  "type": "book-chapter"
+ },
+ {
+  "title": "Explainable and Interpretable Models in Computer Vision and Machine Learning",
+  "authors_cv": "Hugo J. Escalante, Sergio Escalera, Isabelle Guyon, Xavier Baró, Yagmur Güçlütürk, Umut Güçlü, Marcel van Gerven",
+  "year": 2018,
+  "venue": "Explainable and Interpretable Models in Computer Vision and Machine Learning",
+  "doi": "10.1007/978-3-319-98131-4",
+  "cv_section": "B.3",
+  "type": "book-chapter"
+ },
+ {
+  "title": "Deep Learning for Action and Gesture Recognition in Image Sequences: A Survey",
+  "authors_cv": "Maryam Asadi-Aghbolaghi, Albert Clapés, Marco Bellantonio, Hugo Jair Escalante, Víctor Ponce-López, Xavier Baró, Isabelle Guyon, Shohreh Kasaei, Sergio Escalera",
+  "year": 2017,
+  "venue": "Gesture Recognition",
+  "doi": "10.1007/978-3-319-57021-1_19",
+  "cv_section": "B.3",
+  "type": "book-chapter"
+ },
+ {
+  "title": "Towards an Adaptive e-Assessment System Based on Trustworthiness",
+  "authors_cv": "David Bañeres, M. Elena Rodríguez, Ana E. Guerrero-Roldan, Xavier Baró",
+  "year": 2016,
+  "venue": "Formative Assessment, Learning Data Analytics and Gamification",
+  "doi": "10.1016/b978-0-12-803637-2.00002-6",
+  "cv_section": "B.3",
+  "type": "book-chapter"
+ },
+ {
+  "title": "Traffic-Sign Recognition Systems",
+  "authors_cv": "Sergio Escalera, Xavier Baró, Oriol Pujol, Jordi Vitrià i Petia Radeva",
+  "year": 2011,
+  "venue": "Traffic-Sign Recognition Systems",
+  "doi": "10.1007/978-1-4471-2245-6",
+  "cv_section": "B.3",
+  "type": "book"
+ },
+ {
+  "title": "Probabilistic Darwin Machines: A new approach to develop evolutionary object detection systems",
+  "authors_cv": "Xavier Baró",
+  "year": 2009,
+  "venue": "Probabilistic Darwin Machines: A new approach to develop evolutionary object detection systems",
+  "doi": null,
+  "cv_section": "B.3",
+  "type": "book"
+ },
+ {
+  "title": "4th CVC Workshop on Research and Development: New Trends and Challenges in Computer Vision.",
+  "authors_cv": "Xavier Baró, Sergio Escalera, Miquel Ferrer",
+  "year": 2009,
+  "venue": "4th CVC Workshop on Research and Development: New Trends and Challenges in Computer Vision.",
+  "doi": null,
+  "cv_section": "B.3",
+  "type": "book-chapter"
+ },
+ {
+  "title": "Detecció de regions de Text",
+  "authors_cv": "Xavier Baró",
+  "year": 2008,
+  "venue": null,
+  "doi": null,
+  "cv_section": "B.4",
+  "type": "report"
+ },
+ {
+  "title": "Reconeixement de Guals en entorns urbans",
+  "authors_cv": "Xavier Baró",
+  "year": 2008,
+  "venue": null,
+  "doi": null,
+  "cv_section": "B.4",
+  "type": "report"
+ },
+ {
+  "title": "Analyzing the contribution of different passively collected data to predict Stress and Depression",
+  "authors_cv": "Bonafonte, Irene; Bustos, Cristina; Larrazolo, Abraham; Martinez Luna, Gilberto Lorenzo; Guzman Arenas, Adolfo; Baró, Xavier; Tourgeman, Isaac; Balcells, Mercedes; Lapedriza, Agata",
+  "year": 2023,
+  "venue": "2023 11th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW), Cambridge, MA, USA, 2023, pp. 1-4, doi: 10.1109/ACIIW59127.2023.10388089.",
+  "doi": "10.1109/aciiw59127.2023.10388089.",
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Multi-varied Cumulative Alignment for Domain Adaptation",
+  "authors_cv": "Oliu, Marc; Adel Bargal, Sarah; Sclaroff, Stan; Baró, Xavier; Escalera, Sergio",
+  "year": 2022,
+  "venue": "Image Analysis and Processing – ICIAP 2022. ICIAP 2022. Lecture Notes in Computer Science, vol 13232. Springer, Cham. https://doi.org/10.1007/978-3-031-06430-2_27",
+  "doi": "10.1007/978-3-031-06430-2_27",
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Person Perception Biases Exposed: Revisiting the First Impressions Dataset",
+  "authors_cv": "Jacques Junior, Julio C. S.; Lapedriza, Agata; Palmero, Cristina; Baro, Xavier; Escalera, Sergio",
+  "year": 2021,
+  "venue": "2021 IEEE Winter Conference on Applications of Computer Vision Workshops (WACVW), Waikola, HI, USA, 2021, pp. 13-21, doi: 10.1109/WACVW52041.2021.00006.",
+  "doi": "10.1109/wacvw52041.2021.00006.",
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "On the effect of age perception biases for real age regression",
+  "authors_cv": "Jacques Junior, Julio C. S.; Ozcinar, Cagri; Marjanovic, Marina; Baro, Xavier; Anbarjafari, Gholamreza; Escalera, Sergio",
+  "year": 2019,
+  "venue": "14th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2019), Lille, France, 2019, pp. 1-8, doi: 10.1109/FG.2019.8756595.",
+  "doi": "10.1109/fg.2019.8756595.",
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Multi-task human analysis in still images: 2D/3D pose, depth map, and multi-part segmentation",
+  "authors_cv": "Daniel Sánchez; Marc Oliu; Meysam Madadi; Xavier Baró; Sergio Escalera",
+  "year": 2019,
+  "venue": "2019 14th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2019), Lille, France, 2019, pp. 1-8, doi: 10.1109/FG.2019.8756572.",
+  "doi": "10.1109/fg.2019.8756572.",
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Changes in Facial Expression as Biometric: A Database and Benchmarks of Identification",
+  "authors_cv": "Rain Eric Haamer, Kaustubh Kulkarni, Nasrin Imanpour, Mohammad Ahsanul Haque, Egils Avots, Michelle Breisch, Kamal Nasrollahi, Sergio Escalera, Cagri Ozcinar, Xavier Baro, Ahmad R. Naghsh-Nilchi, Thomas B. Moeslund, and Gholamreza Anbarjafari",
+  "year": 2018,
+  "venue": "2018 13th IEEE International Conference on Automatic Face Gesture Recognition Workshops (FG Workshops 2018), pp 621-628",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Dominant and Complementary Multi-Emotional Facial Expression Recognition Using C-Support Vector Classification",
+  "authors_cv": "Christer Loob, Pejman Rasti, Iiris Lusi, Julio C. S. Jacques Junior, Xavier Baró, Sergio Escalera, Tomasz Sapinski, Dorota Kaminska, Gholamreza Anbarjafari",
+  "year": 2017,
+  "venue": "2017 12th IEEE International Conference on Automatic Face Gesture Recognition Workshops (FG Workshops 2017), pp 833-838",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation: Databases",
+  "authors_cv": "Iiris Lusi, Julio C. S. Jacques Junior, Jelena Gorbova, Xavier Baró, Sergio Escalera, Hasan Demirel, Juri Allik, Cagri Ozcinar, Gholamreza Anbarjafari",
+  "year": 2017,
+  "venue": "2017 12th IEEE International Conference on Automatic Face Gesture Recognition Workshops (FG Workshops 2017), pp 809-813",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "A survey on deep learning based approaches for action and gesture recognition in image sequences",
+  "authors_cv": "Maryam Asadi-Aghbolaghi, Albert Clapés, Marco Bellantonio, Hugo Jair Escalante,  Victor Ponce-López, Xavier Baró, Isabelle Guyon, Shorheh Kasaei, Sergio Escalera",
+  "year": 2017,
+  "venue": "2017 12th IEEE International Conference on Automatic Face Gesture Recognition (FG 2017), pp 476-483",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Exploiting feature representations through similarity learning and ranking aggregation for person re-identification",
+  "authors_cv": "Julio Cezar Jacques Junior, Xavier Baro, Sergio Escalera",
+  "year": 2017,
+  "venue": "2017 12th IEEE International Conference on Automatic Face Gesture Recognition (FG 2017), pp 302-309",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Occlusion aware hand pose recovery from sequences of depth images",
+  "authors_cv": "Meysam Madadi, Sergio Escalera, Alex Carruesco Llorens, Carlos Andujar, Xavier Baro, Jordi Gonzalez",
+  "year": 2017,
+  "venue": "2017 12th IEEE International Conference on Automatic Face Gesture Recognition (FG 2017), pp 230-237",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Apparent and real age estimation in still images with deep residual regressors on APPA-REAL database",
+  "authors_cv": "Eirikur Agustsson, Radu Timofte, Sergio Escalera, Xavier Baro, Isabelle Guyon, Rasmus Rothe",
+  "year": 2017,
+  "venue": "2017 12th IEEE International Conference on Automatic Face Gesture Recognition (FG 2017), pp 87-94",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "ChaLearn Looking at People: A Review of Events and Resources",
+  "authors_cv": "Sergio Escalera, Xavier Baro, Hugo Jair Escalante, Isabelle Guyon",
+  "year": 2017,
+  "venue": "2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1594-1601",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Design of an Explainable Machine Learning Challenge for Video Interviews",
+  "authors_cv": "Hugo Jair Escalante, Isabelle Guyon, Sergio Escalera, Julio Jacques Jr., Meysam Madadi, Xavier Baro, Stephane Ayache, Evelyne Viegas, Yagmur Gucluturk, Umut Guclu, Marcel van Gerven, Rob van Lier",
+  "year": 2017,
+  "venue": "2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 3688-3695",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Visualizing Apparent Personality Analysis with Deep Residual Networks",
+  "authors_cv": "Yağmur Güçlütürk, Umut Güçlü, Marc Pérez, Hugo Escalante, Xavier Baró, Isabelle Guyon, Carlos Andujar, Julio Jacques Jr, Meysam Madadi, Sergio Escalera, M. A. J. van Gerven, and R. van Lier",
+  "year": 2017,
+  "venue": "2017 IEEE International Conference on Computer Vision Workshops (ICCVW), pp. 2473-9944",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Results and Analysis of ChaLearn LAP Multi-modal Isolated and Continuous Gesture Recognition, and Real versus Fake Expressed Emotions Challenges",
+  "authors_cv": "Jun Wan, Sergio Escalera, Gholamreza Anbarjafari, Hugo Jair Escalante, Xavier Baro, Isabelle Guyon, Meysam Madadi, Juri Allik, Jelena Gorbova, Chi Lin i Yiliang Xie",
+  "year": 2017,
+  "venue": "2017 IEEE International Conference on Computer Vision Workshops (ICCVW), pp. 3189-3197",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "ChaLearn Looking at People 2015: Apparent Age and Cultural Event Recognition Datasets and Results",
+  "authors_cv": "Sergio Escalera, Junior Fabian, Pablo Pardo, Xavier Baró, Jordi González, Hugo. J Escalante, Dusan Misevic, Ulrich Steiner, Isabelle Guyon",
+  "year": 2016,
+  "venue": "2015 IEEE International Conference on Computer Vision Workshop (ICCVW), Santiago de Chile, 2015, pp. 243-251.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Improving bag of visual words representations with genetic programming",
+  "authors_cv": "Hugo Jair Escalante, José Martínez-Carranza, Sergio Escalera, Víctor Ponce-López i Xavier Baró",
+  "year": 2015,
+  "venue": "International Joint Conference on Neural Networks 2015 (IJCNN2015)",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "ChaLearn looking at people 2015 new competitions: Age estimation and cultural event recognition",
+  "authors_cv": "Sergio Escalera, Jordi Gonzàlez, Xavier Baró, Pablo Pardo, Junior Fabian, Marc Oliu, Hugo Jair Escalante, Iván Huerta i Isabelle Guyon",
+  "year": 2015,
+  "venue": "International Joint Conference on Neural Networks 2015 (IJCNN2015)",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "ChaLearn looking at people 2015 new competitions: Age estimation and cultural event recognition",
+  "authors_cv": "Xavier Baro, Jordi Gonzalez, Junior Fabian, Miguel A. Bautista, Marc Oliu, Hugo Jair Escalante, Isabelle Guyon, Sergio Escalera",
+  "year": 2015,
+  "venue": "IEEE CVPR Workshops, 2015, pp. 1-9",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "ChaLearn Looking at People Challenge 2014: Dataset and Results",
+  "authors_cv": "Sergio Escalera, Xavier Baró, Jordi Gonzàlez, Miguel A. Bautista, Meysam Madadi, Miguel Reyes, Víctor Ponce-López, Hugo Jair Escalante, Jamie Shotton i Isabelle Guyon",
+  "year": 2014,
+  "venue": "ECCV 2014. pp. 459-473",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "ValID: A Trust-Based Virtual Assessment System",
+  "authors_cv": "Joan Arnedo-Moreno, David Bañeres, Xavier Baró, Santi Caballé, Ana-Elena Guerrero, Xavier Mas, Laura Porta i Josep Prieto",
+  "year": 2014,
+  "venue": "INCoS 2014. pp.  328-335",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Multi-modal gesture recognition challenge 2013: dataset and results",
+  "authors_cv": "Sergio Escalera, Jordi Gonzàlez, Xavier Baró, Miguel Reyes, Oscar Lopes, Isabelle Guyon, Vassilis Athitsos i Hugo Jair Escalante",
+  "year": 2013,
+  "venue": "ICMI 201. pp.: 445-452",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Multi-modal social signal analysis for predicting agreement in conversation settings",
+  "authors_cv": "Víctor Ponce-López, Sergio Escalera, Xavier Baró",
+  "year": 2013,
+  "venue": "ICMI 2013. pp. 495-502",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Emotion Detection Using Hybrid Structural and Appearance Descriptors",
+  "authors_cv": "David Sanchez-Mendoza, David Masip, Xavier Baró, Àgata Lapedriza",
+  "year": 2013,
+  "venue": "MDAI 2013. pp. 105-116",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "BoVDW: Bag-of-Visual-and-Depth-Words for Gesture Recognition",
+  "authors_cv": "Antonio Hernández-Vela, Miguel Ángel Bautista, Xavier Perez-Sala, Víctor Ponce, Xavier Baró, Oriol Pujol, Cecilio Angulo i Sergio Escalera",
+  "year": 2012,
+  "venue": "21th International Conference on Pattern Recognition (ICPR2012) pp. 449-452.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "A Genetic Inspired Optimization for ECOC.",
+  "authors_cv": "Miguel Angel Bautista, Sergio Escalera, Xavier Baró i Oriol Pujol",
+  "year": 2012,
+  "venue": "Lecture Notes in Computer Science, 7626. pp. 743-751.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "UOC API Site, a seed for new eLearning applications.",
+  "authors_cv": "Àngels Rius, Xavier Aracíl i Xavier Baró",
+  "year": 2012,
+  "venue": "Proceedings of the IX Multidisciplinary Symposium on the Design and Evaluation of Digital Content for Education, pp. 245-252",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Probability-based Dynamic Time Warping for Gesture Recognition on RGB-D data.",
+  "authors_cv": "Miguel Ángel Bautista, Antonio Hernández-Vela, Victor Ponce, Xavier Perez-Sala, Xavier Baró, Oriol Pujol, Cecilio Angulo i Sergio Escalera",
+  "year": 2012,
+  "venue": "Lecture Notes in Computer Science, 7854, pp. 126-135",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Introducing Separability Matrix for Error Correcting Output Codes coding.",
+  "authors_cv": "Miguel Angel Bautista, Oriol Pujol, Xavier Baró i Sergio Escalera",
+  "year": 2011,
+  "venue": "Lecture Notes in Computer Science, 6713. pp. 227-236.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Human Behavior Analysis from Video Data using Bag-of-Gestures",
+  "authors_cv": "Victor Ponce, Mario Gorga, Xavier Baró i Sergio Escalera",
+  "year": 2011,
+  "venue": "Proceedings of the Twenty-Second International Joint Conference on Artificial Intelligence, pp. 2836-2837. AAAI Press, USA.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Modelling and Analyzing Multimodal Dyadic Interactions Using Social Networks",
+  "authors_cv": "Sergio Escalera, Xavier Baró, Jordi Vitrià, Petia Radeva i Bogdan Raducanu",
+  "year": 2010,
+  "venue": "Proceedings of the 12th International Conference on Multimodal Interfaces and 7th Workshop on Machine Learning for Multimodal Interaction (ICMI-MLMI 2010). ACM Press.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Compact Evolutive Design of Error-Correcting Output Code",
+  "authors_cv": "Miguel A. Bautista, Xavier Baró, Oriol Pujol, Petia Radeva, Jordi Vitrià i Sergio Escalera",
+  "year": 2010,
+  "venue": "Proceedings of the Supervised and Unsupervised Ensemble Methods and their Applications (SUEMA’2010) in the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD), pp. 119-128.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Métodos automáticos para el análisis de la expresión oral y gestual en proyectos fin de carrera",
+  "authors_cv": "Sergio Escalera, Xavier Baró i Petia Radeva",
+  "year": 2010,
+  "venue": "In JENUI’10: Proceedings of the XVI Jornadas de Enseñanza Universitaria de la Informatica, pp. 67-74.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Visual content layer for scalable object recognition in urban image databases",
+  "authors_cv": "Xavier Baró, Sergio Escalera, Petia Radeva i Jordi Vitrià",
+  "year": 2009,
+  "venue": "Proceedings of the 2009 IEEE International Conference on Multimedia and Expo. Pàgs 1616-1619.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Probabilistic Darwin Machines for Object detection",
+  "authors_cv": "Xavier Baró i Jordi Vitrià",
+  "year": 2009,
+  "venue": "Proceedings of the 2009 International Conference on Image Processing, Computer Vision, and Pattern Recognition (IPCV09). CSREA Press, USA. Pàgs 835-845.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Generic Object Recognition in Urban Image Databases",
+  "authors_cv": "Xavier Baró, Sergio Escalera, Petia Radeva i Jordi Vitrià",
+  "year": 2009,
+  "venue": "Artificial Intelligence Research and Development, Frontiers in Artificial Intelligence and Applications, Vol. 202 . pp. 27-34",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Text Detection in Urban Scenes",
+  "authors_cv": "Sergio Escalera, Xavier Baró, Jordi Vitrià i  Petia Radeva",
+  "year": 2009,
+  "venue": "Artificial Intelligence Research and Development, Frontiers in Artificial Intelligence and Applications, Vol. 202 . pp. 35-44.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Evolutionary Object Detection by means of Naïve Bayes Models Estimation",
+  "authors_cv": "Xavier Baró i Jordi Vitrià",
+  "year": 2008,
+  "venue": "Springer Lecture Notes in Computes Science (Proceedings of the Tenth European Workshop on Evolutionary Computation in Image Analysis and Signal Processing (EvoIASP 2008)) Vol. 4974, Pàgs. 235-244.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Weighted Dissociated Dipoles: An extended visual feature set",
+  "authors_cv": "Xavier Baró i Jordi Vitrià",
+  "year": 2008,
+  "venue": "Springer Lecture Notes in Computes Science (Proceedings of the 6th International Conference on Computer Vision Systems (ICVS 2008)), vol. 5008, Pàgs. 281-290.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ },
+ {
+  "title": "Weighted Dissociated Dipoles for Evolutive Learning",
+  "authors_cv": "Xavier Baró i Jordi Vitrià",
+  "year": 2007,
+  "venue": "Artificial Intelligence Research and Development, Frontiers in Artificial Intelligence and Applications,  Vol. 163, pag. 189-196. IOS Press. Holanda.",
+  "doi": null,
+  "cv_section": "B.5",
+  "type": "conference-paper"
+ }
+]

@@ -73,9 +73,10 @@
  },
  {
   "id": "doi:10.1109/aciiw59127.2023.10388089",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Analyzing the contribution of different passively collected data to predict Stress and Depression",
   "venue": "International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)",
@@ -147,9 +148,10 @@
  },
  {
   "id": "t:codalab-competitions-an-open-source-platform-to-organize-sci-2022",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "CodaLab Competitions An Open Source Platform to Organize Scientific Challenges",
   "venue": "HAL",
@@ -177,7 +179,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "First Impressions: A Survey on Vision-Based Apparent Personality Trait Analysis",
   "venue": "IEEE Transactions on Affective Computing",
@@ -202,13 +205,15 @@
   ],
   "cited_by": 102,
   "abstract": "Personality analysis has been widely studied in psychology, neuropsychology, and signal processing fields, among others. From the past few years, it also became an attractive research area in visual computing. From the computational point of view, by far speech and text have been the most considered cues of information for analyzing personality. However, recently there has been an increasing interest from the computer vision community in analyzing personality from visual data. Recent computer vision approaches are able to accurately analyze human faces, body postures and behaviors, and use these information to inferapparentpersonality traits. Because of the overwhelming research interest in this topic, and of the potential impact that this sort of methods could have in society, we present in this paper an up-to-date review of existing vision-based approaches for apparent personality trait recognition. We describe seminal and cutting edge works on the subject, discussing and comparing their distinctive features and limitations. Future venues of research in the field are identified and discussed. Furthermore, aspects on the subjectivity in data labeling/evaluation, as well as current datasets and challenges organized to push the research on the field are reviewed.",
-  "openalex_id": "https://openalex.org/W2963967532"
+  "openalex_id": "https://openalex.org/W2963967532",
+  "scholar_cited_by": 113
  },
  {
   "id": "doi:10.1007/978-3-031-06430-2_27",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Multi-varied Cumulative Alignment for Domain Adaptation",
   "venue": "Lecture notes in computer science",
@@ -232,7 +237,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Automatic Recognition of Facial Displays of Unfelt Emotions",
   "venue": "IEEE Transactions on Affective Computing",
@@ -254,7 +260,8 @@
   ],
   "cited_by": 70,
   "abstract": "Humans modify their facial expressions in order to communicate their internal states and sometimes to mislead observers regarding their true emotional states. Evidence in experimental psychology shows that discriminative facial responses are short and subtle. This suggests that such behavior would be easier to distinguish when captured in high resolution at an increased frame rate. We are proposing SASE-FE, the first dataset of facial expressions that are either congruent or incongruent with underlying emotion states. We show that overall the problem of recognizing whether facial movements are expressions of authentic emotions or not can be successfully addressed by learning spatio-temporal representations of the data. For this purpose, we propose a method that aggregates features along fiducial trajectories in a deeply learnt space. Performance of the proposed model shows that on average, it is easier to distinguish among genuine facial expressions of emotion than among unfelt facial expressions of emotion and that certain emotion pairs such as contempt and disgust are more difficult to distinguish than the rest. Furthermore, the proposed methodology improves state of the art results on CK+ and OULU-CASIA datasets for video emotion recognition, and achieves competitive results when classifying facial action units on BP4D datase.",
-  "openalex_id": "https://openalex.org/W2783866469"
+  "openalex_id": "https://openalex.org/W2783866469",
+  "scholar_cited_by": 69
  },
  {
   "id": "t:chalearn-looking-at-people-inpainting-and-denoising-challeng-2021",
@@ -287,9 +294,10 @@
  },
  {
   "id": "doi:10.1049/cvi2.12064",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "End‐to‐end global to local convolutional neural network learning for hand pose recovery in depth data",
   "venue": "IET Computer Vision",
@@ -306,14 +314,16 @@
   ],
   "cited_by": 79,
   "abstract": "Abstract Despite recent advances in 3‐D pose estimation of human hands, thanks to the advent of convolutional neural networks (CNNs) and depth cameras, this task is still far from being solved in uncontrolled setups. This is mainly due to the highly non‐linear dynamics of fingers and self‐occlusions, which make hand model training a challenging task. In this study, a novel hierarchical tree‐like structured CNN is exploited, in which branches are trained to become specialised in predefined subsets of hand joints called local poses. Further, local pose features, extracted from hierarchical CNN branches, are fused to learn higher order dependencies among joints in the final pose by end‐to‐end training. Lastly, the loss function used is also defined to incorporate appearance and physical constraints about doable hand motions and deformations. Finally, a non‐rigid data augmentation approach is introduced to increase the amount of training depth data. Experimental results suggest that feeding a tree‐shaped CNN, specialised in local poses, into a fusion network for modelling joints' correlations and dependencies, helps to increase the precision of final estimations, showing competitive results on NYU, MSRA, Hands17 and SyntheticHand datasets.",
-  "openalex_id": "https://openalex.org/W3195646717"
+  "openalex_id": "https://openalex.org/W3195646717",
+  "scholar_cited_by": 9
  },
  {
   "id": "doi:10.1007/978-3-030-29326-0_3",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Biometric tools for learner identity in e-assessment",
   "venue": "Lecture Notes on Data Engineering and Communications Technologies",
@@ -337,7 +347,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Design and implementation of dashboards to support teachers decision-making process in e-assessment systems",
   "venue": "Lecture Notes on Data Engineering and Communications Technologies",
@@ -360,7 +371,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Forensic analysis recognition",
   "venue": "Lecture Notes on Data Engineering and Communications Technologies",
@@ -384,7 +396,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Guest Editorial: Image and Video Inpainting and Denoising",
   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -407,14 +420,16 @@
   ],
   "cited_by": 0,
   "abstract": "The papers in this special issue comprise all aspects of computer vision and pattern recognition devoted to image and video inpainting, including related tasks like denoising, debluring, sampling, super-resolutkon enhancement, restoration, hallucination, etc. The special issue was associated to the 2018 Chalearn Looking at People Satellite ECCV Workshop1 and the 2018 ChaLearn Challenges on Image and Video Inpainting.",
-  "openalex_id": "https://openalex.org/W3014640976"
+  "openalex_id": "https://openalex.org/W3014640976",
+  "scholar_cited_by": 1
  },
  {
   "id": "doi:10.1109/taffc.2020.2973984",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Modeling, Recognizing, and Explaining Apparent Personality from Videos",
   "venue": "IEEE Transactions on Affective Computing",
@@ -445,14 +460,16 @@
   ],
   "cited_by": 120,
   "abstract": "Explainability and interpretability are two critical aspects of decision support systems. Despite their importance, it is only recently that researchers are starting to explore these aspects. This paper provides an introduction to explainability and interpretability in the context of apparent personality recognition. To the best of our knowledge, this is the first effort in this direction. We describe a challenge we organized on explainability in first impressions analysis from video. We analyze in detail the newly introduced data set, evaluation protocol, proposed solutions and summarize the results of the challenge. We investigate the issue of bias in detail. Finally, derived from our study, we outline research opportunities that we foresee will be relevant in this area in the near future.",
-  "openalex_id": "https://openalex.org/W3005891272"
+  "openalex_id": "https://openalex.org/W3005891272",
+  "scholar_cited_by": 146
  },
  {
   "id": "doi:10.1109/wacvw52041.2021.00006",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Person perception biases exposed: Revisiting the first impressions dataset",
   "venue": "arXiv",
@@ -478,7 +495,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Guest editorial: special issue on human abnormal behavioural analysis",
   "venue": "Machine Vision and Applications",
@@ -498,7 +516,8 @@
    "Thomas Baltzer Moeslund"
   ],
   "cited_by": 0,
-  "openalex_id": "https://openalex.org/W2945744916"
+  "openalex_id": "https://openalex.org/W2945744916",
+  "scholar_cited_by": 9
  },
  {
   "id": "doi:10.1007/978-3-030-25614-2",
@@ -529,7 +548,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Multi-task human analysis in still images: 2D/3D pose, depth map, and multi-part segmentation",
   "venue": "arXiv",
@@ -555,7 +575,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "On the effect of age perception biases for real age regression",
   "venue": "arXiv",
@@ -582,7 +603,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Back-dropout transfer learning for action recognition",
   "venue": "IET Computer Vision",
@@ -604,14 +626,16 @@
   ],
   "cited_by": 11,
   "abstract": "Transfer learning aims at adapting a model learned from source dataset to target dataset. It is a beneficial approach especially when annotating on the target dataset is expensive or infeasible. Transfer learning has demonstrated its powerful learning capabilities in various vision tasks. Despite transfer learning being a promising approach, it is still an open question how to adapt the model learned from the source dataset to the target dataset. One big challenge is to prevent the impact of category bias on classification performance. Dataset bias exists when two images from the same category, but from different datasets, are not classified as the same. To address this problem, a transfer learning algorithm has been proposed, called negative back‐dropout transfer learning (NB‐TL), which utilizes images that have been misclassified and further performs back‐dropout strategy on them to penalize errors. Experimental results demonstrate the effectiveness of the proposed algorithm. In particular, the authors evaluate the performance of the proposed NB‐TL algorithm on UCF 101 action recognition dataset, achieving 88.9% recognition rate.",
-  "openalex_id": "https://openalex.org/W2530913366"
+  "openalex_id": "https://openalex.org/W2530913366",
+  "scholar_cited_by": 5
  },
  {
   "id": "doi:10.1109/fg.2018.00098",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Changes in facial expression as biometric: A database and benchmarks of identification",
   "venue": "Proceedings - 13th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2018",
@@ -645,7 +669,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Dominant and Complementary Emotion Recognition from Still Images of Faces",
   "venue": "IEEE Access",
@@ -672,13 +697,15 @@
   ],
   "cited_by": 115,
   "abstract": "Emotion recognition has a key role in affective computing. Recently, fine-grained emotion analysis, such as compound facial expression of emotions, has attracted high interest of researchers working on affective computing. A compound facial emotion includes dominant and complementary emotions (e.g., happily-disgusted and sadly-fearful), which is more detailed than the seven classical facial emotions (e.g., happy, disgust, and so on). Current studies on compound emotions are limited to use data sets with limited number of categories and unbalanced data distributions, with labels obtained automatically by machine learning-based algorithms which could lead to inaccuracies. To address these problems, we released the iCV-MEFED data set, which includes 50 classes of compound emotions and labels assessed by psychologists. The task is challenging due to high similarities of compound facial emotions from different categories. In addition, we have organized a challenge based on the proposed iCV-MEFED data set, held at FG workshop 2017. In this paper, we analyze the top three winner methods and perform further detailed experiments on the proposed data set. Experiments indicate that pairs of compound emotion (e.g., surprisingly-happy vs happily-surprised) are more difficult to be recognized if compared with the seven basic emotions. However, we hope the proposed data set can help to pave the way for further research on compound facial emotion recognition.",
-  "openalex_id": "https://openalex.org/W2800170478"
+  "openalex_id": "https://openalex.org/W2800170478",
+  "scholar_cited_by": 114
  },
  {
   "id": "doi:10.1007/978-3-319-98131-4",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Explainable and Interpretable Models in Computer Vision and Machine Learning",
   "venue": "The Springer series on challenges in machine learning",
@@ -742,7 +769,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Exploiting feature representations through similarity learning, post-ranking and ranking aggregation for person re-identification",
   "venue": "arXiv",
@@ -758,7 +786,9 @@
    "Sérgio Escalera"
   ],
   "cited_by": 5,
-  "openalex_id": "https://openalex.org/W2963281296"
+  "openalex_id": "https://openalex.org/W2963281296",
+  "abstract": "Person re-identification has received special attentionby the human analysis community in the last few years.To address the challenges in this field, many researchers haveproposed different strategies, which basically exploit eithercross-view invariant features or cross-view robust metrics. Inthis work we propose to combine different feature representationsthrough ranking aggregation. Spatial information, whichpotentially benefits the person matching, is represented usinga 2D body model, from which color and texture informationare extracted and combined. We also consider contextualinformation (background and foreground data), automaticallyextracted via Deep Decompositional Network, and the usage ofConvolutional Neural Network (CNN) features. To describe thematching between images we use the polynomial feature map,also taking into account local and global information. Finally,the Stuart ranking aggregation method is employed to combinecomplementary ranking lists obtained from different featurerepresentations. Experimental results demonstrated that weimprove the state-of-the-art on VIPeR and PRID450s datasets,achieving 58.77% and 71.56% on top-1 rank recognitionrate, respectively, as well as obtaining competitive results onCUHK01 dataset.",
+  "scholar_cited_by": 7
  },
  {
   "id": "t:first-impressions-a-survey-on-computer-vision-based-apparent-2018",
@@ -793,7 +823,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "From 2D to 3D geodesic-based garment matching",
   "venue": "arXiv",
@@ -813,14 +844,16 @@
    "Gholamreza Anbarjafari"
   ],
   "cited_by": 4,
-  "openalex_id": "https://openalex.org/W2889982522"
+  "openalex_id": "https://openalex.org/W2889982522",
+  "scholar_cited_by": 4
  },
  {
   "id": "doi:10.1109/taffc.2018.2864230",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Guest Editorial: Apparent Personality Analysis",
   "venue": "IEEE Transactions on Affective Computing",
@@ -838,14 +871,16 @@
   ],
   "cited_by": 10,
   "abstract": "The papers in this special section focus on personality analysis. Automatic analysis of videos to characterize human behavior has become an active area of research with applications in affective computing, human-machine interfaces, gaming, security, marketing, and health, just to mention a few. Research advances in multimedia information processing, computer vision and pattern recognition have lead to established methodologies that are able to successfully recognize consciously executed actions, or intended movements (e.g., gestures, actions, interactions with objects and other people). However, recently there has been much progress in terms of computational approaches to characterize sub-conscious behaviors, which may be revealing aptitudes or competence, hidden intentions, and personality traits. Much remains to be done still, but it is essential nowadays to have a compilation of cutting edge work in this direction to identify potential opportunities and challenges involved. In this line, we edited a special issue on automatic methods for apparent personality analysis. Personality refers to individual differences in characteristic patterns of thinking, feeling and behaving.",
-  "openalex_id": "https://openalex.org/W2890409774"
+  "openalex_id": "https://openalex.org/W2890409774",
+  "scholar_cited_by": 13
  },
  {
   "id": "doi:10.1109/tpami.2018.2869610",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Guest Editorial: The Computational Face",
   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -868,13 +903,15 @@
   ],
   "cited_by": 11,
   "abstract": "The papers in this special section examine the concept of automated face analysis (AFA). AFA has received special attention from the computer vision and pattern recognition communities. Research progress often gives the impression that problems such as face recognition and face detection are solved, at least for some scenarios. Several aspects of face analysis remain open problems, including the implementation of large scale face recognition/detection methods for in the wild images, emotion recognition, micro-expression analysis, and others. The community keeps making rapid progress on these topics, with continual improvement of current methods and creation of new ones that push the state-of-the-art. Applications are countless, including security and video surveillance, human computer/robot interaction, communication, entertainment, and commerce, while having an important social impact in assistive technologies for education and health. The importance of face analysis, together with the vast amount of work on the subject and the latest developments in the field, motivated us to organize a special section on this theme. The scope of the compilation comprises all aspects of face analysis from a computer vision perspective. Including, but not limited to: recognition, detection, alignment, reconstruction of faces, pose estimation of faces, gaze analysis, age, emotion, gender, and facial attributes estimation, and applications among others.",
-  "openalex_id": "https://openalex.org/W2896152522"
+  "openalex_id": "https://openalex.org/W2896152522",
+  "scholar_cited_by": 9
  },
  {
   "id": "doi:10.1002/itl2.56",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Integration of an adaptive trust‐based e‐assessment system into virtual learning environments—The TeSLA project experience",
   "venue": "Internet Technology Letters",
@@ -902,7 +939,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Looking at People Special Issue",
   "venue": "International Journal of Computer Vision",
@@ -920,14 +958,16 @@
    "Isabelle Guyon"
   ],
   "cited_by": 2,
-  "openalex_id": "https://openalex.org/W2791408503"
+  "openalex_id": "https://openalex.org/W2791408503",
+  "scholar_cited_by": 3
  },
  {
   "id": "doi:10.1109/taffc.2017.2751469",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Multimodal First Impression Analysis with Deep Residual Networks",
   "venue": "IEEE Transactions on Affective Computing",
@@ -949,14 +989,16 @@
   ],
   "cited_by": 82,
   "abstract": "People form first impressions about the personalities of unfamiliar individuals even after very brief interactions with them. In this study we present and evaluate several models that mimic this automatic social behavior. Specifically, we present several models trained on a large dataset of short YouTube video blog posts for predicting apparent Big Five personality traits of people and whether they seem suitable to be recommended to a job interview. Along with presenting our audiovisual approach and results that won the third place in the ChaLearn First Impressions Challenge, we investigate modeling in different modalities including audio only, visual only, language only, audiovisual, and combination of audiovisual and language. Our results demonstrate that the best performance could be obtained using a fusion of all data modalities. Finally, in order to promote explainability in machine learning and to provide an example for the upcoming ChaLearn challenges, we present a simple approach for explaining the predictions for job interview recommendations.",
-  "openalex_id": "https://openalex.org/W2756004689"
+  "openalex_id": "https://openalex.org/W2756004689",
+  "scholar_cited_by": 75
  },
  {
   "id": "doi:10.1016/j.imavis.2018.09.006",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Top-down model fitting for hand pose recovery in sequences of depth images",
   "venue": "Image and Vision Computing",
@@ -975,14 +1017,16 @@
    "Jordi Gonzàlez"
   ],
   "cited_by": 9,
-  "openalex_id": "https://openalex.org/W2889975771"
+  "openalex_id": "https://openalex.org/W2889975771",
+  "scholar_cited_by": 12
  },
  {
   "id": "doi:10.1109/fg.2017.150",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "A Survey on Deep Learning Based Approaches for Action and Gesture Recognition in Image Sequences",
   "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
@@ -1012,7 +1056,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Apparent and Real Age Estimation in Still Images with Deep Residual Regressors on Appa-Real Database",
   "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
@@ -1083,9 +1128,10 @@
  },
  {
   "id": "doi:10.1109/ijcnn.2017.7966041",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "ChaLearn looking at people: A review of events and resources",
   "venue": "International Joint Conference on Neural Networks (IJCNN)",
@@ -1106,9 +1152,10 @@
  },
  {
   "id": "doi:10.1007/978-3-319-57021-1_19",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Deep Learning for Action and Gesture Recognition in Image Sequences: A Survey",
   "venue": "The Springer series on challenges in machine learning",
@@ -1162,7 +1209,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Design of an explainable machine learning challenge for video interviews",
   "venue": "Proceedings of the International Joint Conference on Neural Networks",
@@ -1195,7 +1243,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Dominant and Complementary Multi-Emotional Facial Expression Recognition Using C-Support Vector Classification",
   "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
@@ -1252,7 +1301,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Evolving weighting schemes for the Bag of Visual Words",
   "venue": "Neural Computing and Applications",
@@ -1271,38 +1321,16 @@
    "José Martínez-Carranza"
   ],
   "cited_by": 10,
-  "openalex_id": "https://openalex.org/W2291214253"
- },
- {
-  "id": "doi:10.1109/fg.2017.133",
-  "status": "confirmed",
-  "sources": [
-   "orcid",
-   "openalex"
-  ],
-  "title": "Exploiting feature Representations Through Similarity Learning and Ranking Aggregation for Person Re-identification",
-  "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
-  "type": "conference-paper",
-  "year": 2017,
-  "doi": "10.1109/fg.2017.133",
-  "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85026311716&partnerID=MN8TOARS",
-  "orcid_put_code": 35804276,
-  "date": "2017-05-01",
-  "authors": [
-   "Julio C. S. Jacques",
-   "Xavier Baró",
-   "Sérgio Escalera"
-  ],
-  "cited_by": 0,
-  "abstract": "Person re-identification has received special attentionby the human analysis community in the last few years.To address the challenges in this field, many researchers haveproposed different strategies, which basically exploit eithercross-view invariant features or cross-view robust metrics. Inthis work we propose to combine different feature representationsthrough ranking aggregation. Spatial information, whichpotentially benefits the person matching, is represented usinga 2D body model, from which color and texture informationare extracted and combined. We also consider contextualinformation (background and foreground data), automaticallyextracted via Deep Decompositional Network, and the usage ofConvolutional Neural Network (CNN) features. To describe thematching between images we use the polynomial feature map,also taking into account local and global information. Finally,the Stuart ranking aggregation method is employed to combinecomplementary ranking lists obtained from different featurerepresentations. Experimental results demonstrated that weimprove the state-of-the-art on VIPeR and PRID450s datasets,achieving 58.77% and 71.56% on top-1 rank recognitionrate, respectively, as well as obtaining competitive results onCUHK01 dataset.",
-  "openalex_id": "https://openalex.org/W2724353308"
+  "openalex_id": "https://openalex.org/W2291214253",
+  "scholar_cited_by": 18
  },
  {
   "id": "doi:10.1109/fg.2017.102",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation: Databases",
   "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
@@ -1332,7 +1360,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Occlusion Aware Hand Pose Recovery from Sequences of Depth Images",
   "venue": "Proceedings - 12th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2017 - 1st International Workshop on Adaptive Shot Learning for Gesture Understanding and Production, ASL4GUP 2017, Biometrics in the Wild, Bwild 2017, Heterogeneous Face Recognition, HFR 2017, Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation, DCER and HPE 2017 and 3rd Facial Expression Recognition and Analysis Challenge, FERA 2017",
@@ -1359,7 +1388,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Results and Analysis of ChaLearn LAP Multi-modal Isolated and Continuous Gesture Recognition, and Real Versus Fake Expressed Emotions Challenges",
   "venue": "Proceedings - 2017 IEEE International Conference on Computer Vision Workshops, ICCVW 2017",
@@ -1391,7 +1421,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Visualizing apparent personality analysis with deep residual networks",
   "venue": "Proceedings - 2017 IEEE International Conference on Computer Vision Workshops, ICCVW 2017",
@@ -1424,7 +1455,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Adaptive e-assessment system: A general approach",
   "venue": "International Journal of Emerging Technologies in Learning",
@@ -1442,13 +1474,15 @@
   ],
   "cited_by": 19,
   "abstract": "On any type of course (on site or online), a learner is evaluated whether he has acquired the knowledge and competences provided in the course. The evaluation should be performed by evaluating his progression by means of the interaction in the classroom or assessment activities. Mostly, assessment activities are used to check the level of expertise of the learner. Typically, the assessment model and assessment activities of subjects in official programmes are the same for all the learners, since they should be evaluated having the same opportunities and conditions. However, when the learner is evaluated based on a continuous assessment model, he is demonstrating on each activity his knowledge and proficiency level and, at the same time, his reputation could be also built based on the actions he is performing within the course. Therefore, the assessment model can be particularly adapted for each learned based on this information. In this paper, we present a general system to adapt any component of the assessment process (model, activity, question…) based on different evidences gathered from the learning process of the learner.",
-  "openalex_id": "https://openalex.org/W2496505282"
+  "openalex_id": "https://openalex.org/W2496505282",
+  "scholar_cited_by": 29
  },
  {
   "id": "doi:10.5334/ijic.2680",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Care respite: taking care of the caregivers",
   "venue": "International Journal of Integrated Care",
@@ -1467,7 +1501,8 @@
   ],
   "cited_by": 1,
   "abstract": "Introduction: With an ageing population, the issue of care provision is becoming increasingly critical. Since the aspiration of the majority of older people is to live safely and well at home, housing monitoring will be part of health & care integration in the next decades. As a consequence, a higher proportion of people will have to rely on family, friends or neighbours as their informal caregivers, providing that this group already count as around 80% of all caregivers in the EU). The varied and cumulative problems that this caregivers face include loss of personal opportunities and self-esteem, financial problems or physical and emotional problems. Several strategies need to be enforced to prevent the burnout and improve the quality of life of these informal caregivers, such as the possibility of providing them with useful and reliable monitoring tools that can help reduce the exhausting and continuous supervision activity they have to perform, reduce their stress, and increase their leisure time while improving the autonomy and wellness of the dependent people. The technological solutions currently in use are invasive (wearable sensors) or require actions difficult to perform by the elder (call or press the button), in critical situations (e.g. falling or fainting situations, where the elder is not able to give any response). As an alternative to these solutions, this paper describes *\"Care Respite\", a novel non-invasive, real-time and privacy-preserving monitoring technology conceived for the first time as a real respite for those taking care of others* and describes the results of the case studies. Short description: The Care Respite technology is composed of an ambient intelligent device (AID) and a remote receiver. The AID device includes a Microsoft Kinect multi-modal sensor and a computer unit. The sensor captures audio and depth maps from around 25 m2 (thanks to its infrared structured light technology) to be processed in a computer unit by an advanced generation of Computer Vision software. This software is able to recognize specific events like: leaving the environment, falling/fainting, high agitation, etc. Monitoring can be done in dark environments thanks to the infrared technology of the sensor, therefore the appearance of the person is not used at all. The alert is transmitted to a receiver, any smartphone with Internet connection. With our smartphone application, different caregivers can share the monitoring task of a single person, and a single caregiver can monitor multiple dependent people at the same time. Key findings: The innovative aspect of Care Respite relies on (i) the benefits of the incorporation and exploitation of novel computer vision technologies now available thanks to the use of low-cost depth cameras, and (ii) on the feedback provided by informal and professional caregivers during these last two years. No other monitoring system in the market addressed to the caregivers is comparable in terms of safety, relief, autonomy, satisfaction, intimacy and cost reduction. The system does not require a fixed installation point, therefore the monitoring camera can be placed anywhere inside a home or a retirement house. Highlights: Low cost RGB-D cameras are completely changing the computer vision world, as they are being successfully used in several applications and research areas. Following this trend, the first users of Care Respite liked the idea of exploiting depth data (not the appearance) recorded at the older person’s homes to send alarms and information to their caregivers, who are connected using smartphone. An additional feature that liked the first users of Care Respite is its personalization aspect: the remote smartphone application allows the professionals or family carers to choose which risky events to monitor. Another lesson learnt during implementation is that the remote visualization and communication via image and audio is an essential and supporting tool for fast responses in case of risk, while improving the autonomy and life quality of both the elderly and their caregivers. Conclusion: This project aims at ensuring that all disabled or chronically ill people can get the help they need without overburdening their families. Improving carers' quality of life and preventing their burnout require new solutions that are affordable and user friendly for families and caregivers. In this context, Care Respite represents a technological solution for the automatic detection of events like falling down, not moving during a period of time, receiving an unexpected visit or being absent from a room. The intelligent software is able to send an alert to the mobile device of the caregivers allowing real time response.",
-  "openalex_id": "https://openalex.org/W2583920691"
+  "openalex_id": "https://openalex.org/W2583920691",
+  "scholar_cited_by": 1
  },
  {
   "id": "doi:10.1109/icpr.2016.7899609",
@@ -1592,7 +1627,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Guest Editors' Introduction to the special issue on multimodal human pose recovery and behavior analysis",
   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -1610,7 +1646,8 @@
   ],
   "cited_by": 13,
   "abstract": "The sixteen papers in this special section focus on human pose recovery and behavior analysis (HuPBA). This is one of the most challenging topics in computer vision, pattern analysis, and machine learning. It is of critical importance for application areas that include gaming, computer interaction, human robot interaction, security, commerce, assistive technologies and rehabilitation, sports, sign language recognition, and driver assistance technology, to mention just a few. In essence, HuPBA requires dealing with the articulated nature of the human body, changes in appearance due to clothing, and the inherent problems of clutter scenes, such as background artifacts, occlusions, and illumination changes. These papers represent the most recent research in this field, including new methods considering still images, image sequences, depth data, stereo vision, 3D vision, audio, and IMUs, among others.",
-  "openalex_id": "https://openalex.org/W2474191075"
+  "openalex_id": "https://openalex.org/W2474191075",
+  "scholar_cited_by": 9
  },
  {
   "id": "doi:10.1016/b978-0-12-803637-2.09988-7",
@@ -1696,7 +1733,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Towards an Adaptive e-Assessment System Based on Trustworthiness",
   "venue": "Formative Assessment, Learning Data Analytics and Gamification: In ICT Education",
@@ -1749,7 +1787,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "ChaLearn looking at people 2015 new competitions: Age estimation and cultural event recognition",
   "venue": "Proceedings of the International Joint Conference on Neural Networks",
@@ -1779,7 +1818,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "ChaLearn Looking at People 2015: Apparent Age and Cultural Event Recognition Datasets and Results",
   "venue": "Proceedings of the IEEE International Conference on Computer Vision",
@@ -1809,7 +1849,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Chalearn looking at people challenge 2014: Dataset and results",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
@@ -1913,7 +1954,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Improving bag of visual words representations with genetic programming",
   "venue": "Proceedings of the International Joint Conference on Neural Networks",
@@ -1939,7 +1981,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Non-verbal communication analysis in Victim-Offender Mediations",
   "venue": "Pattern Recognition Letters",
@@ -1957,7 +2000,8 @@
    "Xavier Baró"
   ],
   "cited_by": 11,
-  "openalex_id": "https://openalex.org/W1884018204"
+  "openalex_id": "https://openalex.org/W1884018204",
+  "scholar_cited_by": 20
  },
  {
   "id": "doi:10.1109/incos.2015.53",
@@ -1989,7 +2033,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "On the design of an ECOC-Compliant Genetic Algorithm",
   "venue": "Pattern Recognition",
@@ -2006,14 +2051,16 @@
    "Oriol Pujol"
   ],
   "cited_by": 23,
-  "openalex_id": "https://openalex.org/W2020207001"
+  "openalex_id": "https://openalex.org/W2020207001",
+  "scholar_cited_by": 32
  },
  {
   "id": "doi:10.1016/j.patrec.2013.09.009",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Probability-based Dynamic Time Warping and Bag-of-Visual-and-Depth-Words for Human Gesture Recognition in RGB-D",
   "venue": "Pattern Recognition Letters",
@@ -2034,14 +2081,16 @@
    "Cecilio Ángulo"
   ],
   "cited_by": 59,
-  "openalex_id": "https://openalex.org/W2134336275"
+  "openalex_id": "https://openalex.org/W2134336275",
+  "scholar_cited_by": 78
  },
  {
   "id": "doi:10.1109/incos.2014.69",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "ValID: A trust-based virtual assessment system",
   "venue": "Proceedings - 2014 International Conference on Intelligent Networking and Collaborative Systems, IEEE INCoS 2014",
@@ -2103,7 +2152,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Emotion detection using hybrid structural and appearance descriptors",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
@@ -2127,7 +2177,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Multi-modal gesture recognition challenge 2013: Dataset and results",
   "venue": "ICMI 2013 - Proceedings of the 2013 ACM International Conference on Multimodal Interaction",
@@ -2156,7 +2207,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Multi-modal social signal analysis for predicting agreement in conversation settings",
   "venue": "ICMI 2013 - Proceedings of the 2013 ACM International Conference on Multimodal Interaction",
@@ -2202,7 +2254,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Probability-based dynamic time warping for gesture recognition on RGB-D data",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
@@ -2230,7 +2283,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "A genetic inspired optimization for ECOC",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
@@ -2254,7 +2308,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "BoVDW: Bag-of-Visual-and-Depth-Words for gesture recognition",
   "venue": "Proceedings - International Conference on Pattern Recognition",
@@ -2282,7 +2337,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Minimal design of error-correcting output codes",
   "venue": "Pattern Recognition Letters",
@@ -2301,7 +2357,8 @@
    "Oriol Pujol"
   ],
   "cited_by": 46,
-  "openalex_id": "https://openalex.org/W2094801485"
+  "openalex_id": "https://openalex.org/W2094801485",
+  "scholar_cited_by": 61
  },
  {
   "id": "t:multi-modal-human-gesture-recognition-combining-dynamic-prog-2012",
@@ -2350,7 +2407,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Social network extraction and analysis based on multimodal dyadic interaction",
   "venue": "Sensors",
@@ -2369,13 +2427,15 @@
   ],
   "cited_by": 11,
   "abstract": "Social interactions are a very important component in people's lives. Social network analysis has become a common technique used to model and quantify the properties of social interactions. In this paper, we propose an integrated framework to explore the characteristics of a social network extracted from multimodal dyadic interactions. For our study, we used a set of videos belonging to New York Times' Blogging Heads opinion blog. The Social Network is represented as an oriented graph, whose directed links are determined by the Influence Model. The links' weights are a measure of the \"influence\" a person has over the other. The states of the Influence Model encode automatically extracted audio/visual features from our videos using state-of-the art algorithms. Our results are reported in terms of accuracy of audio/visual data fusion for speaker segmentation and centrality measures used to characterize the extracted social network.",
-  "openalex_id": "https://openalex.org/W1974507401"
+  "openalex_id": "https://openalex.org/W1974507401",
+  "scholar_cited_by": 20
  },
  {
   "id": "t:uoc-api-site-a-seed-for-new-elearning-applications-2012",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "UOC API Site, a seed for new eLearning applications",
   "venue": "RUA, Repositorio Institucional de la Universidad de Alicante (Universidad de Alicante)",
@@ -2394,9 +2454,10 @@
  },
  {
   "id": "t:analisis-de-la-expresion-oral-y-gestual-en-proyectos-fin-de--2011",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Análisis de la Expresión Oral y Gestual en Proyectos Fin de Carrera vía un Sistema de Visión Artificial",
   "venue": "ReVision",
@@ -2466,7 +2527,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Human behavior analysis from video data using bag-of-gestures",
   "venue": "IJCAI International Joint Conference on Artificial Intelligence",
@@ -2491,7 +2553,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Introducing the separability matrix for error correcting output codes coding",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
@@ -2638,9 +2701,10 @@
  },
  {
   "id": "doi:10.1007/978-1-4471-2245-6",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Traffic-Sign Recognition Systems",
   "venue": "SpringerBriefs in computer science",
@@ -2681,11 +2745,30 @@
   "openalex_id": "https://openalex.org/W2738240830"
  },
  {
+  "id": "t:compact-evolutive-design-of-error-correcting-output-code-2010",
+  "status": "confirmed",
+  "sources": [
+   "cv"
+  ],
+  "title": "Compact Evolutive Design of Error-Correcting Output Code",
+  "year": 2010,
+  "venue": "Proceedings of the Supervised and Unsupervised Ensemble Methods and their Applications (SUEMA’2010) in the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD), pp. 119-128.",
+  "type": "conference-paper",
+  "authors": [
+   "Miguel A. Bautista",
+   "Xavier Baró",
+   "Oriol Pujol",
+   "Petia Radeva",
+   "Jordi Vitrià i Sergio Escalera"
+  ]
+ },
+ {
   "id": "doi:10.1145/1891903.1891967",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Modelling and analyzing multimodal dyadic interactions using social networks",
   "venue": "International Conference on Multimodal Interfaces and the Workshop on Machine Learning for Multimodal Interaction, ICMI-MLMI 2010",
@@ -2708,9 +2791,10 @@
  },
  {
   "id": "t:metodos-automaticos-para-el-analisis-de-la-expresion-oral-y--2010",
-  "status": "candidate",
+  "status": "confirmed",
   "sources": [
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Métodos automáticos para el análisis de la expresión oral y gestual en proyectos fin de carrera",
   "venue": "RUA, Repositorio Institucional de la Universidad de Alicante (Universidad de Alicante)",
@@ -2726,6 +2810,22 @@
   "cited_by": 0,
   "abstract": "La comunicación y expresión oral es una competencia de especial relevancia en el EEES. No obstante, en muchas enseñanzas superiores la puesta en práctica de esta competencia ha sido relegada principalmente a la presentación de proyectos fin de carrera. Dentro de un proyecto de innovación docente, se ha desarrollado una herramienta informática para la extracción de información objetiva para el análisis de la expresión oral y gestual de los alumnos. El objetivo es dar un “feedback” a los estudiantes que les permita mejorar la calidad de sus presentaciones.El prototipo inicial que se presenta en este trabajo permite extraer de forma automática información audio-visual y analizarla mediante técnicas de aprendizaje. El sistema ha sido aplicado a 15 proyectos fin de carrera y 15 exposiciones dentro de una asignatura de cuarto curso. Los resultados obtenidos muestran la viabilidad del sistema para sugerir factores que ayuden tanto en el éxito de la comunicación así como en los criterios de evaluación.",
   "openalex_id": "https://openalex.org/W1593285307"
+ },
+ {
+  "id": "t:4th-cvc-workshop-on-research-and-development-new-trends-and--2009",
+  "status": "confirmed",
+  "sources": [
+   "cv"
+  ],
+  "title": "4th CVC Workshop on Research and Development: New Trends and Challenges in Computer Vision.",
+  "year": 2009,
+  "venue": "4th CVC Workshop on Research and Development: New Trends and Challenges in Computer Vision.",
+  "type": "book-chapter",
+  "authors": [
+   "Xavier Baró",
+   "Sergio Escalera",
+   "Miquel Ferrer"
+  ]
  },
  {
   "id": "t:asociacionismo-y-ciudadania-en-los-jovenes-mediterraneos-2009",
@@ -2751,7 +2851,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Generic object recognition in urban image databases",
   "venue": "Frontiers in Artificial Intelligence and Applications",
@@ -2776,7 +2877,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Probabilistic darwin machines for object detection",
   "venue": "Proceedings of the 2009 International Conference on Image Processing, Computer Vision, and Pattern Recognition, IPCV 2009",
@@ -2794,11 +2896,26 @@
   "openalex_id": "https://openalex.org/W1576123337"
  },
  {
+  "id": "t:probabilistic-darwin-machines-a-new-approach-to-develop-evol-2009",
+  "status": "confirmed",
+  "sources": [
+   "cv"
+  ],
+  "title": "Probabilistic Darwin Machines: A new approach to develop evolutionary object detection systems",
+  "year": 2009,
+  "venue": "Probabilistic Darwin Machines: A new approach to develop evolutionary object detection systems",
+  "type": "book",
+  "authors": [
+   "Xavier Baró"
+  ]
+ },
+ {
   "id": "doi:10.3233/978-1-60750-061-2-35",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Text detection in urban scenes",
   "venue": "Frontiers in Artificial Intelligence and Applications",
@@ -2823,7 +2940,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Traffic sign recognition using evolutionary adaboost detection and forest-ECOC classification",
   "venue": "IEEE Transactions on Intelligent Transportation Systems",
@@ -2842,14 +2960,16 @@
   ],
   "cited_by": 197,
   "abstract": "The high variability of sign appearance in uncontrolled environments has made the detection and classification of road signs a challenging problem in computer vision. In this paper, we introduce a novel approach for the detection and classification of traffic signs. Detection is based on a boosted detectors cascade, trained with a novel evolutionary version of Adaboost, which allows the use of large feature spaces. Classification is defined as a multiclass categorization problem. A battery of classifiers is trained to split classes in an Error-Correcting Output Code (ECOC) framework. We propose an ECOC design through a forest of optimal tree structures that are embedded in the ECOC matrix. The novel system offers high performance and better accuracy than the state-of-the-art strategies and is potentially better in terms of noise, affine deformation, partial occlusions, and reduced illumination.",
-  "openalex_id": "https://openalex.org/W2140670173"
+  "openalex_id": "https://openalex.org/W2140670173",
+  "scholar_cited_by": 280
  },
  {
   "id": "doi:10.1109/icme.2009.5202828",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Visual content layer for scalable object recognition in urban image databases",
   "venue": "Proceedings - 2009 IEEE International Conference on Multimedia and Expo, ICME 2009",
@@ -2870,11 +2990,25 @@
   "openalex_id": "https://openalex.org/W2125741264"
  },
  {
+  "id": "t:deteccio-de-regions-de-text-2008",
+  "status": "confirmed",
+  "sources": [
+   "cv"
+  ],
+  "title": "Detecció de regions de Text",
+  "year": 2008,
+  "type": "report",
+  "authors": [
+   "Xavier Baró"
+  ]
+ },
+ {
   "id": "doi:10.1007/978-3-540-78761-7_24",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Evolutionary object detection by means of Naïve Bayes Models estimation",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
@@ -2892,11 +3026,25 @@
   "openalex_id": "https://openalex.org/W1608608624"
  },
  {
+  "id": "t:reconeixement-de-guals-en-entorns-urbans-2008",
+  "status": "confirmed",
+  "sources": [
+   "cv"
+  ],
+  "title": "Reconeixement de Guals en entorns urbans",
+  "year": 2008,
+  "type": "report",
+  "authors": [
+   "Xavier Baró"
+  ]
+ },
+ {
   "id": "doi:10.1007/978-3-540-79547-6_27",
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Weighted dissociated dipoles: An extended visual feature set",
   "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
@@ -2918,7 +3066,8 @@
   "status": "confirmed",
   "sources": [
    "orcid",
-   "openalex"
+   "openalex",
+   "cv"
   ],
   "title": "Weighted dissociated dipoles for evolutive learning",
   "venue": "Frontiers in Artificial Intelligence and Applications",

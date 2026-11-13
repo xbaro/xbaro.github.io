@@ -1,7 +1,7 @@
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.10"
-# dependencies = []
+# dependencies = ["python-docx"]
 # ///
 """Structured, indexed memory of the site's reference content.
 
@@ -14,6 +14,7 @@ Lives under _memory/ (underscore dirs are NOT published by Jekyll).
   uv run _memory/tools/memory.py stats
 """
 import argparse
+import difflib
 import json
 import re
 import sqlite3
@@ -130,6 +131,97 @@ def load_openalex():
     return out
 
 
+CV_SECTIONS = {  # AQU normalised CV: section heading -> (reference type, label)
+    "B.1": ("journal-article", "indexed journal"), "B.2": ("journal-article", "non-indexed journal"),
+    "B.3": (None, "book / chapter"), "B.4": ("report", "other publication"),
+    "B.5": ("conference-paper", "conference proceedings"),
+}
+DOI_RE = re.compile(r"10\.\d{4,9}/[^\s,;]+")
+
+
+def docx_text(path):
+    import docx
+    from docx.table import Table
+    from docx.text.paragraph import Paragraph
+    d, out = docx.Document(str(path)), []
+    for el in d.element.body.iterchildren():
+        if el.tag.endswith("}p"):
+            out.append(Paragraph(el, d).text)
+        elif el.tag.endswith("}tbl"):
+            for row in Table(el, d).rows:
+                cells = []
+                for c in row.cells:
+                    t = c.text.strip().replace("\n", " / ")
+                    if t and (not cells or cells[-1] != t):
+                        cells.append(t)
+                out.append(" | ".join(cells))
+    return out
+
+
+def import_cv(path):
+    """Extract ONLY publications (B) and conference talks (E) from an AQU CV.
+    Personal data in the CV (ID number, address, birth date...) is never read into the repo."""
+    lines = docx_text(path) if str(path).endswith(".docx") else Path(path).read_text().splitlines()
+    pubs, talks, sec, rec = [], [], None, []
+
+    def flush():
+        nonlocal rec
+        if rec:
+            text = " / ".join(x.strip() for x in rec if x.strip())
+            fields = {}
+            for part in re.split(r"\s/\s", text):
+                if ":" in part:
+                    k, v = part.split(":", 1)
+                    fields.setdefault(k.strip(), v.strip())
+            get = lambda *keys: next((v for k, v in fields.items() if any(k.lower().startswith(x.lower()) for x in keys) and v), None)
+            title = get("Títol del capítol") or get("Títol")
+            if title:
+                yr = get("Any")
+                m = re.search(r"\b(19|20)\d{2}\b", yr or "")
+                r = {"title": title, "authors_cv": get("Autors"), "year": int(m.group()) if m else None,
+                     "venue": get("Revista", "Llibre d", "Capítol publicat", "Congrés", "Títol del llibre"),
+                     "doi": norm_doi((DOI_RE.search(text) or [None])[0]) if DOI_RE.search(text) else None,
+                     "cv_section": sec}
+                if sec == "E":
+                    r.update({"contribution": get("Tipus de contribució"), "place": get("Lloc")})
+                    talks.append(r)
+                else:
+                    kind = CV_SECTIONS[sec][0] or ("book" if (get("Clau (L") or "").strip().upper().startswith("L") else "book-chapter")
+                    r["type"] = kind
+                    pubs.append(r)
+        rec = []
+
+    for ln in lines:
+        m = re.match(r"^(B\.[1-5]|E)\.?\s", ln)
+        if m and (ln.startswith("B.") or ln.startswith("E. Congressos")):
+            flush()
+            sec = m.group(1)
+            continue
+        if sec is None or re.match(r"^[A-D]\.\d?\s", ln) or ln.startswith(("C. ", "D. ")):
+            if ln.startswith(("C. ", "D. ")):
+                flush(); sec = None
+            continue
+        if ln.startswith("Autors/"):
+            flush(); rec = [ln]
+        elif ln.startswith("Altres indicis") and pubs and rec:
+            c = re.search(r"Google Scholar:\s*(\d+)", ln)
+            flush()
+            if c and pubs:
+                pubs[-1]["scholar_cited_by"] = int(c.group(1))
+        elif rec:
+            rec.append(ln)
+    flush()
+    SRC.mkdir(parents=True, exist_ok=True)
+    (SRC / "cv_publications.json").write_text(json.dumps(pubs, indent=1, ensure_ascii=False) + "\n")
+    (SRC / "cv_talks.json").write_text(json.dumps(talks, indent=1, ensure_ascii=False) + "\n")
+    print(f"cv: {len(pubs)} publications, {len(talks)} talks -> sources/cv_*.json")
+
+
+def load_cv():
+    p = SRC / "cv_publications.json"
+    return json.loads(p.read_text()) if p.exists() else []
+
+
 def ref_id(rec):
     return f"doi:{rec['doi']}" if rec.get("doi") else f"t:{norm_title(rec['title'])[:60].replace(' ', '-')}-{rec.get('year') or 'nd'}"
 
@@ -144,6 +236,13 @@ def merge():
             key = f"doi:{rec['doi']}"
         elif norm_title(rec["title"]) in by_title:
             key = by_title[norm_title(rec["title"])]
+        else:  # fuzzy: near-identical title, year within 1
+            nt = norm_title(rec["title"])
+            for t, k in by_title.items():
+                ry = refs[k].get("year")
+                if (not ry or not rec.get("year") or abs(ry - rec["year"]) <= 1) and difflib.SequenceMatcher(None, nt, t).ratio() >= 0.92:
+                    key = k
+                    break
         if key is None:
             key = ref_id(rec)
             refs[key] = {"id": key, "status": "candidate", "sources": []}
@@ -164,6 +263,13 @@ def merge():
     for rec in load_openalex():
         if rec["title"]:
             add(rec, "openalex")
+    for rec in load_cv():              # the owner's own CV: authoritative, like ORCID
+        r = add({k: v for k, v in rec.items() if k not in ("authors_cv", "cv_section", "scholar_cited_by")}, "cv")
+        r["status"] = "confirmed"
+        if rec.get("scholar_cited_by") is not None:
+            r["scholar_cited_by"] = rec["scholar_cited_by"]
+        if not r.get("authors") and rec.get("authors_cv"):
+            r["authors"] = [a.strip() for a in re.split(r";|,\s(?=[A-ZÁÉÍÓÚ])", rec["authors_cv"]) if a.strip()]
 
     overrides = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
     for key, ov in overrides.items():
@@ -214,7 +320,7 @@ def stats():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["sync", "index", "search", "stats"])
+    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv"])
     ap.add_argument("query", nargs="?")
     ap.add_argument("--offline", action="store_true")
     a = ap.parse_args()
@@ -225,6 +331,8 @@ if __name__ == "__main__":
         build_index()
     elif a.cmd == "index":
         build_index()
+    elif a.cmd == "import-cv":
+        import_cv(a.query or sys.exit("path to CV (.docx) required"))
     elif a.cmd == "search":
         search(a.query or sys.exit("query required"))
     else:
