@@ -6,7 +6,14 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% assign cur = page.lang | default: site.default_lang %}
+          {% if cur == site.default_lang %}{% assign home = "/" %}{% else %}{% assign home = "/" | append: cur | append: "/" %}{% endif %}
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ home | relative_url }}">{{ site.title }}</a></li>
+          {% assign nav_keys = "publications,projects,teaching" | split: "," %}
+          {% for k in nav_keys %}
+            {% assign target = site.pages | where: "translation_key", k | where: "lang", cur | first %}
+            {% if target %}<li class="masthead__menu-item"><a href="{{ target.url | relative_url }}">{{ target.title }}</a></li>{% endif %}
+          {% endfor %}
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
