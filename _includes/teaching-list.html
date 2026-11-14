@@ -4,8 +4,9 @@
 <style>
 .teaching-inst{display:flex;align-items:center;gap:.7em;margin:2.6em 0 .2em;padding:.7em 0 .5em;border-top:4px solid #494e52;border-bottom:0!important;font-size:1.55em;line-height:1.2}
 .teaching-inst:first-of-type{margin-top:1.2em}
-.teaching-inst{flex-wrap:wrap;justify-content:space-between}
-.teaching-inst__logo{order:2;margin-left:auto;height:1.9em;width:auto;max-width:11em;object-fit:contain;object-position:right center;filter:grayscale(1) contrast(1.35);opacity:.92}
+.teaching-inst{flex-wrap:nowrap;justify-content:space-between}
+.teaching-inst>span{min-width:0}
+.teaching-inst__logo{order:2;flex:0 0 auto;margin:0 0 0 auto;height:1.7em;width:auto;max-width:9em;object-fit:contain;filter:grayscale(1) contrast(1.35);opacity:.92}
 .teaching-degree{font-size:1.2em;margin:1.8em 0 .7em;padding-top:1em;border-top:1px solid #cfd2d4}
 h2 + .teaching-degree{border-top:0;padding-top:0;margin-top:1em}
 .teaching-list{list-style:disc;padding:0 0 0 1.4em;margin:0 0 .4em}
