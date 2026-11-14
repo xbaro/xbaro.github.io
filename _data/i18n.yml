@@ -40,7 +40,7 @@ en:
   no_year: "n.d."
   name: English
   teaching: Teaching
-  teaching_intro: Subjects I have taught, by institution and academic years. Repeated editions are merged into periods.
+  teaching_intro: Subjects I have taught, by institution and programme, from the first to the last academic year.
   undergraduate: Undergraduate
   master: Master
   planned: planned
@@ -91,7 +91,7 @@ ca:
   no_year: "s.d."
   name: Català
   teaching: Docència
-  teaching_intro: Assignatures impartides, per institució i cursos acadèmics. Les edicions repetides s'agrupen en períodes.
+  teaching_intro: Assignatures impartides, per institució i titulació, des del primer fins a l'últim curs acadèmic.
   undergraduate: Grau
   master: Màster
   planned: planificat
@@ -142,7 +142,7 @@ es:
   no_year: "s.f."
   name: Español
   teaching: Docencia
-  teaching_intro: Asignaturas impartidas, por institución y cursos académicos. Las ediciones repetidas se agrupan en periodos.
+  teaching_intro: Asignaturas impartidas, por institución y titulación, desde el primer hasta el último curso académico.
   undergraduate: Grado
   master: Máster
   planned: planificado
