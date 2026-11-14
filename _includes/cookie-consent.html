@@ -10,7 +10,7 @@
 <div id="cookie-notice"><span>{{ CT.cookie_text }}</span>
     <a id="cookie-notice-accept" class="btn btn-primary btn-sm">{{ CT.cookie_approve }}</a>
     <a id="cookie-notice-deny" class="btn btn-primary btn-sm">{{ CT.cookie_deny }}</a>
-    <a href="/cookie-policy/" class="btn btn-primary btn-sm">{{ CT.cookie_info }}</a></div>
+    {% assign cpol = site.pages | where: "translation_key", "cookies" | where: "lang", L | first %}<a href="{{ cpol.url | default: '/cookie-policy/' }}" class="btn btn-primary btn-sm">{{ CT.cookie_info }}</a></div>
 <script>
     function createCookie(name,value,days) {
         var expires = "";
