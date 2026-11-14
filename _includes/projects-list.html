@@ -1,6 +1,6 @@
 {% assign L = page.lang | default: site.default_lang %}
 {% assign T = site.data.i18n[L] %}
-<style>.proj-list{list-style:none;padding:0;margin:0}.proj-list li{margin:0 0 1em}.proj-meta{font-size:.88em;opacity:.8}.proj-years{white-space:nowrap}.proj-filters{display:flex;flex-wrap:wrap;gap:.5em;align-items:center;margin:1em 0}.proj-filters input,.proj-filters select{padding:.4em .6em;font-size:.9em;max-width:100%}.proj-filters input{flex:1 1 14em}.proj-count{font-size:.85em;opacity:.7}.proj-list li[hidden],.proj-section[hidden]{display:none}</style>
+<style>.proj-list{list-style:none;padding:0;margin:0}.proj-list li{margin:0 0 1em}.proj-meta{font-size:.88em;color:#6b7075}.proj-meta u,.pub-list u{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;border-bottom:0;color:#2b2f33}.proj-years{white-space:nowrap}.proj-filters{display:flex;flex-wrap:wrap;gap:.5em;align-items:center;margin:1em 0}.proj-filters input,.proj-filters select{padding:.4em .6em;font-size:.9em;max-width:100%}.proj-filters input{flex:1 1 14em}.proj-count{font-size:.85em;opacity:.7}.proj-list li[hidden],.proj-section[hidden]{display:none}</style>
 <p>{{ T.projects_intro }}</p>
 {% assign kinds = "competitive,sgr,contract" | split: "," %}
 <div class="proj-filters">
