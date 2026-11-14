@@ -565,10 +565,12 @@ def build_site_data():
 
     rows = []
     for r in t["summary"]:
+        if not r["periods"]:   # only what has been taught: courses that are merely planned are not published
+            continue
         ca = r["name"]["ca"]
-        rows.append({"periods_label": label(r["periods"]), "planned_label": label(r["planned"]), **{"institution": r["institution"], "level": r["level"], "name": loc(tr["names"], ca),
+        rows.append({"periods_label": label(r["periods"]), **{"institution": r["institution"], "level": r["level"], "name": loc(tr["names"], ca),
                      "programmes": [loc(tr["programmes"], p) for p in r["programmes"]],
-                     "periods": r["periods"], "planned": r["planned"], "languages": r["languages"]}})
+                     "periods": r["periods"], "languages": r["languages"]}})
     out = ROOT.parent / "_data" / "teaching.json"
     out.write_text(json.dumps(rows, indent=1, ensure_ascii=False) + "\n")
     print(f"{out.relative_to(ROOT.parent)}: {len(rows)} subject rows")

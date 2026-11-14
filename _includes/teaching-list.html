@@ -17,7 +17,7 @@
         {% for r in rows %}
           <li>
             <strong>{{ r.name[L] }}</strong>
-            <span class="teaching-list__years">{{ r.periods_label | join: ", " }}{% if r.planned_label.size > 0 %}{% if r.periods_label.size > 0 %}, {% endif %}{{ r.planned_label | join: ", " }} ({{ T.planned }}){% endif %}</span><br>
+            <span class="teaching-list__years">{{ r.periods_label | join: ", " }}</span><br>
             <small>{% for p in r.programmes %}{{ p[L] }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% if r.languages.size > 0 %} · {% for x in r.languages %}{{ T.languages[x] | default: x }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}</small>
           </li>
         {% endfor %}

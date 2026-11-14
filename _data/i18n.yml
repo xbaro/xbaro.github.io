@@ -1,6 +1,14 @@
 # Site strings that Academic Pages' ui-text.yml does not cover. One block per language code (page.lang).
 # Add a language: add a block here, a `_pages/<lang>/` folder and the code to `site.languages` in _config.yml.
 en:
+  locale: "en-US"
+  author_bio: "Associate Professor"
+  author_location: "Barcelona, Catalonia"
+  follow_btn: "Follow"
+  cookie_text: "We would like to use third party cookies and scripts to improve the functionality of this website."
+  cookie_approve: "Approve"
+  cookie_deny: "Deny"
+  cookie_info: "More info"
   publications: Publications
   publications_intro: "Peer-reviewed and other scientific outputs, most recent first. Also on"
   pub_types:
@@ -44,6 +52,14 @@ en:
     "Université Paris-Saclay": Université Paris-Saclay
   language_switch: Language
 ca:
+  locale: "ca-ES"
+  author_bio: "Professor agregat"
+  author_location: "Barcelona, Catalunya"
+  follow_btn: "Segueix"
+  cookie_text: "Voldríem fer servir galetes i scripts de tercers per millorar el funcionament d'aquest web."
+  cookie_approve: "Accepta"
+  cookie_deny: "Rebutja"
+  cookie_info: "Més informació"
   publications: Publicacions
   publications_intro: "Producció científica, de la més recent a la més antiga. També a"
   pub_types:
@@ -87,6 +103,14 @@ ca:
     "Université Paris-Saclay": Université Paris-Saclay
   language_switch: Idioma
 es:
+  locale: "es-ES"
+  author_bio: "Profesor agregado"
+  author_location: "Barcelona, Cataluña"
+  follow_btn: "Seguir"
+  cookie_text: "Querríamos usar cookies y scripts de terceros para mejorar el funcionamiento de este sitio web."
+  cookie_approve: "Aceptar"
+  cookie_deny: "Rechazar"
+  cookie_info: "Más información"
   publications: Publicaciones
   publications_intro: "Producción científica, de la más reciente a la más antigua. También en"
   pub_types:
