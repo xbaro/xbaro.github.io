@@ -22,7 +22,8 @@ en:
     contract: "Transfer and contracts"
   proj_pi: "PI"
   proj_search: "Search project, funder, reference…"
-  proj_all: "All blocks"
+  proj_all: "All types"
+  proj_type: "Project type"
   proj_none: "No projects match the filters."
   proj_ref: "Ref."
   pub_tags:
@@ -64,7 +65,8 @@ ca:
     contract: "Transferència i contractes"
   proj_pi: "IP"
   proj_search: "Cerca per projecte, finançador, referència…"
-  proj_all: "Tots els blocs"
+  proj_all: "Tots els tipus"
+  proj_type: "Tipus de projecte"
   proj_none: "Cap projecte coincideix amb els filtres."
   proj_ref: "Ref."
   pub_tags:
@@ -106,7 +108,8 @@ es:
     contract: "Transferencia y contratos"
   proj_pi: "IP"
   proj_search: "Buscar proyecto, financiador, referencia…"
-  proj_all: "Todos los bloques"
+  proj_all: "Todos los tipos"
+  proj_type: "Tipo de proyecto"
   proj_none: "Ningún proyecto coincide con los filtros."
   proj_ref: "Ref."
   pub_tags:
