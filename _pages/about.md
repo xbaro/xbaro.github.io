@@ -1,10 +1,12 @@
 ---
 permalink: /
-title: "Biography"
+title: "Biografia"
+lang: ca
+translation_key: home
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Dr. Xavier Baró received his B.S. degree in Computer Science at the [Universitat Autònoma de Barcelona (UAB)](https://uab.cat) in 2003. In 2005 he obtained his M.S. degree in Computer Science at UAB, and in 2009 the Ph.D degree in Computer Engineering. At the present he is an associate professor at the Mathematics and Computer Science department of the [Universitat de Barcelona](https://ub.edu). He has been involved in teaching teaching activities at the Computer Science Department of the UAB (2004-2011) and at the IT, Multimedia and Telecommunications department at [Universitat Oberta de Catalunya (UOC)](https://uoc.edu) (2010-2024). He is member of the [AIwell research group](https://aiwell.uoc.edu) at the eHealth Center of the UOC, and collaborates with the Computer Vision Center of the UAB, as member of the [Human Pose Recovery and Behavior Analysis (HUPBA) group](https://hupba.com). His research interests are related to machine learning, evolutionary computation, and statistical pattern recognition, with application to the Looking at People context.
+El Dr. Xavier Baró es va titular en Enginyeria Informàtica a la [Universitat Autònoma de Barcelona (UAB)](https://uab.cat) el 2003. El 2005 va obtenir el màster en Visió per Computador al Centre de Visió per Computador de la UAB i el 2009 el doctorat en Informàtica. Actualment és professor agregat al Departament de Matemàtiques i Informàtica de la [Universitat de Barcelona](https://ub.edu). Ha impartit docència al Departament d'Informàtica de la UAB (2004-2011) i als estudis d'Informàtica, Multimèdia i Telecomunicació de la [Universitat Oberta de Catalunya (UOC)](https://uoc.edu) (2010-2024). És membre del [grup de recerca AIwell](https://aiwell.uoc.edu) del eHealth Center de la UOC, i col·labora amb el Centre de Visió per Computador de la UAB com a membre del grup [Human Pose Recovery and Behavior Analysis (HUPBA)](https://hupba.com). Els seus interessos de recerca són l'aprenentatge automàtic, la computació evolutiva i el reconeixement estadístic de patrons, amb aplicació al context del *Looking at People*.
