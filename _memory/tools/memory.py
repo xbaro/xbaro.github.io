@@ -608,18 +608,63 @@ def build_site_data():
 
     pubs = []
     bibkeys = {i: k for i, k, _ in bib_entries()}
+    oa_all = json.loads(OA_PATH.read_text()) if OA_PATH.exists() else {}
     for r in json.loads(REFS.read_text()):
         if r["status"] != "confirmed" or r.get("public") is False:   # only verified references reach the site
             continue
         pubs.append({"bibkey": bibkeys.get(r["id"]), "title": r["title"], "authors": r.get("authors", []), "venue": r.get("venue") or "", "year": r.get("year"),
                      "type": {"preprint": "report"}.get(r.get("type"), r.get("type") or "other"), "doi": r.get("doi"), "url": None if r.get("doi") else r.get("url"),
-                     "isbn": r.get("isbn"), "label": "preprint" if r.get("type") == "preprint" else None})
+                     "isbn": r.get("isbn"), "label": "preprint" if r.get("type") == "preprint" else None,
+                     "oa": ({k: oa_all[r["id"]].get(k) for k in ("pdf", "html", "version")} if (oa_all.get(r["id"]) or {}).get("pdf") or (oa_all.get(r["id"]) or {}).get("html") else None)})
     pubs.sort(key=lambda x: (-(x["year"] or 0), x["title"].lower()))
     out = ROOT.parent / "_data" / "publications.json"
     out.write_text(json.dumps(pubs, indent=1, ensure_ascii=False) + "\n")
     print(f"{out.relative_to(ROOT.parent)}: {len(pubs)} publications")
     (ROOT.parent / "files").mkdir(exist_ok=True)
     (ROOT.parent / "files" / "publications.bib").write_text(BIB.read_text())   # downloadable BibTeX of the verified publications
+
+
+OA_PATH = SRC / "open_access.json"
+
+
+def fetch_open_access(refresh=False):
+    """Open-access full-text links per verified reference from OpenAlex (best OA location + other OA locations).
+    Stores sources/open_access.json: id -> {status, pdf, html, version, license, host}."""
+    import time
+    refs = [r for r in json.loads(REFS.read_text()) if r["status"] == "confirmed" and r.get("public") is not False]
+    cache = json.loads(OA_PATH.read_text()) if OA_PATH.exists() else {}
+    sel = "open_access,best_oa_location,locations"
+    rank = {"publishedVersion": 0, "acceptedVersion": 1, "submittedVersion": 2}
+    for r in refs:
+        if r["id"] in cache and not refresh:
+            continue
+        if r.get("doi"):
+            url = f"https://api.openalex.org/works/doi:{urllib.parse.quote(r['doi'])}?select={sel}"
+        elif r.get("openalex_id"):
+            url = f"https://api.openalex.org/works/{r['openalex_id'].rsplit('/', 1)[-1]}?select={sel}"
+        else:
+            cache[r["id"]] = {"status": "unknown"}
+            continue
+        try:
+            w = http_json(url)
+        except SystemExit:
+            cache[r["id"]] = {"status": "unknown"}
+            time.sleep(0.2)
+            continue
+        locs = [l for l in ([w.get("best_oa_location")] + (w.get("locations") or [])) if l and l.get("is_oa")]
+        locs.sort(key=lambda l: (rank.get(l.get("version"), 3), 0 if l.get("pdf_url") else 1))
+        pdf = next((l for l in locs if l.get("pdf_url")), None)
+        html = next((l for l in locs if l.get("landing_page_url") and not l.get("pdf_url")), None) or (locs[0] if locs else None)
+        oa = w.get("open_access") or {}
+        cache[r["id"]] = {"status": oa.get("oa_status") or "closed", "is_oa": bool(oa.get("is_oa")),
+                          "pdf": pdf["pdf_url"] if pdf else None,
+                          "html": html["landing_page_url"] if html and not pdf else (html or {}).get("landing_page_url"),
+                          "version": (pdf or html or {}).get("version"), "license": (pdf or html or {}).get("license"),
+                          "host": ((pdf or html or {}).get("source") or {}).get("type")}
+        time.sleep(0.15)
+    OA_PATH.write_text(json.dumps(cache, indent=1, ensure_ascii=False) + "\n")
+    n = sum(1 for v in cache.values() if v.get("pdf") or v.get("html"))
+    print(f"open_access: {len(refs)} refs checked, {n} with an open full-text link -> sources/open_access.json")
 
 
 def parse_postgrad_teaching(paras):
@@ -1421,7 +1466,7 @@ def stats():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi", "portal", "repos", "blog", "import-teaching", "site"])
+    ap.add_argument("cmd", choices=["sync", "index", "search", "stats", "import-cv", "bib", "metrics", "doi", "portal", "repos", "blog", "import-teaching", "site", "oa"])
     ap.add_argument("query", nargs="?")
     ap.add_argument("paths", nargs="*", help="import-teaching: the UB 'Encàrrecs i dedicació docent' PDFs")
     ap.add_argument("--offline", action="store_true")
@@ -1451,6 +1496,8 @@ if __name__ == "__main__":
         merge()
         build_index()
         write_bib()
+    elif a.cmd == "oa":
+        fetch_open_access()
     elif a.cmd == "doi":
         check_dois(refresh=a.refresh)
     elif a.cmd == "bib":

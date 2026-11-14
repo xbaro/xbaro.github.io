@@ -13,7 +13,12 @@
   "doi": "10.1177/17479541261503436",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/17479541261503436?download=true",
+   "html": "https://doi.org/10.1177/17479541261503436",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "camacho2026quantifying",
@@ -29,7 +34,8 @@
   "doi": "10.1007/s12283-026-00579-y",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "egele2024competitions",
@@ -52,7 +58,12 @@
   "doi": "10.48550/arxiv.2404.09703",
   "url": null,
   "isbn": null,
-  "label": "preprint"
+  "label": "preprint",
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/2404.09703",
+   "html": "https://doi.org/10.48550/arxiv.2404.09703",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "bonafontepardas2023analyzing",
@@ -74,7 +85,12 @@
   "doi": "10.1109/aciiw59127.2023.10388089",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/2310.13607",
+   "html": "https://doi.org/10.48550/arxiv.2310.13607",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "pavao2023codalab",
@@ -96,7 +112,12 @@
   "doi": null,
   "url": "https://jmlr.org/papers/v24/21-1436.html",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://inria.hal.science/hal-03629462v1/document",
+   "html": "https://inria.hal.science/hal-03629462",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "camacho2023golf",
@@ -112,7 +133,8 @@
   "doi": "10.21125/iceri.2023.1013",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baneres2023improving",
@@ -130,7 +152,8 @@
   "doi": "10.1063/5.0179420",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "madadi2022endtoend",
@@ -147,7 +170,12 @@
   "doi": "10.1049/cvi2.12064",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cvi2.12064",
+   "html": "https://arxiv.org/pdf/1705.09606.pdf",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "junior2022first",
@@ -171,7 +199,12 @@
   "doi": "10.1109/taffc.2019.2930058",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://repository.ubn.ru.nl/bitstream/handle/2066/219469/1/219469.pdf",
+   "html": "http://hdl.handle.net/2117/175920",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "escalante2022modeling",
@@ -201,7 +234,12 @@
   "doi": "10.1109/taffc.2020.2973984",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://repository.ubn.ru.nl/bitstream/handle/2066/221841/3/221841pub.pdf",
+   "html": "http://hdl.handle.net/2066/221841",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "oliu2022multi",
@@ -219,7 +257,8 @@
   "doi": "10.1007/978-3-031-06430-2_27",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "kulkarni2021automatic",
@@ -240,7 +279,12 @@
   "doi": "10.1109/taffc.2018.2874996",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/1707.04061",
+   "html": "http://hdl.handle.net/10609/93201",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "junior2021person",
@@ -258,7 +302,12 @@
   "doi": "10.1109/wacvw52041.2021.00006",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/2011.14906",
+   "html": "https://doi.org/10.48550/arxiv.2011.14906",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "baro2020biometric",
@@ -275,7 +324,8 @@
   "doi": "10.1007/978-3-030-29326-0_3",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "guitart2020design",
@@ -291,7 +341,8 @@
   "doi": "10.1007/978-3-030-29326-0_6",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "lopezmonroy2020forensic",
@@ -308,7 +359,8 @@
   "doi": "10.1007/978-3-030-29326-0_1",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2020guest",
@@ -330,7 +382,12 @@
   "doi": "10.1109/tpami.2020.2971291",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://ieeexplore.ieee.org/ielx7/34/9055268/09055328.pdf",
+   "html": "https://doi.org/10.1109/tpami.2020.2971291",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "escalera2019chalearn",
@@ -352,7 +409,12 @@
   "doi": "10.1007/978-3-030-25614-2_2",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/2106.13071",
+   "html": "https://doi.org/10.48550/arxiv.2106.13071",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "avots2019from",
@@ -372,7 +434,12 @@
   "doi": "10.1007/s11042-019-7739-5",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/1809.08064",
+   "html": "https://arxiv.org/pdf/1809.08064",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "anbarjafari2019guest",
@@ -392,7 +459,12 @@
   "doi": "10.1007/s00138-019-01031-x",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://link.springer.com/content/pdf/10.1007/s00138-019-01031-x.pdf",
+   "html": "https://hdl.handle.net/20.500.11782/925",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "escalera2019inpainting",
@@ -411,7 +483,8 @@
   "doi": "10.1007/978-3-030-25614-2",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "sanchez2019multi",
@@ -429,7 +502,12 @@
   "doi": "10.1109/fg.2019.8756572",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/1905.03003",
+   "html": "https://arxiv.org/pdf/1905.03003v1",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "junior2019effect",
@@ -448,7 +526,8 @@
   "doi": "10.1109/fg.2019.8756595",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "ren2018back",
@@ -469,7 +548,8 @@
   "doi": "10.1049/iet-cvi.2016.0309",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "haamer2018changes",
@@ -495,7 +575,12 @@
   "doi": "10.1109/fg.2018.00098",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "https://vbn.aau.dk/da/publications/a8111349-2dac-49ef-85f8-0d0158a816bd",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "guo2018dominant",
@@ -521,7 +606,12 @@
   "doi": "10.1109/access.2018.2831927",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "https://doi.org/10.1109/access.2018.2831927",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "escalante2018explainable",
@@ -541,7 +631,12 @@
   "doi": "10.1007/978-3-319-98131-4",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "http://arxiv.org/pdf/1709.05321",
+   "html": "https://inria.hal.science/hal-01991623",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "junior2018exploiting",
@@ -557,7 +652,12 @@
   "doi": "10.1016/j.imavis.2018.08.001",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/1804.04419",
+   "html": "http://hdl.handle.net/10609/93179",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "escalera2018guest",
@@ -574,7 +674,8 @@
   "doi": "10.1109/taffc.2018.2864230",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2018guestb",
@@ -596,7 +697,12 @@
   "doi": "10.1109/tpami.2018.2869610",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://ieeexplore.ieee.org/ielx7/34/8478843/08479325.pdf",
+   "html": "https://inria.hal.science/hal-01991654",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "baro2018integration",
@@ -617,7 +723,12 @@
   "doi": "10.1002/itl2.56",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/itl2.56",
+   "html": "https://doi.org/10.1002/itl2.56",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "escalera2018looking",
@@ -635,7 +746,12 @@
   "doi": "10.1007/s11263-017-1058-y",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://link.springer.com/content/pdf/10.1007%2Fs11263-017-1058-y.pdf",
+   "html": "https://doi.org/10.1007/s11263-017-1058-y",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "gucluturk2018multimodal",
@@ -656,7 +772,8 @@
   "doi": "10.1109/taffc.2017.2751469",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "madadi2018down",
@@ -675,7 +792,12 @@
   "doi": "10.1016/j.imavis.2018.09.006",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://ars.els-cdn.com/content/image/1-s2.0-S0262885618301513-ga1_lrg.jpg",
+   "html": "http://hdl.handle.net/2117/130123",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "asadiaghbolaghi2017survey",
@@ -697,7 +819,12 @@
   "doi": "10.1109/fg.2017.150",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://inria.hal.science/hal-01668383v1/file/survey_DL_FG2017.pdf",
+   "html": "https://inria.hal.science/hal-01668383",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "agustsson2017apparent",
@@ -716,7 +843,12 @@
   "doi": "10.1109/fg.2017.20",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://inria.hal.science/hal-01677892/document",
+   "html": "https://inria.hal.science/hal-01677892",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "escalera2017chalearn",
@@ -733,7 +865,12 @@
   "doi": "10.1109/ijcnn.2017.7966041",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/1701.02664",
+   "html": "https://doi.org/10.48550/arxiv.1701.02664",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "asadiaghbolaghi2017deep",
@@ -755,7 +892,12 @@
   "doi": "10.1007/978-3-319-57021-1_19",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "https://inria.hal.science/hal-01678006",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "popescu2017design",
@@ -778,7 +920,8 @@
   "doi": null,
   "url": "https://openreview.net/pdf?id=HkG1JKVKg",
   "isbn": null,
-  "label": "preprint"
+  "label": "preprint",
+  "oa": null
  },
  {
   "bibkey": "escalante2017design",
@@ -803,7 +946,12 @@
   "doi": "10.1109/ijcnn.2017.7966320",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://inria.hal.science/hal-01668386v1/document",
+   "html": "https://inria.hal.science/hal-01668386",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "loob2017dominant",
@@ -825,7 +973,12 @@
   "doi": "10.1109/fg.2017.106",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "https://univ-angers.hal.science/hal-02528740",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "guclu2017semantic",
@@ -846,7 +999,12 @@
   "doi": "10.48550/arxiv.1703.03305",
   "url": null,
   "isbn": null,
-  "label": "preprint"
+  "label": "preprint",
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/1703.03305",
+   "html": "https://doi.org/10.48550/arxiv.1703.03305",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "escalante2017evolving",
@@ -865,7 +1023,8 @@
   "doi": "10.1007/s00521-016-2223-x",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "junior2017exploiting",
@@ -881,7 +1040,8 @@
   "doi": "10.1109/fg.2017.133",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "lusi2017joint",
@@ -903,7 +1063,12 @@
   "doi": "10.1109/fg.2017.102",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "https://hdl.handle.net/11129/8590",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "madadi2017occlusion",
@@ -922,7 +1087,8 @@
   "doi": "10.1109/fg.2017.37",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "wan2017results",
@@ -946,7 +1112,12 @@
   "doi": "10.1109/iccvw.2017.377",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://inria.hal.science/hal-01677974/document",
+   "html": "https://inria.hal.science/hal-01677974",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "gucluturk2017visualizing",
@@ -971,7 +1142,12 @@
   "doi": "10.1109/iccvw.2017.367",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "https://inria.hal.science/hal-01677962",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "baneres2016adaptive",
@@ -988,7 +1164,12 @@
   "doi": "10.3991/ijet.v11i07.5888",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://online-journals.org/index.php/i-jet/article/download/5888/4014",
+   "html": "http://hdl.handle.net/10609/78517",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "alonso2016care",
@@ -1007,7 +1188,12 @@
   "doi": "10.5334/ijic.2680",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "https://doi.org/10.5334/ijic.2680",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "escalante2016chalearn",
@@ -1032,7 +1218,12 @@
   "doi": "10.1109/icpr.2016.7899609",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://discovery.ucl.ac.uk/10114944/1/ICPRC-2016.pdf",
+   "html": "https://discovery.ucl.ac.uk/id/eprint/10114944/",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "poncelopez2016chalearn",
@@ -1054,7 +1245,8 @@
   "doi": "10.1007/978-3-319-49409-8_32",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2016chalearn",
@@ -1078,7 +1270,12 @@
   "doi": "10.1109/cvprw.2016.93",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://nottingham-repository.worktribe.com/preview/832937/07789583.pdf",
+   "html": "https://doi.org/10.1109/CVPRW.2016.93",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "escalera2016guest",
@@ -1095,7 +1292,8 @@
   "doi": "10.1109/tpami.2016.2557878",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "guerreroroldan2016assesment",
@@ -1113,7 +1311,8 @@
   "doi": null,
   "url": "https://www.eden-online.org/proc-2485/index.php/PROC/article/download/1507/1215",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baneres2016towards",
@@ -1130,7 +1329,8 @@
   "doi": "10.1016/b978-0-12-803637-2.00002-6",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2015chalearn",
@@ -1151,7 +1351,8 @@
   "doi": "10.1109/cvprw.2015.7301329",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2015chalearn",
@@ -1173,7 +1374,8 @@
   "doi": "10.1109/ijcnn.2015.7280614",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2015chalearnb",
@@ -1195,7 +1397,12 @@
   "doi": "10.1109/iccvw.2015.40",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://openaccess.uoc.edu/bitstream/10609/125266/1/Baro_IEEE_ChaLearn_Looking.pdf",
+   "html": "http://hdl.handle.net/10609/125266",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "escalera2015chalearnbb",
@@ -1218,7 +1425,8 @@
   "doi": "10.1007/978-3-319-16178-5_32",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "nasrollahi2015deep",
@@ -1238,7 +1446,12 @@
   "doi": "10.1109/ipta.2015.7367098",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://vbn.aau.dk/files/218875958/ipta.pdf",
+   "html": "https://vbn.aau.dk/da/publications/fee52140-d2e5-4962-bd12-5a5db6581f34",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "baneres2015experiencias",
@@ -1256,7 +1469,12 @@
   "doi": null,
   "url": "http://hdl.handle.net/2117/77316",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "http://hdl.handle.net/2117/77316",
+   "html": "http://hdl.handle.net/2117/77316",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "poncelopez2015gesture",
@@ -1273,7 +1491,12 @@
   "doi": "10.5244/c.29.129",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://discovery.ucl.ac.uk/10114950/1/BMVC2015_129.pdf",
+   "html": "https://www.scopus.com/pages/publications/105028581980",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "escalante2015improving",
@@ -1291,7 +1514,12 @@
   "doi": "10.1109/ijcnn.2015.7280799",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://discovery.ucl.ac.uk/10114949/1/ijcnn15.pdf",
+   "html": "https://discovery.ucl.ac.uk/id/eprint/10114949/",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "poncelopez2015verbal",
@@ -1309,7 +1537,12 @@
   "doi": "10.1016/j.patrec.2015.07.040",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/1412.2122",
+   "html": "https://arxiv.org/pdf/1412.2122.pdf",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "baneres2015towards",
@@ -1326,7 +1559,8 @@
   "doi": "10.1109/incos.2015.53",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "bautista2014design",
@@ -1343,7 +1577,12 @@
   "doi": "10.1016/j.patcog.2013.06.019",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "http://hdl.handle.net/10609/109819",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "hernandezvela2014probability",
@@ -1364,7 +1603,12 @@
   "doi": "10.1016/j.patrec.2013.09.009",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "http://hdl.handle.net/2117/24589",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "arnedomoreno2014valid",
@@ -1385,7 +1629,8 @@
   "doi": "10.1109/incos.2014.69",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2013chalearn",
@@ -1410,7 +1655,8 @@
   "doi": "10.1145/2522848.2532597",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "sanchezmendoza2013emotion",
@@ -1427,7 +1673,8 @@
   "doi": "10.1007/978-3-642-41550-0_10",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "igual2013experiencia",
@@ -1442,7 +1689,8 @@
   "doi": null,
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2013multi",
@@ -1463,7 +1711,8 @@
   "doi": "10.1145/2522848.2532595",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "poncelopez2013multi",
@@ -1479,7 +1728,12 @@
   "doi": "10.1145/2522848.2532594",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://discovery.ucl.ac.uk/10164868/1/p495-lopez.pdf",
+   "html": "https://discovery.ucl.ac.uk/id/eprint/10164868/",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "baro2013pelp",
@@ -1496,7 +1750,12 @@
   "doi": null,
   "url": "http://hdl.handle.net/2099/15384",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "http://hdl.handle.net/2099/15384",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "bautista2013probability",
@@ -1517,7 +1776,8 @@
   "doi": "10.1007/978-3-642-40303-3_14",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "bautista2012genetic",
@@ -1534,7 +1794,12 @@
   "doi": "10.1007/978-3-642-34166-3_82",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-642-34166-3_82.pdf",
+   "html": "https://doi.org/10.1007/978-3-642-34166-3_82",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "hernandezvela2012bovdw",
@@ -1555,7 +1820,12 @@
   "doi": null,
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84874576470&partnerID=MN8TOARS",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "http://hdl.handle.net/2117/19376",
+   "version": "acceptedVersion"
+  }
  },
  {
   "bibkey": "bautista2012minimal",
@@ -1574,7 +1844,8 @@
   "doi": "10.1016/j.patrec.2011.09.023",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2012social",
@@ -1592,7 +1863,12 @@
   "doi": "10.3390/s120201702",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "https://www.mdpi.com/1424-8220/12/2/1702/pdf?version=1403317034",
+   "html": "http://hdl.handle.net/10609/92220",
+   "version": "publishedVersion"
+  }
  },
  {
   "bibkey": "ponce2012social",
@@ -1608,7 +1884,8 @@
   "doi": null,
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "rius2012site",
@@ -1624,7 +1901,12 @@
   "doi": null,
   "url": "http://hdl.handle.net/10045/35618",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": "http://hdl.handle.net/10045/35618",
+   "html": "http://hdl.handle.net/10045/35618",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "poncelopez2011analisis",
@@ -1642,7 +1924,8 @@
   "doi": null,
   "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=5838417",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "poncelopez2011human",
@@ -1659,7 +1942,8 @@
   "doi": null,
   "url": "https://www.ijcai.org/Proceedings/11/Papers/490.pdf",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "bautista2011introducing",
@@ -1676,7 +1960,8 @@
   "doi": "10.1007/978-3-642-21557-5_25",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "bautista2011design",
@@ -1695,7 +1980,8 @@
   "doi": "10.1007/978-3-642-22910-7_2",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2011traffic",
@@ -1713,7 +1999,8 @@
   "doi": "10.1007/978-1-4471-2245-6",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "poncelopez2010automatic",
@@ -1730,7 +2017,8 @@
   "doi": null,
   "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.300.77",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2010combining",
@@ -1746,7 +2034,8 @@
   "doi": null,
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "bautista2010compact",
@@ -1765,7 +2054,8 @@
   "doi": null,
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2010modelling",
@@ -1783,7 +2073,8 @@
   "doi": "10.1145/1891903.1891967",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2010metodos",
@@ -1799,7 +2090,12 @@
   "doi": null,
   "url": "http://hdl.handle.net/2099/11761",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": {
+   "pdf": null,
+   "html": "http://hdl.handle.net/2099/11761",
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "baro2009generic",
@@ -1816,7 +2112,8 @@
   "doi": "10.3233/978-1-60750-061-2-27",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2009probabilistic",
@@ -1831,7 +2128,8 @@
   "doi": null,
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-78651068974&partnerID=MN8TOARS",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2009probabilisticb",
@@ -1845,7 +2143,8 @@
   "doi": null,
   "url": null,
   "isbn": "978-84-936529-2-0",
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "escalera2009text",
@@ -1862,7 +2161,8 @@
   "doi": "10.3233/978-1-60750-061-2-35",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2009traffic",
@@ -1880,7 +2180,8 @@
   "doi": "10.1109/tits.2008.2011702",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2009visual",
@@ -1897,7 +2198,8 @@
   "doi": "10.1109/icme.2009.5202828",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2008evolutionary",
@@ -1912,7 +2214,8 @@
   "doi": "10.1007/978-3-540-78761-7_24",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2008weighted",
@@ -1927,7 +2230,8 @@
   "doi": "10.1007/978-3-540-79547-6_27",
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "ponce2007level",
@@ -1946,7 +2250,8 @@
   "doi": null,
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2007visual",
@@ -1961,7 +2266,8 @@
   "doi": null,
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2007weighted",
@@ -1976,7 +2282,8 @@
   "doi": null,
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84878032022&partnerID=MN8TOARS",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2006real",
@@ -1991,7 +2298,8 @@
   "doi": null,
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84878077781&partnerID=MN8TOARS",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2005feature",
@@ -2006,7 +2314,8 @@
   "doi": null,
   "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84878066410&partnerID=MN8TOARS",
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  },
  {
   "bibkey": "baro2004fast",
@@ -2021,6 +2330,7 @@
   "doi": null,
   "url": null,
   "isbn": null,
-  "label": null
+  "label": null,
+  "oa": null
  }
 ]
