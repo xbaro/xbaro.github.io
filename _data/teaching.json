@@ -3,7 +3,6 @@
   "periods_label": [
    "2018/19–2020/21"
   ],
-  "planned_label": [],
   "institution": "Universitat Oberta de Catalunya",
   "level": "master",
   "name": {
@@ -24,7 +23,6 @@
     2021
    ]
   ],
-  "planned": [],
   "languages": []
  },
  {
@@ -32,7 +30,6 @@
    "2018/19–2020/21",
    "2022/23"
   ],
-  "planned_label": [],
   "institution": "Universitat Oberta de Catalunya",
   "level": "master",
   "name": {
@@ -57,14 +54,12 @@
     2023
    ]
   ],
-  "planned": [],
   "languages": []
  },
  {
   "periods_label": [
    "2009/10"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "master",
   "name": {
@@ -85,7 +80,6 @@
     2010
    ]
   ],
-  "planned": [],
   "languages": [
    "Anglès"
   ]
@@ -94,7 +88,6 @@
   "periods_label": [
    "2010/11–2014/15"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "master",
   "name": {
@@ -120,7 +113,6 @@
     2015
    ]
   ],
-  "planned": [],
   "languages": [
    "Anglès"
   ]
@@ -129,7 +121,6 @@
   "periods_label": [
    "2012/13–2015/16"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "master",
   "name": {
@@ -150,7 +141,6 @@
     2016
    ]
   ],
-  "planned": [],
   "languages": [
    "Anglès",
    "Català"
@@ -160,7 +150,6 @@
   "periods_label": [
    "2008/09"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
   "name": {
@@ -181,7 +170,6 @@
     2009
    ]
   ],
-  "planned": [],
   "languages": [
    "Català"
   ]
@@ -190,7 +178,6 @@
   "periods_label": [
    "2008/09"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
   "name": {
@@ -211,7 +198,6 @@
     2009
    ]
   ],
-  "planned": [],
   "languages": [
    "Català"
   ]
@@ -220,7 +206,6 @@
   "periods_label": [
    "2008/09"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
   "name": {
@@ -241,7 +226,6 @@
     2009
    ]
   ],
-  "planned": [],
   "languages": [
    "Català"
   ]
@@ -250,7 +234,6 @@
   "periods_label": [
    "2008/09"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
   "name": {
@@ -271,7 +254,6 @@
     2009
    ]
   ],
-  "planned": [],
   "languages": [
    "Català"
   ]
@@ -281,7 +263,6 @@
    "2009/10",
    "2024/25"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
   "name": {
@@ -306,7 +287,6 @@
     2025
    ]
   ],
-  "planned": [],
   "languages": [
    "Català"
   ]
@@ -315,7 +295,6 @@
   "periods_label": [
    "2009/10–2013/14"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
   "name": {
@@ -336,7 +315,6 @@
     2014
    ]
   ],
-  "planned": [],
   "languages": [
    "Català"
   ]
@@ -345,7 +323,6 @@
   "periods_label": [
    "2010/11"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
   "name": {
@@ -366,7 +343,6 @@
     2011
    ]
   ],
-  "planned": [],
   "languages": [
    "Català"
   ]
@@ -375,7 +351,6 @@
   "periods_label": [
    "2014/15–2015/16"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
   "name": {
@@ -396,7 +371,6 @@
     2016
    ]
   ],
-  "planned": [],
   "languages": [
    "Castellà",
    "Català"
@@ -406,7 +380,6 @@
   "periods_label": [
    "2023/24–2024/25"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
   "name": {
@@ -427,7 +400,6 @@
     2025
    ]
   ],
-  "planned": [],
   "languages": [
    "Català"
   ]
@@ -435,9 +407,6 @@
  {
   "periods_label": [
    "2023/24–2025/26"
-  ],
-  "planned_label": [
-   "2026/27"
   ],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
@@ -459,12 +428,6 @@
     2026
    ]
   ],
-  "planned": [
-   [
-    2026,
-    2027
-   ]
-  ],
   "languages": [
    "Català"
   ]
@@ -472,9 +435,6 @@
  {
   "periods_label": [
    "2023/24–2025/26"
-  ],
-  "planned_label": [
-   "2026/27"
   ],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
@@ -496,12 +456,6 @@
     2026
    ]
   ],
-  "planned": [
-   [
-    2026,
-    2027
-   ]
-  ],
   "languages": [
    "Català"
   ]
@@ -510,7 +464,6 @@
   "periods_label": [
    "2024/25"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
   "name": {
@@ -531,7 +484,6 @@
     2025
    ]
   ],
-  "planned": [],
   "languages": [
    "Català"
   ]
@@ -540,7 +492,6 @@
   "periods_label": [
    "2024/25"
   ],
-  "planned_label": [],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
   "name": {
@@ -561,7 +512,6 @@
     2025
    ]
   ],
-  "planned": [],
   "languages": [
    "Català"
   ]
@@ -569,9 +519,6 @@
  {
   "periods_label": [
    "2025/26"
-  ],
-  "planned_label": [
-   "2026/27"
   ],
   "institution": "Universitat de Barcelona",
   "level": "undergraduate",
@@ -593,72 +540,6 @@
     2026
    ]
   ],
-  "planned": [
-   [
-    2026,
-    2027
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [],
-  "planned_label": [
-   "2026/27"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Disseny de software",
-   "en": "Software Design",
-   "es": "Diseño de software"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [],
-  "planned": [
-   [
-    2026,
-    2027
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [],
-  "planned_label": [
-   "2026/27"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Projecte integrat de software",
-   "en": "Integrated Software Project",
-   "es": "Proyecto integrado de software"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [],
-  "planned": [
-   [
-    2026,
-    2027
-   ]
-  ],
   "languages": [
    "Català"
   ]
@@ -667,7 +548,6 @@
   "periods_label": [
    "2021/22–2022/23"
   ],
-  "planned_label": [],
   "institution": "Université Paris-Saclay",
   "level": "master",
   "name": {
@@ -688,7 +568,6 @@
     2023
    ]
   ],
-  "planned": [],
   "languages": []
  }
 ]
