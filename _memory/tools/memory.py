@@ -568,7 +568,7 @@ def build_site_data():
         return course(a) if b - a == 1 else f"{course(a)}–{course(b - 1)}"
 
     inst_order = ["Universitat de Barcelona", "Universitat Oberta de Catalunya", "Université Paris-Saclay"]
-    inst_logo = {"Universitat de Barcelona": "ub.svg", "Universitat Oberta de Catalunya": "uoc.png", "Université Paris-Saclay": "paris-saclay.svg"}   # black-and-white logos in images/logos/ (shown if present)
+    inst_logo = {"Universitat de Barcelona": "ub.png", "Universitat Oberta de Catalunya": "uoc.png", "Université Paris-Saclay": "paris-saclay.svg"}   # black-and-white logos in images/logos/ (shown if present)
     grouped = {}
     for r in t["summary"]:
         if not r["periods"]:   # only what has been taught: courses that are merely planned are not published
