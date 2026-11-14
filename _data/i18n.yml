@@ -42,6 +42,17 @@ en:
   bib_download: "Download .bib"
   bib_close: "Close"
   bib_error: "BibTeX not available"
+  oa_pdf: "PDF"
+  oa_html: "Full text"
+  doi_label: "DOI"
+  link_label: "Link"
+  oa_pdf_title: "Open-access PDF"
+  oa_html_title: "Open-access full text"
+  oa_v_submittedVersion: "preprint version"
+  oa_v_acceptedVersion: "accepted manuscript"
+  oa_v_publishedVersion: "published version"
+  oa_pre: "preprint"
+  oa_acc: "accepted"
   pub_tags:
     editorial: Editorial
     preprint: Preprint
@@ -101,6 +112,17 @@ ca:
   bib_download: "Descarrega .bib"
   bib_close: "Tanca"
   bib_error: "BibTeX no disponible"
+  oa_pdf: "PDF"
+  oa_html: "Text complet"
+  doi_label: "DOI"
+  link_label: "Enllaç"
+  oa_pdf_title: "PDF en accés obert"
+  oa_html_title: "Text complet en accés obert"
+  oa_v_submittedVersion: "versió preprint"
+  oa_v_acceptedVersion: "manuscrit acceptat"
+  oa_v_publishedVersion: "versió publicada"
+  oa_pre: "preprint"
+  oa_acc: "acceptat"
   pub_tags:
     editorial: Editorial
     preprint: Preprint
@@ -160,6 +182,17 @@ es:
   bib_download: "Descargar .bib"
   bib_close: "Cerrar"
   bib_error: "BibTeX no disponible"
+  oa_pdf: "PDF"
+  oa_html: "Texto completo"
+  doi_label: "DOI"
+  link_label: "Enlace"
+  oa_pdf_title: "PDF en acceso abierto"
+  oa_html_title: "Texto completo en acceso abierto"
+  oa_v_submittedVersion: "versión preprint"
+  oa_v_acceptedVersion: "manuscrito aceptado"
+  oa_v_publishedVersion: "versión publicada"
+  oa_pre: "preprint"
+  oa_acc: "aceptado"
   pub_tags:
     editorial: Editorial
     preprint: Preprint

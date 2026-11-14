@@ -1,7 +1,11 @@
 {% assign L = page.lang | default: site.default_lang %}
 <style>.pub-list u{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;border-bottom:0}.pub-tag{font-size:.7em;text-transform:uppercase;letter-spacing:.04em;border:1px solid currentColor;border-radius:3px;padding:0 .35em;margin-left:.4em;opacity:.75;vertical-align:middle}.pub-filters{display:flex;flex-wrap:wrap;gap:.5em;align-items:center;margin:1em 0}.pub-filters input,.pub-filters select{padding:.4em .6em;font-size:.9em;max-width:100%}.pub-filters input{flex:1 1 14em}.pub-count{font-size:.85em;opacity:.7}.pub-list li[hidden],.pub-section[hidden]{display:none}
-.pub-bib{margin-left:.5em;padding:0 .5em;font-size:.75em;line-height:1.7;border:1px solid #9aa0a4;border-radius:3px;background:#fff;color:#494e52;cursor:pointer;font-family:Menlo,Consolas,monospace}
-.pub-bib:hover,.pub-bib:focus{background:#f2f3f3}
+.pub-actions{display:flex;flex-wrap:wrap;gap:.4em;margin-top:.35em}
+.pub-act,.pub-act:hover,.pub-act:focus{text-decoration:none!important}
+.pub-act{display:inline-flex;align-items:center;gap:.35em;padding:.12em .6em;font-size:.78em;line-height:1.6;border:1px solid #b9bec2;border-radius:3px;background:#fff;color:#494e52;text-decoration:none;border-bottom:1px solid #b9bec2;cursor:pointer;font-family:inherit}
+.pub-act:hover,.pub-act:focus{background:#f2f3f3;color:#2b2f33}
+.pub-act small{opacity:.7;font-size:.85em}
+.pub-act.oa{border-color:#2f7d4f;color:#1f5c3a}
 #bib-dialog{max-width:min(46em,94vw);width:100%;border:1px solid #cfd2d4;border-radius:6px;padding:1em 1.2em;box-shadow:0 10px 30px rgba(0,0,0,.25)}
 #bib-dialog::backdrop{background:rgba(0,0,0,.35)}
 #bib-dialog h3{margin:0 0 .2em;font-size:1.05em}
@@ -41,8 +45,11 @@
         <em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% else %}, {{ T.no_year }}{% endif %}
         {% if p.isbn %} · ISBN {{ p.isbn }}{% endif %}
         {% if p.quartile %} · JCR {{ p.quartile }}{% endif %}
-        {% if p.doi %} · <a class="pub-link" data-link="doi" href="https://doi.org/{{ p.doi }}">DOI</a>{% elsif p.url %} · <a class="pub-link" data-link="url" href="{{ p.url }}">link</a>{% endif %}
-        {% if p.bibkey %}<button type="button" class="pub-bib" data-key="{{ p.bibkey }}" aria-haspopup="dialog">{{ T.bib_btn }}</button>{% endif %}
+        <span class="pub-actions">
+          {% if p.oa.pdf %}<a class="pub-act oa pub-link" data-link="pdf" data-ver="{{ p.oa.version }}" href="{{ p.oa.pdf }}" target="_blank" rel="noopener" title="{{ T.oa_pdf_title }}{% if p.oa.version == "submittedVersion" %} ({{ T.oa_v_submittedVersion }}){% elsif p.oa.version == "acceptedVersion" %} ({{ T.oa_v_acceptedVersion }}){% elsif p.oa.version == "publishedVersion" %} ({{ T.oa_v_publishedVersion }}){% endif %}"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i>{{ T.oa_pdf }}{% if p.oa.version == "submittedVersion" %} <small>{{ T.oa_pre }}</small>{% elsif p.oa.version == "acceptedVersion" %} <small>{{ T.oa_acc }}</small>{% endif %}</a>{% elsif p.oa.html %}<a class="pub-act oa pub-link" data-link="html" data-ver="{{ p.oa.version }}" href="{{ p.oa.html }}" target="_blank" rel="noopener" title="{{ T.oa_html_title }}"><i class="fa-solid fa-globe" aria-hidden="true"></i>{{ T.oa_html }}{% if p.oa.version == "submittedVersion" %} <small>{{ T.oa_pre }}</small>{% elsif p.oa.version == "acceptedVersion" %} <small>{{ T.oa_acc }}</small>{% endif %}</a>{% endif %}
+          {% if p.doi %}<a class="pub-act pub-link" data-link="doi" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener"><i class="fa-solid fa-link" aria-hidden="true"></i>{{ T.doi_label }}</a>{% elsif p.url %}<a class="pub-act pub-link" data-link="url" href="{{ p.url }}" target="_blank" rel="noopener"><i class="fa-solid fa-link" aria-hidden="true"></i>{{ T.link_label }}</a>{% endif %}
+          {% if p.bibkey %}<button type="button" class="pub-act pub-bib" data-key="{{ p.bibkey }}" aria-haspopup="dialog"><i class="fa-solid fa-quote-right" aria-hidden="true"></i>{{ T.bib_btn }}</button>{% endif %}
+        </span>
       </li>
     {% endfor %}
     </ul>
@@ -98,7 +105,7 @@
   dlB.addEventListener('click',function(){ var a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([txt.textContent],{type:'text/plain;charset=utf-8'})); a.download=(cur?cur.key:'reference')+'.bib'; document.body.appendChild(a); a.click(); a.remove(); track('bibtex_download',cur&&cur.li); });
   closeB.addEventListener('click',function(){ if(dlg.close){dlg.close();}else{dlg.removeAttribute('open');} });
   dlg.addEventListener('click',function(e){ if(e.target===dlg&&dlg.close)dlg.close(); });
-  document.querySelectorAll('.pub-list a.pub-link').forEach(function(a){ a.addEventListener('click',function(){ track('publication_link_click',liOf(a),{link_type:a.dataset.link,link_url:a.href.slice(0,100)}); }); });
+  document.querySelectorAll('.pub-list a.pub-link').forEach(function(a){ a.addEventListener('click',function(){ track('publication_link_click',liOf(a),{link_type:a.dataset.link,oa_version:a.dataset.ver||'',link_url:a.href.slice(0,100)}); }); });
   var all=document.getElementById('bib-all'); if(all)all.addEventListener('click',function(){ if(typeof window.gtag==='function')window.gtag('event','bibtex_download_all'); });
 })();
 </script>
