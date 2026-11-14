@@ -36,7 +36,20 @@
     }
 
     if(readCookie('cookie-notice-option')=='true') {
-        {% if site.analytics.gtm_id %}
+        {% if site.analytics.google.tracking_id %}
+        /* Google Analytics 4 (gtag.js) is loaded ONLY after the visitor accepts, and only on the production host. */
+        if (location.hostname === 'xbaro.eu') {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', {analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied'});
+            var gaScript = document.createElement('script');
+            gaScript.async = true;
+            gaScript.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}';
+            document.head.appendChild(gaScript);
+            gtag('js', new Date());
+            gtag('config', '{{ site.analytics.google.tracking_id }}');
+        }
+        {% elsif site.analytics.gtm_id %}
         /* Google Tag Manager is loaded ONLY after the visitor accepts, and only on the production host. */
         if (location.hostname === 'xbaro.eu') {
             window.dataLayer = window.dataLayer || [];
