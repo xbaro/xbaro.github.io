@@ -2,6 +2,9 @@
 {% assign L = page.lang | default: site.default_lang %}
 {% assign T = site.data.i18n[L] %}
 <style>
+.teaching-inst{display:flex;align-items:center;gap:.7em;margin:2.6em 0 .2em;padding:.7em 0 .5em;border-top:4px solid #494e52;border-bottom:0!important;font-size:1.55em;line-height:1.2}
+.teaching-inst:first-of-type{margin-top:1.2em}
+.teaching-inst__logo{height:2.1em;width:auto;max-width:5.5em;object-fit:contain;filter:grayscale(1) contrast(1.1);margin:0}
 .teaching-degree{font-size:1.2em;margin:1.8em 0 .7em;padding-top:1em;border-top:1px solid #cfd2d4}
 h2 + .teaching-degree{border-top:0;padding-top:0;margin-top:1em}
 .teaching-list{list-style:none;padding:0;margin:0 0 .4em}
@@ -13,7 +16,7 @@ code.teaching-list__years::before,code.teaching-list__years::after{content:none!
 </style>
 <p>{{ T.teaching_intro }}</p>
 {% for inst in site.data.teaching %}
-  <h2>{{ T.institutions[inst.institution] | default: inst.institution }}</h2>
+  <h2 class="teaching-inst">{% if inst.logo %}<img class="teaching-inst__logo" src="{{ inst.logo | relative_url }}" alt="" loading="lazy">{% endif %}<span>{{ T.institutions[inst.institution] | default: inst.institution }}</span></h2>
   {% for g in inst.programmes %}
     <h3 class="teaching-degree">{{ g.name[L] }} <small class="teaching-level">{{ T[g.level] }}</small></h3>
     <ul class="teaching-list">
