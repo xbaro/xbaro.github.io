@@ -23,7 +23,7 @@ repository               : "xbaro/xbaro.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "xbaro_150.jpg"
+  avatar           : "xbaro_bw_400.jpg"
   name             : "Dr. Xavier Baró"
   pronouns         : # example: "she/her"  
   bio              : "Associate Professor"
