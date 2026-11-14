@@ -37,7 +37,7 @@
 
     if(readCookie('cookie-notice-option')=='true') {
         {% if site.analytics.gtm_id %}
-        // Google Tag Manager is loaded ONLY after the visitor accepts, and only on the production host.
+        /* Google Tag Manager is loaded ONLY after the visitor accepts, and only on the production host. */
         if (location.hostname === 'xbaro.eu') {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
