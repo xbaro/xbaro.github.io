@@ -1,6 +1,13 @@
 {%- comment -%} Subjects grouped by institution and degree/master programme; one year range per subject. Language: page.lang (default site.default_lang). {%- endcomment -%}
 {% assign L = page.lang | default: site.default_lang %}
 {% assign T = site.data.i18n[L] %}
+<style>
+.teaching-list{list-style:none;padding:0;margin:0 0 1.2em}
+.teaching-list li{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.1em 1em;margin:0 0 .45em;padding:.2em 0;border-bottom:1px solid #f2f3f3;text-align:left}
+.teaching-list__name{flex:1 1 16em;text-align:left;text-justify:auto}
+code.teaching-list__years{flex:0 0 auto;white-space:nowrap;font-size:.8em;padding:.1em .5em;border-radius:3px;background:#f2f3f3;color:#494e52;letter-spacing:0}
+.teaching-level{font-weight:400}
+</style>
 <p>{{ T.teaching_intro }}</p>
 {% for inst in site.data.teaching %}
   <h2>{{ T.institutions[inst.institution] | default: inst.institution }}</h2>
@@ -8,7 +15,7 @@
     <h3>{{ g.name[L] }} <small class="teaching-level">{{ T[g.level] }}</small></h3>
     <ul class="teaching-list">
     {% for r in g.subjects %}
-      <li><strong>{{ r.name[L] }}</strong> <span class="teaching-list__years">{{ r.period_label }}</span></li>
+      <li><strong class="teaching-list__name">{{ r.name[L] }}</strong><code class="teaching-list__years">{{ r.period_label }}</code></li>
     {% endfor %}
     </ul>
   {% endfor %}
