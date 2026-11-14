@@ -19,7 +19,7 @@ Cookies are small text files that a website stores on your device. They make a w
 
 **Necessary first-party cookie.** `cookie-notice-option` stores your banner choice (accept or reject) for 31 days. It contains no personal data and cannot be switched off, because without it the banner would reappear on every visit.
 
-**Analytics cookies (only if you accept).** If you press “Approve”, Google Tag Manager (container `GTM-MPH2XP95`) is loaded, which allows the use of the Website to be measured with Google Analytics. This service may store cookies such as `_ga` and `_ga_*` (up to 2 years) to tell visitors and sessions apart and produce aggregated statistics. If you press “Deny”, nothing from Google is loaded.
+**Analytics cookies (only if you accept).** If you press “Approve”, Google Analytics 4 (measurement ID `G-ENN14SG31P`) is loaded, which allows the use of the Website to be measured. This service may store cookies such as `_ga` and `_ga_*` (up to 2 years) to tell visitors and sessions apart and produce aggregated statistics. If you press “Deny”, nothing from Google is loaded.
 
 **Advertising.** We do not use advertising or ad-personalisation cookies; those purposes are denied in the consent settings.
 
@@ -33,7 +33,7 @@ You can also manage or delete cookies in your browser settings (view, delete, bl
 
 ## 4. Third parties
 
-Google (Tag Manager and, where applicable, Analytics) acts as a third party and may process data outside the European Economic Area under its own terms. More information in [Google's privacy policy](https://policies.google.com/privacy).
+Google (Analytics) acts as a third party and may process data outside the European Economic Area under its own terms. More information in [Google's privacy policy](https://policies.google.com/privacy).
 
 ## 5. Changes
 

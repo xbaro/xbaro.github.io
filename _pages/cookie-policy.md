@@ -19,7 +19,7 @@ Són petits fitxers de text que un web desa al teu dispositiu. Serveixen perquè
 
 **Galeta pròpia necessària.** `cookie-notice-option` desa la teva elecció del bàner (acceptar o rebutjar) durant 31 dies. No conté dades personals i no es pot desactivar, perquè sense ella el bàner tornaria a aparèixer a cada visita.
 
-**Galetes d'analítica (només si acceptes).** Si prems «Accepta», es carrega Google Tag Manager (contenidor `GTM-MPH2XP95`), que permet mesurar l'ús del web amb Google Analytics. Aquest servei pot desar galetes com `_ga` i `_ga_*` (fins a 2 anys) per distingir visitants i sessions i obtenir estadístiques agregades. Si prems «Rebutja», no es carrega res de Google.
+**Galetes d'analítica (només si acceptes).** Si prems «Accepta», es carrega Google Analytics 4 (identificador `G-ENN14SG31P`), que permet mesurar l'ús del web. Aquest servei pot desar galetes com `_ga` i `_ga_*` (fins a 2 anys) per distingir visitants i sessions i obtenir estadístiques agregades. Si prems «Rebutja», no es carrega res de Google.
 
 **Publicitat.** No fem servir galetes de publicitat ni de personalització d'anuncis; aquestes finalitats queden denegades a la configuració de consentiment.
 
@@ -33,7 +33,7 @@ També pots gestionar o esborrar les galetes des de la configuració del navegad
 
 ## 4. Tercers
 
-Google (Tag Manager i, si s'escau, Analytics) actua com a tercer i pot tractar dades fora de l'Espai Econòmic Europeu d'acord amb les seves pròpies condicions. Més informació a la [política de privacitat de Google](https://policies.google.com/privacy).
+Google (Analytics) actua com a tercer i pot tractar dades fora de l'Espai Econòmic Europeu d'acord amb les seves pròpies condicions. Més informació a la [política de privacitat de Google](https://policies.google.com/privacy).
 
 ## 5. Canvis
 
