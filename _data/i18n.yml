@@ -34,6 +34,14 @@ en:
   proj_type: "Project type"
   proj_none: "No projects match the filters."
   proj_ref: "Ref."
+  bib_btn: "BibTeX"
+  bib_title: "Cite this work (BibTeX)"
+  bib_hint: "Copy this entry into your bibliography file."
+  bib_copy: "Copy"
+  bib_copied: "Copied"
+  bib_download: "Download .bib"
+  bib_close: "Close"
+  bib_error: "BibTeX not available"
   pub_tags:
     editorial: Editorial
     preprint: Preprint
@@ -85,6 +93,14 @@ ca:
   proj_type: "Tipus de projecte"
   proj_none: "Cap projecte coincideix amb els filtres."
   proj_ref: "Ref."
+  bib_btn: "BibTeX"
+  bib_title: "Cita aquesta obra (BibTeX)"
+  bib_hint: "Copia aquesta entrada al teu fitxer de bibliografia."
+  bib_copy: "Copia"
+  bib_copied: "Copiat"
+  bib_download: "Descarrega .bib"
+  bib_close: "Tanca"
+  bib_error: "BibTeX no disponible"
   pub_tags:
     editorial: Editorial
     preprint: Preprint
@@ -136,6 +152,14 @@ es:
   proj_type: "Tipo de proyecto"
   proj_none: "Ningún proyecto coincide con los filtros."
   proj_ref: "Ref."
+  bib_btn: "BibTeX"
+  bib_title: "Cita esta obra (BibTeX)"
+  bib_hint: "Copia esta entrada en tu archivo de bibliografía."
+  bib_copy: "Copiar"
+  bib_copied: "Copiado"
+  bib_download: "Descargar .bib"
+  bib_close: "Cerrar"
+  bib_error: "BibTeX no disponible"
   pub_tags:
     editorial: Editorial
     preprint: Preprint
