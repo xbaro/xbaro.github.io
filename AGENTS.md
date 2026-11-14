@@ -77,7 +77,7 @@ Ordre: `bib-sync` → `bib-curator` (si queden ítems oberts) → `bib-sync` →
 Es treballa **via screenshots**: l'agent aixeca la web a Podman, captura pantalles i les ensenya a l'usuari per validar la direcció abans d'avançar. Iterar sobre el feedback; no desplegar res fins que l'usuari ho demani.
 
 ## Convencions
-- Comunicació amb l'usuari: **català**.
+- Comunicació amb l'usuari: **català correcte, mai castellà** (ni barrejat: res de «dime», «vale», «entonces»…). Vigilar els castellanismes, també en els títols dels subagents. Codi, commits i PRs en anglès.
 - Commits i PRs: **anglès**, imperatiu. Branques temporals `feature/`, `fix/`, `docs/`, `chore/` des de `develop`.
 - Canvis quirúrgics; el que no es demana no es toca.
 

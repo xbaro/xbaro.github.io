@@ -624,6 +624,68 @@ def build_site_data():
     (ROOT.parent / "files" / "publications.bib").write_text(BIB.read_text())   # downloadable BibTeX of the verified publications
 
 
+def _title_sim(a, b):
+    return difflib.SequenceMatcher(None, norm_title(a), norm_title(b)).ratio()
+
+
+def _is_direct_pdf(url):
+    return bool(re.search(r"\.pdf($|\?)|/pdf/|/bitstream/|pdfdirect|/document$", url or "", flags=re.I))
+
+
+def enrich_open_access(cache, refs):
+    """Second pass for references OpenAlex says nothing about: Semantic Scholar (openAccessPdf) by DOI or title, then arXiv by title
+    (only accepted when the title is near-identical and the owner is among the authors)."""
+    import time
+    import xml.etree.ElementTree as ET
+    added = 0
+    for r in refs:
+        c = cache.get(r["id"]) or {}
+        if c.get("pdf"):
+            continue
+        found = None
+        try:
+            if r.get("doi"):
+                q = f"https://api.semanticscholar.org/graph/v1/paper/DOI:{urllib.parse.quote(r['doi'])}?fields=title,openAccessPdf"
+                d = http_json(q)
+                found = (d.get("openAccessPdf") or {}).get("url")
+                src = "semantic-scholar"
+            if not found and r.get("title"):
+                q = "https://api.semanticscholar.org/graph/v1/paper/search?" + urllib.parse.urlencode(
+                    {"query": r["title"][:200], "limit": 3, "fields": "title,openAccessPdf,authors"})
+                for d in (http_json(q).get("data") or []):
+                    if _title_sim(d.get("title") or "", r["title"]) >= 0.93 and any("Bar" in (a.get("name") or "") and "Xavier" in (a.get("name") or "") or (a.get("name") or "").endswith("Baró") or (a.get("name") or "").endswith("Baro") for a in d.get("authors", [])):
+                        found = (d.get("openAccessPdf") or {}).get("url")
+                        src = "semantic-scholar-title"
+                        if found:
+                            break
+        except SystemExit:
+            pass
+        time.sleep(1.1)
+        if not found and r.get("title"):
+            try:
+                req = urllib.request.Request("http://export.arxiv.org/api/query?" + urllib.parse.urlencode(
+                    {"search_query": f'ti:"{r["title"][:150]}"', "max_results": 3}), headers={"User-Agent": "personal-site-memory"})
+                with urllib.request.urlopen(req, timeout=40) as resp:
+                    root = ET.fromstring(resp.read())
+                ns = {"a": "http://www.w3.org/2005/Atom"}
+                for e in root.findall("a:entry", ns):
+                    t = (e.findtext("a:title", "", ns) or "").strip()
+                    au = [(x.findtext("a:name", "", ns) or "") for x in e.findall("a:author", ns)]
+                    if _title_sim(t, r["title"]) >= 0.93 and any(n.endswith(("Baró", "Baro")) for n in au):
+                        found, src = (e.findtext("a:id", "", ns) or "").replace("http://", "https://").replace("/abs/", "/pdf/"), "arxiv"
+                        break
+            except Exception:
+                pass
+            time.sleep(3.2)
+        if found:
+            direct = _is_direct_pdf(found)   # a landing page is a full-text link (HTML), not a PDF
+            cache[r["id"]] = {**c, "status": c.get("status") if c.get("is_oa") else "green", "is_oa": True, "pdf": found if direct else None,
+                              "html": c.get("html") if direct else found,
+                              "version": c.get("version") or "submittedVersion", "license": c.get("license"), "host": c.get("host") or "repository", "via": src}
+            added += 1
+    return added
+
+
 OA_PATH = SRC / "open_access.json"
 
 
@@ -662,7 +724,9 @@ def fetch_open_access(refresh=False):
                           "version": (pdf or html or {}).get("version"), "license": (pdf or html or {}).get("license"),
                           "host": ((pdf or html or {}).get("source") or {}).get("type")}
         time.sleep(0.15)
+    extra = enrich_open_access(cache, refs)
     OA_PATH.write_text(json.dumps(cache, indent=1, ensure_ascii=False) + "\n")
+    print(f"open_access: second pass (Semantic Scholar / arXiv) added {extra} PDF links")
     n = sum(1 for v in cache.values() if v.get("pdf") or v.get("html"))
     print(f"open_access: {len(refs)} refs checked, {n} with an open full-text link -> sources/open_access.json")
 

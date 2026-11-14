@@ -198,13 +198,14 @@
   "host": "repository"
  },
  "doi:10.1109/fg.2019.8756595": {
-  "status": "closed",
-  "is_oa": false,
-  "pdf": null,
+  "status": "green",
+  "is_oa": true,
+  "pdf": "https://arxiv.org/pdf/1902.07653v1",
   "html": null,
-  "version": null,
+  "version": "submittedVersion",
   "license": null,
-  "host": null
+  "host": "repository",
+  "via": "arxiv"
  },
  "doi:10.1049/iet-cvi.2016.0309": {
   "status": "closed",
@@ -222,7 +223,8 @@
   "html": "https://vbn.aau.dk/da/publications/a8111349-2dac-49ef-85f8-0d0158a816bd",
   "version": "publishedVersion",
   "license": "other-oa",
-  "host": "repository"
+  "host": "repository",
+  "via": "semantic-scholar"
  },
  "doi:10.1109/access.2018.2831927": {
   "status": "gold",
@@ -231,7 +233,8 @@
   "html": "https://doi.org/10.1109/access.2018.2831927",
   "version": "publishedVersion",
   "license": null,
-  "host": "journal"
+  "host": "journal",
+  "via": "semantic-scholar"
  },
  "doi:10.1007/978-3-319-98131-4": {
   "status": "green",
@@ -288,13 +291,14 @@
   "host": "journal"
  },
  "doi:10.1109/taffc.2017.2751469": {
-  "status": "closed",
-  "is_oa": false,
-  "pdf": null,
+  "status": "green",
+  "is_oa": true,
+  "pdf": "https://repository.ubn.ru.nl//bitstream/handle/2066/182126/182126.pdf",
   "html": null,
-  "version": null,
+  "version": "submittedVersion",
   "license": null,
-  "host": null
+  "host": "repository",
+  "via": "semantic-scholar"
  },
  "doi:10.1016/j.imavis.2018.09.006": {
   "status": "bronze",
@@ -339,7 +343,8 @@
   "html": "https://inria.hal.science/hal-01678006",
   "version": "submittedVersion",
   "license": "other-oa",
-  "host": "repository"
+  "host": "repository",
+  "via": "semantic-scholar"
  },
  "t:design-and-preliminary-evaluation-of-team-based-competitions-2017": {
   "status": "closed",
@@ -366,7 +371,8 @@
   "html": "https://univ-angers.hal.science/hal-02528740",
   "version": "submittedVersion",
   "license": "other-oa",
-  "host": "repository"
+  "host": "repository",
+  "via": "semantic-scholar"
  },
  "doi:10.48550/arxiv.1703.03305": {
   "status": "green",
@@ -378,13 +384,14 @@
   "host": "repository"
  },
  "doi:10.1007/s00521-016-2223-x": {
-  "status": "closed",
-  "is_oa": false,
-  "pdf": null,
+  "status": "green",
+  "is_oa": true,
+  "pdf": "https://discovery.ucl.ac.uk/10115348/1/Ponce%20Lopez_NCA2016_EvolvingWeighting.pdf",
   "html": null,
-  "version": null,
+  "version": "submittedVersion",
   "license": null,
-  "host": null
+  "host": "repository",
+  "via": "semantic-scholar"
  },
  "doi:10.1109/fg.2017.133": {
   "status": "closed",
@@ -402,7 +409,8 @@
   "html": "https://hdl.handle.net/11129/8590",
   "version": "submittedVersion",
   "license": "cc-by-nc-nd",
-  "host": "repository"
+  "host": "repository",
+  "via": "semantic-scholar"
  },
  "doi:10.1109/fg.2017.37": {
   "status": "closed",
@@ -429,7 +437,8 @@
   "html": "https://inria.hal.science/hal-01677962",
   "version": "submittedVersion",
   "license": "other-oa",
-  "host": "repository"
+  "host": "repository",
+  "via": "semantic-scholar"
  },
  "doi:10.3991/ijet.v11i07.5888": {
   "status": "gold",
@@ -447,7 +456,8 @@
   "html": "https://doi.org/10.5334/ijic.2680",
   "version": "publishedVersion",
   "license": "cc-by",
-  "host": "journal"
+  "host": "journal",
+  "via": "semantic-scholar"
  },
  "doi:10.1109/icpr.2016.7899609": {
   "status": "green",
@@ -459,13 +469,14 @@
   "host": "repository"
  },
  "doi:10.1007/978-3-319-49409-8_32": {
-  "status": "closed",
-  "is_oa": false,
-  "pdf": null,
+  "status": "green",
+  "is_oa": true,
+  "pdf": "https://discovery.ucl.ac.uk/10114947/1/ECCVW2016_LAP.pdf",
   "html": null,
-  "version": null,
+  "version": "submittedVersion",
   "license": null,
-  "host": null
+  "host": "repository",
+  "via": "semantic-scholar"
  },
  "doi:10.1109/cvprw.2016.93": {
   "status": "green",
@@ -531,13 +542,14 @@
   "host": "repository"
  },
  "doi:10.1007/978-3-319-16178-5_32": {
-  "status": "closed",
-  "is_oa": false,
-  "pdf": null,
+  "status": "green",
+  "is_oa": true,
+  "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-319-16178-5_32.pdf",
   "html": null,
-  "version": null,
+  "version": "submittedVersion",
   "license": null,
-  "host": null
+  "host": "repository",
+  "via": "semantic-scholar"
  },
  "doi:10.1109/ipta.2015.7367098": {
   "status": "green",
@@ -600,7 +612,8 @@
   "html": "http://hdl.handle.net/10609/109819",
   "version": "submittedVersion",
   "license": "cc-by-nc-nd",
-  "host": "repository"
+  "host": "repository",
+  "via": "semantic-scholar"
  },
  "doi:10.1016/j.patrec.2013.09.009": {
   "status": "green",
@@ -609,7 +622,8 @@
   "html": "http://hdl.handle.net/2117/24589",
   "version": "submittedVersion",
   "license": "public-domain",
-  "host": "repository"
+  "host": "repository",
+  "via": "semantic-scholar"
  },
  "doi:10.1109/incos.2014.69": {
   "status": "closed",
