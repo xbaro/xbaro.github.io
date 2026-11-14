@@ -1,0 +1,28 @@
+{%- comment -%} Subjects by institution and level, with periods. Language: page.lang (default site.default_lang). {%- endcomment -%}
+{% assign L = page.lang | default: site.default_lang %}
+{% assign T = site.data.i18n[L] %}
+<p>{{ T.teaching_intro }}</p>
+{% assign by_inst = site.data.teaching | group_by: "institution" %}
+{% assign order = "Universitat de Barcelona,Universitat Oberta de Catalunya,Université Paris-Saclay" | split: "," %}
+{% for inst_name in order %}
+  {% assign g = by_inst | where: "name", inst_name | first %}
+  {% if g %}
+    <h2>{{ T.institutions[inst_name] | default: inst_name }}</h2>
+    {% assign levels = "undergraduate,master" | split: "," %}
+    {% for lvl in levels %}
+      {% assign rows = g.items | where: "level", lvl %}
+      {% if rows.size > 0 %}
+        <h3>{{ T[lvl] }}</h3>
+        <ul class="teaching-list">
+        {% for r in rows %}
+          <li>
+            <strong>{{ r.name[L] }}</strong>
+            <span class="teaching-list__years">{{ r.periods_label | join: ", " }}{% if r.planned_label.size > 0 %}{% if r.periods_label.size > 0 %}, {% endif %}{{ r.planned_label | join: ", " }} ({{ T.planned }}){% endif %}</span><br>
+            <small>{% for p in r.programmes %}{{ p[L] }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% if r.languages.size > 0 %} · {% for x in r.languages %}{{ T.languages[x] | default: x }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}</small>
+          </li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}

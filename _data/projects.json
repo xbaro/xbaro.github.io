@@ -1,0 +1,241 @@
+[
+ {
+  "title": "Inteligencia Artificial responsable para el bienestar humano: Percepción contextualizada centrada en la persona (SENTIENT)",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia, Innovación y Universidades",
+  "reference": "PID2022-138721NB-I00",
+  "start": 2023,
+  "end": 2027,
+  "pis": [
+   "Àgata Lapedriza",
+   "Xavier Baró"
+  ]
+ },
+ {
+  "title": "EduTECH Emprèn: Una oportunitat per emprendre",
+  "kind": "contract",
+  "funder": "Departament d'Empresa i Treball de la Generalitat de Catalunya (cofinançat pel FSE+)",
+  "reference": null,
+  "start": 2022,
+  "end": 2022,
+  "pis": [
+   "Jordi Castells Canela"
+  ]
+ },
+ {
+  "title": "Modelado 3D corporal y de ropa basado en imagen para probadores virtuales",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia e Innovación",
+  "reference": "TED2021-131317B-I00",
+  "start": 2022,
+  "end": 2024,
+  "pis": [
+   "Sergio Escalera"
+  ]
+ },
+ {
+  "title": "e-EQE competences framework study",
+  "kind": "contract",
+  "funder": "European Patent Office (EPO)",
+  "reference": null,
+  "start": 2021,
+  "end": 2021,
+  "pis": [
+   "Ana‐Elena Guerrero‐Roldán",
+   "Xavier Baró",
+   "Josep Prieto"
+  ]
+ },
+ {
+  "title": "Never Home Alone (NHoA)",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia, Innovación y Universidades",
+  "reference": "PLEC2021-007868",
+  "start": 2021,
+  "end": 2025,
+  "pis": [
+   "Àgata Lapedriza"
+  ]
+ },
+ {
+  "title": "Advice on the deployment of TeSLA system modules and support in terms of educational methodology for its implementation",
+  "kind": "contract",
+  "funder": "University of Jyväskylä",
+  "reference": null,
+  "start": 2020,
+  "end": 2022,
+  "pis": [
+   "Ana‐Elena Guerrero‐Roldán",
+   "Xavier Baró",
+   "Josep Prieto"
+  ]
+ },
+ {
+  "title": "Modelos de deep learning considerando explicabilidad e incertidumbre. Aplicaciones a la percepción emocional",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia, Innovación y Universidades",
+  "reference": "RTI2018-095232-B-C22",
+  "start": 2019,
+  "end": 2022,
+  "pis": [
+   "David Masip",
+   "Àgata Lapedriza"
+  ]
+ },
+ {
+  "title": "Scene Understanding and Artificial Intelligence lab (SUNAI)",
+  "kind": "sgr",
+  "funder": "Generalitat de Catalunya",
+  "reference": "2017 SGR 1160",
+  "start": 2017,
+  "end": 2019,
+  "pis": [
+   "David Masip"
+  ]
+ },
+ {
+  "title": "An Adaptive Trust-based e-assesment System for Learning (TeSLA)",
+  "kind": "competitive",
+  "funder": "European Commission. H2020-ICT-2015",
+  "reference": "688520",
+  "start": 2016,
+  "end": 2019,
+  "pis": [
+   "Ana‐Elena Guerrero‐Roldán"
+  ]
+ },
+ {
+  "title": "Formació de voluntaris tecnològics per interaccionar amb gent jove utilitzant ICT",
+  "kind": "contract",
+  "funder": "Caixa d'Enginyers",
+  "reference": null,
+  "start": 2015,
+  "end": 2015,
+  "pis": [
+   "David Bañeres Besora"
+  ]
+ },
+ {
+  "title": "Conveni de col.laboració entre la Universitat Oberta de Catalunya i l'Institut Municipal d'Educació de Barcelona de l'Ajuntament de Barcelona",
+  "kind": "contract",
+  "funder": "Ajuntament de Barcelona",
+  "reference": null,
+  "start": 2014,
+  "end": 2014,
+  "pis": [
+   "David Bañeres Besora"
+  ]
+ },
+ {
+  "title": "Scene Understanding and Artificial Intelligence lab (SUNAI)",
+  "kind": "sgr",
+  "funder": "Generalitat de Catalunya",
+  "reference": "2014 SGR 564",
+  "start": 2014,
+  "end": 2017,
+  "pis": [
+   "David Masip",
+   "Àgata Lapedriza"
+  ]
+ },
+ {
+  "title": "Revisiting representation models for visual recognition: Social and Cultural Perception",
+  "kind": "competitive",
+  "funder": "Ministerio de Economía y Competitividad",
+  "reference": "TIN2012-38187-C03-02",
+  "start": 2013,
+  "end": 2015,
+  "pis": [
+   "David Masip",
+   "Àgata Lapedriza"
+  ]
+ },
+ {
+  "title": "Técnicas de aprendizaje automático para sistemas de visión de gran escala: Aplicaciones al análisis de imagen médica",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia e Innovación",
+  "reference": "TIN2009-14404-C02-02",
+  "start": 2010,
+  "end": 2012,
+  "pis": [
+   "Petia Radeva"
+  ]
+ },
+ {
+  "title": "Grup de Reconeixement de Formes i Anàlisi d'Imatges",
+  "kind": "sgr",
+  "funder": "Universitat de Barcelona",
+  "reference": "2009SGR696",
+  "start": 2009,
+  "end": 2013,
+  "pis": [
+   "Petia Radeva"
+  ]
+ },
+ {
+  "title": "Modelos de aprendizaje multitarea para la visión por computador",
+  "kind": "competitive",
+  "funder": "Ministerio de Educación y Ciencia",
+  "reference": "TIN2006-15308-C02-01",
+  "start": 2007,
+  "end": 2009,
+  "pis": [
+   "Jordi Vitrià"
+  ]
+ },
+ {
+  "title": "Multimodal Interaction in Pattern Recognition and Computer Vision (MIPRCV)",
+  "kind": "competitive",
+  "funder": "Ministerio de Educación y Ciencia (Programa Consolider-Ingenio 2010)",
+  "reference": "CSD2007-00018",
+  "start": 2007,
+  "end": 2012,
+  "pis": [
+   "Enrique Vidal Ruiz"
+  ]
+ },
+ {
+  "title": "Sistema para la detección y localización automática de señales de tráfico e hitos quilométricos",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia e Innovación",
+  "reference": "PETRI PTR 1995-0983-OP",
+  "start": 2006,
+  "end": 2007,
+  "pis": [
+   "Petia Radeva"
+  ]
+ },
+ {
+  "title": "Grup de Reconeixement de Formes i Anàlisi d'Imatges",
+  "kind": "sgr",
+  "funder": "Universitat Autònoma de Barcelona",
+  "reference": "2005SGR00450",
+  "start": 2005,
+  "end": 2009,
+  "pis": [
+   "Jordi Vitrià"
+  ]
+ },
+ {
+  "title": "Explotació de les imatges generades pel projecte Geomòbil",
+  "kind": "contract",
+  "funder": "Institut Cartogràfic de Catalunya",
+  "reference": null,
+  "start": 2004,
+  "end": 2009,
+  "pis": [
+   "Jordi Vitrià"
+  ]
+ },
+ {
+  "title": "Interfaces de Visión para Entornos Médicos",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia y Tecnología",
+  "reference": "TIC2003-00654",
+  "start": 2004,
+  "end": 2007,
+  "pis": [
+   "Jordi Vitrià"
+  ]
+ }
+]

@@ -8,6 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
+default_lang             : ca          # root URLs; other languages live under /<lang>/ (see _data/i18n.yml, AGENTS.md)
+languages                : [ca, en, es]
 title                    : "Xavier Baró"
 title_separator          : "-"
 name                     : &name "Xavier Baró"
@@ -156,6 +158,8 @@ include:
   - _pages
   - files
 exclude:
+  - AGENTS.md
+  - CLAUDE.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
