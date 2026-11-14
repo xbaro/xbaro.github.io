@@ -568,6 +568,7 @@ def build_site_data():
         return course(a) if b - a == 1 else f"{course(a)}–{course(b - 1)}"
 
     inst_order = ["Universitat de Barcelona", "Universitat Oberta de Catalunya", "Université Paris-Saclay"]
+    inst_logo = {"Universitat de Barcelona": "ub.svg", "Universitat Oberta de Catalunya": "uoc.svg", "Université Paris-Saclay": "paris-saclay.svg"}   # black-and-white logos in images/logos/ (shown if present)
     grouped = {}
     for r in t["summary"]:
         if not r["periods"]:   # only what has been taught: courses that are merely planned are not published
@@ -583,7 +584,8 @@ def build_site_data():
             g["subjects"].sort(key=lambda x: (x["start"], x["name"]["ca"]))
             for x in g["subjects"]:
                 del x["start"]
-        out_rows.append({"institution": inst, "programmes": progs})
+        logo = next((f"/images/logos/{inst_logo[inst]}" for _ in [0] if inst in inst_logo and (ROOT.parent / "images" / "logos" / inst_logo[inst]).exists()), None)
+        out_rows.append({"institution": inst, "logo": logo, "programmes": progs})
     out = ROOT.parent / "_data" / "teaching.json"
     out.write_text(json.dumps(out_rows, indent=1, ensure_ascii=False) + "\n")
     print(f"{out.relative_to(ROOT.parent)}: {sum(len(g['subjects']) for i in out_rows for g in i['programmes'])} subjects in {sum(len(i['programmes']) for i in out_rows)} programmes")
