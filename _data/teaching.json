@@ -1,573 +1,293 @@
 [
  {
-  "periods_label": [
-   "2018/19–2020/21"
-  ],
-  "institution": "Universitat Oberta de Catalunya",
-  "level": "master",
-  "name": {
-   "ca": "Desenvolupament back-end PHP",
-   "en": "PHP Back-End Development",
-   "es": "Desarrollo back-end PHP"
-  },
-  "programmes": [
-   {
-    "ca": "Màster Universitari en Desenvolupament de llocs i aplicacions web",
-    "en": "MSc in Web Sites and Applications Development",
-    "es": "Máster en Desarrollo de sitios y aplicaciones web"
-   }
-  ],
-  "periods": [
-   [
-    2018,
-    2021
-   ]
-  ],
-  "languages": []
- },
- {
-  "periods_label": [
-   "2018/19–2020/21",
-   "2022/23"
-  ],
-  "institution": "Universitat Oberta de Catalunya",
-  "level": "master",
-  "name": {
-   "ca": "Genòmica Computacional",
-   "en": "Computational Genomics",
-   "es": "Genómica computacional"
-  },
-  "programmes": [
-   {
-    "ca": "Màster Interuniversitari en Bioinformàtica i bioestadística UB-UOC",
-    "en": "Interuniversity MSc in Bioinformatics and Biostatistics (UB-UOC)",
-    "es": "Máster Interuniversitario en Bioinformática y bioestadística (UB-UOC)"
-   }
-  ],
-  "periods": [
-   [
-    2018,
-    2021
-   ],
-   [
-    2022,
-    2023
-   ]
-  ],
-  "languages": []
- },
- {
-  "periods_label": [
-   "2009/10"
-  ],
   "institution": "Universitat de Barcelona",
-  "level": "master",
-  "name": {
-   "ca": "Seminaris en intel·ligència artificial (UB)",
-   "en": "Seminars in Artificial Intelligence",
-   "es": "Seminarios de inteligencia artificial"
-  },
   "programmes": [
    {
-    "ca": "Intel·ligència Artificial",
-    "en": "Artificial Intelligence (MSc)",
-    "es": "Inteligencia Artificial (máster)"
-   }
-  ],
-  "periods": [
-   [
-    2009,
-    2010
-   ]
-  ],
-  "languages": [
-   "Anglès"
-  ]
- },
- {
-  "periods_label": [
-   "2010/11–2014/15"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "master",
-  "name": {
-   "ca": "Reconeixement de persones i objectes",
-   "en": "People and Object Recognition",
-   "es": "Reconocimiento de personas y objetos"
-  },
-  "programmes": [
-   {
-    "ca": "Intel·ligència Artificial",
-    "en": "Artificial Intelligence (MSc)",
-    "es": "Inteligencia Artificial (máster)"
+    "name": {
+     "ca": "Enginyeria tècnica en informàtica de sistemes",
+     "en": "Technical Engineering in Computer Systems",
+     "es": "Ingeniería Técnica en Informática de Sistemas"
+    },
+    "level": "undergraduate",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Ampliació de bases de dades",
+       "en": "Advanced Databases",
+       "es": "Ampliación de bases de datos"
+      },
+      "period_label": "2008/09",
+      "languages": [
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Introducció a les bases de dades",
+       "en": "Introduction to Databases",
+       "es": "Introducción a las bases de datos"
+      },
+      "period_label": "2008/09",
+      "languages": [
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Programació per a la xarxa",
+       "en": "Network Programming",
+       "es": "Programación para la red"
+      },
+      "period_label": "2008/09",
+      "languages": [
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Sistemes operatius",
+       "en": "Operating Systems",
+       "es": "Sistemas operativos"
+      },
+      "period_label": "2008/09",
+      "languages": [
+       "Català"
+      ]
+     }
+    ]
    },
    {
-    "ca": "Màster Interuniversitari en Intel·ligència Artificial",
-    "en": "Màster Interuniversitari en Intel·ligència Artificial",
-    "es": "Màster Interuniversitari en Intel·ligència Artificial"
+    "name": {
+     "ca": "Enginyeria Informàtica",
+     "en": "Computer Engineering",
+     "es": "Ingeniería Informática"
+    },
+    "level": "undergraduate",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Programació I",
+       "en": "Programming I",
+       "es": "Programación I"
+      },
+      "period_label": "2009/10–2024/25",
+      "languages": [
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Programació II",
+       "en": "Programming II",
+       "es": "Programación II"
+      },
+      "period_label": "2009/10–2013/14",
+      "languages": [
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Processament d'imatges",
+       "en": "Image Processing",
+       "es": "Procesamiento de imágenes"
+      },
+      "period_label": "2010/11",
+      "languages": [
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Visió artificial",
+       "en": "Computer Vision",
+       "es": "Visión artificial"
+      },
+      "period_label": "2014/15–2015/16",
+      "languages": [
+       "Castellà",
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Estructura de dades",
+       "en": "Data Structures",
+       "es": "Estructuras de datos"
+      },
+      "period_label": "2023/24–2024/25",
+      "languages": [
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Gràfics i visualització de dades",
+       "en": "Graphics and Data Visualization",
+       "es": "Gráficos y visualización de datos"
+      },
+      "period_label": "2023/24–2025/26",
+      "languages": [
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Software distribuït",
+       "en": "Distributed Software",
+       "es": "Software distribuido"
+      },
+      "period_label": "2023/24–2025/26",
+      "languages": [
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Algorísmica",
+       "en": "Algorithmics",
+       "es": "Algorítmica"
+      },
+      "period_label": "2024/25",
+      "languages": [
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Algorísmica avançada",
+       "en": "Advanced Algorithmics",
+       "es": "Algorítmica avanzada"
+      },
+      "period_label": "2024/25",
+      "languages": [
+       "Català"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Computació orientada al web",
+       "en": "Web-Oriented Computing",
+       "es": "Computación orientada a la web"
+      },
+      "period_label": "2025/26",
+      "languages": [
+       "Català"
+      ]
+     }
+    ]
+   },
+   {
+    "name": {
+     "ca": "Intel·ligència Artificial",
+     "en": "Artificial Intelligence (MSc)",
+     "es": "Inteligencia Artificial (máster)"
+    },
+    "level": "master",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Seminaris en intel·ligència artificial (UB)",
+       "en": "Seminars in Artificial Intelligence",
+       "es": "Seminarios de inteligencia artificial"
+      },
+      "period_label": "2009/10",
+      "languages": [
+       "Anglès"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Reconeixement de persones i objectes",
+       "en": "People and Object Recognition",
+       "es": "Reconocimiento de personas y objetos"
+      },
+      "period_label": "2010/11–2014/15",
+      "languages": [
+       "Anglès"
+      ]
+     },
+     {
+      "name": {
+       "ca": "Aprenentatge, percepció i reconeixement",
+       "en": "Learning, Perception and Recognition",
+       "es": "Aprendizaje, percepción y reconocimiento"
+      },
+      "period_label": "2012/13–2015/16",
+      "languages": [
+       "Anglès",
+       "Català"
+      ]
+     }
+    ]
    }
-  ],
-  "periods": [
-   [
-    2010,
-    2015
-   ]
-  ],
-  "languages": [
-   "Anglès"
   ]
  },
  {
-  "periods_label": [
-   "2012/13–2015/16"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "master",
-  "name": {
-   "ca": "Aprenentatge, percepció i reconeixement",
-   "en": "Learning, Perception and Recognition",
-   "es": "Aprendizaje, percepción y reconocimiento"
-  },
+  "institution": "Universitat Oberta de Catalunya",
   "programmes": [
    {
-    "ca": "Intel·ligència Artificial",
-    "en": "Artificial Intelligence (MSc)",
-    "es": "Inteligencia Artificial (máster)"
-   }
-  ],
-  "periods": [
-   [
-    2012,
-    2016
-   ]
-  ],
-  "languages": [
-   "Anglès",
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2008/09"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Ampliació de bases de dades",
-   "en": "Advanced Databases",
-   "es": "Ampliación de bases de datos"
-  },
-  "programmes": [
+    "name": {
+     "ca": "Màster Interuniversitari en Bioinformàtica i bioestadística UB-UOC",
+     "en": "Interuniversity MSc in Bioinformatics and Biostatistics (UB-UOC)",
+     "es": "Máster Interuniversitario en Bioinformática y bioestadística (UB-UOC)"
+    },
+    "level": "master",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Genòmica Computacional",
+       "en": "Computational Genomics",
+       "es": "Genómica computacional"
+      },
+      "period_label": "2018/19–2022/23",
+      "languages": []
+     }
+    ]
+   },
    {
-    "ca": "Enginyeria tècnica en informàtica de sistemes",
-    "en": "Technical Engineering in Computer Systems",
-    "es": "Ingeniería Técnica en Informática de Sistemas"
+    "name": {
+     "ca": "Màster Universitari en Desenvolupament de llocs i aplicacions web",
+     "en": "MSc in Web Sites and Applications Development",
+     "es": "Máster en Desarrollo de sitios y aplicaciones web"
+    },
+    "level": "master",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Desenvolupament back-end PHP",
+       "en": "PHP Back-End Development",
+       "es": "Desarrollo back-end PHP"
+      },
+      "period_label": "2018/19–2020/21",
+      "languages": []
+     }
+    ]
    }
-  ],
-  "periods": [
-   [
-    2008,
-    2009
-   ]
-  ],
-  "languages": [
-   "Català"
   ]
  },
  {
-  "periods_label": [
-   "2008/09"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Introducció a les bases de dades",
-   "en": "Introduction to Databases",
-   "es": "Introducción a las bases de datos"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria tècnica en informàtica de sistemes",
-    "en": "Technical Engineering in Computer Systems",
-    "es": "Ingeniería Técnica en Informática de Sistemas"
-   }
-  ],
-  "periods": [
-   [
-    2008,
-    2009
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2008/09"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Programació per a la xarxa",
-   "en": "Network Programming",
-   "es": "Programación para la red"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria tècnica en informàtica de sistemes",
-    "en": "Technical Engineering in Computer Systems",
-    "es": "Ingeniería Técnica en Informática de Sistemas"
-   }
-  ],
-  "periods": [
-   [
-    2008,
-    2009
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2008/09"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Sistemes operatius",
-   "en": "Operating Systems",
-   "es": "Sistemas operativos"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria tècnica en informàtica de sistemes",
-    "en": "Technical Engineering in Computer Systems",
-    "es": "Ingeniería Técnica en Informática de Sistemas"
-   }
-  ],
-  "periods": [
-   [
-    2008,
-    2009
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2009/10",
-   "2024/25"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Programació I",
-   "en": "Programming I",
-   "es": "Programación I"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [
-   [
-    2009,
-    2010
-   ],
-   [
-    2024,
-    2025
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2009/10–2013/14"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Programació II",
-   "en": "Programming II",
-   "es": "Programación II"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [
-   [
-    2009,
-    2014
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2010/11"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Processament d'imatges",
-   "en": "Image Processing",
-   "es": "Procesamiento de imágenes"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [
-   [
-    2010,
-    2011
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2014/15–2015/16"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Visió artificial",
-   "en": "Computer Vision",
-   "es": "Visión artificial"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [
-   [
-    2014,
-    2016
-   ]
-  ],
-  "languages": [
-   "Castellà",
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2023/24–2024/25"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Estructura de dades",
-   "en": "Data Structures",
-   "es": "Estructuras de datos"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [
-   [
-    2023,
-    2025
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2023/24–2025/26"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Gràfics i visualització de dades",
-   "en": "Graphics and Data Visualization",
-   "es": "Gráficos y visualización de datos"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [
-   [
-    2023,
-    2026
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2023/24–2025/26"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Software distribuït",
-   "en": "Distributed Software",
-   "es": "Software distribuido"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [
-   [
-    2023,
-    2026
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2024/25"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Algorísmica",
-   "en": "Algorithmics",
-   "es": "Algorítmica"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [
-   [
-    2024,
-    2025
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2024/25"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Algorísmica avançada",
-   "en": "Advanced Algorithmics",
-   "es": "Algorítmica avanzada"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [
-   [
-    2024,
-    2025
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2025/26"
-  ],
-  "institution": "Universitat de Barcelona",
-  "level": "undergraduate",
-  "name": {
-   "ca": "Computació orientada al web",
-   "en": "Web-Oriented Computing",
-   "es": "Computación orientada a la web"
-  },
-  "programmes": [
-   {
-    "ca": "Enginyeria Informàtica",
-    "en": "Computer Engineering",
-    "es": "Ingeniería Informática"
-   }
-  ],
-  "periods": [
-   [
-    2025,
-    2026
-   ]
-  ],
-  "languages": [
-   "Català"
-  ]
- },
- {
-  "periods_label": [
-   "2021/22–2022/23"
-  ],
   "institution": "Université Paris-Saclay",
-  "level": "master",
-  "name": {
-   "ca": "Visió per computador",
-   "en": "Computer Vision",
-   "es": "Visión por computador"
-  },
   "programmes": [
    {
-    "ca": "Màster en Intel·ligència Artificial",
-    "en": "Master in Artificial Intelligence",
-    "es": "Máster en Inteligencia Artificial"
+    "name": {
+     "ca": "Màster en Intel·ligència Artificial",
+     "en": "Master in Artificial Intelligence",
+     "es": "Máster en Inteligencia Artificial"
+    },
+    "level": "master",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Visió per computador",
+       "en": "Computer Vision",
+       "es": "Visión por computador"
+      },
+      "period_label": "2021/22–2022/23",
+      "languages": []
+     }
+    ]
    }
-  ],
-  "periods": [
-   [
-    2021,
-    2023
-   ]
-  ],
-  "languages": []
+  ]
  }
 ]

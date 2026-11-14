@@ -563,17 +563,30 @@ def build_site_data():
     def label(periods):                  # [[2012, 2016]] -> "2012/13–2015/16"; one course -> "2024/25"
         return [course(a) if b - a == 1 else f"{course(a)}–{course(b - 1)}" for a, b in periods]
 
-    rows = []
+    def span(periods):                   # one range per subject: first course taught -> last course taught
+        a, b = min(p[0] for p in periods), max(p[1] for p in periods)
+        return course(a) if b - a == 1 else f"{course(a)}–{course(b - 1)}"
+
+    inst_order = ["Universitat de Barcelona", "Universitat Oberta de Catalunya", "Université Paris-Saclay"]
+    grouped = {}
     for r in t["summary"]:
         if not r["periods"]:   # only what has been taught: courses that are merely planned are not published
             continue
-        ca = r["name"]["ca"]
-        rows.append({"periods_label": label(r["periods"]), **{"institution": r["institution"], "level": r["level"], "name": loc(tr["names"], ca),
-                     "programmes": [loc(tr["programmes"], p) for p in r["programmes"]],
-                     "periods": r["periods"], "languages": r["languages"]}})
+        prog = loc(tr["programmes"], r["programmes"][0]) if r["programmes"] else {l: "—" for l in langs}
+        g = grouped.setdefault(r["institution"], {}).setdefault(prog["ca"], {"name": prog, "level": r["level"], "subjects": []})
+        g["subjects"].append({"name": loc(tr["names"], r["name"]["ca"]), "period_label": span(r["periods"]), "start": min(p[0] for p in r["periods"]),
+                              "languages": r["languages"]})
+    out_rows = []
+    for inst in sorted(grouped, key=lambda i: inst_order.index(i) if i in inst_order else 99):
+        progs = sorted(grouped[inst].values(), key=lambda g: (g["level"] != "undergraduate", min(x["start"] for x in g["subjects"]), g["name"]["ca"]))
+        for g in progs:
+            g["subjects"].sort(key=lambda x: (x["start"], x["name"]["ca"]))
+            for x in g["subjects"]:
+                del x["start"]
+        out_rows.append({"institution": inst, "programmes": progs})
     out = ROOT.parent / "_data" / "teaching.json"
-    out.write_text(json.dumps(rows, indent=1, ensure_ascii=False) + "\n")
-    print(f"{out.relative_to(ROOT.parent)}: {len(rows)} subject rows")
+    out.write_text(json.dumps(out_rows, indent=1, ensure_ascii=False) + "\n")
+    print(f"{out.relative_to(ROOT.parent)}: {sum(len(g['subjects']) for i in out_rows for g in i['programmes'])} subjects in {sum(len(i['programmes']) for i in out_rows)} programmes")
 
     ov_p = ROOT / "projects_overrides.json"
     pov = json.loads(ov_p.read_text()) if ov_p.exists() else {}
