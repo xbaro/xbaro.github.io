@@ -5,7 +5,7 @@
 {% assign kinds = "competitive,sgr,contract" | split: "," %}
 <div class="proj-filters">
   <input type="search" id="proj-q" placeholder="{{ T.proj_search }}" aria-label="{{ T.proj_search }}">
-  <select id="proj-kind" aria-label="{{ T.proj_all }}">
+  <select id="proj-kind" aria-label="{{ T.proj_type }}">
     <option value="">{{ T.proj_all }}</option>
     {% for k in kinds %}{% assign n = site.data.projects | where: "kind", k %}{% if n.size > 0 %}<option value="{{ k }}">{{ T.proj_kinds[k] }} ({{ n.size }})</option>{% endif %}{% endfor %}
   </select>
@@ -32,10 +32,11 @@
 <script>
 (function(){
   var q=document.getElementById('proj-q'),kd=document.getElementById('proj-kind'),cnt=document.getElementById('proj-count'),none=document.getElementById('proj-none');
+  function nz(x){return x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[\u2010-\u2015]/g,'-')}
   var items=[].slice.call(document.querySelectorAll('.proj-list li')),secs=[].slice.call(document.querySelectorAll('.proj-section'));
   function apply(){
-    var t=q.value.trim().toLowerCase().split(/\s+/).filter(Boolean),n=0;
-    items.forEach(function(li){var ok=(!kd.value||li.dataset.kind===kd.value)&&t.every(function(w){return li.dataset.text.indexOf(w)>-1});li.hidden=!ok;if(ok)n++;});
+    var t=nz(q.value).split(/\s+/).filter(Boolean),n=0;
+    items.forEach(function(li){var ok=(!kd.value||li.dataset.kind===kd.value)&&t.every(function(w){return nz(li.dataset.text).indexOf(w)>-1});li.hidden=!ok;if(ok)n++;});
     secs.forEach(function(s){var v=s.querySelectorAll('li:not([hidden])').length;s.hidden=!v;var sm=s.querySelector('h2 small');if(sm)sm.textContent='('+v+')';});
     cnt.textContent=n+' / '+items.length;none.hidden=n>0;
   }
