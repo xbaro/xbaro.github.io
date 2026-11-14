@@ -1,0 +1,62 @@
+{
+ "_note": "Display fixes for projects.json (keyed by exact CV title). `public: false` hides an item until the owner verifies it. Amounts are never published.",
+ "by_title": {
+  "Scence Understanding and Artificial Intelligence lab (SUNAI)": {
+   "title": "Scene Understanding and Artificial Intelligence lab (SUNAI)"
+  },
+  "Multimodal Intraction in Pattern Recognition and Computer Vision (MIPRCV)": {
+   "title": "Multimodal Interaction in Pattern Recognition and Computer Vision (MIPRCV)"
+  },
+  "e-EQE, conceptualization of a new European": {
+   "public": false,
+   "note": "Title looks truncated in the CV; hidden until the full title is known."
+  }
+ },
+ "by_funder": {
+  "Ministerio de economia y competivid": "Ministerio de Economía y Competitividad",
+  "European Comunity. H2020-ICT2015": "European Community. H2020-ICT2015"
+ },
+ "by_ref": {
+  "PLEC2021-007868": {
+   "pis": [
+    "Àgata Lapedriza"
+   ],
+   "end": 2025,
+   "note": "AEI/UOC portal: PI of the UOC node is Àgata Lapedriza; ends 2025-06-30; coordinator Eurecat (verified 2026-11-14)."
+  },
+  "PID2022-138721NB-I00": {
+   "end": 2027,
+   "note": "AEI: ends 2027-08-31 (CV said 2025). Co-PI role not verifiable publicly."
+  },
+  "RTI2018-095232-B-C22": {
+   "title": "Modelos de deep learning considerando explicabilidad e incertidumbre. Aplicaciones a la percepción emocional",
+   "end": 2022,
+   "note": "Own title of subproject C22 (the CV gave the coordinated project's title BECAUsE); ends 2022-09-30; PRC 'Explainable Uncertainty-Aware Deep Learning' is this same subproject."
+  },
+  "688520": {
+   "funder": "European Commission. H2020-ICT-2015",
+   "note": "CORDIS: H2020-ICT-2015, coordinated by UOC."
+  },
+  "TIN2009-14404-C02-02": {
+   "pis": [
+    "Petia Radeva"
+   ],
+   "note": "GREC UB: IP of subproject C02-02 (UB) is Petia Radeva, not Vitrià."
+  },
+  "2014 SGR 564": {
+   "pis": [
+    "David Masip",
+    "Àgata Lapedriza"
+   ],
+   "end": 2017,
+   "note": "Ends 2017-04-30; IPs Masip + Lapedriza."
+  },
+  "TIN2012-38187-C03-02": {
+   "pis": [
+    "David Masip",
+    "Àgata Lapedriza"
+   ],
+   "note": "UOC node IPs Masip + Lapedriza."
+  }
+ }
+}

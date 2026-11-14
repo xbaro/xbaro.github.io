@@ -573,6 +573,22 @@ def build_site_data():
     out.write_text(json.dumps(rows, indent=1, ensure_ascii=False) + "\n")
     print(f"{out.relative_to(ROOT.parent)}: {len(rows)} subject rows")
 
+    ov_p = ROOT / "projects_overrides.json"
+    pov = json.loads(ov_p.read_text()) if ov_p.exists() else {}
+    projs = []
+    for r in json.loads((ROOT / "projects.json").read_text()):
+        o = {**pov.get("by_title", {}).get(r["title"], {}), **pov.get("by_ref", {}).get(r.get("reference"), {})}
+        if o.get("public") is False:
+            continue
+        projs.append({"title": o.get("title", r["title"]), "kind": {"non-competitive": "contract", "research-group recognition (SGR)": "sgr"}.get(r["kind"], r["kind"]),
+                      "funder": o.get("funder") or pov.get("by_funder", {}).get(r["funder"], r["funder"]), "reference": r.get("reference"),
+                      "start": r.get("start"), "end": o.get("end", r.get("end")),
+                      "pis": [AUTHOR_ALIASES.get(a, a) for a in o.get("pis", r.get("principal_investigators", []))]})
+    projs.sort(key=lambda x: (-(x["start"] or 0), x["title"].lower()))
+    out = ROOT.parent / "_data" / "projects.json"
+    out.write_text(json.dumps(projs, indent=1, ensure_ascii=False) + "\n")   # amounts are deliberately not exported
+    print(f"{out.relative_to(ROOT.parent)}: {len(projs)} projects")
+
     pubs = []
     for r in json.loads(REFS.read_text()):
         if r["status"] != "confirmed" or r.get("public") is False:   # only verified references reach the site
@@ -999,7 +1015,7 @@ AUTHOR_ALIASES = {"Sérgio Escalera": "Sergio Escalera", "David Baneres": "David
                   "Jordi M. Vitria": "Jordi Vitrià", "Petia I. Radeva": "Petia Radeva", "Miguel A Bautista": "Miguel Ángel Bautista",
                   "Marcel AJ van Gerven": "Marcel A. J. van Gerven", "Marcel van Gerven": "Marcel A. J. van Gerven", "U. Güçlü": "Umut Güçlü",
                   "J. Wan": "Jun Wan", "M. Asadi": "Maryam Asadi-Aghbolaghi", "X Baró": "Xavier Baró", "David Masip Rodo": "David Masip",
-                  "Àgata Lapedriza Garcia": "Àgata Lapedriza", "Julio C. S. Jacques": "Julio C. S. Jacques Junior"}
+                  "Àgata Lapedriza Garcia": "Àgata Lapedriza", "Jordi Vitrià Marca": "Jordi Vitrià", "Ana Elena Guerrero": "Ana‐Elena Guerrero‐Roldán", "Julio C. S. Jacques": "Julio C. S. Jacques Junior"}
 
 
 def merge():
