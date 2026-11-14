@@ -1,62 +1,44 @@
 ---
-title: "Cookie Policy"
+title: "Política de galetes"
 permalink: /cookie-policy/
-modified: 2024-10-28
+lang: ca
+translation_key: cookies
 ---
 
 {% include base_path %}
-{% include toc %}
 
-## 1. Introduction
+<small>Darrera actualització: 14 de novembre de 2026.</small>
 
-This Cookie Policy explains how xbaro.eu (the “Website”) uses cookies and similar technologies to recognize you when you visit our site. It explains what these technologies are, why we use them, and your rights to control our use of them.
+Aquesta política explica quines galetes (cookies) i tecnologies similars fa servir xbaro.eu (el «web»), per a què serveixen i com pots controlar-les.
 
-## 2. What Are Cookies?
+## 1. Què són les galetes
 
-Cookies are small text files placed on your device by websites you visit. They are widely used to make websites work more efficiently, as well as to provide information to the owners of the site.
+Són petits fitxers de text que un web desa al teu dispositiu. Serveixen perquè el web funcioni, recordi les teves preferències o mesuri com s'utilitza.
 
-## 3. Types of Cookies We Use
+## 2. Galetes que fem servir
 
-We use the following types of cookies on our Website:
+**Galeta pròpia necessària.** `cookie-notice-option` desa la teva elecció del bàner (acceptar o rebutjar) durant 31 dies. No conté dades personals i no es pot desactivar, perquè sense ella el bàner tornaria a aparèixer a cada visita.
 
-* **Essential Cookies:** These cookies are necessary for the website to function and cannot be turned off in our systems. They are usually set in response to actions you take, such as setting your privacy preferences.
+**Galetes d'analítica (només si acceptes).** Si prems «Accepta», es carrega Google Tag Manager (contenidor `GTM-MPH2XP95`), que permet mesurar l'ús del web amb Google Analytics. Aquest servei pot desar galetes com `_ga` i `_ga_*` (fins a 2 anys) per distingir visitants i sessions i obtenir estadístiques agregades. Si prems «Rebutja», no es carrega res de Google.
 
-* **Performance Cookies:** These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. This helps us improve our website.
+**Publicitat.** No fem servir galetes de publicitat ni de personalització d'anuncis; aquestes finalitats queden denegades a la configuració de consentiment.
 
-* **Analytics Cookies:** We use Google Analytics 4 to collect information about how you use our site. This data helps us understand user behavior and improve our website.
+## 3. Consentiment
 
-## 4. Why We Use Cookies
+El primer cop que visites el web veuràs un bàner de galetes. Fins que no premis «Accepta» no es carrega cap eina d'analítica ni cap script de tercers. Pots canviar d'opinió en qualsevol moment:
 
-We use cookies for various reasons, including:
+<p><button type="button" class="btn btn--inverse" onclick="document.cookie='cookie-notice-option=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'; location.reload();">Canvia la meva elecció</button> <small>Esborra l'elecció desada i torna a mostrar el bàner de cookies.</small></p>
 
-* To enable the Website to function properly
-* To improve user experience
-* To analyze site traffic and usage
-* To personalize content and ads
+També pots gestionar o esborrar les galetes des de la configuració del navegador (veure-les, esborrar-les, bloquejar-les o rebre avisos).
 
-## 5. Third-Party Cookies
+## 4. Tercers
 
-In addition to our own cookies, we may also use various third-party cookies to report usage statistics of the Website and deliver advertisements on and through the Website. These third-party services may collect information about your online activities across different websites.
+Google (Tag Manager i, si s'escau, Analytics) actua com a tercer i pot tractar dades fora de l'Espai Econòmic Europeu d'acord amb les seves pròpies condicions. Més informació a la [política de privacitat de Google](https://policies.google.com/privacy).
 
-## 6. Your Consent
+## 5. Canvis
 
-When you visit our Website for the first time, you will see a cookie consent banner. By clicking "Accept," you consent to our use of cookies in accordance with this Cookie Policy. You can manage your cookie preferences or withdraw your consent at any time through your browser settings.
+Aquesta política es pot actualitzar. Els canvis es publicaran en aquesta pàgina amb la data de modificació.
 
-## 7. Managing Cookies
+## 6. Contacte
 
-You can manage cookies through your browser settings. Most browsers allow you to:
-
-* View cookies that are set on your device
-* Delete cookies
-* Block cookies from being set
-* Set preferences for cookie notifications
-
-For more information on how to manage cookies, please refer to your browser’s help section.
-
-## 8. Changes to This Cookie Policy
-
-We may update this Cookie Policy from time to time. Any changes will be posted on this page with an updated effective date.
-
-## 9. Contact Us
-
-If you have any questions about our use of cookies or this Cookie Policy, please contact us at [xbaro@ub.edu](mailto:xbaro@ub.edu).
+Per a qualsevol dubte sobre aquesta política: [xbaro@ub.edu](mailto:xbaro@ub.edu).
