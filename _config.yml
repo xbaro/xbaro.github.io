@@ -148,9 +148,9 @@ social:
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
-  gtm_id                 : "GTM-MPH2XP95"   # Google Tag Manager container; loaded only after the visitor accepts cookies (see _includes/cookie-consent.html)
+  gtm_id                 :   # Google Tag Manager container (GTM-MPH2XP95 exists but is empty); used only if google.tracking_id is empty
   google:
-    tracking_id          :
+    tracking_id          : "G-ENN14SG31P"   # GA4 measurement id; gtag.js is loaded only after the visitor accepts cookies (see _includes/cookie-consent.html)
 
 
 # Reading Files

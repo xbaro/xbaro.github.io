@@ -19,7 +19,7 @@ Son pequeños archivos de texto que un sitio web guarda en tu dispositivo. Sirve
 
 **Cookie propia necesaria.** `cookie-notice-option` guarda tu elección del banner (aceptar o rechazar) durante 31 días. No contiene datos personales y no se puede desactivar, porque sin ella el banner reaparecería en cada visita.
 
-**Cookies de analítica (solo si aceptas).** Si pulsas «Aceptar», se carga Google Tag Manager (contenedor `GTM-MPH2XP95`), que permite medir el uso del sitio con Google Analytics. Este servicio puede guardar cookies como `_ga` y `_ga_*` (hasta 2 años) para distinguir visitantes y sesiones y obtener estadísticas agregadas. Si pulsas «Rechazar», no se carga nada de Google.
+**Cookies de analítica (solo si aceptas).** Si pulsas «Aceptar», se carga Google Analytics 4 (identificador `G-ENN14SG31P`), que permite medir el uso del sitio. Este servicio puede guardar cookies como `_ga` y `_ga_*` (hasta 2 años) para distinguir visitantes y sesiones y obtener estadísticas agregadas. Si pulsas «Rechazar», no se carga nada de Google.
 
 **Publicidad.** No utilizamos cookies de publicidad ni de personalización de anuncios; esas finalidades quedan denegadas en la configuración de consentimiento.
 
@@ -33,7 +33,7 @@ También puedes gestionar o borrar las cookies desde la configuración del naveg
 
 ## 4. Terceros
 
-Google (Tag Manager y, en su caso, Analytics) actúa como tercero y puede tratar datos fuera del Espacio Económico Europeo conforme a sus propias condiciones. Más información en la [política de privacidad de Google](https://policies.google.com/privacy).
+Google (Analytics) actúa como tercero y puede tratar datos fuera del Espacio Económico Europeo conforme a sus propias condiciones. Más información en la [política de privacidad de Google](https://policies.google.com/privacy).
 
 ## 5. Cambios
 
