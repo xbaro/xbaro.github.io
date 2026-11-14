@@ -527,7 +527,11 @@
   "url": null,
   "isbn": null,
   "label": null,
-  "oa": null
+  "oa": {
+   "pdf": "https://arxiv.org/pdf/1902.07653v1",
+   "html": null,
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "ren2018back",
@@ -773,7 +777,11 @@
   "url": null,
   "isbn": null,
   "label": null,
-  "oa": null
+  "oa": {
+   "pdf": "https://repository.ubn.ru.nl//bitstream/handle/2066/182126/182126.pdf",
+   "html": null,
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "madadi2018down",
@@ -1024,7 +1032,11 @@
   "url": null,
   "isbn": null,
   "label": null,
-  "oa": null
+  "oa": {
+   "pdf": "https://discovery.ucl.ac.uk/10115348/1/Ponce%20Lopez_NCA2016_EvolvingWeighting.pdf",
+   "html": null,
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "junior2017exploiting",
@@ -1246,7 +1258,11 @@
   "url": null,
   "isbn": null,
   "label": null,
-  "oa": null
+  "oa": {
+   "pdf": "https://discovery.ucl.ac.uk/10114947/1/ECCVW2016_LAP.pdf",
+   "html": null,
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "escalera2016chalearn",
@@ -1426,7 +1442,11 @@
   "url": null,
   "isbn": null,
   "label": null,
-  "oa": null
+  "oa": {
+   "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-319-16178-5_32.pdf",
+   "html": null,
+   "version": "submittedVersion"
+  }
  },
  {
   "bibkey": "nasrollahi2015deep",
