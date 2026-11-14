@@ -48,7 +48,7 @@ en:
   languages: { Català: Catalan, Castellà: Spanish, Anglès: English }
   institutions:
     "Universitat de Barcelona": University of Barcelona
-    "Universitat Oberta de Catalunya": Open University of Catalonia (UOC)
+    "Universitat Oberta de Catalunya": Open University of Catalonia
     "Université Paris-Saclay": Université Paris-Saclay
   language_switch: Language
 ca:
@@ -99,7 +99,7 @@ ca:
   languages: { Català: Català, Castellà: Castellà, Anglès: Anglès }
   institutions:
     "Universitat de Barcelona": Universitat de Barcelona
-    "Universitat Oberta de Catalunya": Universitat Oberta de Catalunya (UOC)
+    "Universitat Oberta de Catalunya": Universitat Oberta de Catalunya
     "Université Paris-Saclay": Université Paris-Saclay
   language_switch: Idioma
 es:
@@ -150,6 +150,6 @@ es:
   languages: { Català: Catalán, Castellà: Castellano, Anglès: Inglés }
   institutions:
     "Universitat de Barcelona": Universidad de Barcelona
-    "Universitat Oberta de Catalunya": Universitat Oberta de Catalunya (UOC)
+    "Universitat Oberta de Catalunya": Universitat Oberta de Catalunya
     "Université Paris-Saclay": Université Paris-Saclay
   language_switch: Idioma
