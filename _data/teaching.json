@@ -1,7 +1,7 @@
 [
  {
   "institution": "Universitat de Barcelona",
-  "logo": null,
+  "logo": "/images/logos/ub.svg",
   "programmes": [
    {
     "name": {
@@ -226,7 +226,7 @@
  },
  {
   "institution": "Universitat Oberta de Catalunya",
-  "logo": null,
+  "logo": "/images/logos/uoc.svg",
   "programmes": [
    {
     "name": {
@@ -270,7 +270,7 @@
  },
  {
   "institution": "Université Paris-Saclay",
-  "logo": null,
+  "logo": "/images/logos/paris-saclay.svg",
   "programmes": [
    {
     "name": {
