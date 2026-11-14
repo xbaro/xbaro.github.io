@@ -1,5 +1,6 @@
 [
  {
+  "bibkey": "camacho2026effects",
   "title": "Effects of attentional focus (internal vs. external) and swing type (short vs. long) on skill acquisition, long-term retention, and motor learning in child golf beginners",
   "authors": [
    "Oriol Camacho",
@@ -15,6 +16,7 @@
   "label": null
  },
  {
+  "bibkey": "camacho2026quantifying",
   "title": "Quantifying delivery plane clubhead trajectory curvature across golfer skill level",
   "authors": [
    "Oriol Camacho",
@@ -30,6 +32,7 @@
   "label": null
  },
  {
+  "bibkey": "egele2024competitions",
   "title": "AI Competitions and Benchmarks: Dataset Development",
   "authors": [
    "Romain Égelé",
@@ -52,6 +55,7 @@
   "label": "preprint"
  },
  {
+  "bibkey": "bonafontepardas2023analyzing",
   "title": "Analyzing the contribution of different passively collected data to predict Stress and Depression",
   "authors": [
    "Irene Bonafonte-Pardàs",
@@ -73,6 +77,7 @@
   "label": null
  },
  {
+  "bibkey": "pavao2023codalab",
   "title": "CodaLab Competitions: An Open Source Platform to Organize Scientific Challenges",
   "authors": [
    "Adrien Pavão",
@@ -94,6 +99,7 @@
   "label": null
  },
  {
+  "bibkey": "camacho2023golf",
   "title": "Golf sports initiation within a physical education course in primary schools through blended learning",
   "authors": [
    "Oriol Camacho",
@@ -109,6 +115,7 @@
   "label": null
  },
  {
+  "bibkey": "baneres2023improving",
   "title": "Improving the online assessment in higher education with a trustworthy system based on authorship and authentication",
   "authors": [
    "David Bañeres",
@@ -126,6 +133,7 @@
   "label": null
  },
  {
+  "bibkey": "madadi2022endtoend",
   "title": "End‐to‐end global to local convolutional neural network learning for hand pose recovery in depth data",
   "authors": [
    "Meysam Madadi",
@@ -142,6 +150,7 @@
   "label": null
  },
  {
+  "bibkey": "junior2022first",
   "title": "First Impressions: A Survey on Vision-Based Apparent Personality Trait Analysis",
   "authors": [
    "Julio C. S. Jacques Junior",
@@ -165,6 +174,7 @@
   "label": null
  },
  {
+  "bibkey": "escalante2022modeling",
   "title": "Modeling, Recognizing, and Explaining Apparent Personality from Videos",
   "authors": [
    "Hugo Jair Escalante",
@@ -194,6 +204,7 @@
   "label": null
  },
  {
+  "bibkey": "oliu2022multi",
   "title": "Multi-varied Cumulative Alignment for Domain Adaptation",
   "authors": [
    "Marc Oliu",
@@ -211,6 +222,7 @@
   "label": null
  },
  {
+  "bibkey": "kulkarni2021automatic",
   "title": "Automatic Recognition of Facial Displays of Unfelt Emotions",
   "authors": [
    "Kaustubh Kulkarni",
@@ -231,6 +243,7 @@
   "label": null
  },
  {
+  "bibkey": "junior2021person",
   "title": "Person perception biases exposed: Revisiting the first impressions dataset",
   "authors": [
    "Julio C. S. Jacques Junior",
@@ -248,6 +261,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2020biometric",
   "title": "Biometric tools for learner identity in e-assessment",
   "authors": [
    "Xavier Baró",
@@ -264,6 +278,7 @@
   "label": null
  },
  {
+  "bibkey": "guitart2020design",
   "title": "Design and implementation of dashboards to support teachers decision-making process in e-assessment systems",
   "authors": [
    "Isabel Guitart",
@@ -279,6 +294,7 @@
   "label": null
  },
  {
+  "bibkey": "lopezmonroy2020forensic",
   "title": "Forensic analysis recognition",
   "authors": [
    "Adrián Pastor López-Monroy",
@@ -295,6 +311,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2020guest",
   "title": "Guest Editorial: Image and Video Inpainting and Denoising",
   "authors": [
    "Sergio Escalera",
@@ -316,6 +333,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2019chalearn",
   "title": "ChaLearn Looking at People: Inpainting and Denoising challenges",
   "authors": [
    "Sergio Escalera",
@@ -337,6 +355,7 @@
   "label": null
  },
  {
+  "bibkey": "avots2019from",
   "title": "From 2D to 3D geodesic-based garment matching",
   "authors": [
    "Egils Avots",
@@ -356,6 +375,7 @@
   "label": null
  },
  {
+  "bibkey": "anbarjafari2019guest",
   "title": "Guest editorial: special issue on human abnormal behavioural analysis",
   "authors": [
    "Gholamreza Anbarjafari",
@@ -375,6 +395,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2019inpainting",
   "title": "Inpainting and Denoising Challenges",
   "authors": [
    "Sergio Escalera",
@@ -393,6 +414,7 @@
   "label": null
  },
  {
+  "bibkey": "sanchez2019multi",
   "title": "Multi-task human analysis in still images: 2D/3D pose, depth map, and multi-part segmentation",
   "authors": [
    "Daniel Sanchez",
@@ -410,6 +432,7 @@
   "label": null
  },
  {
+  "bibkey": "junior2019effect",
   "title": "On the effect of age perception biases for real age regression",
   "authors": [
    "Julio C. S. Jacques Junior",
@@ -428,6 +451,7 @@
   "label": null
  },
  {
+  "bibkey": "ren2018back",
   "title": "Back-dropout transfer learning for action recognition",
   "authors": [
    "Huamin Ren",
@@ -448,6 +472,7 @@
   "label": null
  },
  {
+  "bibkey": "haamer2018changes",
   "title": "Changes in facial expression as biometric: A database and benchmarks of identification",
   "authors": [
    "Rain Eric Haamer",
@@ -473,6 +498,7 @@
   "label": null
  },
  {
+  "bibkey": "guo2018dominant",
   "title": "Dominant and Complementary Emotion Recognition from Still Images of Faces",
   "authors": [
    "Jianzhu Guo",
@@ -498,6 +524,7 @@
   "label": null
  },
  {
+  "bibkey": "escalante2018explainable",
   "title": "Explainable and Interpretable Models in Computer Vision and Machine Learning",
   "authors": [
    "Hugo Jair Escalante",
@@ -517,6 +544,7 @@
   "label": null
  },
  {
+  "bibkey": "junior2018exploiting",
   "title": "Exploiting feature representations through similarity learning, post-ranking and ranking aggregation for person re-identification",
   "authors": [
    "Julio C. S. Jacques Junior",
@@ -532,6 +560,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2018guest",
   "title": "Guest Editorial: Apparent Personality Analysis",
   "authors": [
    "Sergio Escalera",
@@ -548,6 +577,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2018guestb",
   "title": "Guest Editorial: The Computational Face",
   "authors": [
    "Sergio Escalera",
@@ -569,6 +599,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2018integration",
   "title": "Integration of an adaptive trust‐based e‐assessment system into virtual learning environments—The TeSLA project experience",
   "authors": [
    "Xavier Baró",
@@ -589,6 +620,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2018looking",
   "title": "Looking at People Special Issue",
   "authors": [
    "Sergio Escalera",
@@ -606,6 +638,7 @@
   "label": null
  },
  {
+  "bibkey": "gucluturk2018multimodal",
   "title": "Multimodal First Impression Analysis with Deep Residual Networks",
   "authors": [
    "Yağmur Güçlütürk",
@@ -626,6 +659,7 @@
   "label": null
  },
  {
+  "bibkey": "madadi2018down",
   "title": "Top-down model fitting for hand pose recovery in sequences of depth images",
   "authors": [
    "Meysam Madadi",
@@ -644,6 +678,7 @@
   "label": null
  },
  {
+  "bibkey": "asadiaghbolaghi2017survey",
   "title": "A Survey on Deep Learning Based Approaches for Action and Gesture Recognition in Image Sequences",
   "authors": [
    "Maryam Asadi-Aghbolaghi",
@@ -665,6 +700,7 @@
   "label": null
  },
  {
+  "bibkey": "agustsson2017apparent",
   "title": "Apparent and Real Age Estimation in Still Images with Deep Residual Regressors on Appa-Real Database",
   "authors": [
    "Eirikur Agustsson",
@@ -683,6 +719,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2017chalearn",
   "title": "ChaLearn looking at people: A review of events and resources",
   "authors": [
    "Sergio Escalera",
@@ -699,6 +736,7 @@
   "label": null
  },
  {
+  "bibkey": "asadiaghbolaghi2017deep",
   "title": "Deep Learning for Action and Gesture Recognition in Image Sequences: A Survey",
   "authors": [
    "Maryam Asadi-Aghbolaghi",
@@ -720,6 +758,7 @@
   "label": null
  },
  {
+  "bibkey": "popescu2017design",
   "title": "Design and preliminary evaluation of team based competitions in video forecasting",
   "authors": [
    "Florin Popescu",
@@ -742,6 +781,7 @@
   "label": "preprint"
  },
  {
+  "bibkey": "escalante2017design",
   "title": "Design of an explainable machine learning challenge for video interviews",
   "authors": [
    "Hugo Jair Escalante",
@@ -766,6 +806,7 @@
   "label": null
  },
  {
+  "bibkey": "loob2017dominant",
   "title": "Dominant and Complementary Multi-Emotional Facial Expression Recognition Using C-Support Vector Classification",
   "authors": [
    "Christer Loob",
@@ -787,6 +828,7 @@
   "label": null
  },
  {
+  "bibkey": "guclu2017semantic",
   "title": "End-to-end semantic face segmentation with conditional random fields as convolutional, recurrent and adversarial networks",
   "authors": [
    "Umut Güçlü",
@@ -807,6 +849,7 @@
   "label": "preprint"
  },
  {
+  "bibkey": "escalante2017evolving",
   "title": "Evolving weighting schemes for the Bag of Visual Words",
   "authors": [
    "Hugo Jair Escalante",
@@ -825,6 +868,7 @@
   "label": null
  },
  {
+  "bibkey": "junior2017exploiting",
   "title": "Exploiting feature Representations Through Similarity Learning and Ranking Aggregation for Person Re-identification",
   "authors": [
    "Julio C. S. Jacques Junior",
@@ -840,6 +884,7 @@
   "label": null
  },
  {
+  "bibkey": "lusi2017joint",
   "title": "Joint Challenge on Dominant and Complementary Emotion Recognition Using Micro Emotion Features and Head-Pose Estimation: Databases",
   "authors": [
    "Iiris Lüsi",
@@ -861,6 +906,7 @@
   "label": null
  },
  {
+  "bibkey": "madadi2017occlusion",
   "title": "Occlusion Aware Hand Pose Recovery from Sequences of Depth Images",
   "authors": [
    "Meysam Madadi",
@@ -879,6 +925,7 @@
   "label": null
  },
  {
+  "bibkey": "wan2017results",
   "title": "Results and Analysis of ChaLearn LAP Multi-modal Isolated and Continuous Gesture Recognition, and Real Versus Fake Expressed Emotions Challenges",
   "authors": [
    "Jun Wan",
@@ -902,6 +949,7 @@
   "label": null
  },
  {
+  "bibkey": "gucluturk2017visualizing",
   "title": "Visualizing apparent personality analysis with deep residual networks",
   "authors": [
    "Yağmur Güçlütürk",
@@ -926,6 +974,7 @@
   "label": null
  },
  {
+  "bibkey": "baneres2016adaptive",
   "title": "Adaptive e-assessment system: A general approach",
   "authors": [
    "David Bañeres",
@@ -942,6 +991,7 @@
   "label": null
  },
  {
+  "bibkey": "alonso2016care",
   "title": "Care respite: taking care of the caregivers",
   "authors": [
    "Fernando Alonso",
@@ -960,6 +1010,7 @@
   "label": null
  },
  {
+  "bibkey": "escalante2016chalearn",
   "title": "ChaLearn Joint Contest on Multimedia Challenges beyond Visual Analysis: An overview",
   "authors": [
    "Hugo Jair Escalante",
@@ -984,6 +1035,7 @@
   "label": null
  },
  {
+  "bibkey": "poncelopez2016chalearn",
   "title": "Chalearn LAP 2016: First round challenge on first impressions - Dataset and results",
   "authors": [
    "Víctor Ponce-López",
@@ -1005,6 +1057,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2016chalearn",
   "title": "ChaLearn Looking at People and Faces of the World: Face Analysis Workshop and Challenge 2016",
   "authors": [
    "Sergio Escalera",
@@ -1028,6 +1081,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2016guest",
   "title": "Guest Editors' Introduction to the special issue on multimodal human pose recovery and behavior analysis",
   "authors": [
    "Sergio Escalera",
@@ -1044,6 +1098,7 @@
   "label": null
  },
  {
+  "bibkey": "guerreroroldan2016assesment",
   "title": "The assesment process as a cornerstone of quality assurance education: the UOC case",
   "authors": [
    "Ana‐Elena Guerrero‐Roldán",
@@ -1061,6 +1116,7 @@
   "label": null
  },
  {
+  "bibkey": "baneres2016towards",
   "title": "Towards an Adaptive e-Assessment System Based on Trustworthiness",
   "authors": [
    "David Bañeres",
@@ -1077,6 +1133,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2015chalearn",
   "title": "ChaLearn Looking at People 2015 challenges: Action spotting and cultural event recognition",
   "authors": [
    "Xavier Baró",
@@ -1097,6 +1154,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2015chalearn",
   "title": "ChaLearn looking at people 2015 new competitions: Age estimation and cultural event recognition",
   "authors": [
    "Sergio Escalera",
@@ -1118,6 +1176,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2015chalearnb",
   "title": "ChaLearn Looking at People 2015: Apparent Age and Cultural Event Recognition Datasets and Results",
   "authors": [
    "Sergio Escalera",
@@ -1139,6 +1198,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2015chalearnbb",
   "title": "Chalearn looking at people challenge 2014: Dataset and results",
   "authors": [
    "Sergio Escalera",
@@ -1161,6 +1221,7 @@
   "label": null
  },
  {
+  "bibkey": "nasrollahi2015deep",
   "title": "Deep learning based super-resolution for improved action recognition",
   "authors": [
    "Kamal Nasrollahi",
@@ -1180,6 +1241,7 @@
   "label": null
  },
  {
+  "bibkey": "baneres2015experiencias",
   "title": "Experiencias en la evaluación de estudiantes residentes en el extranjero",
   "authors": [
    "David Bañeres",
@@ -1197,6 +1259,7 @@
   "label": null
  },
  {
+  "bibkey": "poncelopez2015gesture",
   "title": "Gesture and Action Recognition by Evolved Dynamic Subgestures",
   "authors": [
    "Víctor Ponce-López",
@@ -1213,6 +1276,7 @@
   "label": null
  },
  {
+  "bibkey": "escalante2015improving",
   "title": "Improving bag of visual words representations with genetic programming",
   "authors": [
    "Hugo Jair Escalante",
@@ -1230,6 +1294,7 @@
   "label": null
  },
  {
+  "bibkey": "poncelopez2015verbal",
   "title": "Non-verbal communication analysis in Victim-Offender Mediations",
   "authors": [
    "Víctor Ponce-López",
@@ -1247,6 +1312,7 @@
   "label": null
  },
  {
+  "bibkey": "baneres2015towards",
   "title": "Towards a General Adaptive e-Assessment System",
   "authors": [
    "David Bañeres",
@@ -1263,6 +1329,7 @@
   "label": null
  },
  {
+  "bibkey": "bautista2014design",
   "title": "On the design of an ECOC-Compliant Genetic Algorithm",
   "authors": [
    "Miguel Ángel Bautista",
@@ -1279,6 +1346,7 @@
   "label": null
  },
  {
+  "bibkey": "hernandezvela2014probability",
   "title": "Probability-based Dynamic Time Warping and Bag-of-Visual-and-Depth-Words for Human Gesture Recognition in RGB-D",
   "authors": [
    "Antonio Hernández-Vela",
@@ -1299,6 +1367,7 @@
   "label": null
  },
  {
+  "bibkey": "arnedomoreno2014valid",
   "title": "ValID: A trust-based virtual assessment system",
   "authors": [
    "Joan Arnedo-Moreno",
@@ -1319,6 +1388,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2013chalearn",
   "title": "ChaLearn multi-modal gesture recognition 2013: Grand challenge and workshop summary",
   "authors": [
    "Sergio Escalera",
@@ -1343,6 +1413,7 @@
   "label": null
  },
  {
+  "bibkey": "sanchezmendoza2013emotion",
   "title": "Emotion detection using hybrid structural and appearance descriptors",
   "authors": [
    "David Sanchez-Mendoza",
@@ -1359,6 +1430,7 @@
   "label": null
  },
  {
+  "bibkey": "igual2013experiencia",
   "title": "Experiencia de aprendizaje de programación basada en proyectos",
   "authors": [
    "Laura Igual",
@@ -1373,6 +1445,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2013multi",
   "title": "Multi-modal gesture recognition challenge 2013: Dataset and results",
   "authors": [
    "Sergio Escalera",
@@ -1393,6 +1466,7 @@
   "label": null
  },
  {
+  "bibkey": "poncelopez2013multi",
   "title": "Multi-modal social signal analysis for predicting agreement in conversation settings",
   "authors": [
    "Víctor Ponce-López",
@@ -1408,6 +1482,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2013pelp",
   "title": "PeLP: Plataforma para el Aprendizaje de Lenguajes de Programación",
   "authors": [
    "Xavier Baró",
@@ -1424,6 +1499,7 @@
   "label": null
  },
  {
+  "bibkey": "bautista2013probability",
   "title": "Probability-based dynamic time warping for gesture recognition on RGB-D data",
   "authors": [
    "Miguel Ángel Bautista",
@@ -1444,6 +1520,7 @@
   "label": null
  },
  {
+  "bibkey": "bautista2012genetic",
   "title": "A genetic inspired optimization for ECOC",
   "authors": [
    "Miguel Ángel Bautista",
@@ -1460,6 +1537,7 @@
   "label": null
  },
  {
+  "bibkey": "hernandezvela2012bovdw",
   "title": "BoVDW: Bag-of-Visual-and-Depth-Words for gesture recognition",
   "authors": [
    "Antonio Hernández-Vela",
@@ -1480,6 +1558,7 @@
   "label": null
  },
  {
+  "bibkey": "bautista2012minimal",
   "title": "Minimal design of error-correcting output codes",
   "authors": [
    "Miguel Ángel Bautista",
@@ -1498,6 +1577,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2012social",
   "title": "Social network extraction and analysis based on multimodal dyadic interaction",
   "authors": [
    "Sergio Escalera",
@@ -1515,6 +1595,7 @@
   "label": null
  },
  {
+  "bibkey": "ponce2012social",
   "title": "Social signal analysis in criminal mediation processes",
   "authors": [
    "Víctor Ponce",
@@ -1530,6 +1611,7 @@
   "label": null
  },
  {
+  "bibkey": "rius2012site",
   "title": "UOC API Site, a seed for new eLearning applications",
   "authors": [
    "Àngels Rius",
@@ -1545,6 +1627,7 @@
   "label": null
  },
  {
+  "bibkey": "poncelopez2011analisis",
   "title": "Análisis de la Expresión Oral y Gestual en Proyectos Fin de Carrera vía un Sistema de Visión Artificial",
   "authors": [
    "Víctor Ponce-López",
@@ -1562,6 +1645,7 @@
   "label": null
  },
  {
+  "bibkey": "poncelopez2011human",
   "title": "Human behavior analysis from video data using bag-of-gestures",
   "authors": [
    "Víctor Ponce-López",
@@ -1578,6 +1662,7 @@
   "label": null
  },
  {
+  "bibkey": "bautista2011introducing",
   "title": "Introducing the separability matrix for error correcting output codes coding",
   "authors": [
    "Miguel Ángel Bautista",
@@ -1594,6 +1679,7 @@
   "label": null
  },
  {
+  "bibkey": "bautista2011design",
   "title": "On the design of low redundancy error-correcting output codes",
   "authors": [
    "Miguel Ángel Bautista",
@@ -1612,6 +1698,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2011traffic",
   "title": "Traffic-Sign Recognition Systems",
   "authors": [
    "Sergio Escalera",
@@ -1629,6 +1716,7 @@
   "label": null
  },
  {
+  "bibkey": "poncelopez2010automatic",
   "title": "Automatic Analysis of Non-verbal Communication",
   "authors": [
    "Víctor Ponce-López",
@@ -1645,6 +1733,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2010combining",
   "title": "Combining Detectors for Human Layout Analysis",
   "authors": [
    "Xavier Baró",
@@ -1660,6 +1749,7 @@
   "label": null
  },
  {
+  "bibkey": "bautista2010compact",
   "title": "Compact evolutive design of error-correcting output codes",
   "authors": [
    "Miguel Ángel Bautista",
@@ -1678,6 +1768,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2010modelling",
   "title": "Modelling and analyzing multimodal dyadic interactions using social networks",
   "authors": [
    "Sergio Escalera",
@@ -1695,6 +1786,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2010metodos",
   "title": "Métodos automáticos para el análisis de la expresión oral y gestual en proyectos fin de carrera",
   "authors": [
    "Sergio Escalera",
@@ -1710,6 +1802,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2009generic",
   "title": "Generic object recognition in urban image databases",
   "authors": [
    "Xavier Baró",
@@ -1726,6 +1819,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2009probabilistic",
   "title": "Probabilistic darwin machines for object detection",
   "authors": [
    "Xavier Baró",
@@ -1740,6 +1834,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2009probabilisticb",
   "title": "Probabilistic Darwin Machines: A new approach to develop Evolutionary Object Detection Systems",
   "authors": [
    "Xavier Baró"
@@ -1753,6 +1848,7 @@
   "label": null
  },
  {
+  "bibkey": "escalera2009text",
   "title": "Text detection in urban scenes",
   "authors": [
    "Sergio Escalera",
@@ -1769,6 +1865,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2009traffic",
   "title": "Traffic sign recognition using evolutionary adaboost detection and forest-ECOC classification",
   "authors": [
    "Xavier Baró",
@@ -1786,6 +1883,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2009visual",
   "title": "Visual content layer for scalable object recognition in urban image databases",
   "authors": [
    "Xavier Baró",
@@ -1802,6 +1900,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2008evolutionary",
   "title": "Evolutionary object detection by means of Naïve Bayes Models estimation",
   "authors": [
    "Xavier Baró",
@@ -1816,6 +1915,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2008weighted",
   "title": "Weighted dissociated dipoles: An extended visual feature set",
   "authors": [
    "Xavier Baró",
@@ -1830,6 +1930,7 @@
   "label": null
  },
  {
+  "bibkey": "ponce2007level",
   "title": "Two-level GMM clustering of human poses for automatic human behavior analysis",
   "authors": [
    "Víctor Ponce",
@@ -1848,6 +1949,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2007visual",
   "title": "Visual features selection using Naïve Bayes Models",
   "authors": [
    "Xavier Baró",
@@ -1862,6 +1964,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2007weighted",
   "title": "Weighted dissociated dipoles for evolutive learning",
   "authors": [
    "Xavier Baró",
@@ -1876,6 +1979,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2006real",
   "title": "Real-time object detection using an evolutionary boosting strategy",
   "authors": [
    "Xavier Baró",
@@ -1890,6 +1994,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2005feature",
   "title": "Feature selection with non-parametric mutual information for adaboost learning",
   "authors": [
    "Xavier Baró",
@@ -1904,6 +2009,7 @@
   "label": null
  },
  {
+  "bibkey": "baro2004fast",
   "title": "Fast Traffic Sign Detection on greyscale images",
   "authors": [
    "Xavier Baró",

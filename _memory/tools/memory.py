@@ -607,10 +607,11 @@ def build_site_data():
     print(f"{out.relative_to(ROOT.parent)}: {len(projs)} projects")
 
     pubs = []
+    bibkeys = {i: k for i, k, _ in bib_entries()}
     for r in json.loads(REFS.read_text()):
         if r["status"] != "confirmed" or r.get("public") is False:   # only verified references reach the site
             continue
-        pubs.append({"title": r["title"], "authors": r.get("authors", []), "venue": r.get("venue") or "", "year": r.get("year"),
+        pubs.append({"bibkey": bibkeys.get(r["id"]), "title": r["title"], "authors": r.get("authors", []), "venue": r.get("venue") or "", "year": r.get("year"),
                      "type": {"preprint": "report"}.get(r.get("type"), r.get("type") or "other"), "doi": r.get("doi"), "url": None if r.get("doi") else r.get("url"),
                      "isbn": r.get("isbn"), "label": "preprint" if r.get("type") == "preprint" else None})
     pubs.sort(key=lambda x: (-(x["year"] or 0), x["title"].lower()))
@@ -1172,10 +1173,10 @@ def _bib_esc(s):
     return re.sub(r"([&%#_$])", r"\\\1", s or "")
 
 
-def write_bib():
-    """BibTeX (UTF-8) of the verified references (confirmed and not hidden with public=false), for easy export/reuse."""
+def bib_entries():
+    """BibTeX entries (id, key, text) of the verified references (confirmed and not hidden with public=false)."""
     items = [r for r in json.loads(REFS.read_text()) if r["status"] == "confirmed" and r.get("public") is not False]
-    used, out = set(), []
+    used, out = set(), []   # out: list of (ref id, key, entry text)
     for r in items:
         first = (r.get("authors") or ["anon"])[0].split()[-1]
         base = re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", first).encode("ascii", "ignore").decode().lower())
@@ -1206,8 +1207,14 @@ def write_bib():
         f = [("title", "{" + _bib_esc(r["title"]) + "}"), who, ("year", str(r["year"]) if r.get("year") else None)]
         f += [(k, _bib_esc(v)) for k, v in extra] + [("doi", r.get("doi")), ("isbn", r.get("isbn")), ("url", None if r.get("doi") else r.get("url"))]
         body = ",\n".join(f"  {k} = {{{v}}}" for k, v in f if v)
-        out.append(f"@{kind}{{{key},\n{body}\n}}")
-    BIB.write_text("\n\n".join(out) + "\n")
+        out.append((r["id"], key, f"@{kind}{{{key},\n{body}\n}}"))
+    return out
+
+
+def write_bib():
+    """references.bib: all verified references, for easy export/reuse."""
+    out = bib_entries()
+    BIB.write_text("\n\n".join(t for _, _, t in out) + "\n")
     print(f"references.bib: {len(out)} confirmed entries")
 
 

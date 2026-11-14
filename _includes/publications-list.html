@@ -1,8 +1,19 @@
 {% assign L = page.lang | default: site.default_lang %}
-<style>.pub-list u{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;border-bottom:0}.pub-tag{font-size:.7em;text-transform:uppercase;letter-spacing:.04em;border:1px solid currentColor;border-radius:3px;padding:0 .35em;margin-left:.4em;opacity:.75;vertical-align:middle}.pub-filters{display:flex;flex-wrap:wrap;gap:.5em;align-items:center;margin:1em 0}.pub-filters input,.pub-filters select{padding:.4em .6em;font-size:.9em;max-width:100%}.pub-filters input{flex:1 1 14em}.pub-count{font-size:.85em;opacity:.7}.pub-list li[hidden],.pub-section[hidden]{display:none}</style>
+<style>.pub-list u{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;border-bottom:0}.pub-tag{font-size:.7em;text-transform:uppercase;letter-spacing:.04em;border:1px solid currentColor;border-radius:3px;padding:0 .35em;margin-left:.4em;opacity:.75;vertical-align:middle}.pub-filters{display:flex;flex-wrap:wrap;gap:.5em;align-items:center;margin:1em 0}.pub-filters input,.pub-filters select{padding:.4em .6em;font-size:.9em;max-width:100%}.pub-filters input{flex:1 1 14em}.pub-count{font-size:.85em;opacity:.7}.pub-list li[hidden],.pub-section[hidden]{display:none}
+.pub-bib{margin-left:.5em;padding:0 .5em;font-size:.75em;line-height:1.7;border:1px solid #9aa0a4;border-radius:3px;background:#fff;color:#494e52;cursor:pointer;font-family:Menlo,Consolas,monospace}
+.pub-bib:hover,.pub-bib:focus{background:#f2f3f3}
+#bib-dialog{max-width:min(46em,94vw);width:100%;border:1px solid #cfd2d4;border-radius:6px;padding:1em 1.2em;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+#bib-dialog::backdrop{background:rgba(0,0,0,.35)}
+#bib-dialog h3{margin:0 0 .2em;font-size:1.05em}
+#bib-dialog p.bib-hint{margin:0 0 .6em;font-size:.85em;color:#6b7075}
+#bib-dialog pre{margin:0;max-height:50vh;overflow:auto;padding:.7em;background:#f6f7f7;border-radius:4px;font-size:.78em;line-height:1.45;white-space:pre-wrap;word-break:break-word;text-align:left}
+#bib-dialog .bib-actions{display:flex;flex-wrap:wrap;gap:.5em;margin-top:.8em}
+#bib-dialog .bib-actions button{padding:.35em .9em;font-size:.85em;border:1px solid #494e52;border-radius:3px;background:#494e52;color:#fff;cursor:pointer}
+#bib-dialog .bib-actions button.secondary{background:#fff;color:#494e52}
+</style>
 {% assign L = page.lang | default: site.default_lang %}
 {% assign T = site.data.i18n[L] %}
-<p>{{ T.publications_intro }} <a href="{{ site.author.googlescholar }}">Google Scholar</a> · <a href="{{ '/files/publications.bib' | relative_url }}" download>BibTeX</a>.</p>
+<p>{{ T.publications_intro }} <a href="{{ site.author.googlescholar }}">Google Scholar</a> · <a id="bib-all" href="{{ '/files/publications.bib' | relative_url }}" download>BibTeX</a>.</p>
 {% assign all_years = site.data.publications | map: "year" | uniq | sort | reverse %}
 <div class="pub-filters">
   <input type="search" id="pub-q" placeholder="{{ T.pub_search }}" aria-label="{{ T.pub_search }}">
@@ -24,19 +35,30 @@
     <section class="pub-section"><h2>{{ T.pub_types[ty] }} <small>({{ items.size }})</small></h2>
     <ul class="pub-list">
     {% for p in items %}
-      <li data-type="{{ ty }}" data-year="{{ p.year }}" data-text="{{ p.title | append: ' ' | append: p.venue | append: ' ' | append: p.authors | join: ' ' | downcase | escape }}">
+      <li data-key="{{ p.bibkey }}" data-title="{{ p.title | strip_html | escape }}" data-doi="{{ p.doi }}" data-type="{{ ty }}" data-year="{{ p.year }}" data-text="{{ p.title | append: ' ' | append: p.venue | append: ' ' | append: p.authors | join: ' ' | downcase | escape }}">
         <strong>{{ p.title }}</strong>{% if p.label %} <span class="pub-tag">{{ T.pub_tags[p.label] }}</span>{% endif %}<br>
         <span>{% for a in p.authors %}{% if a contains "Baró" %}<u>{{ a }}</u>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span><br>
         <em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% else %}, {{ T.no_year }}{% endif %}
         {% if p.isbn %} · ISBN {{ p.isbn }}{% endif %}
         {% if p.quartile %} · JCR {{ p.quartile }}{% endif %}
-        {% if p.doi %} · <a href="https://doi.org/{{ p.doi }}">DOI</a>{% elsif p.url %} · <a href="{{ p.url }}">link</a>{% endif %}
+        {% if p.doi %} · <a class="pub-link" data-link="doi" href="https://doi.org/{{ p.doi }}">DOI</a>{% elsif p.url %} · <a class="pub-link" data-link="url" href="{{ p.url }}">link</a>{% endif %}
+        {% if p.bibkey %}<button type="button" class="pub-bib" data-key="{{ p.bibkey }}" aria-haspopup="dialog">{{ T.bib_btn }}</button>{% endif %}
       </li>
     {% endfor %}
     </ul>
     </section>
   {% endif %}
 {% endfor %}
+<dialog id="bib-dialog" aria-labelledby="bib-title">
+  <h3 id="bib-title">{{ T.bib_title }}</h3>
+  <p class="bib-hint">{{ T.bib_hint }}</p>
+  <pre><code id="bib-text" tabindex="0"></code></pre>
+  <div class="bib-actions">
+    <button type="button" id="bib-copy">{{ T.bib_copy }}</button>
+    <button type="button" id="bib-dl" class="secondary">{{ T.bib_download }}</button>
+    <button type="button" id="bib-close" class="secondary">{{ T.bib_close }}</button>
+  </div>
+</dialog>
 <p id="pub-none" hidden>{{ T.pub_none }}</p>
 <script>
 (function(){
@@ -52,5 +74,31 @@
     cnt.textContent=n+' / '+items.length; none.hidden=n>0;
   }
   [q,ty,yr].forEach(function(e){e.addEventListener('input',apply)}); apply();
+})();
+</script>
+<script>
+(function(){
+  var BIB_URL="{{ '/files/publications.bib' | relative_url }}", entries=null, cur=null;
+  var dlg=document.getElementById('bib-dialog'),txt=document.getElementById('bib-text'),copyB=document.getElementById('bib-copy'),dlB=document.getElementById('bib-dl'),closeB=document.getElementById('bib-close');
+  var L_COPY="{{ T.bib_copy }}",L_COPIED="{{ T.bib_copied }}",L_ERR="{{ T.bib_error }}";
+  function track(name,li,extra){ if(typeof window.gtag!=='function')return;   /* only after cookie consent */
+    var p={publication_title:(li&&li.dataset.title||'').slice(0,100),bibkey:li&&li.dataset.key||'',doi:li&&li.dataset.doi||''};
+    for(var k in (extra||{}))p[k]=extra[k]; window.gtag('event',name,p); }
+  function load(cb){ if(entries)return cb(); fetch(BIB_URL).then(function(r){return r.text();}).then(function(t){ entries={};
+      t.split(/\n\s*\n(?=@)/).forEach(function(e){var m=e.match(/^@\w+\{([^,]+),/); if(m)entries[m[1].trim()]=e.trim();}); cb(); }).catch(function(){entries={};cb();}); }
+  function liOf(el){return el.closest('li');}
+  document.querySelectorAll('.pub-bib').forEach(function(b){ b.addEventListener('click',function(){
+    var li=liOf(b); cur={key:b.dataset.key,li:li}; copyB.textContent=L_COPY;
+    load(function(){ txt.textContent=entries[cur.key]||L_ERR; if(dlg.showModal){dlg.showModal();}else{dlg.setAttribute('open','');} track('bibtex_view',li); }); }); });
+  copyB.addEventListener('click',function(){ var t=txt.textContent;
+    function done(){copyB.textContent=L_COPIED; track('bibtex_copy',cur&&cur.li);}
+    function fallback(){ var r=document.createRange();r.selectNodeContents(txt);var s=getSelection();s.removeAllRanges();s.addRange(r);
+      try{ if(document.execCommand('copy'))done(); }catch(e){} }
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,fallback);}else{fallback();} });
+  dlB.addEventListener('click',function(){ var a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([txt.textContent],{type:'text/plain;charset=utf-8'})); a.download=(cur?cur.key:'reference')+'.bib'; document.body.appendChild(a); a.click(); a.remove(); track('bibtex_download',cur&&cur.li); });
+  closeB.addEventListener('click',function(){ if(dlg.close){dlg.close();}else{dlg.removeAttribute('open');} });
+  dlg.addEventListener('click',function(e){ if(e.target===dlg&&dlg.close)dlg.close(); });
+  document.querySelectorAll('.pub-list a.pub-link').forEach(function(a){ a.addEventListener('click',function(){ track('publication_link_click',liOf(a),{link_type:a.dataset.link,link_url:a.href.slice(0,100)}); }); });
+  var all=document.getElementById('bib-all'); if(all)all.addEventListener('click',function(){ if(typeof window.gtag==='function')window.gtag('event','bibtex_download_all'); });
 })();
 </script>

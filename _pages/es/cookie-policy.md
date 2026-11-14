@@ -19,7 +19,7 @@ Son pequeños archivos de texto que un sitio web guarda en tu dispositivo. Sirve
 
 **Cookie propia necesaria.** `cookie-notice-option` guarda tu elección del banner (aceptar o rechazar) durante 31 días. No contiene datos personales y no se puede desactivar, porque sin ella el banner reaparecería en cada visita.
 
-**Cookies de analítica (solo si aceptas).** Si pulsas «Aceptar», se carga Google Analytics 4 (identificador `G-ENN14SG31P`), que permite medir el uso del sitio. Este servicio puede guardar cookies como `_ga` y `_ga_*` (hasta 2 años) para distinguir visitantes y sesiones y obtener estadísticas agregadas. Si pulsas «Rechazar», no se carga nada de Google.
+**Cookies de analítica (solo si aceptas).** Si pulsas «Aceptar», se carga Google Analytics 4 (identificador `G-ENN14SG31P`), que permite medir el uso del sitio. Este servicio puede guardar cookies como `_ga` y `_ga_*` (hasta 2 años) para distinguir visitantes y sesiones y obtener estadísticas agregadas. También cuenta, sin identificarte, qué enlaces de publicaciones se siguen y cuántas veces se consulta, copia o descarga una referencia BibTeX. Si pulsas «Rechazar», no se carga nada de Google.
 
 **Publicidad.** No utilizamos cookies de publicidad ni de personalización de anuncios; esas finalidades quedan denegadas en la configuración de consentimiento.
 
