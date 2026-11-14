@@ -1,4 +1,25 @@
 <style>
+.lang-dd{position:relative}
+.lang-dd details{position:relative;display:inline-block}
+.lang-dd summary{cursor:pointer;list-style:none;font-weight:600;padding:0 .2em;user-select:none}
+.lang-dd summary::-webkit-details-marker{display:none}
+.lang-dd summary::after{content:"";display:inline-block;margin-left:.35em;border:.28em solid transparent;border-top-color:currentColor;border-bottom:0;vertical-align:middle}
+.lang-dd__list{position:absolute;right:0;top:100%;z-index:50;min-width:3.4em;margin:.3em 0 0;padding:.2em 0;list-style:none;background:#fff;border:1px solid #d9dcdd;border-radius:4px;box-shadow:0 4px 10px rgba(0,0,0,.12)}
+.lang-dd__list li{margin:0!important;display:block!important;float:none!important;width:auto}
+.lang-dd__list a{display:block;padding:.3em .9em;white-space:nowrap;color:#494e52;font-weight:400!important;text-align:left;margin:0!important}
+.lang-dd__list a:hover{background:#f2f3f3}
+</style>
+<script>
+(function(){
+  document.addEventListener('click',function(e){
+    document.querySelectorAll('.lang-dd details[open]').forEach(function(d){if(!d.contains(e.target))d.removeAttribute('open');});
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape')document.querySelectorAll('.lang-dd details[open]').forEach(function(d){d.removeAttribute('open');});
+  });
+})();
+</script>
+<style>
 .mobile-menu{display:none}
 @media (max-width:767px){
   .greedy-nav button,.greedy-nav .hidden-links{display:none!important}

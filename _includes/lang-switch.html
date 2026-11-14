@@ -1,7 +1,14 @@
-{%- comment -%} Language switcher: pages sharing `translation_key` are translations of each other; falls back to each language home. {%- endcomment -%}
+{%- comment -%} Language dropdown (CA / EN / ES): shows the current language, opens to pick another. Pages sharing `translation_key` are translations of each other; falls back to each language home. {%- endcomment -%}
 {% assign cur = page.lang | default: site.default_lang %}
-{% for l in site.languages %}
-  {% assign target = site.pages | where: "translation_key", page.translation_key | where: "lang", l | first %}
-  {% if page.translation_key and target %}{% assign href = target.url %}{% elsif l == site.default_lang %}{% assign href = "/" %}{% else %}{% assign href = "/" | append: l | append: "/" %}{% endif %}
-  <li class="masthead__menu-item"><a href="{{ href }}" hreflang="{{ l }}"{% if l == cur %} aria-current="true" style="font-weight:700"{% endif %}>{{ site.data.i18n[l].name }}</a></li>
-{% endfor %}
+<li class="masthead__menu-item lang-dd">
+  <details>
+    <summary aria-label="{{ site.data.i18n[cur].language_switch | default: 'Language' }}">{{ cur | upcase }}</summary>
+    <ul class="lang-dd__list">
+    {% for l in site.languages %}
+      {% assign target = site.pages | where: "translation_key", page.translation_key | where: "lang", l | first %}
+      {% if page.translation_key and target %}{% assign href = target.url %}{% elsif l == site.default_lang %}{% assign href = "/" %}{% else %}{% assign href = "/" | append: l | append: "/" %}{% endif %}
+      {% if l != cur %}<li><a href="{{ href }}" hreflang="{{ l }}" lang="{{ l }}" title="{{ site.data.i18n[l].name }}">{{ l | upcase }}</a></li>{% endif %}
+    {% endfor %}
+    </ul>
+  </details>
+</li>
