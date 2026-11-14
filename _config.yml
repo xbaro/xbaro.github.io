@@ -148,6 +148,7 @@ social:
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  gtm_id                 : "GTM-MPH2XP95"   # Google Tag Manager container; loaded only after the visitor accepts cookies (see _includes/cookie-consent.html)
   google:
     tracking_id          :
 
