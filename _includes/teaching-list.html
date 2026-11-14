@@ -2,18 +2,20 @@
 {% assign L = page.lang | default: site.default_lang %}
 {% assign T = site.data.i18n[L] %}
 <style>
-.teaching-list{list-style:none;padding:0;margin:0 0 1.2em}
-.teaching-list li{margin:0 0 .7em;padding:0 0 .55em;border-bottom:1px solid #f2f3f3;text-align:left}
-.teaching-list__name{display:block;text-align:left}
-code.teaching-list__years{display:block;margin:.1em 0 0!important;padding:0!important;background:none!important;border:0!important;box-shadow:none!important;border-radius:0;font-family:Menlo,Consolas,"DejaVu Sans Mono",monospace;font-size:.82em;color:#6b7075;letter-spacing:0;white-space:nowrap}
+.teaching-degree{font-size:1.2em;margin:1.8em 0 .7em;padding-top:1em;border-top:1px solid #cfd2d4}
+h2 + .teaching-degree{border-top:0;padding-top:0;margin-top:1em}
+.teaching-list{list-style:none;padding:0;margin:0 0 .4em}
+.teaching-list li{margin:0 0 .55em;padding:0;border:0;text-align:left}
+.teaching-list__name{display:block;font-weight:400;text-align:left}
+code.teaching-list__years{display:block;margin:.05em 0 0!important;padding:0!important;background:none!important;border:0!important;box-shadow:none!important;border-radius:0;font-family:Menlo,Consolas,"DejaVu Sans Mono",monospace;font-size:.8em;color:#6b7075;letter-spacing:0;white-space:nowrap}
 code.teaching-list__years::before,code.teaching-list__years::after{content:none!important}
-.teaching-level{font-weight:400}
+.teaching-level{font-weight:400;font-size:.65em;text-transform:uppercase;letter-spacing:.05em;color:#6b7075;margin-left:.5em}
 </style>
 <p>{{ T.teaching_intro }}</p>
 {% for inst in site.data.teaching %}
   <h2>{{ T.institutions[inst.institution] | default: inst.institution }}</h2>
   {% for g in inst.programmes %}
-    <h3>{{ g.name[L] }} <small class="teaching-level">{{ T[g.level] }}</small></h3>
+    <h3 class="teaching-degree">{{ g.name[L] }} <small class="teaching-level">{{ T[g.level] }}</small></h3>
     <ul class="teaching-list">
     {% for r in g.subjects %}
       <li><strong class="teaching-list__name">{{ r.name[L] }}</strong><code class="teaching-list__years">{{ r.period_label }}</code></li>
