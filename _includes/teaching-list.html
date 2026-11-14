@@ -3,9 +3,10 @@
 {% assign T = site.data.i18n[L] %}
 <style>
 .teaching-list{list-style:none;padding:0;margin:0 0 1.2em}
-.teaching-list li{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.1em 1em;margin:0 0 .45em;padding:.2em 0;border-bottom:1px solid #f2f3f3;text-align:left}
-.teaching-list__name{flex:1 1 16em;text-align:left;text-justify:auto}
-code.teaching-list__years{flex:0 0 auto;white-space:nowrap;font-size:.8em;padding:.1em .5em;border-radius:3px;background:#f2f3f3;color:#494e52;letter-spacing:0}
+.teaching-list li{margin:0 0 .7em;padding:0 0 .55em;border-bottom:1px solid #f2f3f3;text-align:left}
+.teaching-list__name{display:block;text-align:left}
+code.teaching-list__years{display:block;margin:.1em 0 0!important;padding:0!important;background:none!important;border:0!important;box-shadow:none!important;border-radius:0;font-family:Menlo,Consolas,"DejaVu Sans Mono",monospace;font-size:.82em;color:#6b7075;letter-spacing:0;white-space:nowrap}
+code.teaching-list__years::before,code.teaching-list__years::after{content:none!important}
 .teaching-level{font-weight:400}
 </style>
 <p>{{ T.teaching_intro }}</p>
