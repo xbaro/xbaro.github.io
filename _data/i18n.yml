@@ -69,6 +69,7 @@ en:
     "Universitat de Barcelona": University of Barcelona
     "Universitat Oberta de Catalunya": Open University of Catalonia
     "Université Paris-Saclay": Université Paris-Saclay
+    "Universitat Autònoma de Barcelona": Autonomous University of Barcelona
   language_switch: Language
 ca:
   locale: "ca-ES"
@@ -139,6 +140,7 @@ ca:
     "Universitat de Barcelona": Universitat de Barcelona
     "Universitat Oberta de Catalunya": Universitat Oberta de Catalunya
     "Université Paris-Saclay": Université Paris-Saclay
+    "Universitat Autònoma de Barcelona": Universitat Autònoma de Barcelona
   language_switch: Idioma
 es:
   locale: "es-ES"
@@ -209,4 +211,5 @@ es:
     "Universitat de Barcelona": Universidad de Barcelona
     "Universitat Oberta de Catalunya": Universitat Oberta de Catalunya
     "Université Paris-Saclay": Université Paris-Saclay
+    "Universitat Autònoma de Barcelona": Universidad Autónoma de Barcelona
   language_switch: Idioma
