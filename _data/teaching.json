@@ -559,9 +559,9 @@
   "programmes": [
    {
     "name": {
-     "ca": "Escola d'Enginyeria",
-     "en": "School of Engineering",
-     "es": "Escuela de Ingeniería"
+     "ca": "Enginyeria Informàtica",
+     "en": "Computer Engineering",
+     "es": "Ingeniería Informática"
     },
     "level": "undergraduate",
     "subjects": [
