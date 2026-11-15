@@ -552,5 +552,57 @@
     ]
    }
   ]
+ },
+ {
+  "institution": "Universitat Autònoma de Barcelona",
+  "logo": "/images/logos/uab.png",
+  "programmes": [
+   {
+    "name": {
+     "ca": "Escola d'Enginyeria",
+     "en": "School of Engineering",
+     "es": "Escuela de Ingeniería"
+    },
+    "level": "undergraduate",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Lògica computacional",
+       "en": "Computational Logic",
+       "es": "Lógica computacional"
+      },
+      "period_label": "2004/05–2006/07",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Bases de dades I",
+       "en": "Databases I",
+       "es": "Bases de datos I"
+      },
+      "period_label": "2006/07",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Intel·ligència artificial II",
+       "en": "Artificial Intelligence II",
+       "es": "Inteligencia artificial II"
+      },
+      "period_label": "2006/07–2009/10",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Visió per computador",
+       "en": "Computer Vision",
+       "es": "Visión por computador"
+      },
+      "period_label": "2006/07",
+      "languages": []
+     }
+    ]
+   }
+  ]
  }
 ]

@@ -489,8 +489,10 @@ def build_teaching():
     ub, pg, uoc = SRC / "ub_teaching.json", SRC / "cv_postgrad_teaching.json", SRC / "uoc_teaching.json"
     out = {"ub": json.loads(ub.read_text()) if ub.exists() else [], "postgraduate": json.loads(pg.read_text()) if pg.exists() else [],
            "uoc": json.loads(uoc.read_text()) if uoc.exists() else [],
+           "uab": json.loads((SRC / "uab_teaching.json").read_text()) if (SRC / "uab_teaching.json").exists() else [],
            "_notes": ["UB data = 'Encàrrecs i dedicació docent' PDFs; the university marks them as informational and subject to validation. 2026-2027 is a plan.",
-                      "UB gap 2016-2023 (owner was at UOC) and UAB undergraduate teaching are not in these documents.",
+                      "UB gap 2016-2023 (owner was at UOC) is not in these documents.",
+                      "UAB data = 'Certificat de docència' (2011-09-27); 'Projecte d'Enginyeria en Informàtica' is final-project supervision and is left out. The certificate gives the centre, not the degree.",
                       "UOC undergraduate data = official certificate 'Docència ANECA' (2023-07-17), courses as Professor Responsable d'Assignatura; UOC masters come from the CV."]}
     out["summary"] = teaching_summary(out)
     TEACHING.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
@@ -525,9 +527,9 @@ def teaching_summary(t):
         g["programmes"].add(r["degree"])
         g["languages"].update(r.get("languages") or [])
         (g["planned_years"] if r.get("status") == "planned" else g["years"]).append(r["academic_year"])
-    for r in t.get("uoc", []):                           # one row per (subject, degree): a subject may be taught in several degrees
-        g = groups.setdefault(("Universitat Oberta de Catalunya", f"{r['subject'].lower()}|{r['degree'].lower()}"), {
-            "institution": "Universitat Oberta de Catalunya", "level": "undergraduate", "name": {"ca": r["subject"]},
+    for r in t.get("uoc", []) + t.get("uab", []):        # one row per (subject, degree): a subject may be taught in several degrees
+        g = groups.setdefault((r["institution"], f"{r['subject'].lower()}|{r['degree'].lower()}"), {
+            "institution": r["institution"], "level": "undergraduate", "name": {"ca": r["subject"]},
             "programmes": {r["degree"]}, "languages": set(), "years": [], "planned_years": []})
         g["years"].append(r["academic_year"])
     insts = (("Oberta", "Universitat Oberta de Catalunya"), ("Barcelona", "Universitat de Barcelona"), ("Paris-Saclay", "Université Paris-Saclay"))
@@ -574,8 +576,8 @@ def build_site_data():
         a, b = min(p[0] for p in periods), max(p[1] for p in periods)
         return course(a) if b - a == 1 else f"{course(a)}–{course(b - 1)}"
 
-    inst_order = ["Universitat de Barcelona", "Universitat Oberta de Catalunya", "Université Paris-Saclay"]
-    inst_logo = {"Universitat de Barcelona": "ub.png", "Universitat Oberta de Catalunya": "uoc-negre.png", "Université Paris-Saclay": "paris-saclay.svg"}   # black-and-white logos in images/logos/ (shown if present)
+    inst_order = ["Universitat de Barcelona", "Universitat Oberta de Catalunya", "Université Paris-Saclay", "Universitat Autònoma de Barcelona"]
+    inst_logo = {"Universitat de Barcelona": "ub.png", "Universitat Oberta de Catalunya": "uoc-negre.png", "Université Paris-Saclay": "paris-saclay.svg", "Universitat Autònoma de Barcelona": "uab.png"}   # black-and-white logos in images/logos/ (shown if present)
     grouped = {}
     for r in t["summary"]:
         if not r["periods"]:   # only what has been taught: courses that are merely planned are not published
