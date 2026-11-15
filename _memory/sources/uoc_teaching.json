@@ -1,0 +1,882 @@
+[
+ {
+  "academic_year": "2009-2010",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2009-2010",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Gestió",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2009-2010",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Sistemes",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2009-2010",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2009-2010",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2009-2010",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2009-2010",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Gestió",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2009-2010",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Sistemes",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Gestió",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Sistemes",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Gestió",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2010-2011",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Sistemes",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Gestió",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Sistemes",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Gestió",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2011-2012",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Sistemes",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Gestió",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Sistemes",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Gestió",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2012-2013",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Sistemes",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Gestió",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Sistemes",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Gestió",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2013-2014",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Sistemes",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2014-2015",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2014-2015",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2014-2015",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2014-2015",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2014-2015",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2014-2015",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2014-2015",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2014-2015",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2014-2015",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2014-2015",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Gestió",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2014-2015",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Enginyeria Tècnica en Informàtica de Sistemes",
+  "subject": "Programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2015-2016",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2015-2016",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2015-2016",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2015-2016",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2015-2016",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2015-2016",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2015-2016",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2016-2017",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2016-2017",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2016-2017",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2016-2017",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Multimèdia",
+  "subject": "Programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2017-2018",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2017-2018",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2017-2018",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2018-2019",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Disseny i programació orientada a objectes",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2018-2019",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2018-2019",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2019-2020",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2019-2020",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria de Tecnologies i Serveis de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2019-2020",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2020-2021",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Aprenentatge computacional",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2020-2021",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Arquitectura de bases de dades",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2020-2021",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria de Tecnologies i Serveis de Telecomunicació",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2020-2021",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Fonaments de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2020-2021",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2020-2021",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria de Tecnologies i Serveis de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2020-2021",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tecnologies de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2021-2022",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Aprenentatge computacional",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2021-2022",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Arquitectura de bases de dades",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2021-2022",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Intel·ligència artificial",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2021-2022",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2021-2022",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tècniques d'Aplicacions de Software",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2021-2022",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria de Tecnologies i Serveis de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2022-2023",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Aprenentatge computacional",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2022-2023",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Tècniques d'Aplicacions de Software",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2022-2023",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria Informàtica",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ },
+ {
+  "academic_year": "2022-2023",
+  "institution": "Universitat Oberta de Catalunya",
+  "degree": "Grau en Enginyeria de Tecnologies i Serveis de Telecomunicació",
+  "subject": "Pràctiques de programació",
+  "role": "Professor responsable d'assignatura",
+  "kind": "course"
+ }
+]

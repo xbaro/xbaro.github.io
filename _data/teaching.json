@@ -230,6 +230,266 @@
   "programmes": [
    {
     "name": {
+     "ca": "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica",
+     "en": "Technical Engineering in Telecommunication, Telematics specialty",
+     "es": "Ingeniería Técnica de Telecomunicación, especialidad Telemática"
+    },
+    "level": "undergraduate",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Fonaments de programació",
+       "en": "Programming Fundamentals",
+       "es": "Fundamentos de programación"
+      },
+      "period_label": "2009/10–2013/14",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Programació orientada a objectes",
+       "en": "Object-Oriented Programming",
+       "es": "Programación orientada a objetos"
+      },
+      "period_label": "2009/10–2014/15",
+      "languages": []
+     }
+    ]
+   },
+   {
+    "name": {
+     "ca": "Enginyeria Tècnica en Informàtica de Gestió",
+     "en": "Technical Engineering in Management Computing",
+     "es": "Ingeniería Técnica en Informática de Gestión"
+    },
+    "level": "undergraduate",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Fonaments de programació",
+       "en": "Programming Fundamentals",
+       "es": "Fundamentos de programación"
+      },
+      "period_label": "2009/10–2013/14",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Programació orientada a objectes",
+       "en": "Object-Oriented Programming",
+       "es": "Programación orientada a objetos"
+      },
+      "period_label": "2009/10–2014/15",
+      "languages": []
+     }
+    ]
+   },
+   {
+    "name": {
+     "ca": "Enginyeria Tècnica en Informàtica de Sistemes",
+     "en": "Technical Engineering in Computer Systems",
+     "es": "Ingeniería Técnica en Informática de Sistemas"
+    },
+    "level": "undergraduate",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Fonaments de programació",
+       "en": "Programming Fundamentals",
+       "es": "Fundamentos de programación"
+      },
+      "period_label": "2009/10–2013/14",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Programació orientada a objectes",
+       "en": "Object-Oriented Programming",
+       "es": "Programación orientada a objetos"
+      },
+      "period_label": "2009/10–2014/15",
+      "languages": []
+     }
+    ]
+   },
+   {
+    "name": {
+     "ca": "Grau en Enginyeria Informàtica",
+     "en": "Bachelor's in Computer Engineering",
+     "es": "Grado en Ingeniería Informática"
+    },
+    "level": "undergraduate",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Fonaments de programació",
+       "en": "Programming Fundamentals",
+       "es": "Fundamentos de programación"
+      },
+      "period_label": "2009/10–2020/21",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Disseny i programació orientada a objectes",
+       "en": "Object-Oriented Design and Programming",
+       "es": "Diseño y programación orientada a objetos"
+      },
+      "period_label": "2010/11–2018/19",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Pràctiques de programació",
+       "en": "Programming Practicum",
+       "es": "Prácticas de programación"
+      },
+      "period_label": "2011/12–2022/23",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Aprenentatge computacional",
+       "en": "Machine Learning",
+       "es": "Aprendizaje computacional"
+      },
+      "period_label": "2020/21–2022/23",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Arquitectura de bases de dades",
+       "en": "Database Architecture",
+       "es": "Arquitectura de bases de datos"
+      },
+      "period_label": "2020/21–2021/22",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Intel·ligència artificial",
+       "en": "Artificial Intelligence",
+       "es": "Inteligencia artificial"
+      },
+      "period_label": "2021/22",
+      "languages": []
+     }
+    ]
+   },
+   {
+    "name": {
+     "ca": "Grau en Tecnologies de Telecomunicació",
+     "en": "Bachelor's in Telecommunication Technologies",
+     "es": "Grado en Tecnologías de Telecomunicación"
+    },
+    "level": "undergraduate",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Fonaments de programació",
+       "en": "Programming Fundamentals",
+       "es": "Fundamentos de programación"
+      },
+      "period_label": "2009/10–2015/16",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Disseny i programació orientada a objectes",
+       "en": "Object-Oriented Design and Programming",
+       "es": "Diseño y programación orientada a objetos"
+      },
+      "period_label": "2010/11–2014/15",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Pràctiques de programació",
+       "en": "Programming Practicum",
+       "es": "Prácticas de programación"
+      },
+      "period_label": "2011/12–2020/21",
+      "languages": []
+     }
+    ]
+   },
+   {
+    "name": {
+     "ca": "Grau en Multimèdia",
+     "en": "Bachelor's in Multimedia",
+     "es": "Grado en Multimedia"
+    },
+    "level": "undergraduate",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Disseny i programació orientada a objectes",
+       "en": "Object-Oriented Design and Programming",
+       "es": "Diseño y programación orientada a objetos"
+      },
+      "period_label": "2010/11–2015/16",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Programació",
+       "en": "Programming",
+       "es": "Programación"
+      },
+      "period_label": "2010/11–2016/17",
+      "languages": []
+     }
+    ]
+   },
+   {
+    "name": {
+     "ca": "Grau en Enginyeria de Tecnologies i Serveis de Telecomunicació",
+     "en": "Bachelor's in Telecommunication Technologies and Services Engineering",
+     "es": "Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación"
+    },
+    "level": "undergraduate",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Pràctiques de programació",
+       "en": "Programming Practicum",
+       "es": "Prácticas de programación"
+      },
+      "period_label": "2019/20–2022/23",
+      "languages": []
+     },
+     {
+      "name": {
+       "ca": "Fonaments de programació",
+       "en": "Programming Fundamentals",
+       "es": "Fundamentos de programación"
+      },
+      "period_label": "2020/21",
+      "languages": []
+     }
+    ]
+   },
+   {
+    "name": {
+     "ca": "Grau en Tècniques d'Aplicacions de Software",
+     "en": "Bachelor's in Software Application Techniques",
+     "es": "Grado en Técnicas de Aplicaciones de Software"
+    },
+    "level": "undergraduate",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Pràctiques de programació",
+       "en": "Programming Practicum",
+       "es": "Prácticas de programación"
+      },
+      "period_label": "2021/22–2022/23",
+      "languages": []
+     }
+    ]
+   },
+   {
+    "name": {
      "ca": "Màster Interuniversitari en Bioinformàtica i bioestadística UB-UOC",
      "en": "Interuniversity MSc in Bioinformatics and Biostatistics (UB-UOC)",
      "es": "Máster Interuniversitario en Bioinformática y bioestadística (UB-UOC)"
