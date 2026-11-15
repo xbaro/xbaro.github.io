@@ -492,7 +492,7 @@ def build_teaching():
            "uab": json.loads((SRC / "uab_teaching.json").read_text()) if (SRC / "uab_teaching.json").exists() else [],
            "_notes": ["UB data = 'Encàrrecs i dedicació docent' PDFs; the university marks them as informational and subject to validation. 2026-2027 is a plan.",
                       "UB gap 2016-2023 (owner was at UOC) is not in these documents.",
-                      "UAB data = 'Certificat de docència' (2011-09-27); 'Projecte d'Enginyeria en Informàtica' is final-project supervision and is left out. The certificate gives the centre, not the degree.",
+                      "UAB data = 'Certificat de docència' (2011-09-27); 'Projecte d'Enginyeria en Informàtica' is final-project supervision and is left out. The certificate gives the centre (Escola d'Enginyeria), not the degree; the owner confirmed Enginyeria Informàtica.",
                       "UOC undergraduate data = official certificate 'Docència ANECA' (2023-07-17), courses as Professor Responsable d'Assignatura; UOC masters come from the CV."]}
     out["summary"] = teaching_summary(out)
     TEACHING.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")

@@ -1800,56 +1800,56 @@
   {
    "academic_year": "2004-2005",
    "institution": "Universitat Autònoma de Barcelona",
-   "degree": "Escola d'Enginyeria",
+   "degree": "Enginyeria Informàtica",
    "subject": "Lògica computacional",
    "kind": "course"
   },
   {
    "academic_year": "2006-2007",
    "institution": "Universitat Autònoma de Barcelona",
-   "degree": "Escola d'Enginyeria",
+   "degree": "Enginyeria Informàtica",
    "subject": "Bases de dades I",
    "kind": "course"
   },
   {
    "academic_year": "2006-2007",
    "institution": "Universitat Autònoma de Barcelona",
-   "degree": "Escola d'Enginyeria",
+   "degree": "Enginyeria Informàtica",
    "subject": "Lògica computacional",
    "kind": "course"
   },
   {
    "academic_year": "2006-2007",
    "institution": "Universitat Autònoma de Barcelona",
-   "degree": "Escola d'Enginyeria",
+   "degree": "Enginyeria Informàtica",
    "subject": "Intel·ligència artificial II",
    "kind": "course"
   },
   {
    "academic_year": "2006-2007",
    "institution": "Universitat Autònoma de Barcelona",
-   "degree": "Escola d'Enginyeria",
+   "degree": "Enginyeria Informàtica",
    "subject": "Visió per computador",
    "kind": "course"
   },
   {
    "academic_year": "2007-2008",
    "institution": "Universitat Autònoma de Barcelona",
-   "degree": "Escola d'Enginyeria",
+   "degree": "Enginyeria Informàtica",
    "subject": "Intel·ligència artificial II",
    "kind": "course"
   },
   {
    "academic_year": "2008-2009",
    "institution": "Universitat Autònoma de Barcelona",
-   "degree": "Escola d'Enginyeria",
+   "degree": "Enginyeria Informàtica",
    "subject": "Intel·ligència artificial II",
    "kind": "course"
   },
   {
    "academic_year": "2009-2010",
    "institution": "Universitat Autònoma de Barcelona",
-   "degree": "Escola d'Enginyeria",
+   "degree": "Enginyeria Informàtica",
    "subject": "Intel·ligència artificial II",
    "kind": "course"
   }
@@ -1857,7 +1857,7 @@
  "_notes": [
   "UB data = 'Encàrrecs i dedicació docent' PDFs; the university marks them as informational and subject to validation. 2026-2027 is a plan.",
   "UB gap 2016-2023 (owner was at UOC) is not in these documents.",
-  "UAB data = 'Certificat de docència' (2011-09-27); 'Projecte d'Enginyeria en Informàtica' is final-project supervision and is left out. The certificate gives the centre, not the degree.",
+  "UAB data = 'Certificat de docència' (2011-09-27); 'Projecte d'Enginyeria en Informàtica' is final-project supervision and is left out. The certificate gives the centre (Escola d'Enginyeria), not the degree; the owner confirmed Enginyeria Informàtica.",
   "UOC undergraduate data = official certificate 'Docència ANECA' (2023-07-17), courses as Professor Responsable d'Assignatura; UOC masters come from the CV."
  ],
  "summary": [
@@ -1868,7 +1868,7 @@
     "ca": "Lògica computacional"
    },
    "programmes": [
-    "Escola d'Enginyeria"
+    "Enginyeria Informàtica"
    ],
    "languages": [],
    "periods": [
@@ -1890,7 +1890,7 @@
     "ca": "Bases de dades I"
    },
    "programmes": [
-    "Escola d'Enginyeria"
+    "Enginyeria Informàtica"
    ],
    "languages": [],
    "periods": [
@@ -1908,7 +1908,7 @@
     "ca": "Intel·ligència artificial II"
    },
    "programmes": [
-    "Escola d'Enginyeria"
+    "Enginyeria Informàtica"
    ],
    "languages": [],
    "periods": [
@@ -1926,7 +1926,7 @@
     "ca": "Visió per computador"
    },
    "programmes": [
-    "Escola d'Enginyeria"
+    "Enginyeria Informàtica"
    ],
    "languages": [],
    "periods": [
