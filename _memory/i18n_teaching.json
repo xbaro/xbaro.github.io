@@ -1,6 +1,14 @@
 {
   "_note": "Translations of subject / programme names for the site. Key = Catalan source name (as in teaching.json). Missing language -> falls back to the Catalan name.",
   "names": {
+    "Fonaments de programació": {"en": "Programming Fundamentals", "es": "Fundamentos de programación"},
+    "Programació orientada a objectes": {"en": "Object-Oriented Programming", "es": "Programación orientada a objetos"},
+    "Disseny i programació orientada a objectes": {"en": "Object-Oriented Design and Programming", "es": "Diseño y programación orientada a objetos"},
+    "Pràctiques de programació": {"en": "Programming Practicum", "es": "Prácticas de programación"},
+    "Programació": {"en": "Programming", "es": "Programación"},
+    "Aprenentatge computacional": {"en": "Machine Learning", "es": "Aprendizaje computacional"},
+    "Arquitectura de bases de dades": {"en": "Database Architecture", "es": "Arquitectura de bases de datos"},
+    "Intel·ligència artificial": {"en": "Artificial Intelligence", "es": "Inteligencia artificial"},
     "Introducció a les bases de dades": {"en": "Introduction to Databases", "es": "Introducción a las bases de datos"},
     "Ampliació de bases de dades": {"en": "Advanced Databases", "es": "Ampliación de bases de datos"},
     "Programació per a la xarxa": {"en": "Network Programming", "es": "Programación para la red"},
@@ -25,6 +33,14 @@
     "Computer Vision": {"ca": "Visió per computador", "es": "Visión por computador"}
   },
   "programmes": {
+    "Grau en Enginyeria Informàtica": {"en": "Bachelor's in Computer Engineering", "es": "Grado en Ingeniería Informática"},
+    "Grau en Multimèdia": {"en": "Bachelor's in Multimedia", "es": "Grado en Multimedia"},
+    "Grau en Tecnologies de Telecomunicació": {"en": "Bachelor's in Telecommunication Technologies", "es": "Grado en Tecnologías de Telecomunicación"},
+    "Grau en Enginyeria de Tecnologies i Serveis de Telecomunicació": {"en": "Bachelor's in Telecommunication Technologies and Services Engineering", "es": "Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación"},
+    "Grau en Tècniques d'Aplicacions de Software": {"en": "Bachelor's in Software Application Techniques", "es": "Grado en Técnicas de Aplicaciones de Software"},
+    "Enginyeria Tècnica de Telecomunicació, especialitat Telemàtica": {"en": "Technical Engineering in Telecommunication, Telematics specialty", "es": "Ingeniería Técnica de Telecomunicación, especialidad Telemática"},
+    "Enginyeria Tècnica en Informàtica de Gestió": {"en": "Technical Engineering in Management Computing", "es": "Ingeniería Técnica en Informática de Gestión"},
+    "Enginyeria Tècnica en Informàtica de Sistemes": {"en": "Technical Engineering in Computer Systems", "es": "Ingeniería Técnica en Informática de Sistemas"},
     "Enginyeria Informàtica": {"en": "Computer Engineering", "es": "Ingeniería Informática"},
     "Enginyeria tècnica en informàtica de sistemes": {"en": "Technical Engineering in Computer Systems", "es": "Ingeniería Técnica en Informática de Sistemas"},
     "Intel·ligència Artificial": {"en": "Artificial Intelligence (MSc)", "es": "Inteligencia Artificial (máster)"},

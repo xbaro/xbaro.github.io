@@ -486,10 +486,12 @@ def import_teaching(pdfs):
 
 def build_teaching():
     """teaching.json = UB undergraduate teaching (PDFs) + postgraduate teaching (CV section G.2)."""
-    ub, pg = SRC / "ub_teaching.json", SRC / "cv_postgrad_teaching.json"
+    ub, pg, uoc = SRC / "ub_teaching.json", SRC / "cv_postgrad_teaching.json", SRC / "uoc_teaching.json"
     out = {"ub": json.loads(ub.read_text()) if ub.exists() else [], "postgraduate": json.loads(pg.read_text()) if pg.exists() else [],
+           "uoc": json.loads(uoc.read_text()) if uoc.exists() else [],
            "_notes": ["UB data = 'Encàrrecs i dedicació docent' PDFs; the university marks them as informational and subject to validation. 2026-2027 is a plan.",
-                      "UB gap 2016-2023 (owner was at UOC) and UOC/UAB undergraduate teaching are not in these documents."]}
+                      "UB gap 2016-2023 (owner was at UOC) and UAB undergraduate teaching are not in these documents.",
+                      "UOC undergraduate data = official certificate 'Docència ANECA' (2023-07-17), courses as Professor Responsable d'Assignatura; UOC masters come from the CV."]}
     out["summary"] = teaching_summary(out)
     TEACHING.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
 
@@ -523,6 +525,11 @@ def teaching_summary(t):
         g["programmes"].add(r["degree"])
         g["languages"].update(r.get("languages") or [])
         (g["planned_years"] if r.get("status") == "planned" else g["years"]).append(r["academic_year"])
+    for r in t.get("uoc", []):                           # one row per (subject, degree): a subject may be taught in several degrees
+        g = groups.setdefault(("Universitat Oberta de Catalunya", f"{r['subject'].lower()}|{r['degree'].lower()}"), {
+            "institution": "Universitat Oberta de Catalunya", "level": "undergraduate", "name": {"ca": r["subject"]},
+            "programmes": {r["degree"]}, "languages": set(), "years": [], "planned_years": []})
+        g["years"].append(r["academic_year"])
     insts = (("Oberta", "Universitat Oberta de Catalunya"), ("Barcelona", "Universitat de Barcelona"), ("Paris-Saclay", "Université Paris-Saclay"))
     alias = {"object recognition": "Reconeixement de persones i objectes", "seminaris en intel·ligència artificial ub": "Seminaris en intel·ligència artificial (UB)"}   # same MSc course, English title in the CV
     for r in t["postgraduate"]:
