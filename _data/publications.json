@@ -1938,7 +1938,7 @@
    "Petia Radeva",
    "Sergio Escalera"
   ],
-  "venue": "ReVision",
+  "venue": "ReVisión, vol. 4, núm. 1 (2011)",
   "year": 2011,
   "type": "journal-article",
   "doi": null,
@@ -2017,6 +2017,25 @@
   "year": 2011,
   "type": "book",
   "doi": "10.1007/978-1-4471-2245-6",
+  "url": null,
+  "isbn": null,
+  "label": null,
+  "oa": null
+ },
+ {
+  "bibkey": "ponce2011level",
+  "title": "Two-level GMM Clustering of Human Poses for Automatic Human Behavior Analysis",
+  "authors": [
+   "Víctor Ponce",
+   "Miguel Reyes",
+   "Xavier Baró",
+   "Mario Gorga",
+   "Sergio Escalera"
+  ],
+  "venue": "CVCR&D Workshop: State of the Art of Research and Development in Computer Vision (CVC-UAB), pp. 47-50. ISBN 978-84-938351-5-6",
+  "year": 2011,
+  "type": "conference-paper",
+  "doi": null,
   "url": null,
   "isbn": null,
   "label": null,
@@ -2248,26 +2267,6 @@
   "year": 2008,
   "type": "conference-paper",
   "doi": "10.1007/978-3-540-79547-6_27",
-  "url": null,
-  "isbn": null,
-  "label": null,
-  "oa": null
- },
- {
-  "bibkey": "ponce2007level",
-  "title": "Two-level GMM clustering of human poses for automatic human behavior analysis",
-  "authors": [
-   "Víctor Ponce",
-   "Miguel Reyes",
-   "Xavier Baró",
-   "Mario Gorga",
-   "Sergio Escalera",
-   "A. G. Keskar"
-  ],
-  "venue": "GVIP Journal",
-  "year": 2007,
-  "type": "journal-article",
-  "doi": null,
   "url": null,
   "isbn": null,
   "label": null,
