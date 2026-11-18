@@ -1,5 +1,60 @@
 [
  {
+  "title": "Un sistema de prueba de ropa y prueba virtual basado en aprendizaje profundo",
+  "kind": "competitive",
+  "funder": "Ministerio de Ciencia, Innovación y Universidades",
+  "reference": "PDC2025-165552-I00",
+  "start": 2026,
+  "end": 2028,
+  "pis": [
+   "Sergio Escalera"
+  ]
+ },
+ {
+  "title": "Data Science and Artificial Intelligence (DSAI), grup TECNIO",
+  "kind": "sgr",
+  "funder": "Generalitat de Catalunya (ACCIÓ, segell TECNIO)",
+  "reference": "TECNIO DSAI",
+  "start": 2025,
+  "end": 2028,
+  "pis": [
+   "Santiago Seguí Mesquida"
+  ]
+ },
+ {
+  "title": "A Virtual Clothing try-on System based on 3D Body and Garment reconstruction and animation",
+  "kind": "competitive",
+  "funder": "Generalitat de Catalunya (AGAUR)",
+  "reference": "2024 PROD 00013",
+  "start": 2024,
+  "end": 2026,
+  "pis": [
+   "Sergio Escalera"
+  ]
+ },
+ {
+  "title": "YouAddict EIT Digital Project",
+  "kind": "competitive",
+  "funder": "EIT Digital (European Institute of Innovation and Technology)",
+  "reference": "RFP2024KE",
+  "start": 2024,
+  "end": 2025,
+  "pis": [
+   "Sergio Escalera"
+  ]
+ },
+ {
+  "title": "Artificial Intelligence for Human Well-being & Complex Systems @ IN3",
+  "kind": "sgr",
+  "funder": "Generalitat de Catalunya",
+  "reference": "2021 SGR 01367",
+  "start": 2023,
+  "end": 2026,
+  "pis": [
+   "Àgata Lapedriza"
+  ]
+ },
+ {
   "title": "Inteligencia Artificial responsable para el bienestar humano: Percepción contextualizada centrada en la persona (SENTIENT)",
   "kind": "competitive",
   "funder": "Ministerio de Ciencia, Innovación y Universidades",

@@ -490,6 +490,25 @@
    },
    {
     "name": {
+     "ca": "Màster Universitari en Aplicacions Multimèdia",
+     "en": "Màster Universitari en Aplicacions Multimèdia",
+     "es": "Màster Universitari en Aplicacions Multimèdia"
+    },
+    "level": "master",
+    "subjects": [
+     {
+      "name": {
+       "ca": "Seminari de recerca",
+       "en": "Seminari de recerca",
+       "es": "Seminari de recerca"
+      },
+      "period_label": "2012/13",
+      "languages": []
+     }
+    ]
+   },
+   {
+    "name": {
      "ca": "Màster Interuniversitari en Bioinformàtica i bioestadística UB-UOC",
      "en": "Interuniversity MSc in Bioinformatics and Biostatistics (UB-UOC)",
      "es": "Máster Interuniversitario en Bioinformática y bioestadística (UB-UOC)"
