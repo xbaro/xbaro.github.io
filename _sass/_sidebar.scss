@@ -168,32 +168,39 @@
     }
   }
 
+  // Mobile: show the links directly in a wrapping row under the name,
+  // instead of hiding them behind the "Follow" button (not discoverable).
+  display: block;
+  clear: both;
+  padding-top: 10px;
+
   @include breakpoint($large) {
     display: block;
+    padding-top: 0;
   }
 
   button {
+    display: none;
     margin-bottom: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
   }
 }
 
 .author__urls {
-  display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  position: static;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background: #fff;
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  z-index: auto;
   cursor: default;
+
+  li {
+    margin-right: 1em;
+  }
 
   @include breakpoint($large) {
     display: block;
@@ -216,10 +223,7 @@
     border-width: 0 10px 10px;
     border-color: $border-color transparent;
     z-index: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
+    display: none;
   }
 
   &:after {
@@ -233,10 +237,7 @@
     border-width: 0 10px 10px;
     border-color: #fff transparent;
     z-index: 1;
-
-    @include breakpoint($large) {
-      display: none;
-    }
+    display: none;
   }
 
   li {
