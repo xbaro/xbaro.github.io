@@ -26,7 +26,7 @@ en:
   projects_intro: "Research projects, research-group recognitions and transfer contracts in which I have taken part."
   proj_kinds:
     competitive: "Competitive research projects"
-    sgr: "Research group recognitions (SGR)"
+    sgr: "Research group recognitions"
     contract: "Transfer and contracts"
   proj_pi: "PI"
   proj_search: "Search project, funder, reference…"
@@ -97,7 +97,7 @@ ca:
   projects_intro: "Projectes de recerca, reconeixements de grups de recerca i contractes de transferència en què he participat."
   proj_kinds:
     competitive: "Projectes de recerca competitius"
-    sgr: "Reconeixements de grups de recerca (SGR)"
+    sgr: "Reconeixements de grups de recerca"
     contract: "Transferència i contractes"
   proj_pi: "IP"
   proj_search: "Cerca per projecte, finançador, referència…"
@@ -168,7 +168,7 @@ es:
   projects_intro: "Proyectos de investigación, reconocimientos de grupos de investigación y contratos de transferencia en los que he participado."
   proj_kinds:
     competitive: "Proyectos de investigación competitivos"
-    sgr: "Reconocimientos de grupos de investigación (SGR)"
+    sgr: "Reconocimientos de grupos de investigación"
     contract: "Transferencia y contratos"
   proj_pi: "IP"
   proj_search: "Buscar proyecto, financiador, referencia…"
