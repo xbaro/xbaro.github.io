@@ -1,0 +1,26 @@
+{% assign L = page.lang | default: site.default_lang %}
+{% assign T = site.data.i18n[L] %}
+{% assign E = site.data.events %}
+<style>.ev-list{list-style:none;padding:0;margin:0}.ev-list li{margin:0 0 .9em}.ev-meta{font-size:.88em;color:#6b7075}.ev-meta a{margin-right:.6em}.ev-fam{margin-top:1.6em}.ev-year{display:inline-block;min-width:3.2em;font-variant-numeric:tabular-nums;color:#6b7075}.ev-role{font-size:.85em;color:#6b7075}</style>
+<p>{{ T.events_intro }}</p>
+<h2>{{ T.ev_datasets }} <small>({% assign n = 0 %}{% for f in E.families %}{% assign n = n | plus: f.datasets.size %}{% endfor %}{{ n }})</small></h2>
+{% for f in E.families %}
+  <section class="ev-fam"><h3>{{ f.name[L] | default: f.name.ca }}</h3>
+  <ul class="ev-list">
+  {% for d in f.datasets %}
+    <li><strong>{{ d.label }}</strong> <span class="ev-meta">· {{ d.venue }}</span><br>
+      {{ d.summary[L] | default: d.summary.ca }}<br>
+      <span class="ev-meta"><a href="{{ d.url }}" rel="noopener" target="_blank">{{ T.ev_dataset_page }}</a>
+      {% if d.articles.size > 0 %}{{ T.ev_papers }}: {% for a in d.articles %}{% if a.doi %}<a href="https://doi.org/{{ a.doi }}" rel="noopener" target="_blank">{{ a.title | truncate: 70 }} ({{ a.year }})</a>{% elsif a.url %}<a href="{{ a.url }}" rel="noopener" target="_blank">{{ a.title | truncate: 70 }} ({{ a.year }})</a>{% else %}{{ a.title | truncate: 70 }} ({{ a.year }}){% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %}{% endif %}</span></li>
+  {% endfor %}
+  </ul></section>
+{% endfor %}
+<h2 class="ev-fam">{{ T.ev_events }} <small>({{ E.events.size }})</small></h2>
+<ul class="ev-list">
+{% for e in E.events %}
+  <li><span class="ev-year">{{ e.year }}</span> {{ e.name }} <span class="ev-role">— {{ T.ev_role[e.role] }}</span>
+    {% if e.links.size > 0 %}<br><span class="ev-meta" style="margin-left:3.2em">{% for l in e.links %}<a href="{{ l.url }}" rel="noopener" target="_blank">{% if l.kind == 'challenge' %}{{ T.ev_challenge }}{% else %}{{ T.ev_workshop }}{% endif %}</a>{% endfor %}</span>{% endif %}</li>
+{% endfor %}
+</ul>
+<h2 class="ev-fam">{{ T.ev_special }}</h2>
+<p>{% for s in E.special_issues %}{{ s.journal }} ({{ s.year }}){% unless forloop.last %} · {% endunless %}{% endfor %}</p>

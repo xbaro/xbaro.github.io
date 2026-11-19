@@ -43,7 +43,7 @@
           {% assign cur = page.lang | default: site.default_lang %}
           {% if cur == site.default_lang %}{% assign home = "/" %}{% else %}{% assign home = "/" | append: cur | append: "/" %}{% endif %}
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ home | relative_url }}">{{ site.title }}</a></li>
-          {% assign nav_keys = "publications,projects,teaching" | split: "," %}
+          {% assign nav_keys = "publications,projects,events,teaching" | split: "," %}
           {% for k in nav_keys %}
             {% assign target = site.pages | where: "translation_key", k | where: "lang", cur | first %}
             {% if target %}<li class="masthead__menu-item"><a href="{{ target.url | relative_url }}">{{ target.title }}</a></li>{% endif %}
