@@ -20,7 +20,7 @@
       {% assign pis_text = p.pis | join: " " %}
       <li data-kind="{{ k }}" data-text="{{ p.title | append: ' ' | append: p.funder | append: ' ' | append: p.reference | append: ' ' | append: pis_text | downcase | escape }}">
         <strong>{{ p.title }}</strong><br>
-        <span class="proj-meta">{{ p.funder }}{% if p.reference %} · {{ T.proj_ref }} {{ p.reference }}{% endif %} · <span class="proj-years">{{ p.start }}{% if p.end and p.end != p.start %}–{{ p.end }}{% endif %}</span></span>
+        <span class="proj-meta">{{ p.funder }}{% if p.reference %} · {{ T.proj_ref }} {{ p.reference }}{% endif %}{% if p.start %} · <span class="proj-years">{{ p.start }}{% if p.end and p.end != p.start %}–{{ p.end }}{% endif %}</span>{% endif %}</span>
         {% if p.pis.size > 0 %}<br><span class="proj-meta">{{ T.proj_pi }}: {% for a in p.pis %}{% if a contains "Baró" %}<u>{{ a }}</u>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>{% endif %}
       </li>
     {% endfor %}
