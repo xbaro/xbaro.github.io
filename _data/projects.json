@@ -45,6 +45,28 @@
   ]
  },
  {
+  "title": "Integració de la plataforma d'e-learning Uptitude a Moodle pel foment de l'autoregulació de l'aprenentatge en els treballs de fi de grau",
+  "kind": "innovation",
+  "funder": "Universitat de Barcelona",
+  "reference": "2024DIG-UB/007",
+  "start": 2025,
+  "end": 2026,
+  "pis": [
+   "Xavier Baró"
+  ]
+ },
+ {
+  "title": "Transformació docent cap a un model basat en Compromís, REtroalimentació i Diversitat mitjançant eines d'Intel·ligència Artificial educativa (CREDIA)",
+  "kind": "innovation",
+  "funder": "Universitat de Barcelona",
+  "reference": "2025PID-UB/002",
+  "start": 2025,
+  "end": 2027,
+  "pis": [
+   "Oliver Fernando Díaz Montesdeoca"
+  ]
+ },
+ {
   "title": "A Virtual Clothing try-on System based on 3D Body and Garment reconstruction and animation",
   "kind": "competitive",
   "funder": "Generalitat de Catalunya (AGAUR)",
@@ -53,6 +75,17 @@
   "end": 2026,
   "pis": [
    "Sergio Escalera"
+  ]
+ },
+ {
+  "title": "Innovació Docent en Matemàtiques i Informàtica",
+  "kind": "innovation",
+  "funder": "Universitat de Barcelona",
+  "reference": "GINDOC-UB/138",
+  "start": 2024,
+  "end": 2027,
+  "pis": [
+   "Laura Igual"
   ]
  },
  {
@@ -161,6 +194,29 @@
   ]
  },
  {
+  "title": "Definició col·laborativa d'innovació",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": "INN2017116",
+  "start": 2017,
+  "end": 2017,
+  "pis": [
+   "J. Conesa",
+   "E. Santamaria"
+  ]
+ },
+ {
+  "title": "Model@: coneixement predictiu a l'aula",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": "INN2017118",
+  "start": 2017,
+  "end": 2017,
+  "pis": [
+   "D. Bañeres"
+  ]
+ },
+ {
   "title": "Scene Understanding and Artificial Intelligence lab (SUNAI)",
   "kind": "sgr",
   "funder": "Generalitat de Catalunya",
@@ -180,6 +236,28 @@
   "end": 2019,
   "pis": [
    "Ana‐Elena Guerrero‐Roldán"
+  ]
+ },
+ {
+  "title": "LEGO (Pla EIMT 3.11)",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": "INN2017079",
+  "start": 2016,
+  "end": 2016,
+  "pis": [
+   "D. Riera"
+  ]
+ },
+ {
+  "title": "TeSLA",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": "INN2017071",
+  "start": 2016,
+  "end": 2018,
+  "pis": [
+   "A. E. Guerrero"
   ]
  },
  {
@@ -217,6 +295,24 @@
   ]
  },
  {
+  "title": "Equip de millora EIMT: Detecció de necessitats de formació prèvia",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": null,
+  "start": 2013,
+  "end": 2013,
+  "pis": []
+ },
+ {
+  "title": "Equip de millora EIMT: Disminució de l'abandonament d'assignatures de primer semestre",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": null,
+  "start": 2013,
+  "end": 2014,
+  "pis": []
+ },
+ {
   "title": "Revisiting representation models for visual recognition: Social and Cultural Perception",
   "kind": "competitive",
   "funder": "Ministerio de Economía y Competitividad",
@@ -227,6 +323,57 @@
    "David Masip",
    "Àgata Lapedriza"
   ]
+ },
+ {
+  "title": "Mesura de la Qualitat de la Comunicació no Verbal de l'Estudiant de Grau en Informàtica com a Competència Transversal: Sistema Objectiu Automàtic d'Intel·ligència Artificial",
+  "kind": "innovation",
+  "funder": "Universitat de Barcelona",
+  "reference": "2012PID-UB/152",
+  "start": 2012,
+  "end": 2013,
+  "pis": [
+   "Sergio Escalera"
+  ]
+ },
+ {
+  "title": "OpenAPI / UOC API Site: web API for UOC services",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": null,
+  "start": 2012,
+  "end": 2013,
+  "pis": []
+ },
+ {
+  "title": "PeLP: Plataforma para el Aprendizaje de Lenguajes de Programación",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": null,
+  "start": 2012,
+  "end": 2013,
+  "pis": [
+   "Xavier Baró"
+  ]
+ },
+ {
+  "title": "Val-ID",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": "INN2017072",
+  "start": 2012,
+  "end": 2015,
+  "pis": [
+   "D. Bañeres"
+  ]
+ },
+ {
+  "title": "KPax: platform for game-based learning connected to the UOC campus",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": null,
+  "start": 2011,
+  "end": 2011,
+  "pis": []
  },
  {
   "title": "Técnicas de aprendizaje automático para sistemas de visión de gran escala: Aplicaciones al análisis de imagen médica",
@@ -240,6 +387,39 @@
   ]
  },
  {
+  "title": "Anàlisi i implantació de la metodologia d'aprenentatge basat en problemes a l'assignatura de Programació II del grau d'Enginyeria Informàtica",
+  "kind": "innovation",
+  "funder": "Universitat de Barcelona",
+  "reference": "2009PID-UB/33",
+  "start": 2009,
+  "end": 2010,
+  "pis": [
+   "Laura Igual"
+  ]
+ },
+ {
+  "title": "Disseny i realització d'un programa pilot per al seguiment i l'avaluació de l'aprenentatge dels treballs fi de carrera per al grau d'Enginyeria Informàtica",
+  "kind": "innovation",
+  "funder": "Universitat de Barcelona",
+  "reference": "2009PID-UB/07",
+  "start": 2009,
+  "end": 2010,
+  "pis": [
+   "Oriol Pujol"
+  ]
+ },
+ {
+  "title": "Gestió d'Encàrrecs del Professorat (2009-IN-ATI0902)",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": "INN2017067",
+  "start": 2009,
+  "end": 2009,
+  "pis": [
+   "S. Caballé"
+  ]
+ },
+ {
   "title": "Grup de Reconeixement de Formes i Anàlisi d'Imatges",
   "kind": "sgr",
   "funder": "Universitat de Barcelona",
@@ -248,6 +428,40 @@
   "end": 2013,
   "pis": [
    "Petia Radeva"
+  ]
+ },
+ {
+  "title": "Mentoria entre iguals",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": "INN2017044",
+  "start": 2009,
+  "end": 2012,
+  "pis": [
+   "J. M. Marco",
+   "J. Medeiros"
+  ]
+ },
+ {
+  "title": "Millora de l'expressió oral d'alumnes del grau d'Informàtica via un sistema de visió artificial",
+  "kind": "innovation",
+  "funder": "Universitat de Barcelona",
+  "reference": "2009PID-UB/04",
+  "start": 2009,
+  "end": 2010,
+  "pis": [
+   "Sergio Escalera"
+  ]
+ },
+ {
+  "title": "Dissenys i realització d'un programa pilot per a la prospecció, difusió i fidelització d'alumnes a la titulació d'enginyeria tècnica informàtica de sistemes / grau d'informàtica",
+  "kind": "innovation",
+  "funder": "Universitat de Barcelona",
+  "reference": "2008PID-UB/125",
+  "start": 2008,
+  "end": 2009,
+  "pis": [
+   "Oriol Pujol"
   ]
  },
  {
@@ -317,8 +531,19 @@
   ]
  },
  {
+  "title": "Virtual Labs",
+  "kind": "innovation",
+  "funder": "Universitat Oberta de Catalunya",
+  "reference": "INN2017076",
+  "start": 1998,
+  "end": 2008,
+  "pis": [
+   "J. Prieto"
+  ]
+ },
+ {
   "title": "Caronte: plataforma para la gestión de la actividad docente de una asignatura. Análisis de su impacto en ingenierías, para su adaptación al EEES",
-  "kind": "competitive",
+  "kind": "innovation",
   "funder": "Dirección General de Universidades, Ministerio de Ciencia e Innovación",
   "reference": "DGU EA2008-0089",
   "start": null,
@@ -329,7 +554,7 @@
  },
  {
   "title": "Una proposta de plataforma de gestió documental i de portfolis electrònics. Estudi del seu impacte en la docència i en el rendiment en assignatures d'enginyeria dins el context de l'EEES",
-  "kind": "competitive",
+  "kind": "innovation",
   "funder": "AGAUR (Generalitat de Catalunya)",
   "reference": "2008MDQ 00048",
   "start": null,
