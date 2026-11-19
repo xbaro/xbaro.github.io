@@ -1,0 +1,367 @@
+{
+ "datasets": [
+  {
+   "label": "UDIVA-HHOI",
+   "year": 2026,
+   "venue": "ECCV 2026",
+   "url": "https://lap.chalearn.eu/dataset/98",
+   "paper": null
+  },
+  {
+   "label": "First Impressions V2",
+   "year": 2017,
+   "venue": "CVPR 2017",
+   "url": "https://lap.chalearn.eu/dataset/35",
+   "paper": {
+    "title": "Design of an explainable machine learning challenge for video interviews",
+    "year": 2017,
+    "doi": "10.1109/ijcnn.2017.7966320",
+    "url": null
+   }
+  },
+  {
+   "label": "Apparent age V2",
+   "year": 2016,
+   "venue": "CVPR 2016",
+   "url": "https://lap.chalearn.eu/dataset/40",
+   "paper": {
+    "title": "ChaLearn Looking at People and Faces of the World: Face Analysis Workshop and Challenge 2016",
+    "year": 2016,
+    "doi": "10.1109/cvprw.2016.93",
+    "url": null
+   }
+  },
+  {
+   "label": "First Impressions",
+   "year": 2016,
+   "venue": "ECCV 2016 · ICPR 2016",
+   "url": "https://lap.chalearn.eu/dataset/39",
+   "paper": {
+    "title": "Chalearn LAP 2016: First round challenge on first impressions - Dataset and results",
+    "year": 2016,
+    "doi": "10.1007/978-3-319-49409-8_32",
+    "url": null
+   }
+  },
+  {
+   "label": "Apparent age V1",
+   "year": 2015,
+   "venue": "ICCV 2015",
+   "url": "https://lap.chalearn.eu/dataset/41",
+   "paper": {
+    "title": "ChaLearn Looking at People 2015: Apparent Age and Cultural Event Recognition Datasets and Results",
+    "year": 2015,
+    "doi": "10.1109/iccvw.2015.40",
+    "url": null
+   }
+  },
+  {
+   "label": "Cultural Event V1",
+   "year": 2015,
+   "venue": "CVPR 2015",
+   "url": "https://lap.chalearn.eu/dataset/43",
+   "paper": {
+    "title": "ChaLearn Looking at People 2015 challenges: Action spotting and cultural event recognition",
+    "year": 2015,
+    "doi": "10.1109/cvprw.2015.7301329",
+    "url": null
+   }
+  },
+  {
+   "label": "Cultural Event V2",
+   "year": 2015,
+   "venue": "ICCV 2015",
+   "url": "https://lap.chalearn.eu/dataset/42",
+   "paper": {
+    "title": "ChaLearn Looking at People 2015: Apparent Age and Cultural Event Recognition Datasets and Results",
+    "year": 2015,
+    "doi": "10.1109/iccvw.2015.40",
+    "url": null
+   }
+  },
+  {
+   "label": "Action/Interaction",
+   "year": 2014,
+   "venue": "ECCV 2014 · CVPR 2015",
+   "url": "https://lap.chalearn.eu/dataset/44",
+   "paper": {
+    "title": "Chalearn looking at people challenge 2014: Dataset and results",
+    "year": 2015,
+    "doi": "10.1007/978-3-319-16178-5_32",
+    "url": null
+   }
+  },
+  {
+   "label": "Human Pose",
+   "year": 2014,
+   "venue": "ECCV 2014",
+   "url": "https://lap.chalearn.eu/dataset/45",
+   "paper": {
+    "title": "Chalearn looking at people challenge 2014: Dataset and results",
+    "year": 2015,
+    "doi": "10.1007/978-3-319-16178-5_32",
+    "url": null
+   }
+  },
+  {
+   "label": "Montalbano V2",
+   "year": 2014,
+   "venue": "ECCV 2014",
+   "url": "https://lap.chalearn.eu/dataset/46",
+   "paper": {
+    "title": "Chalearn looking at people challenge 2014: Dataset and results",
+    "year": 2015,
+    "doi": "10.1007/978-3-319-16178-5_32",
+    "url": null
+   }
+  },
+  {
+   "label": "Montalbano V1",
+   "year": 2013,
+   "venue": "ICMI 2013",
+   "url": "https://lap.chalearn.eu/dataset/47",
+   "paper": {
+    "title": "Multi-modal gesture recognition challenge 2013: Dataset and results",
+    "year": 2013,
+    "doi": "10.1145/2522848.2532595",
+    "url": null
+   }
+  }
+ ],
+ "events": [
+  {
+   "year": 2026,
+   "name": "ChaLearn Looking at People · ECCV 2026",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/96"
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "name": "11th International Workshop on Biometrics and Forensics (IWBF 2023), Barcelona",
+   "role": "general_chair",
+   "links": []
+  },
+  {
+   "year": 2020,
+   "name": "15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)",
+   "role": "committee",
+   "links": []
+  },
+  {
+   "year": 2019,
+   "name": "ChaLearn Looking at People · CVPR 2019",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/18"
+    },
+    {
+     "kind": "workshop",
+     "url": "https://lap.chalearn.eu/workshop/73"
+    }
+   ]
+  },
+  {
+   "year": 2018,
+   "name": "ChaLearn Looking at People · ECCV 2018",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "workshop",
+     "url": "https://lap.chalearn.eu/workshop/74"
+    }
+   ]
+  },
+  {
+   "year": 2017,
+   "name": "ChaLearn Looking at People · CVPR 2017",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/22"
+    },
+    {
+     "kind": "workshop",
+     "url": "https://lap.chalearn.eu/workshop/77"
+    }
+   ]
+  },
+  {
+   "year": 2017,
+   "name": "ChaLearn Looking at People · ICCV 2017",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/21"
+    },
+    {
+     "kind": "workshop",
+     "url": "https://lap.chalearn.eu/workshop/76"
+    }
+   ]
+  },
+  {
+   "year": 2016,
+   "name": "ChaLearn Looking at People · CVPR 2016",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/26"
+    }
+   ]
+  },
+  {
+   "year": 2016,
+   "name": "ChaLearn Looking at People · ECCV 2016",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/25"
+    },
+    {
+     "kind": "workshop",
+     "url": "https://lap.chalearn.eu/workshop/80"
+    }
+   ]
+  },
+  {
+   "year": 2016,
+   "name": "ChaLearn Looking at People · ICPR 2016",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/24"
+    },
+    {
+     "kind": "workshop",
+     "url": "https://lap.chalearn.eu/workshop/79"
+    }
+   ]
+  },
+  {
+   "year": 2015,
+   "name": "ChaLearn Looking at People · CVPR 2015",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/28"
+    },
+    {
+     "kind": "workshop",
+     "url": "https://lap.chalearn.eu/workshop/93"
+    }
+   ]
+  },
+  {
+   "year": 2015,
+   "name": "ChaLearn Looking at People · ICCV 2015",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/27"
+    }
+   ]
+  },
+  {
+   "year": 2014,
+   "name": "ChaLearn Looking at People · ECCV 2014",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/33"
+    },
+    {
+     "kind": "workshop",
+     "url": "https://lap.chalearn.eu/workshop/94"
+    }
+   ]
+  },
+  {
+   "year": 2013,
+   "name": "ChaLearn Looking at People · ICMI 2013",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/34"
+    },
+    {
+     "kind": "workshop",
+     "url": "https://lap.chalearn.eu/workshop/95"
+    }
+   ]
+  },
+  {
+   "year": 2011,
+   "name": "1st IEEE Workshop on Human Interaction in Computer Vision (at ICCV 2011)",
+   "role": "main",
+   "links": []
+  },
+  {
+   "year": 2011,
+   "name": "International Conference on Computer Vision (ICCV 2011), Barcelona",
+   "role": "committee",
+   "links": []
+  },
+  {
+   "year": 2009,
+   "name": "Fourth CVC Workshop: New Trends and Challenges in Computer Vision",
+   "role": "main",
+   "links": []
+  },
+  {
+   "year": 2008,
+   "name": "AERFAI Summer School: New Trends in Pattern Recognition for Motion Analysis (PRMA'08)",
+   "role": "committee",
+   "links": []
+  },
+  {
+   "year": 2005,
+   "name": "Advanced Pattern Recognition and Medical Imaging (APRMI'05)",
+   "role": "committee",
+   "links": []
+  },
+  {
+   "year": 2004,
+   "name": "7th Catalan Conference on Artificial Intelligence (CCIA 2004)",
+   "role": "committee",
+   "links": []
+  }
+ ],
+ "special_issues": [
+  {
+   "year": 2019,
+   "journal": "Machine Vision and Applications"
+  },
+  {
+   "year": 2018,
+   "journal": "IEEE TPAMI"
+  },
+  {
+   "year": 2018,
+   "journal": "IEEE Transactions on Affective Computing"
+  },
+  {
+   "year": 2016,
+   "journal": "IJCV"
+  },
+  {
+   "year": 2015,
+   "journal": "IEEE TPAMI"
+  }
+ ]
+}

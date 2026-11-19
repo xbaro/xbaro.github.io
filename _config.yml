@@ -161,6 +161,8 @@ include:
 exclude:
   - AGENTS.md
   - CLAUDE.md
+  - CONTRIBUTING.md
+  - markdown_generator
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
