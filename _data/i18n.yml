@@ -39,7 +39,7 @@ en:
   ev_datasets: "Datasets"
   ev_events: "Event organisation"
   ev_special: "Special issues"
-  ev_papers: "Related papers"
+  ev_paper: "Paper"
   ev_dataset_page: "Dataset page"
   ev_role: {organizer: "Organiser", committee: "Organising committee", main: "Main organiser", general_chair: "General Chair"}
   ev_challenge: "Challenge"
@@ -121,7 +121,7 @@ ca:
   ev_datasets: "Datasets"
   ev_events: "Organització d'esdeveniments"
   ev_special: "Números especials"
-  ev_papers: "Articles relacionats"
+  ev_paper: "Article"
   ev_dataset_page: "Pàgina del dataset"
   ev_role: {organizer: "Organitzador", committee: "Comitè organitzador", main: "Organitzador principal", general_chair: "General Chair"}
   ev_challenge: "Competició"
@@ -203,7 +203,7 @@ es:
   ev_datasets: "Datasets"
   ev_events: "Organización de eventos"
   ev_special: "Números especiales"
-  ev_papers: "Artículos relacionados"
+  ev_paper: "Artículo"
   ev_dataset_page: "Página del dataset"
   ev_role: {organizer: "Organizador", committee: "Comité organizador", main: "Organizador principal", general_chair: "General Chair"}
   ev_challenge: "Competición"
