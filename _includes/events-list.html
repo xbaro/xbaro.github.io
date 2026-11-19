@@ -11,7 +11,7 @@
     <li><strong>{{ d.label }}</strong> <span class="ev-meta">· {{ d.venue }}</span><br>
       {{ d.summary[L] | default: d.summary.ca }}<br>
       <span class="ev-meta"><a href="{{ d.url }}" rel="noopener" target="_blank">{{ T.ev_dataset_page }}</a>
-      {% if d.articles.size > 0 %}{{ T.ev_papers }}: {% for a in d.articles %}{% if a.doi %}<a href="https://doi.org/{{ a.doi }}" rel="noopener" target="_blank">{{ a.title | truncate: 70 }} ({{ a.year }})</a>{% elsif a.url %}<a href="{{ a.url }}" rel="noopener" target="_blank">{{ a.title | truncate: 70 }} ({{ a.year }})</a>{% else %}{{ a.title | truncate: 70 }} ({{ a.year }}){% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %}{% endif %}</span></li>
+      {% if d.articles.size > 0 %}{{ T.ev_papers }}: {% for a in d.articles %}{% if a.doi %}<a href="https://doi.org/{{ a.doi }}" rel="noopener" target="_blank">{{ a.title }} ({{ a.year }})</a>{% elsif a.url %}<a href="{{ a.url }}" rel="noopener" target="_blank">{{ a.title }} ({{ a.year }})</a>{% else %}{{ a.title }} ({{ a.year }}){% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %}{% endif %}</span></li>
   {% endfor %}
   </ul></section>
 {% endfor %}
