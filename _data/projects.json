@@ -342,7 +342,9 @@
   "reference": null,
   "start": 2012,
   "end": 2013,
-  "pis": []
+  "pis": [
+   "Francesc Santanach"
+  ]
  },
  {
   "title": "PeLP: Plataforma para el Aprendizaje de Lenguajes de Programación",
@@ -373,7 +375,9 @@
   "reference": null,
   "start": 2011,
   "end": 2011,
-  "pis": []
+  "pis": [
+   "Daniel Riera"
+  ]
  },
  {
   "title": "Técnicas de aprendizaje automático para sistemas de visión de gran escala: Aplicaciones al análisis de imagen médica",
