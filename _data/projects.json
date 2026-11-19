@@ -1,5 +1,16 @@
 [
  {
+  "title": "Grup d'Intel·ligència Artificial i Ciència de Dades a la Universitat de Barcelona",
+  "kind": "sgr",
+  "funder": "Generalitat de Catalunya",
+  "reference": "2025 SGR 01604",
+  "start": 2026,
+  "end": 2028,
+  "pis": [
+   "Laura Igual"
+  ]
+ },
+ {
   "title": "Un sistema de prueba de ropa y prueba virtual basado en aprendizaje profundo",
   "kind": "competitive",
   "funder": "Ministerio de Ciencia, Innovación y Universidades",
