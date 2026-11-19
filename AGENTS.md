@@ -69,3 +69,7 @@ Es treballa **via screenshots**: l'agent aixeca la web a Podman, captura pantall
 - Les dades de `_data/*.json` ja porten els noms resolts per idioma (`ca`/`en`/`es`); si falta una traducció es mostra el català.
 - Docència: una fila per institució i assignatura amb els **períodes** de cursos (`2012/13–2015/16`), no una per curs. Les planificades es marquen `planificat`.
 - Pendent: `hreflang` al `<head>`, traducció de la resta de pàgines (publicacions, tesis, projectes, CV) i de les cadenes de `ui-text.yml` (cal bloc `ca-ES`).
+
+## Pàgina «Datasets» (`/events/`)
+- Generada de `_data/events.json` (`memory.py site`): llista plana per any, amb una icona al web del dataset i una a l'article que el presenta (només articles on l'autor és coautor).
+- `show_events: false` al front matter amaga la pestanya «Esdeveniments» (dades a `events.json`, HTML no generat). Posar-ho a `true` per activar les pestanyes; el títol de la pàgina passaria a «Esdeveniments i datasets».
