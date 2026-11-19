@@ -11,7 +11,7 @@
    "label": "First Impressions V2",
    "year": 2017,
    "venue": "CVPR 2017",
-   "url": "https://chalearnlap.cvc.uab.cat/dataset/24/description/",
+   "url": "https://lap.chalearn.eu/dataset/35",
    "paper": {
     "title": "Design of an explainable machine learning challenge for video interviews",
     "year": 2017,
@@ -23,7 +23,7 @@
    "label": "Apparent age V2",
    "year": 2016,
    "venue": "CVPR 2016",
-   "url": "https://chalearnlap.cvc.uab.cat/dataset/19/description/",
+   "url": "https://lap.chalearn.eu/dataset/40",
    "paper": {
     "title": "ChaLearn Looking at People and Faces of the World: Face Analysis Workshop and Challenge 2016",
     "year": 2016,
@@ -35,7 +35,7 @@
    "label": "First Impressions",
    "year": 2016,
    "venue": "ECCV 2016 · ICPR 2016",
-   "url": "https://chalearnlap.cvc.uab.cat/dataset/20/description/",
+   "url": "https://lap.chalearn.eu/dataset/39",
    "paper": {
     "title": "Chalearn LAP 2016: First round challenge on first impressions - Dataset and results",
     "year": 2016,
@@ -47,7 +47,7 @@
    "label": "Apparent age V1",
    "year": 2015,
    "venue": "ICCV 2015",
-   "url": "https://chalearnlap.cvc.uab.cat/dataset/18/description/",
+   "url": "https://lap.chalearn.eu/dataset/41",
    "paper": {
     "title": "ChaLearn Looking at People 2015: Apparent Age and Cultural Event Recognition Datasets and Results",
     "year": 2015,
@@ -59,7 +59,7 @@
    "label": "Cultural Event V1",
    "year": 2015,
    "venue": "CVPR 2015",
-   "url": "https://chalearnlap.cvc.uab.cat/dataset/16/description/",
+   "url": "https://lap.chalearn.eu/dataset/43",
    "paper": {
     "title": "ChaLearn Looking at People 2015 challenges: Action spotting and cultural event recognition",
     "year": 2015,
@@ -71,7 +71,7 @@
    "label": "Cultural Event V2",
    "year": 2015,
    "venue": "ICCV 2015",
-   "url": "https://chalearnlap.cvc.uab.cat/dataset/17/description/",
+   "url": "https://lap.chalearn.eu/dataset/42",
    "paper": {
     "title": "ChaLearn Looking at People 2015: Apparent Age and Cultural Event Recognition Datasets and Results",
     "year": 2015,
@@ -83,7 +83,7 @@
    "label": "Action/Interaction",
    "year": 2014,
    "venue": "ECCV 2014 · CVPR 2015",
-   "url": "https://chalearnlap.cvc.uab.cat/dataset/15/description/",
+   "url": "https://lap.chalearn.eu/dataset/44",
    "paper": {
     "title": "Chalearn looking at people challenge 2014: Dataset and results",
     "year": 2015,
@@ -95,7 +95,7 @@
    "label": "Human Pose",
    "year": 2014,
    "venue": "ECCV 2014",
-   "url": "https://chalearnlap.cvc.uab.cat/dataset/14/description/",
+   "url": "https://lap.chalearn.eu/dataset/45",
    "paper": {
     "title": "Chalearn looking at people challenge 2014: Dataset and results",
     "year": 2015,
@@ -107,7 +107,7 @@
    "label": "Montalbano V2",
    "year": 2014,
    "venue": "ECCV 2014",
-   "url": "https://chalearnlap.cvc.uab.cat/dataset/13/description/",
+   "url": "https://lap.chalearn.eu/dataset/46",
    "paper": {
     "title": "Chalearn looking at people challenge 2014: Dataset and results",
     "year": 2015,
@@ -119,7 +119,7 @@
    "label": "Montalbano V1",
    "year": 2013,
    "venue": "ICMI 2013",
-   "url": "https://chalearnlap.cvc.uab.cat/dataset/12/description/",
+   "url": "https://lap.chalearn.eu/dataset/47",
    "paper": {
     "title": "Multi-modal gesture recognition challenge 2013: Dataset and results",
     "year": 2013,
