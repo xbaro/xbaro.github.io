@@ -1,10 +1,10 @@
 {
  "datasets": [
   {
-   "label": "UDIVA",
-   "year": 2021,
-   "venue": "ICCV 2021",
-   "url": "https://chalearnlap.cvc.uab.cat/dataset/39/description/",
+   "label": "UDIVA-HHOI",
+   "year": 2026,
+   "venue": "ECCV 2026",
+   "url": "https://lap.chalearn.eu/dataset/98",
    "paper": null
   },
   {
@@ -129,6 +129,17 @@
   }
  ],
  "events": [
+  {
+   "year": 2026,
+   "name": "ChaLearn Looking at People · ECCV 2026",
+   "role": "organizer",
+   "links": [
+    {
+     "kind": "challenge",
+     "url": "https://lap.chalearn.eu/challenge/96"
+    }
+   ]
+  },
   {
    "year": 2023,
    "name": "11th International Workshop on Biometrics and Forensics (IWBF 2023), Barcelona",
