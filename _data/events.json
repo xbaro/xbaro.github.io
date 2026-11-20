@@ -19,7 +19,7 @@
     "doi": "10.1109/ijcnn.2017.7966320",
     "url": null
    },
-   "image": null
+   "image": "/images/datasets/35.jpg"
   },
   {
    "label": "Apparent age V2",
@@ -32,7 +32,7 @@
     "doi": "10.1109/cvprw.2016.93",
     "url": null
    },
-   "image": null
+   "image": "/images/datasets/40.jpg"
   },
   {
    "label": "First Impressions",
@@ -45,7 +45,7 @@
     "doi": "10.1007/978-3-319-49409-8_32",
     "url": null
    },
-   "image": null
+   "image": "/images/datasets/39.jpg"
   },
   {
    "label": "Apparent age V1",
@@ -58,7 +58,7 @@
     "doi": "10.1109/iccvw.2015.40",
     "url": null
    },
-   "image": null
+   "image": "/images/datasets/41.jpg"
   },
   {
    "label": "Cultural Event V1",
@@ -84,7 +84,7 @@
     "doi": "10.1109/iccvw.2015.40",
     "url": null
    },
-   "image": null
+   "image": "/images/datasets/42.jpg"
   },
   {
    "label": "Action/Interaction",
@@ -110,7 +110,7 @@
     "doi": "10.1007/978-3-319-16178-5_32",
     "url": null
    },
-   "image": null
+   "image": "/images/datasets/45.jpg"
   },
   {
    "label": "Montalbano V2",
@@ -123,7 +123,7 @@
     "doi": "10.1007/978-3-319-16178-5_32",
     "url": null
    },
-   "image": null
+   "image": "/images/datasets/46.jpg"
   },
   {
    "label": "Montalbano V1",
