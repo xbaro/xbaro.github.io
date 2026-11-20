@@ -1,7 +1,7 @@
 {% assign L = page.lang | default: site.default_lang %}
 {% assign T = site.data.i18n[L] %}
 {% assign E = site.data.events %}
-<style>.ev-list{list-style:none;padding:0;margin:0}.ev-list li{margin:0 0 .9em}.ev-meta{font-size:.88em;color:#6b7075}.ev-meta a{margin-right:.6em}.ev-fam{margin-top:1.6em}.ev-year{display:inline-block;min-width:3.2em;font-variant-numeric:tabular-nums;color:#6b7075}.ev-role{font-size:.85em;color:#6b7075}.ev-ico{margin-right:.9em;font-size:1.05em}.ev-links{margin-left:3.2em;font-size:.85em}.ev-links a{margin-right:1.2em;white-space:nowrap}.ev-tabs{display:flex;gap:.4em;border-bottom:1px solid #d9dcdd;margin:1em 0}.ev-tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:.4em .9em;font-size:1em;cursor:pointer;color:#6b7075}.ev-tabs button[aria-selected=true]{border-bottom-color:#2b2f33;color:#2b2f33;font-weight:600}</style>
+<style>.ev-list{list-style:none;padding:0;margin:0}.ev-list li{margin:0 0 .9em}.ev-meta{font-size:.88em;color:#6b7075}.ev-meta a{margin-right:.6em}.ev-fam{margin-top:1.6em}.ev-year{display:inline-block;min-width:3.2em;font-variant-numeric:tabular-nums;color:#6b7075}.ev-role{font-size:.85em;color:#6b7075}.ev-ico{margin-right:.9em;font-size:1.05em}.ev-ds li{display:flex;align-items:baseline}.ev-ds .ev-body{flex:1;min-width:0}.ev-ds .ev-icons{white-space:nowrap;margin-left:.3em}.ev-links{margin-left:3.2em;font-size:.85em}.ev-links a{margin-right:1.2em;white-space:nowrap}.ev-tabs{display:flex;gap:.4em;border-bottom:1px solid #d9dcdd;margin:1em 0}.ev-tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:.4em .9em;font-size:1em;cursor:pointer;color:#6b7075}.ev-tabs button[aria-selected=true]{border-bottom-color:#2b2f33;color:#2b2f33;font-weight:600}</style>
 <p>{{ T.events_intro }}</p>
 {% if page.show_events %}
 <div class="ev-tabs" role="tablist"><button role="tab" id="tab-ds" aria-selected="true" aria-controls="pane-ds">{{ T.ev_datasets }} ({{ E.datasets.size }})</button><button role="tab" id="tab-ev" aria-selected="false" aria-controls="pane-ev">{{ T.ev_events }} ({{ E.events.size }})</button></div>
@@ -27,8 +27,8 @@
 {% else %}
 <ul class="ev-list ev-ds">
 {% for d in E.datasets %}
-  <li><span class="ev-year">{{ d.year }}</span> <span class="ev-name"><strong>{{ d.label }}</strong> <span class="ev-meta">· {{ d.venue }}</span></span>
-    <span class="ev-icons"><a class="ev-ico" href="{{ d.url }}" rel="noopener" target="_blank" title="{{ T.ev_dataset_page }}" aria-label="{{ T.ev_dataset_page }}: {{ d.label }}"><i class="fas fa-fw fa-globe" aria-hidden="true"></i></a>{% if d.paper %}<a class="ev-ico" href="{% if d.paper.doi %}https://doi.org/{{ d.paper.doi }}{% else %}{{ d.paper.url }}{% endif %}" rel="noopener" target="_blank" title="{{ T.ev_paper }}: {{ d.paper.title | escape }}" aria-label="{{ T.ev_paper }}: {{ d.label }}"><i class="fas fa-fw fa-file-lines" aria-hidden="true"></i></a>{% endif %}</span></li>
+  <li><span class="ev-year">{{ d.year }}</span><span class="ev-body"><span class="ev-name"><strong>{{ d.label }}</strong> <span class="ev-meta">· {{ d.venue }}</span></span>
+    <span class="ev-icons"><a class="ev-ico" href="{{ d.url }}" rel="noopener" target="_blank" title="{{ T.ev_dataset_page }}" aria-label="{{ T.ev_dataset_page }}: {{ d.label }}"><i class="fas fa-fw fa-globe" aria-hidden="true"></i></a>{% if d.paper %}<a class="ev-ico" href="{% if d.paper.doi %}https://doi.org/{{ d.paper.doi }}{% else %}{{ d.paper.url }}{% endif %}" rel="noopener" target="_blank" title="{{ T.ev_paper }}: {{ d.paper.title | escape }}" aria-label="{{ T.ev_paper }}: {{ d.label }}"><i class="fas fa-fw fa-file-lines" aria-hidden="true"></i></a>{% endif %}</span></span></li>
 {% endfor %}
 </ul>
 {% endif %}

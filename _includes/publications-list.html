@@ -17,7 +17,7 @@
 </style>
 {% assign L = page.lang | default: site.default_lang %}
 {% assign T = site.data.i18n[L] %}
-<p>{{ T.publications_intro }} <a href="{{ site.author.googlescholar }}">Google Scholar</a> · <a id="bib-all" href="{{ '/files/publications.bib' | relative_url }}" download>BibTeX</a>.</p>
+
 {% assign all_years = site.data.publications | map: "year" | uniq | sort | reverse %}
 <div class="pub-filters">
   <input type="search" id="pub-q" placeholder="{{ T.pub_search }}" aria-label="{{ T.pub_search }}">
@@ -31,6 +31,7 @@
     {% for y in all_years %}{% if y %}<option value="{{ y }}">{{ y }}</option>{% endif %}{% endfor %}
   </select>
   <span id="pub-count" class="pub-count" aria-live="polite"></span>
+  <a id="bib-all" class="pub-act" style="margin-left:auto" href="{{ '/files/publications.bib' | relative_url }}" download><i class="fa-solid fa-download" aria-hidden="true"></i>{{ T.bib_all_btn }}</a>
 </div>
 {% assign types = "journal-article,conference-paper,book,book-chapter,report,other" | split: "," %}
 {% for ty in types %}
