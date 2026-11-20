@@ -21,7 +21,7 @@ Cookies are small text files that a website stores on your device. They make a w
 
 **Necessary first-party cookie.** `cookie-notice-option` stores your banner choice (accept or reject) for 31 days. It contains no personal data and cannot be switched off, because without it the banner would reappear on every visit.
 
-**Analytics cookies (only if you accept).** If you press “Approve”, Google Analytics 4 (measurement ID `G-ENN14SG31P`) is loaded, which allows the use of the Website to be measured. This service may store cookies such as `_ga` and `_ga_*` (up to 2 years) to tell visitors and sessions apart and produce aggregated statistics. It also counts, without identifying you, which publication links are followed and how many times a BibTeX reference is viewed, copied or downloaded. If you press “Deny”, nothing from Google is loaded.
+**Analytics cookies (only if you accept).** If you press “Approve”, Google Analytics 4 (measurement ID `G-ENN14SG31P`) is loaded, which allows the use of the Website to be measured. This service may store cookies such as `_ga` and `_ga_*` (2 years by default) to tell visitors and sessions apart and produce aggregated statistics. It also counts, with the same pseudonymous identifier and without data that directly identify you, which publication links are followed and how many times a BibTeX reference is viewed, copied or downloaded. If you press “Deny”, nothing from Google is loaded.
 
 **Advertising.** We do not use advertising or ad-personalisation cookies; those purposes are denied in the consent settings.
 
