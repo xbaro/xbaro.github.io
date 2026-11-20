@@ -9,6 +9,8 @@ en:
   cookie_approve: "Approve"
   cookie_deny: "Deny"
   cookie_info: "More info"
+  privacy_link: "Privacy policy"
+  cookies_link: "Cookie policy"
   publications: Publications
   publications_intro: "Peer-reviewed and other scientific outputs, most recent first. Also on"
   pub_types:
@@ -92,6 +94,8 @@ ca:
   cookie_approve: "Accepta"
   cookie_deny: "Rebutja"
   cookie_info: "Més informació"
+  privacy_link: "Política de privacitat"
+  cookies_link: "Política de galetes"
   publications: Publicacions
   publications_intro: "Producció científica, de la més recent a la més antiga. També a"
   pub_types:
@@ -175,6 +179,8 @@ es:
   cookie_approve: "Aceptar"
   cookie_deny: "Rechazar"
   cookie_info: "Más información"
+  privacy_link: "Política de privacidad"
+  cookies_link: "Política de cookies"
   publications: Publicaciones
   publications_intro: "Producción científica, de la más reciente a la más antigua. También en"
   pub_types:
