@@ -5,7 +5,8 @@
    "year": 2026,
    "venue": "ECCV 2026",
    "url": "https://lap.chalearn.eu/dataset/98",
-   "paper": null
+   "paper": null,
+   "image": "/images/datasets/98.jpg"
   },
   {
    "label": "First Impressions V2",
@@ -17,7 +18,8 @@
     "year": 2017,
     "doi": "10.1109/ijcnn.2017.7966320",
     "url": null
-   }
+   },
+   "image": "/images/datasets/35.jpg"
   },
   {
    "label": "Apparent age V2",
@@ -29,7 +31,8 @@
     "year": 2016,
     "doi": "10.1109/cvprw.2016.93",
     "url": null
-   }
+   },
+   "image": "/images/datasets/40.jpg"
   },
   {
    "label": "First Impressions",
@@ -41,7 +44,8 @@
     "year": 2016,
     "doi": "10.1007/978-3-319-49409-8_32",
     "url": null
-   }
+   },
+   "image": "/images/datasets/39.jpg"
   },
   {
    "label": "Apparent age V1",
@@ -53,7 +57,8 @@
     "year": 2015,
     "doi": "10.1109/iccvw.2015.40",
     "url": null
-   }
+   },
+   "image": "/images/datasets/41.jpg"
   },
   {
    "label": "Cultural Event V1",
@@ -65,7 +70,8 @@
     "year": 2015,
     "doi": "10.1109/cvprw.2015.7301329",
     "url": null
-   }
+   },
+   "image": "/images/datasets/43.jpg"
   },
   {
    "label": "Cultural Event V2",
@@ -77,7 +83,8 @@
     "year": 2015,
     "doi": "10.1109/iccvw.2015.40",
     "url": null
-   }
+   },
+   "image": "/images/datasets/42.jpg"
   },
   {
    "label": "Action/Interaction",
@@ -89,7 +96,8 @@
     "year": 2015,
     "doi": "10.1007/978-3-319-16178-5_32",
     "url": null
-   }
+   },
+   "image": "/images/datasets/44.jpg"
   },
   {
    "label": "Human Pose",
@@ -101,7 +109,8 @@
     "year": 2015,
     "doi": "10.1007/978-3-319-16178-5_32",
     "url": null
-   }
+   },
+   "image": "/images/datasets/45.jpg"
   },
   {
    "label": "Montalbano V2",
@@ -113,7 +122,8 @@
     "year": 2015,
     "doi": "10.1007/978-3-319-16178-5_32",
     "url": null
-   }
+   },
+   "image": "/images/datasets/46.jpg"
   },
   {
    "label": "Montalbano V1",
@@ -125,7 +135,8 @@
     "year": 2013,
     "doi": "10.1145/2522848.2532595",
     "url": null
-   }
+   },
+   "image": "/images/datasets/47.jpg"
   }
  ],
  "events": [
