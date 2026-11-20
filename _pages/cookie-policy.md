@@ -21,7 +21,7 @@ Són petits fitxers de text que un web desa al teu dispositiu. Serveixen perquè
 
 **Galeta pròpia necessària.** `cookie-notice-option` desa la teva elecció del bàner (acceptar o rebutjar) durant 31 dies. No conté dades personals i no es pot desactivar, perquè sense ella el bàner tornaria a aparèixer a cada visita.
 
-**Galetes d'analítica (només si acceptes).** Si prems «Accepta», es carrega Google Analytics 4 (identificador `G-ENN14SG31P`), que permet mesurar l'ús del web. Aquest servei pot desar galetes com `_ga` i `_ga_*` (fins a 2 anys) per distingir visitants i sessions i obtenir estadístiques agregades. També compta, sense identificar-te, quins enllaços de publicacions se segueixen i quantes vegades es consulta, copia o descarrega una referència BibTeX. Si prems «Rebutja», no es carrega res de Google.
+**Galetes d'analítica (només si acceptes).** Si prems «Accepta», es carrega Google Analytics 4 (identificador `G-ENN14SG31P`), que permet mesurar l'ús del web. Aquest servei pot desar galetes com `_ga` i `_ga_*` (2 anys per defecte) per distingir visitants i sessions i obtenir estadístiques agregades. També compta, amb el mateix identificador pseudònim i sense dades que t'identifiquin directament, quins enllaços de publicacions se segueixen i quantes vegades es consulta, copia o descarrega una referència BibTeX. Si prems «Rebutja», no es carrega res de Google.
 
 **Publicitat.** No fem servir galetes de publicitat ni de personalització d'anuncis; aquestes finalitats queden denegades a la configuració de consentiment.
 
