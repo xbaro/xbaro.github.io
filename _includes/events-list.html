@@ -25,10 +25,17 @@
 </div>
 <script>(function(){var a=document.getElementById('tab-ds'),b=document.getElementById('tab-ev'),p=document.getElementById('pane-ds'),q=document.getElementById('pane-ev');function s(x){var d=x===a;a.setAttribute('aria-selected',d);b.setAttribute('aria-selected',!d);p.hidden=!d;q.hidden=d}a.onclick=function(){s(a)};b.onclick=function(){s(b)};})();</script>
 {% else %}
-<ul class="ev-list ev-ds">
+<style>.ds-cards{list-style:none;margin:1.2em 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(12.5em,1fr));gap:1.1em}.ds-card{margin:0;border:1px solid #d9dcdd;border-radius:6px;overflow:hidden;background:#fff;display:flex;flex-direction:column}.ds-media,.ds-media:hover{text-decoration:none!important;border-bottom:0!important}.ds-media{display:block;aspect-ratio:16/9;background:#f2f3f3;overflow:hidden;border:0}.ds-media img{width:100%;height:100%;object-fit:cover;display:block}.ds-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#9aa0a5;font-weight:700;letter-spacing:.02em;line-height:1.1}.ds-ph b{font-size:1.5em}.ds-ph span{font-size:1em;font-weight:400}.ds-body{padding:.7em .9em .8em}.ds-card h3{margin:0 0 .1em;font-size:1.02em;line-height:1.25}.ds-meta{font-size:.82em;color:#6b7075}.ds-links{display:flex;gap:1.1em;margin-top:.55em;font-size:.82em}.ds-links a{white-space:nowrap;text-decoration:none;border:0}.ds-links i{margin-right:.3em}</style>
+<ul class="ds-cards">
 {% for d in E.datasets %}
-  <li><span class="ev-year">{{ d.year }}</span><span class="ev-body"><span class="ev-name"><strong>{{ d.label }}</strong> <span class="ev-meta">· {{ d.venue }}</span></span>
-    <span class="ev-icons"><a class="ev-ico" href="{{ d.url }}" rel="noopener" target="_blank" title="{{ T.ev_dataset_page }}" aria-label="{{ T.ev_dataset_page }}: {{ d.label }}"><i class="fas fa-fw fa-globe" aria-hidden="true"></i></a>{% if d.paper %}<a class="ev-ico" href="{% if d.paper.doi %}https://doi.org/{{ d.paper.doi }}{% else %}{{ d.paper.url }}{% endif %}" rel="noopener" target="_blank" title="{{ T.ev_paper }}: {{ d.paper.title | escape }}" aria-label="{{ T.ev_paper }}: {{ d.label }}"><i class="fas fa-fw fa-file-lines" aria-hidden="true"></i></a>{% endif %}</span></span></li>
+  <li class="ds-card">
+    <a class="ds-media" href="{{ d.url }}" rel="noopener" target="_blank" aria-label="{{ T.ev_dataset_page }}: {{ d.label }}" tabindex="-1">{% if d.image %}<img src="{{ d.image | relative_url }}" alt="" loading="lazy">{% else %}<div class="ds-ph" aria-hidden="true"><b>{{ d.venue | split: ' ' | first }}</b><span>{{ d.year }}</span></div>{% endif %}</a>
+    <div class="ds-body">
+      <h3>{{ d.label }}</h3>
+      <div class="ds-meta">{{ d.venue }}</div>
+      <div class="ds-links"><a href="{{ d.url }}" rel="noopener" target="_blank" title="{{ T.ev_dataset_page }}"><i class="fas fa-fw fa-globe" aria-hidden="true"></i>{{ T.ev_web }}</a>{% if d.paper %}<a href="{% if d.paper.doi %}https://doi.org/{{ d.paper.doi }}{% else %}{{ d.paper.url }}{% endif %}" rel="noopener" target="_blank" title="{{ d.paper.title | escape }}"><i class="fas fa-fw fa-file-lines" aria-hidden="true"></i>{{ T.ev_paper }}</a>{% endif %}</div>
+    </div>
+  </li>
 {% endfor %}
 </ul>
 {% endif %}
