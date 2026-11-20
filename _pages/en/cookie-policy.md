@@ -11,6 +11,8 @@ translation_key: cookies
 
 This policy explains which cookies and similar technologies xbaro.eu (the “Website”) uses, what they are for and how you can control them.
 
+For how personal data is processed, see the [privacy policy]({{ base_path }}/en/privacy-policy/).
+
 ## 1. What are cookies
 
 Cookies are small text files that a website stores on your device. They make a website work, remember your preferences or measure how it is used.

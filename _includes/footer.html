@@ -20,7 +20,9 @@
 </div>
 {% endif %}
 
+{% assign pv = site.pages | where: "translation_key", "privacy" | where: "lang", L | first %}{% assign ck = site.pages | where: "translation_key", "cookies" | where: "lang", L | first %}
 <div class="page__footer-copyright">
+  {% if pv and ck %}<a href="{{ pv.url }}">{{ site.data.i18n[L].privacy_link }}</a> &middot; <a href="{{ ck.url }}">{{ site.data.i18n[L].cookies_link }}</a> &middot; <a href="#" onclick="document.cookie='cookie-notice-option=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'; location.reload(); return false;">{{ site.data.i18n[L].cookie_settings }}</a><br />{% endif %}
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[uiloc].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
   Site last updated {{ "now" | date: '%Y-%m-%d' %}}
 </div>
