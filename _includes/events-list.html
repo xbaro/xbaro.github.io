@@ -29,7 +29,7 @@
 <ul class="ds-cards">
 {% for d in E.datasets %}
   <li class="ds-card">
-    <a class="ds-media" href="{{ d.url }}" rel="noopener" target="_blank" aria-label="{{ T.ev_dataset_page }}: {{ d.label }}" tabindex="-1">{% if d.image %}<img src="{{ d.image | relative_url }}" alt="" loading="lazy">{% else %}<div class="ds-ph" aria-hidden="true"><b>{{ d.venue | split: ' ' | first }}</b><span>{{ d.year }}</span></div>{% endif %}</a>
+    {% if d.image %}<a class="ds-media" href="{{ d.url }}" rel="noopener" target="_blank" aria-label="{{ T.ev_dataset_page }}: {{ d.label }}" tabindex="-1"><img src="{{ d.image | relative_url }}" alt="" loading="lazy"></a>{% endif %}
     <div class="ds-body">
       <h3>{{ d.label }}</h3>
       <div class="ds-meta">{{ d.venue }}</div>
