@@ -11,6 +11,8 @@ translation_key: cookies
 
 Esta política explica qué cookies y tecnologías similares utiliza xbaro.eu (el «sitio web»), para qué sirven y cómo puedes controlarlas.
 
+Para el tratamiento de datos personales, consulta la [política de privacidad]({{ base_path }}/es/privacy-policy/).
+
 ## 1. Qué son las cookies
 
 Son pequeños archivos de texto que un sitio web guarda en tu dispositivo. Sirven para que el sitio funcione, recuerde tus preferencias o mida cómo se utiliza.

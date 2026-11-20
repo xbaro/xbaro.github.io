@@ -11,6 +11,8 @@ translation_key: cookies
 
 Aquesta política explica quines galetes (cookies) i tecnologies similars fa servir xbaro.eu (el «web»), per a què serveixen i com pots controlar-les.
 
+Per al tractament de dades personals, vegeu la [política de privacitat]({{ base_path }}/privacy-policy/).
+
 ## 1. Què són les galetes
 
 Són petits fitxers de text que un web desa al teu dispositiu. Serveixen perquè el web funcioni, recordi les teves preferències o mesuri com s'utilitza.
