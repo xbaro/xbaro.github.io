@@ -60,6 +60,7 @@ Es treballa **via screenshots**: l'agent aixeca la web a Podman, captura pantall
 - Comunicació amb l'usuari: **català correcte, mai castellà** (ni barrejat: res de «dime», «vale», «entonces»…). Vigilar els castellanismes, també en els títols dels subagents. Codi, commits i PRs en anglès.
 - Commits i PRs: **anglès**, imperatiu. Branques temporals `feature/`, `fix/`, `docs/`, `chore/` des de `develop`.
 - Canvis quirúrgics; el que no es demana no es toca.
+- **Mai afirmar què exigeix una norma, guia o agència (RGPD, LSSI, AEPD, Llibre d'estil UB…) sense haver llegit el text exacte de la font en aquesta sessió**: cal URL i cita literal, o es diu «no verificat». Les preferències pròpies no es presenten com a norma. Els textos legals publicats es revisen amb la skill `citation-needed` abans del PR.
 
 ## Multidioma (ca / en / es)
 
