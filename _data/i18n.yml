@@ -11,6 +11,7 @@ en:
   cookie_info: "More info"
   privacy_link: "Privacy policy"
   cookies_link: "Cookie policy"
+  cookie_settings: "Cookie settings"
   publications: Publications
   publications_intro: "Peer-reviewed and other scientific outputs, most recent first. Also on"
   pub_types:
@@ -96,6 +97,7 @@ ca:
   cookie_info: "Més informació"
   privacy_link: "Política de privacitat"
   cookies_link: "Política de galetes"
+  cookie_settings: "Configura les galetes"
   publications: Publicacions
   publications_intro: "Producció científica, de la més recent a la més antiga. També a"
   pub_types:
@@ -181,6 +183,7 @@ es:
   cookie_info: "Más información"
   privacy_link: "Política de privacidad"
   cookies_link: "Política de cookies"
+  cookie_settings: "Configurar cookies"
   publications: Publicaciones
   publications_intro: "Producción científica, de la más reciente a la más antigua. También en"
   pub_types:

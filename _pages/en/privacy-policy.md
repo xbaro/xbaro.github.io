@@ -30,7 +30,7 @@ No special categories of data are collected and visitors are not asked for data:
 
 ## 3. Recipients and international transfers
 
-- **Google Ireland Ltd. / Google LLC** (Google Analytics), as processor, only if you have accepted. It may process data in the United States; the transfer relies on the EU–US Data Privacy Framework or the European Commission's standard contractual clauses. More information in [Google's privacy policy](https://policies.google.com/privacy).
+- **Google Ireland Ltd. / Google LLC** (Google Analytics), as processor, only if you have accepted. It may process data in the United States; the transfer relies on the EU–US Data Privacy Framework or the European Commission's standard contractual clauses. The EU–US framework relies on a Commission adequacy decision that may be reviewed or annulled; in that case the standard clauses would apply. More information in [Google's privacy policy](https://policies.google.com/privacy).
 - **GitHub, Inc.** (GitHub Pages), which hosts the Website and sees its technical access logs. See [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 I do not share your data with any other third party.

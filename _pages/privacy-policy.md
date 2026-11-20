@@ -30,7 +30,7 @@ No es recullen dades de categories especials ni es demanen dades als visitants: 
 
 ## 3. Destinataris i transferències internacionals
 
-- **Google Ireland Ltd. / Google LLC** (Google Analytics), com a encarregat del tractament, només si has acceptat. Pot tractar dades als Estats Units; la transferència es fa sota el marc de privacitat UE-EUA (Data Privacy Framework) o les clàusules contractuals tipus de la Comissió Europea. Més informació a la [política de privacitat de Google](https://policies.google.com/privacy).
+- **Google Ireland Ltd. / Google LLC** (Google Analytics), com a encarregat del tractament, només si has acceptat. Pot tractar dades als Estats Units; la transferència es fa sota el marc de privacitat UE-EUA (Data Privacy Framework) o les clàusules contractuals tipus de la Comissió Europea. El marc UE-EUA depèn d'una decisió d'adequació de la Comissió que pot ser revisada o anul·lada; en aquest cas s'aplicarien les clàusules tipus. Més informació a la [política de privacitat de Google](https://policies.google.com/privacy).
 - **GitHub, Inc.** (GitHub Pages), que allotja el web i en veu els registres tècnics d'accés. Vegeu la [declaració de privacitat de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 No cedeixo les teves dades a cap altre tercer.

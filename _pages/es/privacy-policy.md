@@ -30,7 +30,7 @@ No se recogen datos de categorías especiales ni se piden datos a los visitantes
 
 ## 3. Destinatarios y transferencias internacionales
 
-- **Google Ireland Ltd. / Google LLC** (Google Analytics), como encargado del tratamiento, solo si has aceptado. Puede tratar datos en Estados Unidos; la transferencia se ampara en el Marco de Privacidad de Datos UE-EE. UU. o en las cláusulas contractuales tipo de la Comisión Europea. Más información en la [política de privacidad de Google](https://policies.google.com/privacy).
+- **Google Ireland Ltd. / Google LLC** (Google Analytics), como encargado del tratamiento, solo si has aceptado. Puede tratar datos en Estados Unidos; la transferencia se ampara en el Marco de Privacidad de Datos UE-EE. UU. o en las cláusulas contractuales tipo de la Comisión Europea. El marco UE-EE. UU. depende de una decisión de adecuación de la Comisión que puede ser revisada o anulada; en ese caso se aplicarían las cláusulas tipo. Más información en la [política de privacidad de Google](https://policies.google.com/privacy).
 - **GitHub, Inc.** (GitHub Pages), que aloja el sitio y ve sus registros técnicos de acceso. Véase la [declaración de privacidad de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 No cedo tus datos a ningún otro tercero.
